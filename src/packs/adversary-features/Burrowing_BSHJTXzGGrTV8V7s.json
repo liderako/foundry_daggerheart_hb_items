@@ -1,0 +1,114 @@
+{
+  "name": "Burrowing",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] can move through the ground as easily as over it. When the @Lookup[@name] moves, it can choose to burrow or surface. While underground, the @Lookup[@name] has resistance to all damage but can't attack.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
+  "effects": [
+    {
+      "name": "Burrowed",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.physical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.resistance.magical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "AdpTMp82XSHhGUDA",
+      "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
+      "disabled": true,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>While underground, the Landshark has resistance to all damage but can't attack.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731603,
+        "modifiedTime": 1792929731603,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!BSHJTXzGGrTV8V7s.AdpTMp82XSHhGUDA"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Landshark",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "aa1c8033d0da8fd9d50b5c4d2acb968182cc7996"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731603,
+    "modifiedTime": 1792929731609,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "BSHJTXzGGrTV8V7s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BSHJTXzGGrTV8V7s"
+}

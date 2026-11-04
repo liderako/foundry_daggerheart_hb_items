@@ -1,0 +1,139 @@
+{
+  "name": "Rain of Blades",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend a Fear</strong> to make an attack against all targets in front of the Ninja within Close range. On a success, deal <strong>4d8+2</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "Os6pKoi7dEa60SiM": {
+        "type": "attack",
+        "_id": "Os6pKoi7dEa60SiM",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 4,
+              "dice": "d8",
+              "bonus": 2,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Master Ninja",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "93d9ec3d72001474f961019248e3bb17f6c5f044"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732533,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "fvRHFmgk8hVoD0Aq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fvRHFmgk8hVoD0Aq"
+}

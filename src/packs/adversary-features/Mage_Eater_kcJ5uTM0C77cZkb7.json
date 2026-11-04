@@ -1,0 +1,142 @@
+{
+  "name": "Mage Eater",
+  "type": "feature",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] takes magic damage or is targeted by a spell, spend a Fear to negate the damage or spell, clear [[/r 1d4]] HP and Stress, and immediately take the spotlight.</p>",
+    "actions": {
+      "gj3CBtFvKN3szkjL": {
+        "type": "healing",
+        "_id": "gj3CBtFvKN3szkjL",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "itemId": null,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null
+            },
+            "hitPoints": {
+              "base": false,
+              "itemId": null,
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Oracle Breaker",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a77315c1e9ae0e2915bba98c42542182765d1347"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732858,
+    "modifiedTime": 1792929732864,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "kcJ5uTM0C77cZkb7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kcJ5uTM0C77cZkb7"
+}

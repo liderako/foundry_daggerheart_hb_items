@@ -1,0 +1,37 @@
+{
+  "folder": "El6wQ0W4eqhZBZmj",
+  "name": "Telekinesis",
+  "type": "feature",
+  "_id": "RD8d1hJWhUtdNj94",
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "system": {
+    "description": "<p>Power Push: Make a attack roll against a target within close range. On a success, they’re knocked back to close range or take d10+2 physics damage using their tier.<br><br>You can spent fear to knocked back and take damage.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87e464cc6ea3a3eb758b5c7fdaccc322f4864d82"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.9.4",
+    "createdTime": 1759571114513,
+    "modifiedTime": 1789804311568,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!RD8d1hJWhUtdNj94"
+}

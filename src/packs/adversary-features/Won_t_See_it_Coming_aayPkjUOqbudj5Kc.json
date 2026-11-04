@@ -1,0 +1,122 @@
+{
+  "name": "Won't See it Coming",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] deals direct damage while they're <em>Hidden</em>.</p>",
+    "resource": null,
+    "actions": {
+      "xFBE0jLf96fbCY7K": {
+        "type": "attack",
+        "_id": "xFBE0jLf96fbCY7K",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 0,
+              "dice": "d6",
+              "bonus": 0,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": true,
+            "direct": true,
+            "fullRestore": false,
+            "groupAttack": "",
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Hidden attack",
+        "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+        "range": "close",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Master Assassin",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0c4adb2afe580c360c51aea3aeaf411f8fe85b78"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732437,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "aayPkjUOqbudj5Kc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!aayPkjUOqbudj5Kc"
+}

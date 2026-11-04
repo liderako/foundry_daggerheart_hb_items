@@ -1,0 +1,83 @@
+{
+  "name": "CRONCH!",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] chomp down on a Petrified PC within Melee range. The target must make a death move.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "YrU3MfpfBWLHgXKe": {
+        "type": "effect",
+        "_id": "YrU3MfpfBWLHgXKe",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Mark Stress",
+        "range": "melee"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Basilisk",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8ca0688569b1615a27064016656e3f6becdd2a85"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731719,
+    "modifiedTime": 1792929731733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "R70blNOMdhKiiYQV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!R70blNOMdhKiiYQV"
+}

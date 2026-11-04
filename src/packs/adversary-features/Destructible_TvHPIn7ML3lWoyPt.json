@@ -1,0 +1,101 @@
+{
+  "name": "Destructible",
+  "type": "feature",
+  "img": "icons/commodities/biological/hand-clawed-tan.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] takes Major or greater damage, they mark an additional HP.</p>",
+    "resource": null,
+    "actions": {
+      "Y8LQe5TzbdK2mOG9": {
+        "type": "damage",
+        "_id": "Y8LQe5TzbdK2mOG9",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "1"
+              },
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Mark HP",
+        "img": "icons/commodities/biological/hand-clawed-tan.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Patchwork Zombie Hulk",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5c4741b4a9ff1ab90bacc52dae98ce1aa7777f4f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731725,
+    "modifiedTime": 1792929731735,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "TvHPIn7ML3lWoyPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!TvHPIn7ML3lWoyPt"
+}

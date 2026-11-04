@@ -1,0 +1,130 @@
+{
+  "name": "Infecting Bite",
+  "type": "feature",
+  "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
+  "system": {
+    "description": "<p>Make an attack against a target within Melee range who is <em>Restrained</em> or <em>Vulnerable</em>. On a success, deal <strong>1d6+5</strong> physical damage. A target who marks HP from this attack becomes <em>Infected</em> until they clear a HP. While <em>Infected</em>, the target must mark a Stress before they make an action roll.</p>",
+    "actions": {
+      "DLjz8dd0ZECyUZU2": {
+        "_id": "DLjz8dd0ZECyUZU2",
+        "type": "attack",
+        "name": "Infecting Bite",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [],
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "range": "melee",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spore Zombie",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "62a01434b7505e257034c445eb826d55661250ce"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732643,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "3qTmaZJSM8e5Vc2z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!3qTmaZJSM8e5Vc2z"
+}

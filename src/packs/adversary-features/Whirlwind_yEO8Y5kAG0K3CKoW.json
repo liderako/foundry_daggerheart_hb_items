@@ -1,0 +1,140 @@
+{
+  "name": "Whirlwind",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to whirl, making an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take <strong>3d8</strong> direct physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "RV1wKufKrMPN6MOo": {
+        "type": "attack",
+        "_id": "RV1wKufKrMPN6MOo",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d8",
+              "bonus": null,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": true,
+            "groupAttack": "",
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/melee/strike-slashes-orange.webp",
+        "range": "veryClose",
+        "areas": [
+          {
+            "name": "Whirlwind",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "veryClose",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Adult Flickerfly",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "008a8f82fb0e467509ec6d146b18cf1e50a6d485"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732433,
+    "modifiedTime": 1792929732449,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "yEO8Y5kAG0K3CKoW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yEO8Y5kAG0K3CKoW"
+}

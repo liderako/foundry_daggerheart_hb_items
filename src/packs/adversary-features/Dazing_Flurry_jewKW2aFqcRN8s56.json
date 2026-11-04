@@ -1,0 +1,130 @@
+{
+  "name": "Dazing Flurry",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you can <strong>mark a Stress</strong> to force the target to make a Strength Reaction Roll. On a failure, they take <strong>2d4+2</strong> physical damage. If the target marks HP from this attack, they can only move within Very Close range as their normal movement until they clear at least 1 HP.</p>",
+    "resource": null,
+    "actions": {
+      "AkGYfoTK1ztwtf0o": {
+        "type": "attack",
+        "_id": "AkGYfoTK1ztwtf0o",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 2,
+              "dice": "d4",
+              "bonus": 2,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "strength",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Martial Artist",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "39510a8dee87cb5d1197ae39f18baef410dd091d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732442,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "jewKW2aFqcRN8s56",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!jewKW2aFqcRN8s56"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Overflowing Spirits",
+  "type": "feature",
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to summon [[/r 1d4+1]] @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Qj2rT7m7aSsO7R1e]{Accursed Souls}, which appear within Very Close range.</p>",
+    "actions": {
+      "mcDLyuEECkYlMDLj": {
+        "_id": "mcDLyuEECkYlMDLj",
+        "type": "ability",
+        "name": "Overflowing Spirits",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "veryClose",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "wyHGWFFFFvAzs3qJ": {
+        "type": "summon",
+        "_id": "wyHGWFFFFvAzs3qJ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Qj2rT7m7aSsO7R1e",
+            "count": "1d4+1"
+          }
+        ],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Well of Souls",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "aaa2e29f4cecf69c57814d8eec8ff4b1db1aa43d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732647,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "zvW5zSbrpeUdnC1e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zvW5zSbrpeUdnC1e"
+}

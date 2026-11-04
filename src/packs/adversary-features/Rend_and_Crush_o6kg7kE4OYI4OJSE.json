@@ -1,0 +1,98 @@
+{
+  "name": "Rend and Crush",
+  "type": "feature",
+  "system": {
+    "description": "<p>If a target damaged by the @Lookup[@name] doesn't mark an Armor Slot to reduce the damage, they must mark a Stress.</p>",
+    "resource": null,
+    "actions": {
+      "dHoMdLfAl6UKjXRP": {
+        "type": "damage",
+        "_id": "dHoMdLfAl6UKjXRP",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Mark Stress",
+        "img": "icons/skills/melee/strike-slashes-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Young Ice Dragon",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "788edd0b50e02945ade78702ee64fcae2832e027"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732210,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "o6kg7kE4OYI4OJSE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!o6kg7kE4OYI4OJSE"
+}

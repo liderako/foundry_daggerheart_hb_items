@@ -1,0 +1,98 @@
+{
+  "name": "Armor-Shredding Shards",
+  "type": "feature",
+  "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+  "system": {
+    "description": "<p>On a successful attack within Melee range against the @Lookup[@name], the attacker must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.</p>",
+    "resource": null,
+    "actions": {
+      "H1nUSOudbtha1lnC": {
+        "type": "damage",
+        "_id": "H1nUSOudbtha1lnC",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "armor": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "armor",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Damage Armor",
+        "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Glass Snake",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a90958d9a13d2151a3dc5d616698db4f6a91b3d6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731585,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "RIXHyD4b2KMqf4Uc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!RIXHyD4b2KMqf4Uc"
+}

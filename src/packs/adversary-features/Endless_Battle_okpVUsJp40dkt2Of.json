@@ -1,0 +1,86 @@
+{
+  "name": "Endless Battle",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>While the PCs are engage in combat with demons, spend a Fear to summon 2 Armies of Hell, who appear at Far range and take the spotlight. These armies are hostile to the PCs and to the demons they're already fighting. </p><blockquote><p>What distinguishes rival groups of demons from eachother? Do demons prioritize fighting eachother or eliminating the PCs?</p></blockquote>",
+    "actions": {
+      "X6UeQlsLbTDBqHup": {
+        "type": "effect",
+        "_id": "X6UeQlsLbTDBqHup",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Blood War",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7ef8b5e71c13f58d14931b5831acb992db2011b3"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732852,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "okpVUsJp40dkt2Of",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!okpVUsJp40dkt2Of"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Delicious Weakness",
+  "type": "feature",
+  "img": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
+  "system": {
+    "description": "<p>When the Vampire deals damage to a target who is <em>Bleeding</em> or has 3 or more HP marked, <strong>mark a Stress</strong> to add a [[/r d8]] to the damage roll.</p>",
+    "actions": {
+      "OJ3ZTFvUj2Ku8yRp": {
+        "type": "damage",
+        "_id": "OJ3ZTFvUj2Ku8yRp",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Spawn",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a7fbd088a0f8e2b264c530b2ddf5e2840185caae"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732636,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "PdlR9y8Xp7BCid02",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PdlR9y8Xp7BCid02"
+}

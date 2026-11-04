@@ -1,0 +1,181 @@
+{
+  "name": "Slimy Doom",
+  "type": "feature",
+  "img": "icons/creatures/slimes/slime-movement-dripping-purple.webp",
+  "system": {
+    "description": "<p>Make an attack against a target within Melee range. On a success, the target is temporarily <em>Restrained</em> by the Ooze and must lose 2 Hope. A <em>Restrained</em> target is <em>Vulnerable</em> and must spend a Hope before they make an action roll.</p>",
+    "actions": {
+      "10j1UV9gV8644MAr": {
+        "_id": "10j1UV9gV8644MAr",
+        "type": "attack",
+        "name": "Slimy Doom",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hope": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "2"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hope",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "range": "melee",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "QCsJjtlt8Q50VRrK",
+            "onSave": false
+          }
+        ],
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Slimy Doom",
+      "img": "icons/creatures/slimes/slime-movement-dripping-purple.webp",
+      "origin": "Actor.I1fZs9CDTBxSL8sP.Item.IAn8RL1sJyNRosmn",
+      "transfer": false,
+      "_id": "QCsJjtlt8Q50VRrK",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained",
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732745,
+        "modifiedTime": 1792929732745
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!uKbfnM0BI4HAPdnc.QCsJjtlt8Q50VRrK"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Lich Ooze",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b1367fed9b4ccc9045d11f7e7aa30228073ef50f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732745,
+    "modifiedTime": 1792929732757,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "uKbfnM0BI4HAPdnc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!uKbfnM0BI4HAPdnc"
+}

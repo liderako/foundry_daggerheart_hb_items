@@ -1,0 +1,84 @@
+{
+  "name": "There!",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC within Far range would become Hidden, <strong>Mark a Stress</strong> to make them <em>Sighted</em> until they roll a success with Hope or until the end of the scene. A <em>Sighted</em> target can’t become <em>Hidden</em>.</p>",
+    "resource": null,
+    "actions": {
+      "55U8eIE6BhmMy66F": {
+        "type": "effect",
+        "_id": "55U8eIE6BhmMy66F",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Scout",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "240861c79d2821412754c8a637bac537ff342626"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732540,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "emG8IOn2A1zD9Xah",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!emG8IOn2A1zD9Xah"
+}

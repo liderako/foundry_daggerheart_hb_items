@@ -1,0 +1,188 @@
+{
+  "_id": "SailorHeaBase000",
+  "name": "Sailor's Path Health Tonic (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/drinks/alcohol-jug-spirits-brown.webp",
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2150000,
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Clear 1d4 HP and 2 Stress. When you drink it, the GM gains a Fear.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "SailorHeaBaDrink": {
+        "type": "healing",
+        "_id": "SailorHeaBaDrink",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "SailorHeaBase000",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1d4"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "2"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Drink",
+        "img": "icons/consumables/drinks/alcohol-jug-spirits-brown.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "SailorHeaBWeight",
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793799890733,
+        "modifiedTime": 1793799890733,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!SailorHeaBase000.SailorHeaBWeight"
+    }
+  ],
+  "flags": {
+    "mist-age-alchemy": {
+      "onUse": {
+        "fear": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "1ef522f74b0f831a339a7394a38b58e8466ab5c7"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793799890733,
+    "modifiedTime": 1793799890735,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SailorHeaBase000"
+}

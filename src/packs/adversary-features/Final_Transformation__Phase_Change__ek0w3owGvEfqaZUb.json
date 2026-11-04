@@ -1,0 +1,74 @@
+{
+  "name": "Final Transformation (Phase Change)",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Empress marks her last HP, replace her with the @UUID[Compendium.daggerheart.adversaries.Actor.0QPn79SMU6C0b1qi]{Entombed Cat Beast} and immediately spotlight them.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "uqNbo4S4IXMQxofr": {
+        "type": "transform",
+        "_id": "uqNbo4S4IXMQxofr",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "transform": {
+          "actorUUID": "Compendium.daggerheart.adversaries.Actor.0QPn79SMU6C0b1qi",
+          "resourceRefresh": {
+            "hitPoints": true,
+            "stress": true
+          }
+        }
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Entombed Empress",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4f3b39545b8840973d09de206cfaefea0f84a18a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731846,
+    "modifiedTime": 1792929731859,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "ek0w3owGvEfqaZUb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ek0w3owGvEfqaZUb"
+}

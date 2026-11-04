@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": "qnwpCj3CREvMYfEV",
+  "name": "Horde",
+  "color": null,
+  "sorting": "a",
+  "_id": "CYtq5UAUTjmZFoM5",
+  "description": "",
+  "sort": 400000,
+  "flags": {
+    "scene-packer": {
+      "hash": "936d4467c68d0d3d26f00de28c41bb0760d3eb74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758351852851,
+    "modifiedTime": 1758351854434,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!CYtq5UAUTjmZFoM5"
+}

@@ -1,0 +1,133 @@
+{
+  "name": "Hellfire Strafe",
+  "type": "feature",
+  "img": "icons/magic/fire/projectile-needles-salvo-red.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress and choose two points within Close range. A line of burning hellfire rains from the sky between those two points, temporarily setting the ground on fire. Targets in the area when the hellfire is created or who move through it must succeed on an Agility Reaction Roll or take [[/r 3d8+6]] magic damage.</p>",
+    "actions": {
+      "0mD27MuFeNe7uotL": {
+        "type": "attack",
+        "_id": "0mD27MuFeNe7uotL",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "base": false,
+            "itemId": null,
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "fullRestore": false,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 3,
+              "dice": "d8",
+              "bonus": 6,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "type": [
+              "magical"
+            ],
+            "groupAttack": ""
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Agility Reaction Roll",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Helldiver",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "77f227e53c953609d2a710444520aa115237d9b7"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732854,
+    "modifiedTime": 1792929732863,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "YK14JNs0LiP4yeQ7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!YK14JNs0LiP4yeQ7"
+}

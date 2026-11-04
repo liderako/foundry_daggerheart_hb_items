@@ -1,0 +1,84 @@
+{
+  "name": "On Watch",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Consequence Countdown (4).</em> Activate the countdown when the PCs stealthily approach the fort. When it triggers, the party is discovered. Immediately summon a number of Tier 1 adversaries equal to the number of PCs in the scene and spotlight one.</p><hr><p><em>How seriously do the defenders take their guard duty? How are guards shirking their duties?</em></p>",
+    "resource": null,
+    "actions": {
+      "2lZ8SVTBbcEXefor": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "type": "narrative",
+            "name": "On Watch",
+            "img": "icons/creatures/eyes/human-single-blue.webp",
+            "ownership": {},
+            "progress": {
+              "startFormula": "1",
+              "current": 1,
+              "start": 1,
+              "looping": "noLooping",
+              "type": "custom"
+            },
+            "hidden": null
+          }
+        ],
+        "_id": "2lZ8SVTBbcEXefor",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fort",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8fe37f9e881e60dc9d40090848341c6f3102259d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732530,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "nKKHOS6BTrwWiID0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!nKKHOS6BTrwWiID0"
+}

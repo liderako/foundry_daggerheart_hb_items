@@ -1,0 +1,116 @@
+{
+  "name": "Disgorge Zombies",
+  "type": "feature",
+  "img": "icons/magic/acid/dissolve-vomit-green-brown.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to pull [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT]{Failed Experiments} from the stomach of the Giant, which land on the ground within Melee range.</p>",
+    "actions": {
+      "FGPllDD4uMnOmQ9I": {
+        "_id": "FGPllDD4uMnOmQ9I",
+        "type": "ability",
+        "name": "Disgorge Zombies",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "melee",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "d59TEjzTsaQX5GyV": {
+        "type": "summon",
+        "_id": "d59TEjzTsaQX5GyV",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT",
+            "count": "1d4"
+          }
+        ],
+        "name": "",
+        "range": "melee",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Writhing Giant",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6886d624c8c990ac653f216b3cfba04ee0051ae7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732635,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "Yrr0fhzDuUXUc1qO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Yrr0fhzDuUXUc1qO"
+}

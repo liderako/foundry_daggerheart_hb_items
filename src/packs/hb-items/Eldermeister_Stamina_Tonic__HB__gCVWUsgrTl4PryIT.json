@@ -1,0 +1,218 @@
+{
+  "_id": "gCVWUsgrTl4PryIT",
+  "name": "Eldermeister Stamina Tonic (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/drinks/tea-jug-glowing-brown-pink.webp",
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2000013,
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Clear 1d4 Stress. You fall asleep for a full night's rest and clear all Stress upon waking.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "BGB8G9hQVcu5r9nT": {
+        "type": "healing",
+        "_id": "BGB8G9hQVcu5r9nT",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "gCVWUsgrTl4PryIT",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "g9AcQA2slCHCkiYf",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/drinks/tea-jug-glowing-brown-pink.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1d4"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "Y4sXC34CVQIekdoi",
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791381942,
+        "modifiedTime": 1793791381942,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!gCVWUsgrTl4PryIT.Y4sXC34CVQIekdoi"
+    },
+    {
+      "_id": "g9AcQA2slCHCkiYf",
+      "name": "Eldermeister Sleep",
+      "img": "icons/consumables/drinks/tea-jug-glowing-brown-pink.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "conditionals": [],
+        "stacking": null,
+        "targetDispositions": [],
+        "changes": [],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You fall asleep for a full night's rest and clear all Stress upon waking.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "sleep"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791381942,
+        "modifiedTime": 1793791381942,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!gCVWUsgrTl4PryIT.g9AcQA2slCHCkiYf"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "79bb1fdb11ec616f4ea1b7cd16f5363d1b90cace"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793791381942,
+    "modifiedTime": 1793792670309,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gCVWUsgrTl4PryIT"
+}

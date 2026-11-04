@@ -1,0 +1,171 @@
+{
+  "name": "Abduct",
+  "type": "feature",
+  "img": "icons/containers/bags/sack-leather-pink.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spend a Fear to make an attack against a target within melee range. On a success, the target is Sacked until they escape with a Strength roll. While Sacked, a creature is Restrained, can't make attacks, and must mark a Stress to make an action roll.</p>",
+    "actions": {
+      "BmN4POjXPwscaHhF": {
+        "type": "attack",
+        "_id": "BmN4POjXPwscaHhF",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "1CW7mpOolWMt3rVK",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Krampus",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a660993d4b7de875888bba5fd79bb5e8962f1685"
+    }
+  },
+  "effects": [
+    {
+      "name": "Sacked",
+      "disabled": false,
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "description": "",
+      "transfer": false,
+      "statuses": [
+        "restrained"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "1CW7mpOolWMt3rVK",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732752,
+        "modifiedTime": 1792929732752,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!hZVcm6gPtt1xcRYN.1CW7mpOolWMt3rVK"
+    }
+  ],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732752,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "hZVcm6gPtt1xcRYN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hZVcm6gPtt1xcRYN"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Tactician",
+  "type": "feature",
+  "img": "icons/skills/movement/arrows-up-trio-red.webp",
+  "system": {
+    "description": "<p>When you spotlight the Lieutenant, <strong>mark a Stress</strong> to also spotlight two allies within Close range.</p>",
+    "resource": null,
+    "actions": {
+      "IfMFU67g4sfhSYtm": {
+        "type": "effect",
+        "_id": "IfMFU67g4sfhSYtm",
+        "systemPath": "actions",
+        "description": "<p>When you spotlight the Lieutenant, <strong>mark a Stress</strong> to also spotlight two allies within Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "friendly",
+          "amount": 2
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/movement/arrows-up-trio-red.webp",
+        "range": "close"
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "hGimcQfZAb0UVXVf",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.aTljstqteGoLpCBq.Item.LIAbel7pMzAHpgF3",
+      "hash": "87783e3402ac4b3fd435d115a25f445de240a335"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352719439,
+    "modifiedTime": 1758352719439,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "krraC26L9Rqz0vX8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!krraC26L9Rqz0vX8"
+}

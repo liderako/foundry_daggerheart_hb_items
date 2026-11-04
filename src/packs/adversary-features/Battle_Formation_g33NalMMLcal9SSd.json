@@ -1,0 +1,45 @@
+{
+  "name": "Battle Formation",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Guard gains a +1 bonus to their Difficulty for each ally within Very Close range.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Entombed Elite Guard",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7ac4819665cd58d6aacf0d96eac9e802c69868e1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731591,
+    "modifiedTime": 1792929731606,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "g33NalMMLcal9SSd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!g33NalMMLcal9SSd"
+}

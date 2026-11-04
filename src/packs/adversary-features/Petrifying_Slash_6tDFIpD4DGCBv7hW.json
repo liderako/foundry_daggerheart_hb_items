@@ -1,0 +1,98 @@
+{
+  "name": "Petrifying Slash",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] deals damage, the target must succeed on a Strength Reaction Roll or become <em>Vulnerable</em>. If the target is already <em>Vulnerable</em>, they become <em>Restrained</em>. If the target is already <em>Vulnerable</em> and <em>Restrained</em>, they must make a death move. The PC can <strong>spend a Hope</strong> per condition to clear it.</p>",
+    "attribution": {},
+    "gmNotes": "<p>Manually advance the condition by swapping effects depending on the stage a character is currently in.</p>",
+    "resource": null,
+    "actions": {
+      "1bt0eRoNsc84J3Gv": {
+        "type": "attack",
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "_id": "1bt0eRoNsc84J3Gv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "strength",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Reaction Roll",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gargoyle",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d8a4221975435afe2ce6e84346f1b941dc26d17c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732106,
+    "modifiedTime": 1792929732115,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "6tDFIpD4DGCBv7hW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6tDFIpD4DGCBv7hW"
+}

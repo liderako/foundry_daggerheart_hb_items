@@ -1,0 +1,83 @@
+{
+  "name": "Comeback",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Knight fails a standard attack, you can <strong>spend a Fear</strong> to reroll the attack with advantage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "zFdn4gBNfqeKVGWI": {
+        "type": "effect",
+        "_id": "zFdn4gBNfqeKVGWI",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragon Knight",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5ce1a080771c5d7794a3bbd1c3d85b1887510aa9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731716,
+    "modifiedTime": 1792929731732,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "rROnTmJjvKXdDL4Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!rROnTmJjvKXdDL4Y"
+}

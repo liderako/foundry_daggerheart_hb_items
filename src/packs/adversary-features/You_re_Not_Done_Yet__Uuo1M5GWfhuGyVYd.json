@@ -1,0 +1,84 @@
+{
+  "name": "You're Not Done Yet!",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When an ally within Close range marks 1 or more HP or Stress, you can <strong>mark a Stress</strong> to have that ally mark 1 fewer HP or Stress.</p>",
+    "resource": null,
+    "actions": {
+      "gYqgIfKycp1Rbox8": {
+        "type": "effect",
+        "_id": "gYqgIfKycp1Rbox8",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Sergeant",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3b8383f97d30fbc05854d90bf23369fec8f445df"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732541,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Uuo1M5GWfhuGyVYd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Uuo1M5GWfhuGyVYd"
+}

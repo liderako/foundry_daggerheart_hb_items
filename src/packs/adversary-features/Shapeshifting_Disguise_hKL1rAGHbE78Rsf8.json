@@ -1,0 +1,86 @@
+{
+  "name": "Shapeshifting Disguise",
+  "type": "feature",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress to assume the form of a humanoid until the @Lookup[@name] makes an attack.</p>",
+    "actions": {
+      "fJEeaAkKAnVbqNX3": {
+        "type": "effect",
+        "_id": "fJEeaAkKAnVbqNX3",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Oni",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "25d9c2168c1e5eef570efca2a8ca8b62508641c2"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732912,
+    "modifiedTime": 1792929732918,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "hKL1rAGHbE78Rsf8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hKL1rAGHbE78Rsf8"
+}

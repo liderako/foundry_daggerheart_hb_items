@@ -1,0 +1,84 @@
+{
+  "name": "Guide Beast",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> to direct an animal within Melee range. The animal gains advantage on its next attack.</p>",
+    "resource": null,
+    "actions": {
+      "JcMLUwxdPREPHzBN": {
+        "type": "effect",
+        "_id": "JcMLUwxdPREPHzBN",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Beast Handler",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "11c6777feb5381db7be848e7357b300ca8f4ccab"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732446,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "mbzQI6jkF6N0a7S0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!mbzQI6jkF6N0a7S0"
+}

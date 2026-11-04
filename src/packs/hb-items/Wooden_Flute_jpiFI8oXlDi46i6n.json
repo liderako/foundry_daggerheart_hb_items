@@ -1,0 +1,44 @@
+{
+  "name": "Wooden Flute",
+  "type": "loot",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 2
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "c857936cfbd5aaa0751aac58e88076c472e1845a"
+    }
+  },
+  "_id": "jpiFI8oXlDi46i6n",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jpiFI8oXlDi46i6n"
+}

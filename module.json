@@ -1,0 +1,141 @@
+{
+	"id": "mist-age-hb-items",
+	"title": "The Mist Age - HB Items",
+	"description": "Homebrew compendiums of The Mist Age campaign for Daggerheart: items, weapons, armor, consumables, loot, adversary features and roll tables.",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "14",
+		"verified": "14"
+	},
+	"authors": [
+		{
+			"name": "asvirido"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "daggerheart",
+				"type": "system"
+			}
+		]
+	},
+	"packs": [
+		{
+			"name": "hb-items",
+			"label": "HB Items",
+			"path": "packs/hb-items",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "weapons-hb",
+			"label": "Weapons (HB)",
+			"path": "packs/weapons-hb",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "armors-hb",
+			"label": "Armors (HB)",
+			"path": "packs/armors-hb",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "consumables-hb",
+			"label": "Consumables (HB)",
+			"path": "packs/consumables-hb",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "loot-hb",
+			"label": "Loot (HB)",
+			"path": "packs/loot-hb",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "adversary-features",
+			"label": "Adversary Features (HB)",
+			"path": "packs/adversary-features",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "adversaries-features",
+			"label": "Adversaries features",
+			"path": "packs/adversaries-features",
+			"type": "Item",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "rolltables-hb",
+			"label": "Rolltables (HB)",
+			"path": "packs/rolltables-hb",
+			"type": "RollTable",
+			"system": "daggerheart",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "The Mist Age HB",
+			"sorting": "m",
+			"color": "#3b4a5a",
+			"packs": [
+				"hb-items",
+				"weapons-hb",
+				"armors-hb",
+				"consumables-hb",
+				"loot-hb",
+				"adversary-features",
+				"adversaries-features",
+				"rolltables-hb"
+			]
+		}
+	],
+	"url": "https://github.com/liderako/foundry_daggerheart_hb_items",
+	"manifest": "https://github.com/liderako/foundry_daggerheart_hb_items/releases/latest/download/module.json",
+	"download": ""
+}

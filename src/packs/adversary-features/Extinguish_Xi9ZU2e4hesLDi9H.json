@@ -1,0 +1,115 @@
+{
+  "name": "Extinguish",
+  "type": "feature",
+  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to snuff out all sources of light, magical or mundane, within a Close range of the @Lookup[@name].</p>",
+    "actions": {
+      "Ek2MDFQB0TNHauoF": {
+        "_id": "Ek2MDFQB0TNHauoF",
+        "type": "ability",
+        "name": "Extinguish",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "close",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "pgYSp9XDWrKXydsv": {
+        "type": "effect",
+        "_id": "pgYSp9XDWrKXydsv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Shadow",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "324113a8ee428cb66a421adc3549ba30be6202bd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732639,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "Xi9ZU2e4hesLDi9H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Xi9ZU2e4hesLDi9H"
+}

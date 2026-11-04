@@ -1,0 +1,115 @@
+{
+  "name": "Backstab",
+  "type": "feature",
+  "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
+  "system": {
+    "description": "<p>When the Shadow succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage.</p>",
+    "resource": null,
+    "actions": {
+      "6G5Dasl1pP8pfYkZ": {
+        "type": "attack",
+        "_id": "6G5Dasl1pP8pfYkZ",
+        "systemPath": "actions",
+        "description": "<p>When the Shadow succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": 6,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "A2lGfKijI86dDG2Z",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.XF4tYTq9nPJAy2ox.Item.dhycdSd4NYdPOYbP",
+      "hash": "78c3713444616e7ac545b4d0a65b4464e453f2d1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352736532,
+    "modifiedTime": 1758352736532,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "Bi9u2BYLUDXdghAS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Bi9u2BYLUDXdghAS"
+}

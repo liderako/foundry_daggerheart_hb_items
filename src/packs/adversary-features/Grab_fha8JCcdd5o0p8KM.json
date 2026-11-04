@@ -1,0 +1,178 @@
+{
+  "name": "Grab",
+  "type": "feature",
+  "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to temporarily <em>Restrain</em>. You also gain a Fear.</p>",
+    "resource": null,
+    "actions": {
+      "EPX7lZlQwrvs5ohf": {
+        "type": "healing",
+        "_id": "EPX7lZlQwrvs5ohf",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "fear": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "fear",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Gain Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Rip and Tear",
+      "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
+      "origin": "Compendium.daggerheart.adversaries.Actor.2UeZ0tEe7AzgSJNd.Item.69reUZ5tv3splqyO",
+      "transfer": false,
+      "_id": "CjMrSdL6kgD8mKRQ",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732641,
+        "modifiedTime": 1792929732641
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!fha8JCcdd5o0p8KM.CjMrSdL6kgD8mKRQ"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spore Zombie",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1b51f22a091277dea1091a3f79aa63299033c125"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732641,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "fha8JCcdd5o0p8KM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fha8JCcdd5o0p8KM"
+}

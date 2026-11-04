@@ -1,0 +1,83 @@
+{
+  "name": "Ravenous",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>Once per GM turn when a PC marks a HP from an attack made by the @Lookup[@name], you can <strong>spend a Fear</strong> to spotlight the @Lookup[@name] again.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "kqihDddZhb4VH6iO": {
+        "type": "effect",
+        "_id": "kqihDddZhb4VH6iO",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Wyrmlings",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "805c4b4c126cdc80139b13c59db56b1c7e7751bc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732207,
+    "modifiedTime": 1792929732224,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "PvAsDJJV4UWKl1Ud",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PvAsDJJV4UWKl1Ud"
+}

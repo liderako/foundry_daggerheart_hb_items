@@ -1,0 +1,45 @@
+{
+  "name": "Ever-Shifting Shields",
+  "type": "feature",
+  "img": "icons/magic/air/air-pressure-shield-blue.webp",
+  "system": {
+    "description": "<p>Creatures who aren’t within Very Close range of the Host have disadvantage on attacks against them.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Sleepless Host",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4b4b9b7c3179253aa1b61e71440ee23a6be83a87"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732639,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "XptVv4WymzDf28mX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!XptVv4WymzDf28mX"
+}

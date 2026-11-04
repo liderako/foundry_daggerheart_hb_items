@@ -1,0 +1,147 @@
+{
+  "name": "Specter",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "jE4mvZJSlHTfFzll": {
+        "type": "effect",
+        "_id": "jE4mvZJSlHTfFzll",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": "close"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+  "effects": [
+    {
+      "name": "Base",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.physical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "YbDS67HyQ76TX0Bn",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Resistance to physical damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732220,
+        "modifiedTime": 1792929732220,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!Wk4yjcv8FRVsdlW1.YbDS67HyQ76TX0Bn"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Banshee",
+      "source": "official",
+      "aliases": [
+        "Ghost"
+      ]
+    },
+    "scene-packer": {
+      "hash": "0f3de5f0df31b047bd75512f3a48cfc729bfaf8f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732220,
+    "modifiedTime": 1792929732228,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Wk4yjcv8FRVsdlW1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Wk4yjcv8FRVsdlW1"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Aura of Decay (Dragon Lich: Decay-Bringer)",
+  "type": "feature",
+  "img": "icons/magic/acid/dissolve-bone-skull.webp",
+  "system": {
+    "description": "<p>When a PC would clear HP while within Very Far range of the Decay-Bringer, they clear 1 fewer HP.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragon Lich: Decay-Bringer",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "683ee50430b76231745d23b50bfb8f6a69b8c343"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732541,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "JKiGQ7g15jm4N4Aj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!JKiGQ7g15jm4N4Aj"
+}

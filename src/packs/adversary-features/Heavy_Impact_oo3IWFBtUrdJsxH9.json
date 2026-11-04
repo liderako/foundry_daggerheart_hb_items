@@ -1,0 +1,45 @@
+{
+  "name": "Heavy Impact",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>A target that marks HP from the Elephant’s attack is knocked over, making them <em>Vulnerable</em> until they next act.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Ballista Elephant",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "db0072caccef7e289a15ccd489603b56d9eaa3b1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732446,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "oo3IWFBtUrdJsxH9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oo3IWFBtUrdJsxH9"
+}

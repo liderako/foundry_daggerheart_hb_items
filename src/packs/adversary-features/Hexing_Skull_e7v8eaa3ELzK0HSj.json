@@ -1,0 +1,139 @@
+{
+  "name": "Hexing Skull",
+  "type": "feature",
+  "img": "icons/magic/death/projectile-skull-fire-green.webp",
+  "system": {
+    "description": "<p>Fling a spectral skull at a target within Close range. The target must make a Presence Reaction Roll (16). On a failure, <strong>mark a Stress</strong> to <em>Hex</em> the target. A <em>Hexed</em> target replaces their Hope Die with a <strong>d10</strong> until their next rest or the Horseman is defeated.</p>",
+    "actions": {
+      "4DzqVPGDrJwBVk3H": {
+        "_id": "4DzqVPGDrJwBVk3H",
+        "type": "ability",
+        "name": "Hexing Skull",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "close",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "DDOF6F9IxZEc5hVR": {
+        "type": "attack",
+        "_id": "DDOF6F9IxZEc5hVR",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": 16,
+          "damageMod": "none"
+        },
+        "name": "Reaction Roll",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Headless Horseman",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "da264592a1ed9926bb137cf1ceac10651aff0b93"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732643,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "e7v8eaa3ELzK0HSj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!e7v8eaa3ELzK0HSj"
+}

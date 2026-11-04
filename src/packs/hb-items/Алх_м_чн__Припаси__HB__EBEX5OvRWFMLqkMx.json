@@ -1,0 +1,44 @@
+{
+  "folder": "ZMzmwE5SpzyT61Ig",
+  "name": "Алхімічні Припаси (HB)",
+  "type": "consumable",
+  "_id": "EBEX5OvRWFMLqkMx",
+  "img": "icons/consumables/vegetable/arugula-leafy-lettuce-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "58b4565f29ab2d6413afb69363e7856b280cc075"
+    },
+    "mist-age-prices": {
+      "price": 0
+    },
+    "mist-age-weight": {
+      "slots": 0.1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792778144265,
+    "modifiedTime": 1792778171545,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EBEX5OvRWFMLqkMx"
+}

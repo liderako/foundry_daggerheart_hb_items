@@ -1,0 +1,39 @@
+{
+  "folder": "4Zj1rM45GMaRWnj1",
+  "name": "Spellscroll of Fortress (S)",
+  "type": "consumable",
+  "img": "icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Make a Spellcast Roll (13). On a success, spend 2 Hope to grow a natural barricade in the shape of a dome that you and one ally can take cover within. While inside the dome, a creature can’t be targeted by attacks and can’t make attacks. Attacks made against the dome automatically succeed. The dome has a Major damage threshold of 15 and a Severe damage threshold of 30, and lasts until it marks 3 Hit Points. Place tokens on this card to represent marking Hit Points.</p>",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "destroyOnEmpty": true
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "f16348cd42b1de021a5b1d88501c4a2430f1b01f",
+      "sourceId": "Item.HXf8v6JjTgcdppGI"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772097164574,
+    "modifiedTime": 1775860958080,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "6nIpPAV6jnTjunMe",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6nIpPAV6jnTjunMe"
+}

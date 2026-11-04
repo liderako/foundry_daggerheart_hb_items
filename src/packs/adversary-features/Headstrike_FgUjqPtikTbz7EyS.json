@@ -1,0 +1,192 @@
+{
+  "name": "Headstrike",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Make an attack against a target within Close range. On a success, <strong>Spend a Fear</strong> to deal <strong>1d12+5</strong> physical damage. If the target marks HP from this attack, they must also mark a Stress and are <em>Vulnerable</em> until they clear at least 1 HP.</p>",
+    "resource": null,
+    "actions": {
+      "yajhYzWC7NFa4QdN": {
+        "type": "attack",
+        "_id": "yajhYzWC7NFa4QdN",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [
+          {
+            "_id": "0yU0fX1iuPvtsKpY",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+        "range": "close",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+  "effects": [
+    {
+      "name": "Headstrike",
+      "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+      "origin": "Actor.DmQ7axy6sJOszIte.Item.9xxRlWr3JAuGhYDo",
+      "transfer": false,
+      "_id": "0yU0fX1iuPvtsKpY",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Vulnerable until you clear at least 1 HP.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732446,
+        "modifiedTime": 1792929732446
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!FgUjqPtikTbz7EyS.0yU0fX1iuPvtsKpY"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Slinger",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d464bf8690babd27d160a57b4fdb3dfca73d3096"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732446,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "FgUjqPtikTbz7EyS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!FgUjqPtikTbz7EyS"
+}

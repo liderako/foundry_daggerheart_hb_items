@@ -1,0 +1,136 @@
+{
+  "name": "Blood Puppet",
+  "type": "feature",
+  "img": "icons/magic/control/control-influence-puppet.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to wrest control of a target's body within Close range. The target must make a Strength or Presence Reaction Roll. On a failure, the target must mark a Stress and make an attack against a creature of the @Lookup[@name]'s choice within range.</p>",
+    "actions": {
+      "Bhx4f66P7nQ4avb1": {
+        "_id": "Bhx4f66P7nQ4avb1",
+        "type": "attack",
+        "name": "Blood Puppet",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "range": "close",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "save": {
+          "trait": "strength",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Blood Bender",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f1a5e9f1385aae24169403e592d8dd78ed83fdbe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732546,
+    "modifiedTime": 1792929732552,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "U4YLeadxUS8Tq3G6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!U4YLeadxUS8Tq3G6"
+}

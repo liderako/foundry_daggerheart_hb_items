@@ -1,0 +1,100 @@
+{
+  "name": "The Runaround",
+  "type": "feature",
+  "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+  "system": {
+    "description": "<p>When a PC rolls a 14 or lower on a Presence Roll made against the @Lookup[@name], they must mark a Stress.</p>",
+    "resource": null,
+    "actions": {
+      "sTHDvAggf1nUX4Ai": {
+        "type": "damage",
+        "_id": "sTHDvAggf1nUX4Ai",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Stress Damage",
+        "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Merchant",
+      "source": "official",
+      "aliases": [
+        "Low Tolerance"
+      ]
+    },
+    "scene-packer": {
+      "hash": "730ce396f26e4852eaac13e689870a7b628142ff"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732335,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "cn1h6YElGfwaP9YC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!cn1h6YElGfwaP9YC"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Improved Poisoner's Kit (HB)",
+  "type": "loot",
+  "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>Glass vials, a mortar and pestle, reagents and a glass stirring rod.</p><p>+3 to poisoncraft checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 20
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "5a6566c88364ee5295ab33912543378ccc36283b"
+    }
+  },
+  "_id": "aSZ8R6Q6c90Ntjlr",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185238,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aSZ8R6Q6c90Ntjlr"
+}

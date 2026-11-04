@@ -1,0 +1,36 @@
+{
+  "name": "Homing Compasses (HB)",
+  "type": "loot",
+  "_id": "yrAGYlDyoe4OYl7d",
+  "img": "icons/tools/navigation/compass-worn-copper.webp",
+  "system": {
+    "description": "<p>These two compasses point toward each other no matter how far apart they are.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556018,
+    "modifiedTime": 1792764556018,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!yrAGYlDyoe4OYl7d"
+}

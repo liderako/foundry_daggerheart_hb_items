@@ -1,0 +1,71 @@
+{
+  "name": "Exile",
+  "type": "feature",
+  "img": "icons/commodities/currency/coin-embossed-skull-gold.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain.</p>",
+    "resource": null,
+    "actions": {
+      "dAHzRxf0iztyc1mI": {
+        "type": "effect",
+        "_id": "dAHzRxf0iztyc1mI",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Fear</strong> and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/commodities/currency/coin-embossed-skull-gold.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "Tmo1hRQE80ZfkXmk",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.wycLpvebWdUqRhpP.Item.xN09fSsg33nURqpk",
+      "hash": "49d85ee74af41bd1e72088cc5e88e7c81a250a14"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352509013,
+    "modifiedTime": 1758352509081,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "DthZZDakh7Ogn6Hn",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!DthZZDakh7Ogn6Hn"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Inspiring Presence",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Allies within Very Close range of the @Lookup[@name] add a d4 to their reaction rolls.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Paladin",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "be49ba9bc6c6f41ab6681d4c564709c917123e7d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732531,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Ws0BN96SeIRZqsMP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Ws0BN96SeIRZqsMP"
+}

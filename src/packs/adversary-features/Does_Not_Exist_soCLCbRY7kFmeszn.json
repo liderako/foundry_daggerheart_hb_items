@@ -1,0 +1,86 @@
+{
+  "name": "Does Not Exist",
+  "type": "feature",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] cannot be seen, detected, or scryed on through magical means. Spend a Fear to learn the location and identity of any PC that attempts to detect the @Lookup[@name] through magical means.</p>",
+    "actions": {
+      "WH5WpvoOiAlFlJy2": {
+        "type": "effect",
+        "_id": "WH5WpvoOiAlFlJy2",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Oracle Breaker",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "68bca09ca0c4affcbfe63ca0e16fe199ad7455ca"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732851,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "soCLCbRY7kFmeszn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!soCLCbRY7kFmeszn"
+}

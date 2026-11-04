@@ -1,0 +1,45 @@
+{
+  "name": "Aural Assault",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>The Choir unleashes its built-up divine energy in a single burst, clearing all tokens from this stat block. Deal <strong>1d12</strong> direct magic damage to each enemy within Close range for each token cleared.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hallowed Choir",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "834de3a489809aa18467b11d8a9f3152414111c6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731587,
+    "modifiedTime": 1792929731606,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "IspLUktYLZ35YSFo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!IspLUktYLZ35YSFo"
+}

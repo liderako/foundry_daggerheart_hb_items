@@ -1,0 +1,74 @@
+{
+  "name": "Don't Bring Trouble Below",
+  "type": "feature",
+  "img": "icons/skills/social/thumbs-down.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the PCs lead pursuers into the sewers or bring violence below, <strong>mark a Stress</strong>: the dwellers hide and the passages close. Until the PCs make amends, they have <strong>disadvantage</strong> on Presence Rolls against the @Lookup[@name].</p>",
+    "actions": {
+      "kregTroubleStr01": {
+        "_id": "kregTroubleStr01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Mark Stress",
+        "img": "icons/skills/social/thumbs-down.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "jCdXJsid6HBgAkSk",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793533952187,
+    "modifiedTime": 1793533952187,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!jCdXJsid6HBgAkSk"
+}

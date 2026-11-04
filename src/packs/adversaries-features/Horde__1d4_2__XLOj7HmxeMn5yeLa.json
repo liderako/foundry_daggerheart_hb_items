@@ -1,0 +1,38 @@
+{
+  "name": "Horde (1d4+2)",
+  "type": "feature",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>When the Swarm has marked half or more of their HP, their standard attack deals <strong>1d4+2</strong> physical damage instead.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "CYtq5UAUTjmZFoM5",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.PKSXFuaIHUCoH63A.Item.4dSzqtYvH385r9Ng",
+      "hash": "85ab0699365d283d5e620a8b06dc96f5b4a5851e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352064669,
+    "modifiedTime": 1758352442019,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "XLOj7HmxeMn5yeLa",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!XLOj7HmxeMn5yeLa"
+}

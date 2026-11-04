@@ -1,0 +1,122 @@
+{
+  "name": "Spinning Serpent",
+  "type": "feature",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Very Close range. Targets the Snake succeeds against take <strong>1d6+1</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "2UzeQYL5HeyF3zwh": {
+        "type": "attack",
+        "_id": "2UzeQYL5HeyF3zwh",
+        "systemPath": "actions",
+        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Very Close range. Targets the Snake succeeds against take <strong>1d6+1</strong> physical damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": 1,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/melee/blood-slash-foam-red.webp",
+        "range": "veryClose"
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "MeqhdwNxFAnraV6Q",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.8KWVLWXFhlY2kYx0.Item.Ro9XCeXsTOT9SXyo",
+      "hash": "04599ea1d3fbcc17bab35811be7988f95ff42ad8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758351981948,
+    "modifiedTime": 1758352603780,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "AqlVcWkksHBRf94E",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!AqlVcWkksHBRf94E"
+}

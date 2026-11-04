@@ -1,0 +1,44 @@
+{
+  "name": "Cook's Utensils (HB)",
+  "type": "loot",
+  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>An iron pot, knives, forks, a stirring spoon and a ladle.</p><p>+2 to cooking checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 2
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "3b450fbbe83734dcf5096aef5d4656c3f15448a1"
+    }
+  },
+  "_id": "kv38aQ2MTMbVnWDj",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185241,
+    "modifiedTime": 1792863185244,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kv38aQ2MTMbVnWDj"
+}

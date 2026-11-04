@@ -1,0 +1,86 @@
+{
+  "name": "Cruel Command",
+  "type": "feature",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress to spotlight [[/r 1d4+1]] allies within Far range. Attacks they make while spotlighted in this way critically succeed on attack rolls of 19-20, but they must mark a Stress on a miss.</p>",
+    "actions": {
+      "R2lqdkTYOpwvyfOa": {
+        "type": "effect",
+        "_id": "R2lqdkTYOpwvyfOa",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Warlord",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "ace6bfeb99b516b8ace2d35e5ead525a131478f9"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732851,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "ok2Hmx3MBRdtg9YH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ok2Hmx3MBRdtg9YH"
+}

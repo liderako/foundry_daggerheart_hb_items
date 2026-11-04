@@ -1,0 +1,45 @@
+{
+  "name": "Slippery",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] takes damage from an attack, they can teleport up to Far range.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fallen Sorcerer",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e4c442e85d86ebabf2e829587c59e16f317734a7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732219,
+    "modifiedTime": 1792929732228,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "ZNQfQ5bkNdfZm5Lc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ZNQfQ5bkNdfZm5Lc"
+}

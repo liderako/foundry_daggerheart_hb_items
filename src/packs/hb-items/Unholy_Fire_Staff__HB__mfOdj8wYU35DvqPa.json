@@ -1,0 +1,193 @@
+{
+  "folder": "Er9HfvLjNty5Fy1T",
+  "name": "Unholy Fire Staff (HB)",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-animal-bird.webp",
+  "system": {
+    "description": "<p>Staff can be activate as torch to burn dark unholy fire, even under of water.<br />Burn: For every damage dice that rolls an 7 deal a Stress.</p>",
+    "actions": {},
+    "attached": [],
+    "tier": 2,
+    "equipped": true,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "reliable",
+        "effectIds": [
+          "LvxPAfrKuRfgubGV"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "YHE291ruSIJAh44F",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "knowledge",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "dice": "d6",
+              "bonus": 4,
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": 47,
+      "artist": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "LUsShyVwlNTgLyzY",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!mfOdj8wYU35DvqPa.LUsShyVwlNTgLyzY"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "4306122ad2931859c94cbe974aba6dfb995f8169",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.Gey2vjMi8IxLSCMR"
+    },
+    "asset-librarian": {
+      "filterTag": [
+        "Weapon"
+      ]
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774034413954,
+    "modifiedTime": 1792854635268,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "mfOdj8wYU35DvqPa",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!mfOdj8wYU35DvqPa"
+}

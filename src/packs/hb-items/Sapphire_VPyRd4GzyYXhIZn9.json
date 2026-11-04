@@ -1,0 +1,43 @@
+{
+  "folder": "iApzSV5AhCgNf7ad",
+  "name": "Sapphire",
+  "type": "loot",
+  "_id": "VPyRd4GzyYXhIZn9",
+  "img": "icons/commodities/gems/gem-faceted-oval-blue.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8cd601aee2fe72d05c66e154083ee464bce77ccb"
+    },
+    "mist-age-prices": {
+      "price": 7
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772831210824,
+    "modifiedTime": 1792786596534,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!VPyRd4GzyYXhIZn9"
+}

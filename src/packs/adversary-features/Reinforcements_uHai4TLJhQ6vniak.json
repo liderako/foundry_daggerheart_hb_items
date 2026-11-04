@@ -1,0 +1,84 @@
+{
+  "name": "Reinforcements",
+  "type": "feature",
+  "img": "icons/environment/people/charge.webp",
+  "system": {
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon a @UUID[Compendium.daggerheart.adversaries.Actor.5YgEajn0wa4i85kC]{Pirate Raider Horde}, which appears at Far range.</p>",
+    "resource": null,
+    "actions": {
+      "nuYk5WeLLpIKa69q": {
+        "type": "summon",
+        "_id": "nuYk5WeLLpIKa69q",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.5YgEajn0wa4i85kC",
+            "count": "1"
+          }
+        ],
+        "name": "Mark Stress",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Pirate Captain",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8c1dbddb2b1a95c199c27807c4dd3d699d509d95"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732209,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "uHai4TLJhQ6vniak",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!uHai4TLJhQ6vniak"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "hLn0v6ov6KuFgptu",
+  "name": "Wyrdwood Splint Armor (HB)",
+  "type": "armor",
+  "_id": "VD08FahK2W2zXoBK",
+  "img": "icons/equipment/chest/breastplate-layered-leather-studded-brown.webp",
+  "system": {
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "description": "",
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "actions": {
+      "ajgzKFQYH5aUzmZk": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Quick-Striding",
+        "description": "You can't be Restrained and can move up to Far range as part of an action roll.",
+        "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+        "_id": "ajgzKFQYH5aUzmZk",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "baseThresholds": {
+      "major": 10,
+      "severe": 21
+    },
+    "armorFeatures": [
+      {
+        "value": "quickStriding",
+        "effectIds": [],
+        "actionIds": [
+          "ajgzKFQYH5aUzmZk"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 5,
+        "value": 5
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555655,
+    "modifiedTime": 1793115586299,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!VD08FahK2W2zXoBK"
+}

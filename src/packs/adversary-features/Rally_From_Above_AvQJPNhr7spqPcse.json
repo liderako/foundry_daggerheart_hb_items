@@ -1,0 +1,84 @@
+{
+  "name": "Rally From Above",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend 2 Fear</strong> to spotlight up to five allies within Very Far range.</p>",
+    "resource": null,
+    "actions": {
+      "cv0f59owhSOAGPh3": {
+        "type": "effect",
+        "_id": "cv0f59owhSOAGPh3",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend 2 Fear",
+        "img": "icons/magic/holy/angel-wings-gray.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/holy/angel-wings-gray.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Griffin Knight",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "fa6ee9b0f2f8e34d9472949e0d9f46a8a9a38490"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732534,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "AvQJPNhr7spqPcse",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!AvQJPNhr7spqPcse"
+}

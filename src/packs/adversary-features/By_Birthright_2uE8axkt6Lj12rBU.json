@@ -1,0 +1,45 @@
+{
+  "name": "By Birthright",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend a Fear</strong> to have the Noble claim feudal ownership over something the PCs have or want, such as a piece of treasure, access to a certain location, or the service of an NPC. A PC who rejects the Noble’s claim must mark a Stress.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/settlement/castle.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Ambitious Noble",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "60920e6209897d2da89486f99a7d7d455dc45245"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732439,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "2uE8axkt6Lj12rBU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!2uE8axkt6Lj12rBU"
+}

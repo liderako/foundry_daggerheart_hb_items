@@ -1,0 +1,45 @@
+{
+  "name": "Horde (3d4+2)",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] has marked half or more of their HP, their standard attack deals <strong>3d4+2</strong> physical damage instead.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Tercio",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5c8539f7a42452bfd44694cf75a7db9974d211c2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732447,
+    "modifiedTime": 1792929732453,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "j2m9AwZjFM36pkO2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!j2m9AwZjFM36pkO2"
+}

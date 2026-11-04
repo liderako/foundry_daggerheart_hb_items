@@ -1,0 +1,53 @@
+{
+  "name": "Алхімічні Припаси (HB)",
+  "type": "consumable",
+  "_id": "eiHVAaGZHSOYQuAS",
+  "img": "icons/consumables/vegetable/arugula-leafy-lettuce-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "845594fc9db57339bd249991ed4253e65d595964",
+      "sourceId": "Actor.iKyqfmPpJaNQOq3G.Item.eiHVAaGZHSOYQuAS"
+    },
+    "mist-age-prices": {
+      "price": 0
+    },
+    "mist-age-weight": {
+      "slots": 0.1
+    },
+    "mist-age-equipment": {
+      "inside": null,
+      "mystery": {
+        "unidentified": false,
+        "name": "",
+        "img": ""
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793786165587,
+    "modifiedTime": 1793786169261,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "sort": 0,
+  "_key": "!items!eiHVAaGZHSOYQuAS"
+}

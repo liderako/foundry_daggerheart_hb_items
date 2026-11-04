@@ -1,0 +1,85 @@
+{
+  "name": "Bloodthirst",
+  "type": "feature",
+  "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+  "system": {
+    "description": "<p><em>Countdown (Loop 4).</em> When a creature within Very Far range of the Vampire marks HP, activate the countdown. It ticks down when a creature marks HP. When it triggers, the Vampire clears 2 Stress and gains advantage on their next attack.</p>",
+    "actions": {
+      "7kDQ1nNyOi5HHBXQ": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Bloodthirst",
+            "type": "encounter",
+            "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+            "progress": {
+              "looping": "looping",
+              "type": "custom",
+              "startFormula": "4",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "7kDQ1nNyOi5HHBXQ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Spawn",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "290f0e1dd643b00db1ec8f0783018d2da2d1c0ac"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732547,
+    "modifiedTime": 1792929732552,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "JixtBZtmpok8quSY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!JixtBZtmpok8quSY"
+}

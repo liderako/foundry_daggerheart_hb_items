@@ -1,0 +1,202 @@
+{
+  "name": "Солодкий Мох (HB)",
+  "type": "consumable",
+  "_id": "GrDrRqWgv7gvl9vn",
+  "img": "icons/consumables/plants/succulent-bundle-green.webp",
+  "system": {
+    "description": "<p>You can consume this moss during a rest to clear 1d6 HP or 1d6 Stress.</p><p></p>",
+    "quantity": 1,
+    "actions": {
+      "Sft4HkhlqsYH5qKI": {
+        "type": "healing",
+        "_id": "Sft4HkhlqsYH5qKI",
+        "systemPath": "actions",
+        "description": "<p>You can consume this moss during a rest to clear 1d10 HP.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "GrDrRqWgv7gvl9vn",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d10",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Clear Hit Points",
+        "img": "icons/consumables/plants/succulent-bundle-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      },
+      "IolxVguij8PjHSVt": {
+        "type": "healing",
+        "_id": "IolxVguij8PjHSVt",
+        "systemPath": "actions",
+        "description": "<p>You can consume this moss during a rest to clear 1d10 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "GrDrRqWgv7gvl9vn",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "dice": "d10",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Clear Stress",
+        "img": "icons/consumables/plants/succulent-bundle-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "flags": {
+    "mist-age-prices": {
+      "price": 8
+    },
+    "mist-age-weight": {
+      "slots": null
+    },
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.GrDrRqWgv7gvl9vn",
+      "hash": "93f756f731cf4dd79623ca7f9a0aef59617e626a"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792833603123,
+    "modifiedTime": 1792862127765,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 100000,
+  "_key": "!items!GrDrRqWgv7gvl9vn"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Loot",
+  "color": null,
+  "sorting": "a",
+  "_id": "16QGoy17bFCdi65G",
+  "description": "",
+  "sort": 200000,
+  "flags": {
+    "scene-packer": {
+      "hash": "b21bde22fbfe024d1478828fe44be37f27020801"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098276541,
+    "modifiedTime": 1774039248263,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!16QGoy17bFCdi65G"
+}

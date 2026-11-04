@@ -1,0 +1,74 @@
+{
+  "name": "Cut and Run",
+  "type": "feature",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] takes Major damage or less, <strong>mark a Stress</strong> to immediately move anywhere within Close range without provoking reactions. If he ends this move out of sight, he becomes <em>Hidden</em>.</p>",
+    "actions": {
+      "cutRunStress001a": {
+        "_id": "cutRunStress001a",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Mark Stress",
+        "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "ygXZoQiUKLuwbjj8",
+  "effects": [],
+  "folder": "KqTWLXcN8gY0gUuN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!ygXZoQiUKLuwbjj8"
+}

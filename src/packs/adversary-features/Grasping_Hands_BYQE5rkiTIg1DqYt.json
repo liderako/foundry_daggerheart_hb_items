@@ -1,0 +1,139 @@
+{
+  "name": "Grasping Hands",
+  "type": "feature",
+  "img": "icons/commodities/biological/hand-clawed-green.webp",
+  "system": {
+    "description": "<p>Make an attack against a target within Melee range. On a success, <strong>mark a Stress</strong> to deal <strong>3d6+2</strong> physical damage and temporarily <em>Restrain</em> the target.</p>",
+    "actions": {
+      "PnPLxwWPukbJl43y": {
+        "_id": "PnPLxwWPukbJl43y",
+        "type": "attack",
+        "name": "Grasping Hands",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": true,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d6",
+              "bonus": 2,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "range": "melee",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Miasmic Horde",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "928c5debb38dce91cabb8ca788e725eaec0f8d69"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732642,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "BYQE5rkiTIg1DqYt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BYQE5rkiTIg1DqYt"
+}

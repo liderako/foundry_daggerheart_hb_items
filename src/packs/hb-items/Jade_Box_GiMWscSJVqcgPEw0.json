@@ -1,0 +1,44 @@
+{
+  "name": "Jade Box",
+  "type": "loot",
+  "img": "icons/commodities/treasure/box-jade-tassel.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "3fdfb51c9fe5d67bdd0ac20cfc89a30f2b609414"
+    }
+  },
+  "_id": "GiMWscSJVqcgPEw0",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GiMWscSJVqcgPEw0"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Soul-Twin Circlets (HB)",
+  "type": "loot",
+  "img": "icons/commodities/treasure/trinket-wing-white.webp",
+  "system": {
+    "description": "<p>Two creatures can wear this pair of circlets. You can spend a Hope to switch places with whoever is wearing the other circlet.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "actions": {
+      "2a8CN94tQarhPBO7": {
+        "type": "effect",
+        "_id": "2a8CN94tQarhPBO7",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "itemId": null,
+            "key": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Hope",
+        "range": ""
+      }
+    }
+  },
+  "_id": "xxDDzhcODh98kcTC",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556018,
+    "modifiedTime": 1792764556018,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!xxDDzhcODh98kcTC"
+}

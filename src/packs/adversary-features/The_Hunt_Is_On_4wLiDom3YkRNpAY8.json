@@ -1,0 +1,75 @@
+{
+  "name": "The Hunt Is On",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend 2 Fear</strong> to summon [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG]{Vampires}, who appear at Far range and immediately take the spotlight.</p>",
+    "resource": null,
+    "actions": {
+      "jGFOnU6PNdWU6iF4": {
+        "type": "summon",
+        "_id": "jGFOnU6PNdWU6iF4",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG",
+            "count": "1d4"
+          }
+        ],
+        "name": "Spend Fear",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Head Vampire",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "48a543cf89222691a55ff0267e12a6a06ff6bafd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732335,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "4wLiDom3YkRNpAY8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!4wLiDom3YkRNpAY8"
+}

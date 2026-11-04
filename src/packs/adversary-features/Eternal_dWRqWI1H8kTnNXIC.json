@@ -1,0 +1,45 @@
+{
+  "name": "Eternal",
+  "type": "feature",
+  "img": "icons/magic/symbols/circle-ouroboros.webp",
+  "system": {
+    "description": "<p>Death can't take damage and never marks HP.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Incarnate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "eedef7587846c95e13eeca0b614fc353aa6b6685"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732638,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "dWRqWI1H8kTnNXIC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!dWRqWI1H8kTnNXIC"
+}

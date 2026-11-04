@@ -1,0 +1,23 @@
+{
+  "name": "Combat",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 600000,
+  "_id": "KqTWLXcN8gY0gUuN",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!KqTWLXcN8gY0gUuN"
+}

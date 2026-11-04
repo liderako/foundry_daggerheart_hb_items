@@ -1,0 +1,86 @@
+{
+  "name": "Alluring Guise (Queen of Pain)",
+  "type": "feature",
+  "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress to choose a target and assume a humanoid form that is especially attractive to the target. The target has disadvantage on all rolls against the Queen until they succeed against her.</p>",
+    "actions": {
+      "tVwDNLW8HSy3rGrn": {
+        "type": "effect",
+        "_id": "tVwDNLW8HSy3rGrn",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Queen of Pain",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8a6fd9385e3f66de03c76d01469bc4294ffff183"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732752,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "ZKlQ3bMFrVjYOWsi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ZKlQ3bMFrVjYOWsi"
+}

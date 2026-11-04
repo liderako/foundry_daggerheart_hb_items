@@ -1,0 +1,86 @@
+{
+  "name": "Coming to Collect",
+  "type": "feature",
+  "img": "icons/magic/symbols/mask-metal-silver-white.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spend a Fear to summon an Illrigger within Far range of a PC who took a deal and spotlight them.</p>",
+    "actions": {
+      "6CTzubyjVdVA1axZ": {
+        "type": "effect",
+        "_id": "6CTzubyjVdVA1axZ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon of Lies",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "cd224c95508280a058d56eb9c899c196e4b4000b"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732849,
+    "modifiedTime": 1792929732861,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "KMzGtHAhYcX6y357",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!KMzGtHAhYcX6y357"
+}

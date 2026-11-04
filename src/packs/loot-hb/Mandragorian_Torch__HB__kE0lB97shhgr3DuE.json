@@ -1,0 +1,44 @@
+{
+  "name": "Mandragorian Torch (HB)",
+  "type": "loot",
+  "img": "icons/sundries/lights/torch-brown.webp",
+  "system": {
+    "description": "<p>This torch gives off light only the bearer can see.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "actions": {}
+  },
+  "_id": "kE0lB97shhgr3DuE",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 10
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556017,
+    "modifiedTime": 1792855772538,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kE0lB97shhgr3DuE"
+}

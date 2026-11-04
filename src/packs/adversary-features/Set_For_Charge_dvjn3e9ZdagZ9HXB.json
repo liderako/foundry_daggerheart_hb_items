@@ -1,0 +1,84 @@
+{
+  "name": "Set For Charge",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> when a PC moves to within Very Close range of the @Lookup[@name] to make a standard attack against them. A PC who marks HP from this attack must mark a Stress to move to within Melee range of the @Lookup[@name].</p>",
+    "resource": null,
+    "actions": {
+      "0lgrXSXNiyMOiW6d": {
+        "type": "effect",
+        "_id": "0lgrXSXNiyMOiW6d",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Halberdier",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8cbb1a381c599f98f53e5332c24520f96fa5f9b9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732536,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "dvjn3e9ZdagZ9HXB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!dvjn3e9ZdagZ9HXB"
+}

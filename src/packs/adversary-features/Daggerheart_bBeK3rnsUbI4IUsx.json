@@ -1,0 +1,27 @@
+{
+  "name": "Daggerheart",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 100000,
+  "_id": "bBeK3rnsUbI4IUsx",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "e88d7aa25b8e47f13331074140c4d13d2a000f87"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731504,
+    "modifiedTime": 1792929731504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!bBeK3rnsUbI4IUsx"
+}

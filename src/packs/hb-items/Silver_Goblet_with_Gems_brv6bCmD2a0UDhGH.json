@@ -1,0 +1,44 @@
+{
+  "name": "Silver Goblet with Gems",
+  "type": "loot",
+  "img": "icons/containers/kitchenware/goblet-jeweled-blue-grey.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 35
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "e47bcabb9e7d4777054d7e8a7148c5d096b01159"
+    }
+  },
+  "_id": "brv6bCmD2a0UDhGH",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!brv6bCmD2a0UDhGH"
+}

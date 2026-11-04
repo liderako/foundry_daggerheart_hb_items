@@ -1,0 +1,139 @@
+{
+  "name": "Trample (War Elephant)",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend 2 Fear</strong> to move the Elephant to a point within Far range. All creatures in its path must make an Agility Reaction Roll (16). Targets who fail take <strong>3d10+5</strong> direct physical damage and are knocked over, making them <em>Vulnerable</em> until they next act. Targets who succeed take half damage and aren’t knocked over.</p>",
+    "resource": null,
+    "actions": {
+      "PpFQnXpUVORbA12H": {
+        "type": "attack",
+        "_id": "PpFQnXpUVORbA12H",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d10",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": true,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": 16,
+          "damageMod": "half"
+        },
+        "name": "Attack",
+        "img": "icons/skills/movement/arrow-upward-yellow.webp",
+        "range": "far",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrow-upward-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Elephant",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f3b8daf2ee6c0abf1d8328e6077b75d02a69ffc2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732540,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Fr8VcWd7toFF1mOK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Fr8VcWd7toFF1mOK"
+}

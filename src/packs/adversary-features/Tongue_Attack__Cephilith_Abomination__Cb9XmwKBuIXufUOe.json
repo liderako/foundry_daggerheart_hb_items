@@ -1,0 +1,83 @@
+{
+  "name": "Tongue Attack (Cephilith Abomination)",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Spend a Fear</strong> to have the Abomination pull a target within Far range into Melee range, then immediately spotlight the Abomination again.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "ZiKxwdm8EyBvVOid": {
+        "type": "effect",
+        "_id": "ZiKxwdm8EyBvVOid",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Spend Fear",
+        "range": "far"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/biological/tongue-violet.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Cephilith Abomination",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c1bf2696b49a0d86763b348864ebbc4ed743f346"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732338,
+    "modifiedTime": 1792929732349,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Cb9XmwKBuIXufUOe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Cb9XmwKBuIXufUOe"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "name": "Improved Smith’s tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/smithing/pincers.webp",
+  "system": {
+    "description": "<p>+3 to smith`s checks</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038867889,
+        "modifiedTime": 1774038867889,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "acICYJdA22iEVUQr",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!tCnrcIW2MzXyID6S.acICYJdA22iEVUQr"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.11Z4gUJ29fSovdpn",
+      "hash": "aa100cf5d206508f56372a31995ae1b5c1e93558"
+    },
+    "mist-age-prices": {
+      "price": 20
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772097151913,
+    "modifiedTime": 1792863188237,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "tCnrcIW2MzXyID6S",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!tCnrcIW2MzXyID6S"
+}

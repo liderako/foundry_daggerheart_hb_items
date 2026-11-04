@@ -1,0 +1,36 @@
+{
+  "name": "Speaking Orbs (HB)",
+  "type": "loot",
+  "_id": "LZrG6CFiSjpLA2F1",
+  "img": "icons/commodities/materials/glass-orb-blue-gold.webp",
+  "system": {
+    "description": "<p>This pair of orbs allows any creatures holding them to communicate with each other across any distance.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792764556016,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LZrG6CFiSjpLA2F1"
+}

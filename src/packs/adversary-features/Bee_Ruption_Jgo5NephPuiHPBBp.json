@@ -1,0 +1,45 @@
+{
+  "name": "Bee-Ruption",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Walker marks HP, vengeful bees erupt from its body to protect it. Each target within Very Close range must succeed on an Instinct Reaction Roll or take <strong>1d8</strong> direct physical damage for each HP the @Lookup[@name] has marked. <em>Restrained</em> targets automatically fail the reaction roll.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/invertebrates/wasp-swarm-attack.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hive Walker",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "082b1660dd3e154e09810f5bcf42d9b025e0aa68"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731593,
+    "modifiedTime": 1792929731607,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Jgo5NephPuiHPBBp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Jgo5NephPuiHPBBp"
+}

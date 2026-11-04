@@ -1,0 +1,38 @@
+{
+  "name": "Momentum",
+  "type": "feature",
+  "img": "icons/skills/melee/strike-weapons-orange.webp",
+  "system": {
+    "description": "<p>When the Dryad makes a successful attack against a PC, you gain a Fear.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "hGimcQfZAb0UVXVf",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.8yUj2Mzvnifhxegm.Item.4f79icB7Dd1xLEZQ",
+      "hash": "6b5f02f4552ebce76139e98907652ccf19dfd543"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352287554,
+    "modifiedTime": 1758352617121,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "yryu569XctgvkCRk",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yryu569XctgvkCRk"
+}

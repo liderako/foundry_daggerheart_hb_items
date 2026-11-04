@@ -1,0 +1,124 @@
+{
+  "name": "Trample",
+  "type": "feature",
+  "img": "icons/skills/movement/arrow-upward-blue.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets in the Construct’s path when they move. Targets the Construct succeeds against take <strong>1d8</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "OswphW4Z1B5oa4ts": {
+        "type": "attack",
+        "_id": "OswphW4Z1B5oa4ts",
+        "systemPath": "actions",
+        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets in the Construct’s path when they move. Targets the Construct succeeds against take <strong>1d8</strong> physical damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d8",
+                "bonus": null,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/movement/arrow-upward-blue.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.uOP5oT9QzXPlnf3p.Item.93m085bEaKFzvEWT",
+      "hash": "c73a2e541eac5b5a6edd6221a309faab91c56108"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352098667,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "blG1ciPDhwF9t463",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!blG1ciPDhwF9t463"
+}

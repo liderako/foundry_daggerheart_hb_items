@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Armor",
+  "color": null,
+  "sorting": "a",
+  "_id": "HaH4GUlZwnxKpI9N",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "3ec9eebb5054f0c33e6f2329b44316961aa402b5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774038395524,
+    "modifiedTime": 1774039248263,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!HaH4GUlZwnxKpI9N"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Empty Chest (HB)",
+  "type": "loot",
+  "_id": "p2yy61uKsyIsl8cU",
+  "img": "icons/containers/chest/chest-simple-box-gold-brown.webp",
+  "system": {
+    "description": "<p>This magical chest appears empty. When you speak a specific trigger word or action and open the chest, you can see the items stored within it.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556018,
+    "modifiedTime": 1792764556018,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!p2yy61uKsyIsl8cU"
+}

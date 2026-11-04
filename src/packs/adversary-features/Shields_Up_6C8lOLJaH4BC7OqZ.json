@@ -1,0 +1,45 @@
+{
+  "name": "Shields Up",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>While there is another @Lookup[@name] within Melee range, ranged attacks against the @Lookup[@name] have disadvantage.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/equipment/shield/oval-wooden-boss-bronze.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Legionary",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "9367435b993c686bfaf5af78e039704926c8cd9d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732539,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "6C8lOLJaH4BC7OqZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6C8lOLJaH4BC7OqZ"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Bar the Way",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>A creature who tries to move within Very Close range of the Guard must succeed on an Agility Roll. On a failure, they take <strong>4d6+5</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "V1ff6DcYEyMl8jGf": {
+        "type": "damage",
+        "_id": "V1ff6DcYEyMl8jGf",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 4,
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Damage",
+        "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Honor Guard",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b3f0b7072a39bec9bf4a8b78cdb493309021d7b3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732437,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "joX3sz1DqzVbM0Zz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!joX3sz1DqzVbM0Zz"
+}

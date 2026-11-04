@@ -1,0 +1,44 @@
+{
+  "name": "Silver Medal",
+  "type": "loot",
+  "img": "icons/commodities/treasure/medal-ribbon-silver-blue.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 6
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "ce05ae463e72703b3f10cc4f605a6d07f38b88c3"
+    }
+  },
+  "_id": "BgHgNI5JTw8TtYTS",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596368,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BgHgNI5JTw8TtYTS"
+}

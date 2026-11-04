@@ -1,0 +1,110 @@
+{
+  "name": "Tempting Fortune",
+  "type": "feature",
+  "img": "icons/commodities/metal/ingot-hammered-gold.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Create an illusory image of a valuable object within Close range. The first time a PC comes to within a Close distance of the image, you can spend a Fear to fill their mind with greed. The target must succeed on an Instinct Reaction Roll or move up to a Close distance towards the image.</p>",
+    "actions": {
+      "p0nT3Q8wEOHcwVsZ": {
+        "type": "attack",
+        "_id": "p0nT3Q8wEOHcwVsZ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Instinct Reaction Roll",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Serpent Demon",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "40f0d9dc790b3a16d6492386042948d787ed3694"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732914,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "oQSAQcTwkLfzGRRX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oQSAQcTwkLfzGRRX"
+}

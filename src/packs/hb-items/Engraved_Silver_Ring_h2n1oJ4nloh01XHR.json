@@ -1,0 +1,44 @@
+{
+  "name": "Engraved Silver Ring",
+  "type": "loot",
+  "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 6
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "5d2e1a13854684ef7bfbb55872a696655c6c39cf"
+    }
+  },
+  "_id": "h2n1oJ4nloh01XHR",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596368,
+    "modifiedTime": 1792786596370,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h2n1oJ4nloh01XHR"
+}

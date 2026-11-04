@@ -1,0 +1,147 @@
+{
+  "name": "Game of Life",
+  "type": "feature",
+  "img": "icons/sundries/gaming/chess-pawn-white-pink.webp",
+  "system": {
+    "description": "<p>Death begins playing a board game with a PC. Start a Progress Countdown (8) and a Consequence Countdown (4). While the game is ongoing, the PC can't die. If the Consequence Countdown triggers, the PC loses the game and they are claimed by Death. If the Progress Countdown triggers, the PC wins, and can ask one favor of Death.</p>",
+    "actions": {
+      "UejyRFaU5iRsZIKi": {
+        "_id": "UejyRFaU5iRsZIKi",
+        "type": "ability",
+        "name": "Game of Life",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "uLzOabjUneequ8Ft": {
+        "type": "countdown",
+        "name": "Progress Countdown",
+        "countdown": [
+          {
+            "name": "Beat Death At Game",
+            "type": "narrative",
+            "img": "icons/sundries/gaming/chess-pawn-white-pink.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "8",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "uLzOabjUneequ8Ft",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      },
+      "xdrpM8qlvVNQU7ir": {
+        "type": "countdown",
+        "name": "Consequence Countdown",
+        "countdown": [
+          {
+            "name": "Lose to Death",
+            "type": "narrative",
+            "img": "icons/sundries/gaming/chess-pawn-white-pink.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "4",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "xdrpM8qlvVNQU7ir",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Incarnate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "9dd20bcbc1fd7b35f7f21151c9c7d501c4a6b141"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732640,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "q4ZpAUhjfRUtF3QG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!q4ZpAUhjfRUtF3QG"
+}

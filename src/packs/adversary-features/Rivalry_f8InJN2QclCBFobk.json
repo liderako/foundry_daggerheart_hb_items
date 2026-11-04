@@ -1,0 +1,93 @@
+{
+  "name": "Rivalry",
+  "type": "feature",
+  "system": {
+    "description": "<p>When a creature within Close range takes damage from a different adversary, you can <strong>mark a Stress</strong> to add a <strong>d4</strong> to the damage roll.</p>",
+    "resource": null,
+    "actions": {
+      "UU3H5aPQejOSoFZw": {
+        "type": "effect",
+        "_id": "UU3H5aPQejOSoFZw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+        "range": "",
+        "areas": [
+          {
+            "name": "Rivalry",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "close",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Jealousy",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "852a076fb7f44060869c40ef90af7b6733ee37ef"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732211,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "f8InJN2QclCBFobk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!f8InJN2QclCBFobk"
+}

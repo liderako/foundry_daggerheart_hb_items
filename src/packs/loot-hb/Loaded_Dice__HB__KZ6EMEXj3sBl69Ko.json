@@ -1,0 +1,36 @@
+{
+  "name": "Loaded Dice (HB)",
+  "type": "loot",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "system": {
+    "description": "<p>You can choose what result this set of weighted dice rolls with a successful Finesse Roll (14). If you roll with Fear, anyone watching knows the dice are loaded.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "actions": {}
+  },
+  "_id": "KZ6EMEXj3sBl69Ko",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792764556016,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!KZ6EMEXj3sBl69Ko"
+}

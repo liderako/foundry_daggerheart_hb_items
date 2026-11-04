@@ -1,0 +1,30 @@
+{
+  "type": "Item",
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "Алхімічні припаси",
+  "color": null,
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": ""
+    },
+    "scene-packer": {
+      "hash": "3b114a183ef6e0a4095ef7a152982fa4c2b9cb72"
+    }
+  },
+  "sorting": "a",
+  "_id": "ZMzmwE5SpzyT61Ig",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792777906427,
+    "modifiedTime": 1792777906427,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!ZMzmwE5SpzyT61Ig"
+}

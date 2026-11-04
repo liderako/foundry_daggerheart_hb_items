@@ -1,0 +1,44 @@
+{
+  "name": "Bronze Boar Figurine",
+  "type": "loot",
+  "img": "icons/commodities/treasure/figurine-boar.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 8
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "15385e471c9ce0be0ed1042d7a2cbb404b4f6be7"
+    }
+  },
+  "_id": "e4JENmNUnjWjTGOi",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!e4JENmNUnjWjTGOi"
+}

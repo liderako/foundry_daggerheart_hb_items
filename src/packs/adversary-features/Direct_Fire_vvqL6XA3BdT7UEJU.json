@@ -1,0 +1,45 @@
+{
+  "name": "Direct Fire",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Choose a target within Far range. The @Lookup[@name]’s mount has advantage on its next attack against them.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragonlord",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8b7681ec33f2713ff87ede4e31b17a882c2bae12"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732443,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "vvqL6XA3BdT7UEJU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!vvqL6XA3BdT7UEJU"
+}

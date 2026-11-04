@@ -1,0 +1,97 @@
+{
+  "name": "Scare Tactic",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Up to three times per scene, <strong>spend a Fear</strong> to have the @Lookup[@name] teleport up to Very Far range and scare a PC within Melee range. The PC marks <strong>1d4</strong> Stress. If this causes them to mark HP, they also lose a Hope.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "UgN1W593CzVy6sQB": {
+        "type": "damage",
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "_id": "UgN1W593CzVy6sQB",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "3",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "name": "",
+        "range": "veryFar"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/undead-ghost-strike-white.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Banshee",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0aa6e64cdf4897d7c4305e21456945f11bce340a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732213,
+    "modifiedTime": 1792929732226,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "BDGM2nOOEzdEGKQ7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BDGM2nOOEzdEGKQ7"
+}

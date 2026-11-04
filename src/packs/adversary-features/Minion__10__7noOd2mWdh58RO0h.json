@@ -1,0 +1,45 @@
+{
+  "name": "Minion (10)",
+  "type": "feature",
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "system": {
+    "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 10 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Sworn Sword",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f773e38cceb549242c0c0ab58de9977f0f30895f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732528,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "7noOd2mWdh58RO0h",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!7noOd2mWdh58RO0h"
+}

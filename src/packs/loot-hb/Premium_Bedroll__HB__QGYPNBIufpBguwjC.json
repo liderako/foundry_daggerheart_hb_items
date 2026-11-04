@@ -1,0 +1,89 @@
+{
+  "name": "Premium Bedroll (HB)",
+  "type": "loot",
+  "_id": "QGYPNBIufpBguwjC",
+  "img": "icons/sundries/survival/bedroll-blue-red.webp",
+  "system": {
+    "description": "<p>During downtime, you automatically clear a Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "Xe0zhVbSzZLgX1nC": {
+        "type": "healing",
+        "_id": "Xe0zhVbSzZLgX1nC",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          },
+          "useDefault": false
+        },
+        "name": "Take a nap",
+        "img": "icons/sundries/survival/bedroll-blue-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792763303422,
+    "modifiedTime": 1792764556016,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!QGYPNBIufpBguwjC"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Potter's Tools (HB)",
+  "type": "loot",
+  "img": "icons/commodities/materials/pottery-jug.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>Potter's needles, ribs, scrapers, a wire, a knife and calipers.</p><p>+2 to pottery checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "77acd57f73452cc8c4fdac8781abe482a1570ae3"
+    }
+  },
+  "_id": "I9vwqaHVJ2tqKE8o",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185240,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I9vwqaHVJ2tqKE8o"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Скарби",
+  "color": null,
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": ""
+    },
+    "scene-packer": {
+      "hash": "afc2237132c7529f99be428c59c005d38f560d99"
+    }
+  },
+  "sorting": "a",
+  "_id": "iApzSV5AhCgNf7ad",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792783609527,
+    "modifiedTime": 1792783609527,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!iApzSV5AhCgNf7ad"
+}

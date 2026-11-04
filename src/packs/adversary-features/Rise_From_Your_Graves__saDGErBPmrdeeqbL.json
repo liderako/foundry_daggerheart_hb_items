@@ -1,0 +1,116 @@
+{
+  "name": "Rise From Your Graves!",
+  "type": "feature",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+  "system": {
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon [[/r 1d4+1]] @UUID[Compendium.daggerheart.adversaries.Actor.10YIQl0lvCJXZLfX]{Skeleton Warriors}, which appear at Close range.</p>",
+    "actions": {
+      "RtJ0Fifx0Hhv2gxG": {
+        "_id": "RtJ0Fifx0Hhv2gxG",
+        "type": "ability",
+        "name": "Rise From Your Graves!",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "close",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "ROF4Fn4yW9S9kLhd": {
+        "type": "summon",
+        "_id": "ROF4Fn4yW9S9kLhd",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.10YIQl0lvCJXZLfX",
+            "count": "1d4+1"
+          }
+        ],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Necromancer",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f44b1c2c467b179d3a58c05ff05173f85b50ef89"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732742,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "saDGErBPmrdeeqbL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!saDGErBPmrdeeqbL"
+}

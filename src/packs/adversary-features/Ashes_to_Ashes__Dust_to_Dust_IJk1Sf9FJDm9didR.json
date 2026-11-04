@@ -1,0 +1,83 @@
+{
+  "name": "Ashes to Ashes, Dust to Dust",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Harbinger would mark HP, you can <strong>mark a Stress</strong> to have an ally within Far range mark the HP instead.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "ERKcJSjuYXLL7lwI": {
+        "type": "effect",
+        "_id": "ERKcJSjuYXLL7lwI",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Mark Stress",
+        "range": "far"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/orb-contained-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Harbinger Of Death",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e837dedf1c0be61844440d953383b5445526fc79"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731587,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "IJk1Sf9FJDm9didR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!IJk1Sf9FJDm9didR"
+}

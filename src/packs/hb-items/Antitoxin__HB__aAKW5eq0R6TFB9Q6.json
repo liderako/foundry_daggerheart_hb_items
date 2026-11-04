@@ -1,0 +1,186 @@
+{
+  "folder": "cFO6YIHU7xbE6L65",
+  "name": "Antitoxin (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-flask-capped-yellow-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Drinking this potion cures the <strong>Poisoned</strong> condition. Until your next short rest, you have advantage on rolls against poison. The effect ends early if you become poisoned again.</p>",
+    "quantity": 1,
+    "actions": {
+      "AntitoxinDrink01": {
+        "type": "effect",
+        "_id": "AntitoxinDrink01",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "aAKW5eq0R6TFB9Q6",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "AntitoxinEff0001",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-flask-capped-yellow-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "rce8jyuBj8gAeqfi",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793788797101,
+        "modifiedTime": 1793788797101,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!aAKW5eq0R6TFB9Q6.rce8jyuBj8gAeqfi"
+    },
+    {
+      "name": "Antitoxin",
+      "img": "icons/consumables/potions/potion-flask-capped-yellow-green.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [
+          {
+            "key": "system.advantageSources",
+            "type": "add",
+            "value": "Rolls against poison (Antitoxin)",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Advantage on rolls against poison until your next short rest. Ends early if you become poisoned again.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "AntitoxinEff0001",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793788797101,
+        "modifiedTime": 1793788797101,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!aAKW5eq0R6TFB9Q6.AntitoxinEff0001"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "73dc7b479807b7e79abe5adb5ec22fe6bf2f11a7",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.2Lgqvp8vaPrz1DkB"
+    },
+    "mist-age-prices": {
+      "price": 5
+    }
+  },
+  "_id": "aAKW5eq0R6TFB9Q6",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793788797101,
+    "modifiedTime": 1793788797101,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aAKW5eq0R6TFB9Q6"
+}

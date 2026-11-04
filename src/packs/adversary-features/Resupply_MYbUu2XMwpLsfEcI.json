@@ -1,0 +1,84 @@
+{
+  "name": "Resupply",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> to move up to a Close range and deliver a piece of gear to an ally. The ally can clear a Stress, clear a HP, or gain a +2 bonus to their next roll.</p>",
+    "resource": null,
+    "actions": {
+      "ZtjCrAjfpYMH3zNB": {
+        "type": "effect",
+        "_id": "ZtjCrAjfpYMH3zNB",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/containers/bags/satchel-leather-grey.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/containers/bags/satchel-leather-grey.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Squire",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7de26bac7d1556cbd048ed5dde6721c558a705b2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "MYbUu2XMwpLsfEcI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!MYbUu2XMwpLsfEcI"
+}

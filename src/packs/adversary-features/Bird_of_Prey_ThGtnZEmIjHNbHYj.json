@@ -1,0 +1,45 @@
+{
+  "name": "Bird of Prey",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Once per GM turn, the @Lookup[@name] can move up to Very Far range before or after it takes an action.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrow-upward-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Roc",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8ddeaf1e6b6ede7ea0afbc51063d956cb40488ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731594,
+    "modifiedTime": 1792929731607,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "ThGtnZEmIjHNbHYj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ThGtnZEmIjHNbHYj"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Arrow (HB)",
+  "type": "consumable",
+  "_id": "Yhvxs99dWRQ6p6a9",
+  "img": "icons/weapons/ammunition/arrow-broadhead.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "folder": "Er9HfvLjNty5Fy1T",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "be9b5b5dc59ecec9d50640d33462840a92055c42"
+    },
+    "mist-age-prices": {
+      "price": 0.15
+    },
+    "mist-age-weight": {
+      "slots": 0.05
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792780848421,
+    "modifiedTime": 1792854635268,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Yhvxs99dWRQ6p6a9"
+}

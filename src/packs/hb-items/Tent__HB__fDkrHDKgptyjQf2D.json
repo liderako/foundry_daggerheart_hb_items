@@ -1,0 +1,84 @@
+{
+  "name": "Tent (HB)",
+  "type": "loot",
+  "_id": "fDkrHDKgptyjQf2D",
+  "img": "icons/environment/wilderness/camp-improvised.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "B Weight",
+      "img": "icons/containers/bags/case-simple-leather-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>4</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038965057,
+        "modifiedTime": 1774038971673,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "YyL19AZVbRZmxgjD",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!fDkrHDKgptyjQf2D.YyL19AZVbRZmxgjD"
+    }
+  ],
+  "folder": "IKwwuasyn83UEJrm",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3c619da9b2a2801d5b51ee43a8647326a54f3777"
+    },
+    "mist-age-prices": {
+      "price": 15
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772099604163,
+    "modifiedTime": 1792764556150,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!fDkrHDKgptyjQf2D"
+}

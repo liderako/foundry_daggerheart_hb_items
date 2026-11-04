@@ -1,0 +1,144 @@
+{
+  "name": "Venom Surge",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>spend a Fear</strong> to make the target <em>Vulnerable</em> until the end of the scene.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "afWkvNCdshLHitfm": {
+        "type": "effect",
+        "_id": "afWkvNCdshLHitfm",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "5cXRi8ot13KpuWda",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
+  "effects": [
+    {
+      "name": "New Effect",
+      "disabled": false,
+      "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
+      "description": "<p>You are Vulnerable until the end of the scene.</p>",
+      "transfer": true,
+      "statuses": [
+        "vulnerable"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": "scene"
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "5cXRi8ot13KpuWda",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732343,
+        "modifiedTime": 1792929732343,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!2i7l4DjmC2eVBo6r.5cXRi8ot13KpuWda"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Water Mother",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1a59fc9c319f87f67d196231607e89b4b92179a1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732343,
+    "modifiedTime": 1792929732350,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "2i7l4DjmC2eVBo6r",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!2i7l4DjmC2eVBo6r"
+}

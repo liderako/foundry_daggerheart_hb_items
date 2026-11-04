@@ -1,0 +1,221 @@
+{
+  "name": "Tyran Breastplate Armor (HB)",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "actions": {
+      "dplu4IvRKOyXIJLH": {
+        "type": "attack",
+        "chatDisplay": true,
+        "name": "Resilient",
+        "description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
+        "img": "icons/magic/life/heart-cross-purple-orange.webp",
+        "roll": {
+          "type": "diceSet",
+          "diceRolling": {
+            "compare": "equal",
+            "dice": "d6",
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "treshold": 6
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "_id": "dplu4IvRKOyXIJLH",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [
+      {
+        "value": "veryheavy",
+        "effectIds": [],
+        "actionIds": []
+      },
+      {
+        "value": "resilient",
+        "effectIds": [],
+        "actionIds": [
+          "dplu4IvRKOyXIJLH"
+        ]
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 12,
+      "severe": 27
+    }
+  },
+  "effects": [
+    {
+      "name": "Very Heavy",
+      "description": "-2 to Evasion; -1 to Agility",
+      "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+      "_id": "RRf7iEtlPkHwDwSY",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": [
+          {
+            "key": "system.evasion",
+            "value": -2,
+            "type": "add"
+          },
+          {
+            "key": "system.traits.agility.value",
+            "value": -1,
+            "type": "add"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.6",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!RucgKX5mv9ZQWK1N.RRf7iEtlPkHwDwSY"
+    },
+    {
+      "name": "G Weight",
+      "img": "icons/containers/chest/chest-reinforced-stone.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>4</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.6",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "Be18nDBRUAKjhQzS",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!RucgKX5mv9ZQWK1N.Be18nDBRUAKjhQzS"
+    }
+  ],
+  "folder": "HaH4GUlZwnxKpI9N",
+  "flags": {
+    "scene-packer": {
+      "hash": "506a5beeb2b3c69e27c351a0aa6b9ce8421a651e",
+      "sourceId": "Item.ewtj2XeZihr1qkW6"
+    },
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 5,
+        "value": 5
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.6",
+    "createdTime": 1776408430245,
+    "modifiedTime": 1793115586565,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "RucgKX5mv9ZQWK1N",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!RucgKX5mv9ZQWK1N"
+}

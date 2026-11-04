@@ -1,0 +1,86 @@
+{
+  "name": "Enemies Everywhere",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Countdown (Loop 6).</em> Activate this countdown when the PCs enter the city. When it triggers, they encounter a group of invaders. Summon <strong>1d4+3</strong> adversaries, who appear at Far range and immediately take the spotlight.</p><hr><p><em>How coordinated are the invaders? What loot are they laden with?</em></p>",
+    "resource": null,
+    "actions": {
+      "1XuGWzVrag4ras20": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Enemies Everywhere",
+            "type": "narrative",
+            "img": "icons/environment/people/charge.webp",
+            "progress": {
+              "looping": "looping",
+              "type": "custom",
+              "startFormula": "6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "1XuGWzVrag4ras20",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "img": "icons/environment/people/charge.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/charge.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "City Sack",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "62b79b54ec61c1ab889036742c4dc07d18937b17"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732443,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "lWleePBCHRmGPSvv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lWleePBCHRmGPSvv"
+}

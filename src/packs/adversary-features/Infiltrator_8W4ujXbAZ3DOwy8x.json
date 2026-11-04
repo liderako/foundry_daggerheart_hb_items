@@ -1,0 +1,45 @@
+{
+  "name": "Infiltrator",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Reveal a third-party infiltrator operating within the estate, with their own agenda against the vampires.</p><section id=\"secret-8l8ADdoMkg4N95dA\" class=\"secret\"><p><em>What other rival faction has inserted this agent? Are they open to aiding the party? For what price?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Clan's Estate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b74600882e433e69f29732ccd915f58a55236003"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732644,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "8W4ujXbAZ3DOwy8x",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!8W4ujXbAZ3DOwy8x"
+}

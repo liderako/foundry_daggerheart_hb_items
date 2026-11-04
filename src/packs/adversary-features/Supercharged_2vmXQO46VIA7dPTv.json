@@ -1,0 +1,171 @@
+{
+  "name": "Supercharged",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>Countdown (Loop 2d6). When the Machine is spotlighted for the first time, activate the countdown. It ticks down each time the Machine is spotlighted. When it triggers, place a token on this stat block as the Machine's chest crucible flares with magical flame. For each token on this stat block, the Machine gains a +1 bonus to Difficulty and attack rolls, and its standard attack deals an extra <strong>1d12</strong> damage. Remove a token when the Machine takes Severe damage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "",
+      "recovery": null,
+      "progression": "increasing",
+      "dieFaces": "d4",
+      "icon": "fa-solid fa-bolt",
+      "diceStates": {}
+    },
+    "actions": {
+      "xccE9F4ovCbuaaUd": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Supercharged",
+            "type": "encounter",
+            "hidden": false,
+            "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+            "progress": {
+              "looping": "looping",
+              "type": "custom",
+              "startFormula": "2d6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {}
+          }
+        ],
+        "_id": "xccE9F4ovCbuaaUd",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+  "effects": [
+    {
+      "name": "Supercharged",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.difficulty",
+            "type": "add",
+            "value": "ITEM.@system.resource.value",
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "ITEM.@system.resource.value",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "_id": "KZMrnBbtjlf1coHI",
+      "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>For each token on this stat block, the Machine gains a +1 bonus to Difficulty and attack rolls, and its standard attack deals an extra <strong>1d12</strong> damage. Remove a token when the Machine takes Severe damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732328,
+        "modifiedTime": 1792929732328,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!2vmXQO46VIA7dPTv.KZMrnBbtjlf1coHI"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gargantuan War Machine",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4a5e29d407e0d2a579597f55f2bf61b0b345c522"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732328,
+    "modifiedTime": 1792929732346,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "2vmXQO46VIA7dPTv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!2vmXQO46VIA7dPTv"
+}

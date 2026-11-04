@@ -1,0 +1,107 @@
+{
+  "name": "Terrifying Chorus",
+  "type": "feature",
+  "system": {
+    "description": "<p>All PCs within Far range lose 2 Hope.</p>",
+    "resource": null,
+    "actions": {
+      "nJxpFR4Ul0e2RrL4": {
+        "type": "damage",
+        "_id": "nJxpFR4Ul0e2RrL4",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hope": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "2"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hope",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Lose Hope",
+        "img": "icons/magic/death/skull-energy-light-white.webp",
+        "range": "far",
+        "areas": [
+          {
+            "name": "Terrifying Chorus",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "far",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-energy-light-white.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hydra",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "14ae69dc0591b5f1bd8aaf7f7865f11a2945d806"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732334,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "osPQCUkMvy7gbGBC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!osPQCUkMvy7gbGBC"
+}

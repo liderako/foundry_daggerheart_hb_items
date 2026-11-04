@@ -1,0 +1,101 @@
+{
+  "name": "Warding Sphere",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, deal <strong>2d6</strong> magic damage to the attacker. This reaction can't be used again until the @Lookup[@name] refreshes it with their \"Refresh Warding Sphere\" action.</p>",
+    "resource": null,
+    "actions": {
+      "2fHrpaZW9toi6nin": {
+        "type": "damage",
+        "_id": "2fHrpaZW9toi6nin",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 2,
+              "dice": "d6",
+              "bonus": null,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "name": "Damage",
+        "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Wizard",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "78b674a156948eb69c875f90c5b3b7727019f373"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732432,
+    "modifiedTime": 1792929732448,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CHW52EhF2uhOQIXR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CHW52EhF2uhOQIXR"
+}

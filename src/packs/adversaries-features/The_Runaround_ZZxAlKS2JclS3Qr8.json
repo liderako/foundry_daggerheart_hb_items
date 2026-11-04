@@ -1,0 +1,93 @@
+{
+  "name": "The Runaround",
+  "type": "feature",
+  "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+  "system": {
+    "description": "<p>When a PC rolls a 14 or lower on a Presence Roll made against the Merchant, they must mark a Stress.</p>",
+    "resource": null,
+    "actions": {
+      "sTHDvAggf1nUX4Ai": {
+        "type": "damage",
+        "_id": "sTHDvAggf1nUX4Ai",
+        "systemPath": "actions",
+        "description": "<p>When a PC rolls a 14 or lower on a Presence Roll made against the Merchant, they must mark a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": []
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Stress Damage",
+        "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "Tmo1hRQE80ZfkXmk",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.Al3w2CgjfdT3p9ma.Item.Ksdgov6mYg7Og2ys",
+      "hash": "50ee616e77a953cfe14c6e5d0bbd82e059d3c7f1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352490340,
+    "modifiedTime": 1758352509081,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "ZZxAlKS2JclS3Qr8",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ZZxAlKS2JclS3Qr8"
+}

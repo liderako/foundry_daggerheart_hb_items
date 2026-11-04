@@ -1,0 +1,80 @@
+{
+  "name": "Retainers",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon a Knight of the Realm and 1d4 Crossbowmen, who appear at Far range to enforce the Noble’s will.</p>",
+    "resource": null,
+    "actions": {
+      "KVDIPqx2Bme0Qc8V": {
+        "type": "summon",
+        "_id": "KVDIPqx2Bme0Qc8V",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon",
+        "img": "icons/environment/people/infantry-army.webp",
+        "range": "",
+        "triggers": [],
+        "areas": [],
+        "summon": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/infantry-army.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Ambitious Noble",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c210f6629cf1b13c492bfc5ab232db1ea35d16dc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "9nJrRqQiuHw0hXir",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!9nJrRqQiuHw0hXir"
+}

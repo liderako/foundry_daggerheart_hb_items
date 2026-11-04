@@ -1,0 +1,75 @@
+{
+  "name": "More Where That Came From",
+  "type": "feature",
+  "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+  "system": {
+    "description": "<p>Summon three @Compendium[daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR], who appear at Far range.</p>",
+    "resource": null,
+    "actions": {
+      "MCTBsw9lusUdubj0": {
+        "type": "summon",
+        "_id": "MCTBsw9lusUdubj0",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR",
+            "count": "3"
+          }
+        ],
+        "name": "Summon",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Jagged Knife Lieutenant",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "de14612a674d53e53114851fd56b09f483e50191"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732097,
+    "modifiedTime": 1792929732113,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "s4hdEq5ia3R8NPYh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!s4hdEq5ia3R8NPYh"
+}

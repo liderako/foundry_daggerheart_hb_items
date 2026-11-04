@@ -1,0 +1,36 @@
+{
+  "name": "A Room Upstairs",
+  "type": "feature",
+  "img": "icons/environment/settlement/house-city.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>PCs on good terms with the @Lookup[@name] clear <strong>1 additional Stress</strong> when they rest at her tavern. Anyone thrown out by <em>Losing my patience</em> can't rest here.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "1kruAsOYeRmVstgO",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!1kruAsOYeRmVstgO"
+}

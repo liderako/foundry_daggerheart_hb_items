@@ -1,0 +1,51 @@
+{
+  "folder": "R8S2JakvOYajf4cP",
+  "name": "Raw Fish",
+  "type": "consumable",
+  "_id": "0wVHaxcKc8E13drM",
+  "img": "icons/consumables/meat/fish-tail-cut-teal-purple.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c1ad51f66104f7589fab7b90526c52d5fb8793b0"
+    },
+    "mist-age-prices": {
+      "price": 1
+    },
+    "mist-age-weight": {
+      "slots": null
+    },
+    "mist-age-equipment": {
+      "mystery": {
+        "unidentified": false,
+        "name": "",
+        "img": ""
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793813386127,
+    "modifiedTime": 1793813418738,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0wVHaxcKc8E13drM"
+}

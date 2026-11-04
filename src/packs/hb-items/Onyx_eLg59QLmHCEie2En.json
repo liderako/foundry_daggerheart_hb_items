@@ -1,0 +1,44 @@
+{
+  "name": "Onyx",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "8c8c727d5f94c32131b90114a7a8efc2226e2879"
+    }
+  },
+  "_id": "eLg59QLmHCEie2En",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596368,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eLg59QLmHCEie2En"
+}

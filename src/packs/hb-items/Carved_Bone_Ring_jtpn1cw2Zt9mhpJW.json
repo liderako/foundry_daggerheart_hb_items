@@ -1,0 +1,44 @@
+{
+  "name": "Carved Bone Ring",
+  "type": "loot",
+  "img": "icons/equipment/finger/ring-bone-carved.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 2
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "ff9e4b785ce7bb1ee753d68d2473d2ab5c551e41"
+    }
+  },
+  "_id": "jtpn1cw2Zt9mhpJW",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596367,
+    "modifiedTime": 1792786596370,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jtpn1cw2Zt9mhpJW"
+}

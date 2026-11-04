@@ -1,0 +1,48 @@
+{
+  "name": "Gloating Victory",
+  "type": "feature",
+  "img": "icons/magic/death/projectile-skull-flaming-yellow.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Price or an ally scores a critical success, you gain a Fear.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Prince",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5f767c71b018ce3aa1d2bf092c2eb02a25f11b46"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732853,
+    "modifiedTime": 1792929732863,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "lBpz3Uk7LjyZSGVi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lBpz3Uk7LjyZSGVi"
+}

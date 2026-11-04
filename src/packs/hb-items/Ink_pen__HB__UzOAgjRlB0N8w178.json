@@ -1,0 +1,40 @@
+{
+  "name": "Ink pen (HB)",
+  "type": "loot",
+  "img": "icons/commodities/materials/feather-red-.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [],
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "flags": {
+    "scene-packer": {
+      "hash": "59616d4e4b39df7cbff53d892b5e434081f3779e",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.nk21hwdealnrIHGW"
+    },
+    "mist-age-prices": {
+      "price": 0.2
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098504320,
+    "modifiedTime": 1792764556149,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "UzOAgjRlB0N8w178",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UzOAgjRlB0N8w178"
+}

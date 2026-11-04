@@ -1,0 +1,45 @@
+{
+  "name": "Collateral Damage",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Xero's movement can't be hindered, impeded, or affected by anything other than natural terrain. All destructible terrain or obstacles in Xero's path are destroyed when Xero moves through them.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Xero The Castle Killer",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1dc0512c301906539399cbdc7f0f3a24cab6ab74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731714,
+    "modifiedTime": 1792929731732,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "RPrXSTbtnUZTr6xt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!RPrXSTbtnUZTr6xt"
+}

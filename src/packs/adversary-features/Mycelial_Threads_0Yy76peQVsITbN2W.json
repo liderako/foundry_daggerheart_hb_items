@@ -1,0 +1,45 @@
+{
+  "name": "Mycelial Threads",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the PCs deal damage to a fungal creature, <strong>spend a Fear</strong> to send a warning through the mycelial network to others nearby. [[/r 1d4]] fungal adversaries appear at Far range.</p><section id=\"secret-8qDpwaCZYcF3M8bh\" class=\"secret\"><p><em>How coordinated are the fungal infected? Is there a central nexus point of intelligence somewhere in the growth?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/debuff-chains-ropes-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mycelial Overgrowth",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c4544499cf18e3d5bf17bc19c42b904516a312f0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732646,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "0Yy76peQVsITbN2W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0Yy76peQVsITbN2W"
+}

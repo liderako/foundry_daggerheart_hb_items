@@ -1,0 +1,44 @@
+{
+  "name": "Poison Crossbow Bolts (HB)",
+  "type": "consumable",
+  "_id": "IRLUl0sh5leL6z6A",
+  "img": "icons/weapons/ammunition/arrow-broadhead-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Add 1d4 physics damage to your roll.</p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "folder": "Er9HfvLjNty5Fy1T",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "69eda7b31d312e33f46e03f72991949ac35d87c4"
+    },
+    "mist-age-prices": {
+      "price": 0.25
+    },
+    "mist-age-weight": {
+      "slots": 0.05
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792780780885,
+    "modifiedTime": 1792854677108,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IRLUl0sh5leL6z6A"
+}

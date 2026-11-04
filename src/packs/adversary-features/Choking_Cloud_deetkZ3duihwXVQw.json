@@ -1,0 +1,45 @@
+{
+  "name": "Choking Cloud",
+  "type": "feature",
+  "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+  "system": {
+    "description": "<p>Toxic gas fills the area within a Very Close range of the Horde. Non-undead creatures in the area must <strong>mark a Stress</strong> before they make an action roll.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Miasmic Horde",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "621971287dc05bf1685a595f0c0e8ff4d8dc6b62"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732634,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "deetkZ3duihwXVQw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!deetkZ3duihwXVQw"
+}

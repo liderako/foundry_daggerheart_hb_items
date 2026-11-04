@@ -1,0 +1,48 @@
+{
+  "name": "Interlopers!",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>Countdown (4). When a a cultist grows suspicious of a PC's behavior, activate the countdown. It ticks down when a PC draws attention to themselves. When it triggers, the cultists identify the PCs as infiltrators and sound the alarm. Summon 2 cultists per PC, who appear at Close range to apprehend the characters. </p><blockquote><p>How does the cult suss out infiltrators in their midst? What do they do with captured foes?</p></blockquote>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Cult Infiltration",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1b3377953b0a7fe9ce7b386341cdafcb0ae89411"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732857,
+    "modifiedTime": 1792929732864,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "jkIlJyUnNHC9Ctkc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!jkIlJyUnNHC9Ctkc"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Witty Remark",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC rolls a failure while within Close range of the @Lookup[@name], mark a Stress to force them to mark a Stress.</p>",
+    "resource": null,
+    "actions": {
+      "1R5w6u58cxmam8tB": {
+        "type": "damage",
+        "_id": "1R5w6u58cxmam8tB",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Stress",
+        "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Troubadour-Warrior",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f4f48226a7932cdcafb081c5c77702926b5a393a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732546,
+    "modifiedTime": 1792929732552,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "0BJQdpMYm62bQVrM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0BJQdpMYm62bQVrM"
+}

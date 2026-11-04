@@ -1,0 +1,48 @@
+{
+  "name": "Delicious",
+  "type": "feature",
+  "img": "icons/consumables/food/dried-meat-jerky-fish-red.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC marks 2 or more HP from the Butcher's standard attack, the Butcher can clear a HP.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Butcher Demon",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1c633c23607497d4db6977a61f07e7c333af9fed"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732850,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "n3atsIpAt4Y5Z5pl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!n3atsIpAt4Y5Z5pl"
+}

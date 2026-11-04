@@ -1,0 +1,71 @@
+{
+  "name": "Ramp Up",
+  "type": "feature",
+  "img": "icons/weapons/clubs/club-spiked-glowing.webp",
+  "system": {
+    "description": "<p>You must <strong>spend a Fear</strong> to spotlight the Ogre. While spotlighted, they can make their standard attack against all targets within range.</p>",
+    "resource": null,
+    "actions": {
+      "UoZ6vXRXvWYjpJpZ": {
+        "type": "effect",
+        "_id": "UoZ6vXRXvWYjpJpZ",
+        "systemPath": "actions",
+        "description": "<p>You must <strong>spend a Fear</strong> to spotlight the Ogre. While spotlighted, they can make their standard attack against all targets within range.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/weapons/clubs/club-spiked-glowing.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.8Zkqk1jU09nKL2fy.Item.ynuyMl1sMQYINfcQ",
+      "hash": "1faa4697e8eb71ac9f5082be98dcbc962d6138df"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352080613,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "YPmHUxvDt9drYeid",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!YPmHUxvDt9drYeid"
+}

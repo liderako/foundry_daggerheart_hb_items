@@ -1,0 +1,218 @@
+{
+  "name": "Deathlock",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to curse a target within Very Close range with a necrotic Deathlock until the end of the scene. Attacks made by the @Lookup[@name] against a Deathlocked target deal direct damage. The @Lookup[@name] can only maintain one Deathlock at a time.</p>",
+    "resource": null,
+    "actions": {
+      "LUNsI29woLk4m2wo": {
+        "type": "effect",
+        "_id": "LUNsI29woLk4m2wo",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "YznseQP43jNrk07h",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Curse",
+        "img": "icons/magic/unholy/hand-marked-pink.webp",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      },
+      "zLKfwa8a2YBRLKAF": {
+        "type": "attack",
+        "_id": "zLKfwa8a2YBRLKAF",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "<p>Attacks made by the @Lookup[@name] against a Deathlocked target deal direct damage.</p>",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 2,
+              "dice": "d12",
+              "bonus": 1,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": true,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Deathlocked attack",
+        "img": "icons/magic/unholy/hand-marked-pink.webp",
+        "range": "veryClose",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/hand-marked-pink.webp",
+  "effects": [
+    {
+      "name": "Deathlock",
+      "img": "icons/magic/unholy/hand-marked-pink.webp",
+      "transfer": false,
+      "_id": "YznseQP43jNrk07h",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "scene",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Attacks made by the Hunter against a Deathlocked target deal direct damage.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731723,
+        "modifiedTime": 1792929731723,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!hpYtbN8FjBfk5DLO.YznseQP43jNrk07h"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mortal Hunter",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b93f0a7343da0772e031d9b1709224b97e11ae60"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731723,
+    "modifiedTime": 1792929731734,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "hpYtbN8FjBfk5DLO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hpYtbN8FjBfk5DLO"
+}

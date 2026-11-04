@@ -1,0 +1,48 @@
+{
+  "name": "Devour Life",
+  "type": "feature",
+  "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC marks HP from the Locust Swarm's attack, they must also lose a Hope, and the Locust Swarm clears a HP.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demonic Locust Swarm",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d80a644ad0ca93568ea63bd8f1989d68736ffbfa"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732851,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "B4ut4ynxdyni955E",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!B4ut4ynxdyni955E"
+}

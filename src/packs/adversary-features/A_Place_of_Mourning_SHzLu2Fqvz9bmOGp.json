@@ -1,0 +1,45 @@
+{
+  "name": "A Place of Mourning",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>While in the graveyard, a PC has disadvantage on social actions unless they mark a Stress.</p><section id=\"secret-qjLfMPNE6aic5mZt\" class=\"secret\"><p><em>What elements of this place evoke a solemn mood? Is this place well tended or forgotten?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/settlement/graveyard-tombstone-night.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Graveyard",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "002f8ef0b0c3c87d7836629ae88aeba74fe5cfdc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732541,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "SHzLu2Fqvz9bmOGp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!SHzLu2Fqvz9bmOGp"
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Кермісове пиво (HB)",
+  "type": "consumable",
+  "_id": "mnyQDRtngWWQeRXF",
+  "img": "icons/consumables/drinks/bottle-soda.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your Strength until your next rest.</p>",
+    "quantity": 1,
+    "actions": {
+      "Z7ehTbRegQvq74tl": {
+        "type": "effect",
+        "_id": "Z7ehTbRegQvq74tl",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "mnyQDRtngWWQeRXF",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "3PfXBJy0ZjLBDAIn",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Major Bolster Potion",
+      "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
+      "transfer": false,
+      "_id": "3PfXBJy0ZjLBDAIn",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.strength.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792833996738,
+        "modifiedTime": 1792833996738,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!mnyQDRtngWWQeRXF.3PfXBJy0ZjLBDAIn"
+    }
+  ],
+  "folder": "s5jk0eqw5fKD5dXi",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.mnyQDRtngWWQeRXF",
+      "hash": "863b39a38d142e45a675986e5de7d15425c1b1d6"
+    },
+    "mist-age-prices": {
+      "price": 3.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792833996738,
+    "modifiedTime": 1792839010905,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 150000,
+  "_key": "!items!mnyQDRtngWWQeRXF"
+}

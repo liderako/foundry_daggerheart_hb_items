@@ -1,0 +1,49 @@
+{
+  "name": "Crossbow Bolts (HB)",
+  "type": "consumable",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "gmNotes": ""
+  },
+  "_id": "pj0Oux1YEgIoQELc",
+  "img": "assets/hb-icons/MedievalIcons/WeponMedieval/Arrows.png",
+  "effects": [],
+  "folder": "Er9HfvLjNty5Fy1T",
+  "flags": {
+    "scene-packer": {
+      "hash": "db3ad05afe5b1e5e32313a06ff98d34db2b69e08",
+      "sourceId": "Actor.iKyqfmPpJaNQOq3G.Item.pj0Oux1YEgIoQELc"
+    },
+    "item-piles": {
+      "version": "2.4.17",
+      "item": {}
+    },
+    "mist-age-prices": {
+      "price": 0.2
+    },
+    "mist-age-weight": {
+      "slots": 0.05
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792780559275,
+    "modifiedTime": 1792854636351,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 150000,
+  "_key": "!items!pj0Oux1YEgIoQELc"
+}

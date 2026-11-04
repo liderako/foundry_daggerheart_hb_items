@@ -1,0 +1,45 @@
+{
+  "name": "Fearsome Presence",
+  "type": "feature",
+  "system": {
+    "description": "<p>PCs can't spend Hope to use features against the @Lookup[@name].</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Perfected Zombie",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7c389c021f94604f410a2fc7e60f98a02a1361d4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731845,
+    "modifiedTime": 1792929731859,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "PTUuksnhEhLZ9tZn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PTUuksnhEhLZ9tZn"
+}

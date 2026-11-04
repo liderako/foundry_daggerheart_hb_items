@@ -1,0 +1,90 @@
+{
+  "name": "Poison (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>If someone will drink 1 portion of poison he will mark 1 hp and 1 stress and become vulnurable.</p>",
+    "quantity": 2,
+    "actions": {},
+    "consumeOnUse": true,
+    "destroyOnEmpty": true
+  },
+  "effects": [
+    {
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "FCkAMW4YdjuKRcwO",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!NT2kOiVXPPqTy1WP.FCkAMW4YdjuKRcwO"
+    }
+  ],
+  "folder": "cFO6YIHU7xbE6L65",
+  "flags": {
+    "scene-packer": {
+      "hash": "34cd46813dacf94fb5910c5b812491d9d5f40bb5",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.88A5cy3gOsX6gWZZ"
+    },
+    "mist-age-prices": {
+      "price": 3.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1774038646973,
+    "modifiedTime": 1792834263066,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "NT2kOiVXPPqTy1WP",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!NT2kOiVXPPqTy1WP"
+}

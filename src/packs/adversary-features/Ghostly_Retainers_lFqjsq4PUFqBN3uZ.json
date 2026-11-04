@@ -1,0 +1,80 @@
+{
+  "name": "Ghostly Retainers",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Once per scene, <strong>spend a Fear</strong> to summon 2 Spectral Archers and 2 Spectral Guardians, who appear at Close range.</p>",
+    "resource": null,
+    "actions": {
+      "8jffGhiYAjJd31bZ": {
+        "type": "summon",
+        "_id": "8jffGhiYAjJd31bZ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "name": "Summon",
+        "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+        "range": "",
+        "triggers": [],
+        "areas": [],
+        "summon": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Knight",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a40cf848777d2136be550eddfba902f913c9a25e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732444,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "lFqjsq4PUFqBN3uZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lFqjsq4PUFqBN3uZ"
+}

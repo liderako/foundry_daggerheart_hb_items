@@ -1,0 +1,38 @@
+{
+  "name": "In Your Face",
+  "type": "feature",
+  "img": "icons/creatures/mammals/rodent-rat-green.webp",
+  "system": {
+    "description": "<p>All targets within Melee range have disadvantage on attacks against targets other than the Swarm.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "CYtq5UAUTjmZFoM5",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.qNgs3AbLyJrY19nt.Item.0O6ckwZE34RBnjpB",
+      "hash": "1727d81fb50228c730a518bfd7b1060c9cc2eb40"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758351997445,
+    "modifiedTime": 1758352442019,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "kZ5mPL1ejbOxmMEG",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kZ5mPL1ejbOxmMEG"
+}

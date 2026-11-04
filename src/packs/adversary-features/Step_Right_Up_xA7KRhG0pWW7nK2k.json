@@ -1,0 +1,48 @@
+{
+  "name": "Step Right Up",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Offer a (rigged) game of skill to a PC. The PC can wager coins (up to a bag) and make an appropriate action roll, with the following results:</p><ul><li><p>Critical Success: Perfect score. The carnie begrudgingly hands over double the PC's wager, but bans them from further games.</p></li><li><p>Success with Hope: Winning score. The carnie gives the PC returns their wager plus an extra half, and hypes them up to keep playing.</p></li><li><p>Success with Fear: Should have won, but the game was rigged. The carnie says better luck next time.</p></li><li><p>Failure with Hope: Almost a win. The carnie eggs on the PC and returns half their wager to tempt them to keep playing.</p></li><li><p>Failure with Fear: Total loss. The carnie offers the game to another PC.</p></li></ul><blockquote><p>What games are setup at the carnival? What skills do they test, and how are they rigged?</p></blockquote>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Dark Carnival",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7ab0b860bf9fc49142aafa2b2d3268a1972d1b76"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732914,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "xA7KRhG0pWW7nK2k",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!xA7KRhG0pWW7nK2k"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Alarm!",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon a Sergeant and <strong>1d4</strong> Men-at-Arms, who appear at Far range to protect the @Lookup[@name] and their supply depot</p>",
+    "resource": null,
+    "actions": {
+      "tDufoZV8Sj3RNP0i": {
+        "type": "summon",
+        "_id": "tDufoZV8Sj3RNP0i",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "name": "Summon",
+        "img": "icons/tools/instruments/bell-silver.webp",
+        "range": "",
+        "triggers": [],
+        "areas": [],
+        "summon": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/tools/instruments/bell-silver.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Quartermaster",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e973ab5ff4596fb3db9afd9bc1eb1d8c069ebf63"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732437,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "MB2b8aOyvmykYRsY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!MB2b8aOyvmykYRsY"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "A New Age is Dawning",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC rolls with Fear on an action roll targeting the Conqueror, gain an extra Fear.</p>",
+    "resource": null,
+    "actions": {
+      "8LboPyuQ0TEyBoJv": {
+        "type": "healing",
+        "_id": "8LboPyuQ0TEyBoJv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "fear": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "fear",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Gain Fear",
+        "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Destined Conqueror",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "db433b0483328fef040f54d755a31f8a21e60e21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732437,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "OKfdEeC9I4Z5JFWB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!OKfdEeC9I4Z5JFWB"
+}

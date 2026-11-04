@@ -1,0 +1,36 @@
+{
+  "name": "Valorstone (HB)",
+  "type": "loot",
+  "_id": "7yywua9TmQ4WP5WH",
+  "img": "icons/commodities/treasure/token-engraved-spiral-grey-white.webp",
+  "system": {
+    "description": "<p>You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature.</p><p><strong>Resilient</strong>: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556015,
+    "modifiedTime": 1792764556015,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7yywua9TmQ4WP5WH"
+}

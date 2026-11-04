@@ -1,0 +1,45 @@
+{
+  "name": "Wind Lord",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>While the @Lookup[@name] is flying, attacks against it is made with disadvantage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/birds/raptor-hawk-flying.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Atototl",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "771a36c25fcf5e7317ba923d6f7d7932e303cbfe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732433,
+    "modifiedTime": 1792929732449,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "0tjeCrPlpwgkkdyJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0tjeCrPlpwgkkdyJ"
+}

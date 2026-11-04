@@ -1,0 +1,45 @@
+{
+  "name": "Trophy Hunter",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Titan defeats a PC, the Titan takes the PC's most valuable possession as a trophy.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/treasure/brooch-gold-ruby.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Frost Titan",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7682d2fe5425952d0ff792bbc316f7499b28243d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732340,
+    "modifiedTime": 1792929732349,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "X8s4s8vrZddKHzch",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!X8s4s8vrZddKHzch"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Ignite (Wildfire Sorcerer)",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC marks HP from the Sorcerer’s damage, you can <strong>spend a Fear</strong> to light the target <em>On Fire</em> until they are doused or put out the fire with a successful Finesse roll. When a creature acts while <em>On Fire</em> they must take an extra <strong>3d8</strong> direct magical damage if they are still <em>On Fire</em> at the end of their action.</p>",
+    "resource": null,
+    "actions": {
+      "RIshf26wL6y33WCv": {
+        "type": "damage",
+        "_id": "RIshf26wL6y33WCv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d8",
+              "bonus": null,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": true,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Damage",
+        "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Wildfire Sorcerer",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a7b57a0d465eb98f223d96c4368fec0627ac62d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732448,
+    "modifiedTime": 1792929732453,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "odfgskmNxSV7qmMm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!odfgskmNxSV7qmMm"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": "qnwpCj3CREvMYfEV",
+  "name": "Support",
+  "color": null,
+  "sorting": "a",
+  "_id": "WgWCStHMGIylpOl3",
+  "description": "",
+  "sort": 1000000,
+  "flags": {
+    "scene-packer": {
+      "hash": "9f632eab9dbfc295985309906d14f37da8882230"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352689954,
+    "modifiedTime": 1758352691912,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!WgWCStHMGIylpOl3"
+}

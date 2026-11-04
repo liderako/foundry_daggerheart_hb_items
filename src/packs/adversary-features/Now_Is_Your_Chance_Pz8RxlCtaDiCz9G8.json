@@ -1,0 +1,48 @@
+{
+  "name": "Now Is Your Chance",
+  "type": "feature",
+  "img": "icons/magic/movement/portal-vortex-orange.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spotlight an ally within Close range. They have advantage on all rolls during this spotlight.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Devil Puppetmaster",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "468193cc21659c98bf728cbd3f857de930b98599"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732859,
+    "modifiedTime": 1792929732864,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "Pz8RxlCtaDiCz9G8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Pz8RxlCtaDiCz9G8"
+}

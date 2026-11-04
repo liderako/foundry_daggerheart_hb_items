@@ -1,0 +1,83 @@
+{
+  "name": "Colony",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark any number of Stress to have the Sporophore summon an equal number of @UUID[Compendium.daggerheart.adversaries.Actor.55oYzFQRmrXCqNxn]{Fungispunj Sporelings} within Close range.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "jPc8q0SPDQeBL7fx": {
+        "type": "effect",
+        "_id": "jPc8q0SPDQeBL7fx",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": true,
+            "key": "stress",
+            "value": 1,
+            "step": 1,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/nature/mushrooms-fire-glow-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fungispunj Sporophore",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d6e360267c54ef9f0b9e4b2199f28cbf454fd9a0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731714,
+    "modifiedTime": 1792929731732,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "QhGs6w5hxORsYBmn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!QhGs6w5hxORsYBmn"
+}

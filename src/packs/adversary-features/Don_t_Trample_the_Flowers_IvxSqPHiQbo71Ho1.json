@@ -1,0 +1,121 @@
+{
+  "name": "Don't Trample the Flowers",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC rolls to move a Far distance through the graveyard, they can choose to move carefully and have disadvantage on the roll, or you gain 2 Fear.</p><section id=\"secret-yniGTfYx2UuP9aAF\" class=\"secret\"><p><em>Are there particular graves that are most attended to? What unique shapes and sizes of gravestone present an obstacle?</em></p></section>",
+    "resource": null,
+    "actions": {
+      "NRwZedE7lxNOSo3G": {
+        "type": "healing",
+        "_id": "NRwZedE7lxNOSo3G",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "fear": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "2"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "fear",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Gain Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/settlement/graveyard.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Graveyard",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8ff2409d1dbb7a75618d93c145a9800fe2f5cfbe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732636,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "IvxSqPHiQbo71Ho1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!IvxSqPHiQbo71Ho1"
+}

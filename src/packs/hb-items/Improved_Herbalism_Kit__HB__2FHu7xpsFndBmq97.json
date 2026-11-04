@@ -1,0 +1,40 @@
+{
+  "name": "Improved Herbalism Kit (HB)",
+  "type": "loot",
+  "img": "icons/tools/laboratory/mortar-powder-green.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>+3 to herbalism checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 24
+    },
+    "scene-packer": {
+      "hash": "29e872d7ee7377e81309b0df6358887ccd0c20a1"
+    }
+  },
+  "_id": "2FHu7xpsFndBmq97",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185242,
+    "modifiedTime": 1792863185244,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2FHu7xpsFndBmq97"
+}

@@ -1,0 +1,224 @@
+{
+  "_id": "PdlFQRHCHGP738fB",
+  "name": "Fine Kermis Health Tonic (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/drinks/bottle-soda.webp",
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2000027,
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Clear 1d4+1 HP. You gain a +1 bonus to your Strength until your next rest.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "pHPETe8XbMnPOOP9": {
+        "type": "healing",
+        "_id": "pHPETe8XbMnPOOP9",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "PdlFQRHCHGP738fB",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "wvmo09YSvjKg43jB",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/drinks/bottle-soda.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1d4+1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "PffAIVQCMsup9mV0",
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791382066,
+        "modifiedTime": 1793791382066,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!PdlFQRHCHGP738fB.PffAIVQCMsup9mV0"
+    },
+    {
+      "_id": "wvmo09YSvjKg43jB",
+      "name": "Kermis Beer",
+      "img": "icons/consumables/drinks/bottle-soda.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "conditionals": [],
+        "stacking": null,
+        "targetDispositions": [],
+        "changes": [
+          {
+            "key": "system.traits.strength.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You gain a +1 bonus to your Strength until your next rest.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791382066,
+        "modifiedTime": 1793791382066,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!PdlFQRHCHGP738fB.wvmo09YSvjKg43jB"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "533e69b01ed12c9f60d5e23d43ad3bb5463369ee"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793791382066,
+    "modifiedTime": 1793792670356,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PdlFQRHCHGP738fB"
+}

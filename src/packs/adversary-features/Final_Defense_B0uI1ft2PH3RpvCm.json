@@ -1,0 +1,73 @@
+{
+  "name": "Final Defense",
+  "type": "feature",
+  "img": "icons/magic/death/skull-fire-white-yellow.webp",
+  "system": {
+    "description": "<p>When the Guardian takes damage, <strong>spend 2 Fear</strong> to replace them with the @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.FcfCU6hiu7cxaj1k]{Undying Saint} and immediately spotlight them.</p>",
+    "actions": {
+      "v3buVXdcP0rWOxtT": {
+        "type": "summon",
+        "_id": "v3buVXdcP0rWOxtT",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.FcfCU6hiu7cxaj1k",
+            "count": "1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Decrepit Guardian",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d545cccb847ee71caf175fda3fa79ecdb1af25c5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732640,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "B0uI1ft2PH3RpvCm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!B0uI1ft2PH3RpvCm"
+}

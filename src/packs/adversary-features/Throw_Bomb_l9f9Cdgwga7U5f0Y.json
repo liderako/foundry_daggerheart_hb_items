@@ -1,0 +1,374 @@
+{
+  "name": "Throw Bomb",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to throw a bomb at a point within Close range, which explodes and fills the air within Very Close range:</p><ul><li><p><em><strong>Smoke.</strong></em> All targets within the area are <em>Dizzied</em>. <em>Dizzied</em> targets have disadvantage on their next action roll, then clear the condition.</p></li><li><p><em><strong>Fire.</strong></em> All targets within the area take <strong>4d8+3</strong> direct physical damage and are lit <em>On Fire</em> until they are doused or put out the fire with a successful Finesse roll. When a creature acts while <em>On Fire</em> they must take an extra <strong>3d8</strong> direct physical damage if they are still <em>On Fire</em> at the end of their action.</p></li><li><p><em><strong>Glue.</strong></em> All targets within the area must succeed on an Agility reaction roll or be <em>Restrained</em> by glue until freed with a successful Finesse or Strength Roll.</p></li></ul>",
+    "resource": null,
+    "actions": {
+      "sp7RfJRQJsEUm09m": {
+        "type": "effect",
+        "_id": "sp7RfJRQJsEUm09m",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "yP4ot8VqS56RnxnE",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smoke Bomb",
+        "img": "icons/magic/air/fog-gas-smoke-brown.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      },
+      "7HPOSsVaWSmij2zi": {
+        "type": "damage",
+        "_id": "7HPOSsVaWSmij2zi",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 4,
+              "dice": "d8",
+              "bonus": 3,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": true,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "PwU0ycM3PZ7a5H0I",
+            "onSave": false
+          }
+        ],
+        "name": "Fire Bomb",
+        "img": "icons/weapons/thrown/bomb-fuse-red-black.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      },
+      "e3UspAzGnZ4aoX9P": {
+        "type": "attack",
+        "_id": "e3UspAzGnZ4aoX9P",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "ulmAfKq3ber4BeFe",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Glue Bomb",
+        "img": "icons/weapons/thrown/bomb-fuse-red-black.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/weapons/thrown/bomb-fuse-red-black.webp",
+  "effects": [
+    {
+      "name": "Dizzy",
+      "img": "icons/magic/control/silhouette-hold-change-green.webp",
+      "origin": "Compendium.daggerheart.adversaries.Actor.h5RuhzGL17dW5FBT.Item.lAmiK8wVxjyHwKlp",
+      "transfer": false,
+      "_id": "yP4ot8VqS56RnxnE",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Dizzied targets have disadvantage on their next action roll, then clear the condition.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732538,
+        "modifiedTime": 1792929732538
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!l9f9Cdgwga7U5f0Y.yP4ot8VqS56RnxnE"
+    },
+    {
+      "name": "On Fire",
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "origin": "Actor.8vrN4ckepRGUZ0qT.Item.CFzewOXaQqzB2w7D",
+      "transfer": false,
+      "_id": "PwU0ycM3PZ7a5H0I",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>lit On Fire until they are doused or put out the fire with a successful Finesse roll. When a creature acts while On Fire they must take an extra 3d8 direct physical damage if they are still On Fire at the end of their action.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "burning"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732538,
+        "modifiedTime": 1792929732538
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!l9f9Cdgwga7U5f0Y.PwU0ycM3PZ7a5H0I"
+    },
+    {
+      "name": "Glued",
+      "img": "icons/magic/control/orb-web-hold.webp",
+      "origin": "Actor.8vrN4ckepRGUZ0qT.Item.CFzewOXaQqzB2w7D",
+      "transfer": false,
+      "_id": "ulmAfKq3ber4BeFe",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>All targets within the area must succeed on an Agility reaction roll or be Restrained by glue until freed with a successful Finesse or Strength Roll.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrain"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732538,
+        "modifiedTime": 1792929732538
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!l9f9Cdgwga7U5f0Y.ulmAfKq3ber4BeFe"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Guerrilla",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "750ca9fb75b4108136bf74e7be0ce874dba3031b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732538,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "l9f9Cdgwga7U5f0Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!l9f9Cdgwga7U5f0Y"
+}

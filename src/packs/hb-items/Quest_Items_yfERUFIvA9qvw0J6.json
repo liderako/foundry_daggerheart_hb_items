@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Quest Items",
+  "color": null,
+  "sorting": "a",
+  "_id": "yfERUFIvA9qvw0J6",
+  "description": "",
+  "sort": 900000,
+  "flags": {
+    "scene-packer": {
+      "hash": "221a80a3756fbf15666dc3e6a03a7621de443670"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098711833,
+    "modifiedTime": 1774039248263,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!yfERUFIvA9qvw0J6"
+}

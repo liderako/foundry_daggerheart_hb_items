@@ -1,0 +1,137 @@
+{
+  "name": "Nightmare Tableau",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to trap a target within Far range in a powerful illusion of their worst fears. While trapped, the target is <em>Restrained</em> and <em>Vulnerable</em> until they break free, ending both conditions, with a successful Instinct Roll.</p>",
+    "resource": null,
+    "actions": {
+      "mXWOpXcYALYqicTw": {
+        "type": "effect",
+        "_id": "mXWOpXcYALYqicTw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "Q99saHj6NOY2PSXf",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Generic",
+        "img": "icons/magic/death/skull-energy-light-white.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-energy-light-white.webp",
+  "effects": [
+    {
+      "name": "Nightmare Tableau",
+      "img": "icons/magic/death/skull-energy-light-white.webp",
+      "transfer": false,
+      "_id": "Q99saHj6NOY2PSXf",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": "<p>Until you break free with a successful Instinct Roll.</p>"
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p><em>Restrained</em> and <em>Vulnerable</em> until you break free, ending both conditions, with a successful Instinct Roll.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable",
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732100,
+        "modifiedTime": 1792929732100,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!FUOSU4sfbI7l3erS.Q99saHj6NOY2PSXf"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fallen Sorcerer",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "37bce1c1e44038320a61ee4c70697ec780732dfb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732100,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "FUOSU4sfbI7l3erS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!FUOSU4sfbI7l3erS"
+}

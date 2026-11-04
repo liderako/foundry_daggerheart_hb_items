@@ -1,0 +1,45 @@
+{
+  "name": "One on One",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the duel is arranged, designate one PC and one adversary in the scene to be the duel participants. The Difficulty of this environment equals that of the participating adversary.</p><hr><p><em>What are the stakes of the duel? Who enforces the rules?</em></p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fateful Duel",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "9f88520a7e6d076e8cc6961ae1e1b29c4591089d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732530,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "neE4TjZcf1g5gzR7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!neE4TjZcf1g5gzR7"
+}

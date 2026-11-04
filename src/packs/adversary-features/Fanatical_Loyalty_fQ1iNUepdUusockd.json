@@ -1,0 +1,83 @@
+{
+  "name": "Fanatical Loyalty",
+  "type": "feature",
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "system": {
+    "description": "<p>When the Familiar is within Very Close range of a vampire who would take damage, you can <strong>mark a Stress</strong> to move into Melee range of them and take the damage instead.</p>",
+    "actions": {
+      "2k3y51h7qntdVGeK": {
+        "type": "effect",
+        "_id": "2k3y51h7qntdVGeK",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Familiar",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7e2dd7d93342048a3db1bf70a88ae7421a5edd52"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732639,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "fQ1iNUepdUusockd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fQ1iNUepdUusockd"
+}

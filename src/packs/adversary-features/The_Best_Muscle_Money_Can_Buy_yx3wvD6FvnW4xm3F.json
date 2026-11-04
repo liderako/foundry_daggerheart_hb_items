@@ -1,0 +1,84 @@
+{
+  "name": "The Best Muscle Money Can Buy",
+  "type": "feature",
+  "system": {
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon 1d4+1 Tier 1 adversaries, who appear at Far range, to enforce the @Lookup[@name]'s will.</p>",
+    "resource": null,
+    "actions": {
+      "9NA6vgfsv0y2tX9v": {
+        "type": "effect",
+        "_id": "9NA6vgfsv0y2tX9v",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/environment/people/charge.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/charge.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Merchant Baron",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b1b4ed0ff86014b3e45b138527069be51d977994"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732335,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "yx3wvD6FvnW4xm3F",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yx3wvD6FvnW4xm3F"
+}

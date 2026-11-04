@@ -1,0 +1,101 @@
+{
+  "name": "Wards",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] is resistant to magic damage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "effects": [
+    {
+      "name": "Wards",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.magical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "4rj6PM0AGrrlbxSc",
+      "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Skull is resistant to magic damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732433,
+        "modifiedTime": 1792929732433,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!0lLTnhC8fN7QaCLG.4rj6PM0AGrrlbxSc"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Chaos Skull",
+      "source": "official",
+      "aliases": [
+        "Arcane Form"
+      ]
+    },
+    "scene-packer": {
+      "hash": "2475a8f8a1ce7c8d9f10435628e342f6f0f5df19"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732433,
+    "modifiedTime": 1792929732449,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "0lLTnhC8fN7QaCLG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0lLTnhC8fN7QaCLG"
+}

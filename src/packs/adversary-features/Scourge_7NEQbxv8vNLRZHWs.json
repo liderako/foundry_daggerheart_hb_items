@@ -1,0 +1,48 @@
+{
+  "name": "Scourge",
+  "type": "feature",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC deals damage to the Fury, give them a vengeance token. The Fury has advantage on attacks against targets with a vengeance token.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Winged Fury",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f832f4bcb9ce56c88f2ef93fe9a8507c79407dd2"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732912,
+    "modifiedTime": 1792929732918,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "7NEQbxv8vNLRZHWs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!7NEQbxv8vNLRZHWs"
+}

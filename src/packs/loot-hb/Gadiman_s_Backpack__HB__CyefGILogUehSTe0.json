@@ -1,0 +1,141 @@
+{
+  "name": "Gadiman's Backpack (HB)",
+  "type": "loot",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "system": {
+    "description": "<p>Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel.</p><p>+10 slots of carrying capacity.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "actions": {
+      "ERENWVE5XQzIUQfz": {
+        "type": "effect",
+        "_id": "ERENWVE5XQzIUQfz",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "itemId": null,
+            "key": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Hope",
+        "range": ""
+      }
+    }
+  },
+  "_id": "CyefGILogUehSTe0",
+  "effects": [
+    {
+      "name": "Backpack",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "description": "<p>+10 slots of carrying capacity.</p>",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.mist-age-weight.bonusSlots",
+            "type": "add",
+            "value": 10,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "QdfZlYF8pxJGP8Mf",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793007862628,
+        "modifiedTime": 1793007862628,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!CyefGILogUehSTe0.QdfZlYF8pxJGP8Mf"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-weight": {
+      "wearable": true
+    },
+    "mist-age-equipment": {
+      "wearable": true,
+      "container": true,
+      "durability": {
+        "enabled": true,
+        "max": 4,
+        "value": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556015,
+    "modifiedTime": 1793016353023,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!CyefGILogUehSTe0"
+}

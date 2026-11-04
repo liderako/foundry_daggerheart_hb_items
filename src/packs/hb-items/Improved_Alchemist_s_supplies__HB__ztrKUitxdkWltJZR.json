@@ -1,0 +1,40 @@
+{
+  "name": "Improved Alchemist's supplies (HB)",
+  "type": "loot",
+  "img": "icons/tools/laboratory/bowl-liquid-gold.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>They typically include <strong>two glass beakers, a metal frame for heating, a glass stirring rod, a mortar and pestle, and a pouch of ingredients like salt, powdered iron, and purified water</strong>.</p><p>+3 to alchemy checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 50
+    },
+    "scene-packer": {
+      "hash": "0f6aa35ad2ef6800d46c35b87dd50c23915b4e19"
+    }
+  },
+  "_id": "ztrKUitxdkWltJZR",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185241,
+    "modifiedTime": 1792863185244,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ztrKUitxdkWltJZR"
+}

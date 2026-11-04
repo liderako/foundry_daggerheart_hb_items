@@ -1,0 +1,99 @@
+{
+  "name": "Sand in the Eyes",
+  "type": "feature",
+  "img": "icons/magic/earth/projectile-stone-ball-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Mark a Stress</strong> to throw a handful of sand, ash, or pepper into the face of a target within Melee range. The target must succeed on an <strong>Instinct Reaction Roll (14)</strong> or become <em>Vulnerable</em> until the end of their next turn. The @Lookup[@name] can then move anywhere within Very Close range without provoking reactions.</p>",
+    "actions": {
+      "sandEyesSave001a": {
+        "_id": "sandEyesSave001a",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Roll Save",
+        "img": "icons/magic/earth/projectile-stone-ball-brown.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "range": "melee",
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          }
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": 14,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "Ir7V68jSS87qbFYJ",
+  "effects": [],
+  "folder": "KqTWLXcN8gY0gUuN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!Ir7V68jSS87qbFYJ"
+}

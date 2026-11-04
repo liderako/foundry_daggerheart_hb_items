@@ -1,0 +1,135 @@
+{
+  "name": "Quick Escape",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the Ninja has marked 4 of their HP, you can <strong>spend a Fear</strong> to have them drop a smoke bomb at their location. All targets within Very Close range of the Ninja become <em>Dizzied</em>. <em>Dizzied</em> targets have disadvantage on their next action roll, then clear the condition. The Ninja becomes <em>Hidden</em> and immediately moves a Far distance.</p>",
+    "resource": null,
+    "actions": {
+      "jhXgCocp86m7KgMQ": {
+        "type": "effect",
+        "_id": "jhXgCocp86m7KgMQ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "cK7fgUGCZqfHhTbV",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drop Smoke",
+        "img": "icons/magic/air/air-smoke-casting.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/air/air-smoke-casting.webp",
+  "effects": [
+    {
+      "name": "Dizzy",
+      "img": "icons/magic/air/air-smoke-casting.webp",
+      "origin": "Actor.T4ZU7pwG018Rnz2h.Item.PhZJvDxp6BNiQAZn",
+      "transfer": false,
+      "_id": "cK7fgUGCZqfHhTbV",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p><em>Dizzied</em> targets have disadvantage on their next action roll, then clear the condition. </p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732534,
+        "modifiedTime": 1792929732534
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W8aePgI7ryjDbiJM.cK7fgUGCZqfHhTbV"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Master Ninja",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "69f28d8d476c0369d91cd16ebd924456e325b058"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732534,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "W8aePgI7ryjDbiJM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!W8aePgI7ryjDbiJM"
+}

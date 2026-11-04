@@ -1,0 +1,75 @@
+{
+  "name": "Grow Saplings",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to grow three @UUID[Compendium.daggerheart.adversaries.Actor.o63nS0k3wHu6EgKP]{Treant Sapling Minions}, who appear at Close range and immediately take the spotlight.</p>",
+    "resource": null,
+    "actions": {
+      "R84DdS0OIx2cUt1w": {
+        "type": "summon",
+        "_id": "R84DdS0OIx2cUt1w",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.o63nS0k3wHu6EgKP",
+            "count": "3"
+          }
+        ],
+        "name": "Spend Fear",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/nature/tree-animated-stump-mushrooms-teal.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dryad",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0c806ef2da062b316b5da8e198c3f41ce86ec87c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731978,
+    "modifiedTime": 1792929731997,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "4CVJnGTDuQwtpnnI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!4CVJnGTDuQwtpnnI"
+}

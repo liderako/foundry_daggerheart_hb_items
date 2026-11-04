@@ -1,0 +1,168 @@
+{
+  "name": "Zombie Toss",
+  "type": "feature",
+  "img": "icons/magic/acid/dissolve-arm-flesh.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to pull a @UUID[Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT]{Failed Experiment} from the Giant and throw it at a target within Far range. The target must succeed on an Agility Reaction Roll or take <strong>3d6+5</strong> physical damage. The Failed Experiment then lands within Melee range of the target.</p>",
+    "actions": {
+      "ZKrAcwUAqqjgGu4d": {
+        "_id": "ZKrAcwUAqqjgGu4d",
+        "type": "attack",
+        "name": "Zombie Toss",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "range": "far",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      },
+      "UegcCr2rd1hsGxw0": {
+        "type": "summon",
+        "_id": "UegcCr2rd1hsGxw0",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT",
+            "count": "1"
+          }
+        ],
+        "name": "",
+        "range": "far",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Writhing Giant",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e9adf77ec6dc916e3569e46f5a789ee98338daf4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732751,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "49j1EMyzhi52PUW0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!49j1EMyzhi52PUW0"
+}

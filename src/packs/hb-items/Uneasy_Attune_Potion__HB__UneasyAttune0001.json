@@ -1,0 +1,148 @@
+{
+  "name": "Uneasy Attune Potion (HB)",
+  "type": "consumable",
+  "_id": "UneasyAttune0001",
+  "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your next Instinct Roll. When you drink it, the GM gains a Fear.</p>",
+    "quantity": 1,
+    "actions": {
+      "3oDa1mPblS7WdwU2": {
+        "type": "effect",
+        "_id": "3oDa1mPblS7WdwU2",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "UneasyAttune0001",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "ePUowUds89PtDi0a",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Attune Potion",
+      "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
+      "transfer": false,
+      "_id": "ePUowUds89PtDi0a",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.instinct.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793799408079,
+        "modifiedTime": 1793799408079,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!UneasyAttune0001.ePUowUds89PtDi0a"
+    }
+  ],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2300000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 2.5
+    },
+    "mist-age-alchemy": {
+      "onUse": {
+        "fear": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "6032805490e58ff8aa27ebdfd14d2e438f8ea913"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793799408079,
+    "modifiedTime": 1793799584294,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UneasyAttune0001"
+}

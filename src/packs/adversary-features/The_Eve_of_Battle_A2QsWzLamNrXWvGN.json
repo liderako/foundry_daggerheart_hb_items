@@ -1,0 +1,45 @@
+{
+  "name": "The Eve of Battle",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Consequence Countdown (6).</em> When the players entreat with the general before a battle, activate the countdown. When it triggers, the time for talk is over, and the general dismisses the players. When the battle begins, you gain Fear equal to the number of PCs.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/settlement/tent-flag.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "General",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "48fa7e5896d51fc6534512ed8a8040f5bd3287ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732537,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "A2QsWzLamNrXWvGN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!A2QsWzLamNrXWvGN"
+}

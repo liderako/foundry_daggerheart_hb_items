@@ -1,0 +1,45 @@
+{
+  "name": "Showing Off",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a PC in this environment makes an action roll, they can <strong>mark a Stress</strong> to perform a flashy maneuver. On a success, tick down the Crowd Favorite countdown.</p><hr><p><em>What extra flair does the character put into this action? How does doing so make it more strenuous?</em></p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Arena",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "55517e1c235d129528e1bf4fc2e970e1d89c5137"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732536,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "BxniXZMk5V98GPVT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BxniXZMk5V98GPVT"
+}

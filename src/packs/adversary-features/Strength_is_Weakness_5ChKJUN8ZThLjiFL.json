@@ -1,0 +1,123 @@
+{
+  "name": "Strength is Weakness",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC rolls with Fear, spend a Fear to Sap them of their prowess in the trait used for the roll, until they spend 3 Hope or roll with Hope using the trait. A Sapped target inverts their trait modifier for the chosen trait (for example, a +3 becomes a -3). </p><blockquote><p>What is a time when you used this trait cruelly or selfishly?</p></blockquote>",
+    "actions": {
+      "ZrWTgFFuS85Jw5Po": {
+        "type": "effect",
+        "_id": "ZrWTgFFuS85Jw5Po",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      },
+      "ayy23gjSDS6SMR8k": {
+        "type": "effect",
+        "_id": "ayy23gjSDS6SMR8k",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend 3 Hope",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Torture Pit",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7d29970bca0d50f8ac9eff57af3715ce8356eb9c"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732914,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "5ChKJUN8ZThLjiFL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!5ChKJUN8ZThLjiFL"
+}

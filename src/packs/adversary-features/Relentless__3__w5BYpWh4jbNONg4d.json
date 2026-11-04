@@ -1,0 +1,45 @@
+{
+  "name": "Relentless (3)",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Entombed Cat Beast",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d40537351218e04fb060fb6de0ff0099087d4a9f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732209,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "w5BYpWh4jbNONg4d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!w5BYpWh4jbNONg4d"
+}

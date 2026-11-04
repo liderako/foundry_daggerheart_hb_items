@@ -1,0 +1,84 @@
+{
+  "name": "Inspire Courage",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When an ally within Close range make an attack, <strong>mark a Stress</strong> to add a d6 to their roll. If the attack is successful, also add the result of the d6 to the damage roll.</p>",
+    "resource": null,
+    "actions": {
+      "VvxmzPcnxhBzym7g": {
+        "type": "effect",
+        "_id": "VvxmzPcnxhBzym7g",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Skald",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5b2d86bedbdd13cf6493c88f8f1c4a2604cd169e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732448,
+    "modifiedTime": 1792929732453,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "QvCNjoaFHQYB7kD1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!QvCNjoaFHQYB7kD1"
+}

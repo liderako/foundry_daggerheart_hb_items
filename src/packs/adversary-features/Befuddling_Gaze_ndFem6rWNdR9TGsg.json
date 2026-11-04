@@ -1,0 +1,83 @@
+{
+  "name": "Befuddling Gaze",
+  "type": "feature",
+  "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+  "system": {
+    "description": "<p>When a PC within Far range makes a Spellcast Roll, <strong>spend a Fear</strong> to make them roll with disadvantage. On a failure, the PC must also mark a Stress.</p>",
+    "actions": {
+      "IsSNEX8EIupnnrUm": {
+        "type": "effect",
+        "_id": "IsSNEX8EIupnnrUm",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Bone Naga",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f35c3f007edd7b8587a9edf4beef8969a7a21f85"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732546,
+    "modifiedTime": 1792929732552,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "ndFem6rWNdR9TGsg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ndFem6rWNdR9TGsg"
+}

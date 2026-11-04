@@ -1,0 +1,153 @@
+{
+  "name": "\"It's Here…\"",
+  "type": "feature",
+  "system": {
+    "featureForm": "evolution",
+    "description": "<p>When the Titan has marked half its HP, they manifests in their full form, clearing all HP and losing the \"Merely a Projection\" feature. While the Titan is in this form, a creature who marks HP from the Titan's standard attack must mark an additional HP.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "Y2qht1TORFJFgqx8": {
+        "type": "evolution",
+        "_id": "Y2qht1TORFJFgqx8",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "evolution": {
+          "active": false,
+          "evolutionFeatures": {
+            "f5nHfI6lZtudtZ3j": "unevolved"
+          },
+          "resourceRefresh": {
+            "hitPoints": true,
+            "stress": false
+          },
+          "tokenOverride": {
+            "tokenImage": null,
+            "tokenScale": 1,
+            "dynamicToken": {
+              "image": null,
+              "scale": 1,
+              "ring": "#4d086d",
+              "background": null,
+              "effects": [
+                "RING_PULSE",
+                "BKG_WAVE"
+              ]
+            }
+          }
+        },
+        "effects": [
+          {
+            "_id": "thBjAMP3WaNYxyJp",
+            "onSave": false
+          }
+        ],
+        "name": "",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
+  "effects": [
+    {
+      "name": "It's Here…",
+      "disabled": false,
+      "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
+      "description": "<p>While the Titan is in this form, a creature who marks HP from the Titan's standard attack must mark an additional HP.</p>",
+      "transfer": false,
+      "statuses": [],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "thBjAMP3WaNYxyJp",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731579,
+        "modifiedTime": 1792929731579,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!CARHAOIEatJMOhes.thBjAMP3WaNYxyJp"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Cephilith Titan",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "18415177e9124dd056f3874394aedcb7b160b46e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731579,
+    "modifiedTime": 1792929731604,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CARHAOIEatJMOhes",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CARHAOIEatJMOhes"
+}

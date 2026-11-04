@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "Potions",
+  "color": null,
+  "sorting": "a",
+  "_id": "cFO6YIHU7xbE6L65",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "14296ee2331bb8eec59eb18f6363dd1e3b560e1c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098316922,
+    "modifiedTime": 1774039252741,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!cFO6YIHU7xbE6L65"
+}

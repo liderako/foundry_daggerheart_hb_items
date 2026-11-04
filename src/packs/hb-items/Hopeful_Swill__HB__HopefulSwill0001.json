@@ -1,0 +1,222 @@
+{
+  "_id": "HopefulSwill0001",
+  "name": "Hopeful Swill (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 1999999,
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Gain 1 Hope. Make a Strength reaction roll (Difficulty 12). On a failure, until your next rest you have a -1 penalty to your Agility and a +1 bonus to your Presence.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "HopefulSwillDrnk": {
+        "type": "attack",
+        "_id": "HopefulSwillDrnk",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "HopefulSwill0001",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "strength",
+          "difficulty": 12,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [
+          {
+            "_id": "HopefulSwillEff1",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "HopefulSwillWght",
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793794217766,
+        "modifiedTime": 1793794217766,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!HopefulSwill0001.HopefulSwillWght"
+    },
+    {
+      "_id": "HopefulSwillEff1",
+      "name": "Hopeful Swill",
+      "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "conditionals": [],
+        "stacking": null,
+        "targetDispositions": [],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        },
+        "changes": [
+          {
+            "key": "system.traits.presence.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": -1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>-1 Agility and +1 Presence until your next rest.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793794217766,
+        "modifiedTime": 1793794217766,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!HopefulSwill0001.HopefulSwillEff1"
+    }
+  ],
+  "flags": {
+    "mist-age-alchemy": {
+      "onUse": {
+        "hope": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "1e224de4933021494b700f15a25fc356a5d4ff7b"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793794217766,
+    "modifiedTime": 1793794217767,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HopefulSwill0001"
+}

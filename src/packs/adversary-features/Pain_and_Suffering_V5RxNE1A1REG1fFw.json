@@ -1,0 +1,100 @@
+{
+  "name": "Pain and Suffering",
+  "type": "feature",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>If a target damaged by the Devil doesn’t mark an Armor Slot to reduce the damage, they must lose a Hope.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "SL3zeGnH7BiUAf7y": {
+        "type": "damage",
+        "damage": {
+          "main": null,
+          "resources": {
+            "hope": {
+              "base": false,
+              "itemId": null,
+              "applyTo": "hope",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null
+            }
+          }
+        },
+        "_id": "SL3zeGnH7BiUAf7y",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Devil Torturer",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "29222a67ecdd71fd2ecf1316e47976264389b8a2"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732860,
+    "modifiedTime": 1792929732865,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "V5RxNE1A1REG1fFw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!V5RxNE1A1REG1fFw"
+}

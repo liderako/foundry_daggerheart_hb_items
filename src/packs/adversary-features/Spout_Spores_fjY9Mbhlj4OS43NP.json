@@ -1,0 +1,262 @@
+{
+  "name": "Spout Spores",
+  "type": "feature",
+  "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to spurt a cloud of spores at a target within Very Close range:</p><ul><li><p><strong>Energizing Spores.</strong> The target clears a HP and immediately takes the spotlight. It has advantage on its next attack.</p></li><li><p><strong>Hallucinogenic Spores.</strong> The target must succeed on an Instinct Reaction Roll (13) or mark a Stress and become <em>Dizzied</em>. <em>Dizzied</em> targets have disadvantage on their next action roll, then clear the condition.</p></li><li><p><strong>Reanimating Spores.</strong> A corpse rises as a @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.VbhRMtfkee9tbtms]{Spore Zombie}</p></li></ul>",
+    "actions": {
+      "EEczbZKY5euJHwuG": {
+        "_id": "EEczbZKY5euJHwuG",
+        "type": "ability",
+        "name": "Spout Spores",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "veryClose",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "jFfJyn9FRZoyqMl4": {
+        "type": "healing",
+        "_id": "jFfJyn9FRZoyqMl4",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Energizing Spores",
+        "range": "veryClose",
+        "areas": []
+      },
+      "HSo5p1Hup8lagGOG": {
+        "type": "attack",
+        "_id": "HSo5p1Hup8lagGOG",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": 13,
+          "damageMod": "none"
+        },
+        "name": "Hallucinogenic Spores",
+        "range": "",
+        "areas": []
+      },
+      "RgEk6MRGH1mQyMza": {
+        "type": "summon",
+        "_id": "RgEk6MRGH1mQyMza",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.VbhRMtfkee9tbtms",
+            "count": "1"
+          }
+        ],
+        "name": "Reanimating Spores",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spore Bag",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b5e653b4e8004c33d0f7f4656ced643a78fc0520"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732747,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "fjY9Mbhlj4OS43NP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fjY9Mbhlj4OS43NP"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Hold Fast",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name]'s Spectral allies are forced to make a reaction roll, you can <strong>mark a Stress</strong> to give those allies a +2 bonus to the roll.</p>",
+    "resource": null,
+    "actions": {
+      "aRg1bcPGUn69GPyB": {
+        "type": "effect",
+        "_id": "aRg1bcPGUn69GPyB",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spectral Captain",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "debd5fd97b1702909419830ec3febb18211afa3f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731984,
+    "modifiedTime": 1792929731999,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "5xgkYZJRFNJ8qSkK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!5xgkYZJRFNJ8qSkK"
+}

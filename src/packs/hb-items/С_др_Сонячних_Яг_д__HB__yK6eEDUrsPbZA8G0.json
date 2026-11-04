@@ -1,0 +1,155 @@
+{
+  "name": "Сідр Сонячних Ягід (HB)",
+  "type": "consumable",
+  "_id": "yK6eEDUrsPbZA8G0",
+  "img": "icons/consumables/drinks/alcohol-spirits-bottle-green.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your Agility until your next rest.<br></p><p>Cідр що роблять у західній валарії з плантації сонячних ягід. Рідина має токсично жовтий колір.</p>",
+    "quantity": 1,
+    "actions": {
+      "UIVnvI726LJnlK86": {
+        "type": "effect",
+        "_id": "UIVnvI726LJnlK86",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "yK6eEDUrsPbZA8G0",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "L9dAw8pws1o02XkE",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Major Stride Potion",
+      "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
+      "transfer": false,
+      "_id": "L9dAw8pws1o02XkE",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.agility.value",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792834062202,
+        "modifiedTime": 1792834062202,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!yK6eEDUrsPbZA8G0.L9dAw8pws1o02XkE"
+    }
+  ],
+  "folder": "s5jk0eqw5fKD5dXi",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.yK6eEDUrsPbZA8G0",
+      "hash": "7253b263670b1247dd220dbac011174eef407e60"
+    },
+    "mist-age-prices": {
+      "price": 3.7
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792834062202,
+    "modifiedTime": 1792839012937,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 125000,
+  "_key": "!items!yK6eEDUrsPbZA8G0"
+}

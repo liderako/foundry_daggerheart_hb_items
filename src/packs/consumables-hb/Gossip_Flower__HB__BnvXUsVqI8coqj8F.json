@@ -1,0 +1,75 @@
+{
+  "name": "Gossip Flower (HB)",
+  "type": "consumable",
+  "img": "icons/commodities/flowers/holly-buds-white.webp",
+  "system": {
+    "description": "<p>You can plant this seed in soil. It instantly grows into a small flower that records everything it hears for up to one week. When plucked, the flower recites what it recorded in real time, then withers.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "s9KcCCsBG2OvWpfu": {
+        "type": "effect",
+        "_id": "s9KcCCsBG2OvWpfu",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "BnvXUsVqI8coqj8F",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Plant",
+        "range": ""
+      }
+    }
+  },
+  "_id": "BnvXUsVqI8coqj8F",
+  "effects": [],
+  "folder": null,
+  "sort": 2300000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555861,
+    "modifiedTime": 1792764555861,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!BnvXUsVqI8coqj8F"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Tireless",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Armor can't be forced to mark Stress. When an effect would cause it to mark Stress, the Armor ignores that part of the effect.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spellbound Armor",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "abecc467873526e4b25c04c6173d4b5cb087fa91"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732337,
+    "modifiedTime": 1792929732349,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "u3FsslX932P5nRQz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!u3FsslX932P5nRQz"
+}

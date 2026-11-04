@@ -1,0 +1,45 @@
+{
+  "name": "Aura of Power",
+  "type": "feature",
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "system": {
+    "description": "<p>Allies within Close range of the Well gain a bonus to damage rolls equal to the Well's unmarked Stress.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Well of Souls",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "64f110284c63115666c5665720e3a95a37a4eb83"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732541,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "Tr9cdEXeJKbj0GwC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Tr9cdEXeJKbj0GwC"
+}

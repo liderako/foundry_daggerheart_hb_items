@@ -1,0 +1,39 @@
+{
+  "folder": "El6wQ0W4eqhZBZmj",
+  "name": "Емоційний Диригент",
+  "type": "feature",
+  "_id": "MRyuvz1W3LEQ1bqP",
+  "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.753);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Passive: You sense the surface emotions of creatures within Close range on scene. This does not reveal specific thoughts or secrets, only general states.</span></p><p></p><p>Action: You can mark 1 stress to enhance one emotion among a group of people or to weaken it, you can not create emotion for people if their don`t feel this at moment like love, fear.</p><p></p><p>Action Per Rest: Once per scene  you can spent 1 fear to raise the morale of allies at far distances, they will clean 1d4 stress after that.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false,
+    "featureForm": "passive"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c1c3d1bc35c095ad65f378f1b22135143b7a5b51"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.9.4",
+    "createdTime": 1772194858497,
+    "modifiedTime": 1789982381118,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!MRyuvz1W3LEQ1bqP"
+}

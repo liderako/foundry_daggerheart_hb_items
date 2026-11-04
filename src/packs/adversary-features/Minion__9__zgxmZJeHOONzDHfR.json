@@ -1,0 +1,45 @@
+{
+  "name": "Minion (9)",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 9 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Elemental Spark",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "176a6f52173b75cc35f11e6e8d83c2c14fcd07f4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732096,
+    "modifiedTime": 1792929732113,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "zgxmZJeHOONzDHfR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zgxmZJeHOONzDHfR"
+}

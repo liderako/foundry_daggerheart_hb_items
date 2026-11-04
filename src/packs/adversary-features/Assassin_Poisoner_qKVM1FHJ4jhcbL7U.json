@@ -1,0 +1,101 @@
+{
+  "name": "Assassin Poisoner",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] has advantage on attacks if they are <em>Hidden</em>.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "effects": [
+    {
+      "name": "Out of Nowhere",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.advantageSources",
+            "type": "add",
+            "value": "On attacks if they are Hidden.",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "qT5nh7OcQ6aGdiWS",
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Assassin has advantage on attacks if they are <em>Hidden.</em></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731586,
+        "modifiedTime": 1792929731586,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!qKVM1FHJ4jhcbL7U.qT5nh7OcQ6aGdiWS"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Assassin Poisoner",
+      "source": "official",
+      "aliases": [
+        "Out of Nowhere"
+      ]
+    },
+    "scene-packer": {
+      "hash": "b923dcee3752b2ea923fd625e4952c4464c9a136"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731586,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "qKVM1FHJ4jhcbL7U",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qKVM1FHJ4jhcbL7U"
+}

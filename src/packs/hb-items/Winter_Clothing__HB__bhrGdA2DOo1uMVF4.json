@@ -1,0 +1,149 @@
+{
+  "name": "Winter Clothing (HB)",
+  "type": "loot",
+  "img": "assets/hb-icons/MedievalIcons/ArmorMedieval/ScholarRobe.png",
+  "system": {
+    "description": "<p>+2 slots of carrying capacity.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [
+    {
+      "name": "Small Weight",
+      "img": "icons/containers/bags/case-simple-leather-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>1</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.6",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "wvBMVQcpYvbxYOuE",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhrGdA2DOo1uMVF4.wvBMVQcpYvbxYOuE"
+    },
+    {
+      "name": "Clothing",
+      "img": "assets/hb-icons/MedievalIcons/ArmorMedieval/ScholarRobe.png",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "description": "<p>+2 slots of carrying capacity.</p>",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.mist-age-weight.bonusSlots",
+            "type": "add",
+            "value": 2,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "veRYbp6ATDwDTIDt",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793009325512,
+        "modifiedTime": 1793009325512,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!bhrGdA2DOo1uMVF4.veRYbp6ATDwDTIDt"
+    }
+  ],
+  "folder": "IKwwuasyn83UEJrm",
+  "flags": {
+    "scene-packer": {
+      "hash": "c3fc12a881ac640d0cbc52d75cef0db95a00dc64",
+      "sourceId": "Actor.cV90gNNNapy4c7tY.Item.UWgUJLrl6Ghw8rdS"
+    },
+    "mist-age-prices": {
+      "price": 0.9
+    },
+    "mist-age-weight": {
+      "wearable": true
+    },
+    "mist-age-equipment": {
+      "wearable": true,
+      "durability": {
+        "enabled": true,
+        "max": 2,
+        "value": 2
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1777218093831,
+    "modifiedTime": 1793016352889,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "bhrGdA2DOo1uMVF4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bhrGdA2DOo1uMVF4"
+}

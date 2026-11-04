@@ -1,0 +1,38 @@
+{
+  "name": "Climber",
+  "type": "feature",
+  "img": "icons/skills/movement/arrow-upward-white.webp",
+  "system": {
+    "description": "<p>The Bandit climbs just as easily as they run.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "MeqhdwNxFAnraV6Q",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.5Lh1T0zaT8Pkr2U2.Item.5VPb3OJDv6Q5150r",
+      "hash": "85e7a9c9985264cad39b8ddb244a8428456f59f7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352682069,
+    "modifiedTime": 1758352682069,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "WkDaMspiBUBIacSH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!WkDaMspiBUBIacSH"
+}

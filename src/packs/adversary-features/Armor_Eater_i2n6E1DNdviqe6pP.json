@@ -1,0 +1,45 @@
+{
+  "name": "Armor Eater",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the Pangolati makes a successful attack against a PC, that PC must mark an additional Armor Slot to reduce the severity of the damage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dire Pangolati",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3ed20375baf3898ddfca1960fcc357753122fcbc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731584,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "i2n6E1DNdviqe6pP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!i2n6E1DNdviqe6pP"
+}

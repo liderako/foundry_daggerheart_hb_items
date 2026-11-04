@@ -1,0 +1,44 @@
+{
+  "folder": "R8S2JakvOYajf4cP",
+  "name": "Great Meal",
+  "type": "consumable",
+  "_id": "Pc4ok0rlfzCZNTxP",
+  "img": "icons/consumables/food/bowl-stew-tofu-potato-red.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.753);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">You can eat this potion to choose one additional downtime move during long rest.</span></p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7929e210ea2832f20aac3a49d1b03284382250c0"
+    },
+    "mist-age-prices": {
+      "price": 5
+    },
+    "mist-age-weight": {
+      "slots": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792839641393,
+    "modifiedTime": 1792839686655,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Pc4ok0rlfzCZNTxP"
+}

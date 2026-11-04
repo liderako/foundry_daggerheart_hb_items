@@ -1,0 +1,88 @@
+{
+  "name": "Bonding Clay (HB)",
+  "type": "consumable",
+  "_id": "PfQvqopXgvroBklL",
+  "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
+  "system": {
+    "description": "<p>This honey can be used to glue two objects together temporary.</p>",
+    "quantity": 1,
+    "actions": {
+      "SWrgUGHIWCXpED1b": {
+        "type": "effect",
+        "_id": "SWrgUGHIWCXpED1b",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "PfQvqopXgvroBklL",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.PfQvqopXgvroBklL",
+      "hash": "6ccb6e463566a5dd58834f72f417086d1a179f7f"
+    },
+    "mist-age-prices": {
+      "price": 1.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792854282243,
+    "modifiedTime": 1792862127766,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 600000,
+  "_key": "!items!PfQvqopXgvroBklL"
+}

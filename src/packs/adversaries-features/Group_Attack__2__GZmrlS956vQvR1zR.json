@@ -1,0 +1,71 @@
+{
+  "name": "Group Attack (2)",
+  "type": "feature",
+  "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all Tangle Brambles within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.</p>",
+    "resource": null,
+    "actions": {
+      "ZC5pKIb9N82vgMWu": {
+        "type": "effect",
+        "_id": "ZC5pKIb9N82vgMWu",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all Tangle Brambles within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "urYLWb9vX4XvNTA8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.XcAGOSmtCFLT1unN.Item.WiobzuyvJ46zfsOv",
+      "hash": "ec79e6ab8deefd70597dcf592247000f4a895804"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352039626,
+    "modifiedTime": 1758352190504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "GZmrlS956vQvR1zR",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!GZmrlS956vQvR1zR"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Second Pair of Eyes",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> to give the @Lookup[@name]’s mount advantage on a Reaction Roll.</p>",
+    "resource": null,
+    "actions": {
+      "jxdyO85Iy3FnpWl3": {
+        "type": "effect",
+        "_id": "jxdyO85Iy3FnpWl3",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragonlord",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6a4b8561effff5bbb47b673f20417deee25674b4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "tWVldL8Dzpcp4nc4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!tWVldL8Dzpcp4nc4"
+}

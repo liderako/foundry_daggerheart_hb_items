@@ -1,0 +1,148 @@
+{
+  "name": "Sandstorm",
+  "type": "feature",
+  "img": "icons/magic/air/air-burst-spiral-yellow.webp",
+  "system": {
+    "description": "<p><em>Countdown (6).</em> When the <span class=\"mw-page-title-main\">Pharaoh</span> is in the spotlight for the first time, activate the countdown. It ticks down when a PC rolls with Fear or the <span class=\"mw-page-title-main\">Pharaoh</span> takes damage. When it triggers, an abrasive sandstorm fills the air within a Very Far range of the <span class=\"mw-page-title-main\">Pharaoh</span>, which lasts until they are defeated. Attacks made against the <span class=\"mw-page-title-main\">Pharaoh</span>'s allies inside the sandstorm have disadvantage. PCs in the sandstorm take <strong>12</strong> physical damage when they make an action roll.</p>",
+    "actions": {
+      "eg4ktOrhCIncqi73": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Sandstorm",
+            "type": "encounter",
+            "img": "icons/magic/air/air-burst-spiral-yellow.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "fear",
+              "startFormula": "6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "eg4ktOrhCIncqi73",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      },
+      "BWH9jjPlRe3C1MEk": {
+        "type": "damage",
+        "_id": "BWH9jjPlRe3C1MEk",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "12"
+              },
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mummy Pharaoh",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e59cfcdc750bef66f3584a2f0aa32f035b001f7d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732743,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "quZKZMzin1qTk754",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!quZKZMzin1qTk754"
+}

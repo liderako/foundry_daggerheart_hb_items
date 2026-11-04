@@ -1,0 +1,45 @@
+{
+  "name": "Money Is Time",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend 3 handfuls of gold (or a Fear)</strong> to spotlight [[/r 1d4+1]] allies.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrows-up-trio-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Avarice",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a74d4b82b35a2d02c47d99c8f328868f3a306b26"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732097,
+    "modifiedTime": 1792929732113,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Sirm5SgWF2Snm09D",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Sirm5SgWF2Snm09D"
+}

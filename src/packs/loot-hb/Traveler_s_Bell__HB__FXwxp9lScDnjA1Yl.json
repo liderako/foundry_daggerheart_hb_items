@@ -1,0 +1,65 @@
+{
+  "name": "Traveler's Bell (HB)",
+  "type": "loot",
+  "img": "icons/tools/instruments/bell-brass-brown.webp",
+  "system": {
+    "description": "<p>Once per long rest, you can ring this bell to magically open the shortest safe path through rough terrain for 1 hour.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "actions": {
+      "U3U0FAL95FouCQ8P": {
+        "type": "effect",
+        "_id": "U3U0FAL95FouCQ8P",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "longRest",
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ring Bell",
+        "range": ""
+      }
+    }
+  },
+  "_id": "FXwxp9lScDnjA1Yl",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556015,
+    "modifiedTime": 1792764556015,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FXwxp9lScDnjA1Yl"
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Coup de Grace",
+  "type": "feature",
+  "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to make an attack against a Vulnerable target within Close range. On a success, deal <strong>2d6+12</strong> physical damage and the target must mark a Stress.</p>",
+    "resource": null,
+    "actions": {
+      "fzVyO0DUwIVEUCtg": {
+        "type": "attack",
+        "_id": "fzVyO0DUwIVEUCtg",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Fear</strong> to make an attack against a Vulnerable target within Close range. On a success, deal <strong>2d6+12</strong> physical damage and the target must mark a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 2,
+                "dice": "d6",
+                "bonus": 12,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            },
+            {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": []
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "hGimcQfZAb0UVXVf",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.aTljstqteGoLpCBq.Item.qe94UdLZb0p3Gvxj",
+      "hash": "152ffe7f7c9802762596358cacc12353091c60c6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352721698,
+    "modifiedTime": 1758352721698,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "NZVU2qA26FsAjikI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!NZVU2qA26FsAjikI"
+}

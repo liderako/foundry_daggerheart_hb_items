@@ -1,0 +1,73 @@
+{
+  "name": "Unbound",
+  "type": "feature",
+  "img": "icons/magic/death/undead-ghost-strike-white.webp",
+  "system": {
+    "description": "<p>When the Revenant is defeated or its bindings are lifted, replace them with the @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.xkxZFl1fUIkyWD1b]{Unbound Revenant} and immediately spotlight them.</p>",
+    "actions": {
+      "1DvI2Q5RJfIHMjsw": {
+        "type": "summon",
+        "_id": "1DvI2Q5RJfIHMjsw",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.xkxZFl1fUIkyWD1b",
+            "count": "1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Bound Revenant",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a4cd6811c6ac75edbb5d4913be70e54e62e8ed05"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732749,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "1kWQ4ZbVxjx7tQEA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!1kWQ4ZbVxjx7tQEA"
+}

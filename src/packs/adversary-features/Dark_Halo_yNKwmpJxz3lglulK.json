@@ -1,0 +1,45 @@
+{
+  "name": "Dark Halo",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "attribution": {},
+    "description": "<p>Dark Halo - Evolution: When the Angel marks half their HP, they begin to emanate darkness and sadness. You gain 1d4 Fear and the Angel gains the Pain Drinker and Avenger features.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fallen Angel",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4bdcac13e065de2ddd492cfc7e48a20d9362a13f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732850,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "yNKwmpJxz3lglulK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yNKwmpJxz3lglulK"
+}

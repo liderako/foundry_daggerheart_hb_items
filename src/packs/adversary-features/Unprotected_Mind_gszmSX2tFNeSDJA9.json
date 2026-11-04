@@ -1,0 +1,45 @@
+{
+  "name": "Unprotected Mind",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name]'s standard attack deals direct damage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Jealousy",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "ff6b15e77ce045b3f42acf29fff4c5e400ecbf64"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732342,
+    "modifiedTime": 1792929732350,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "gszmSX2tFNeSDJA9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!gszmSX2tFNeSDJA9"
+}

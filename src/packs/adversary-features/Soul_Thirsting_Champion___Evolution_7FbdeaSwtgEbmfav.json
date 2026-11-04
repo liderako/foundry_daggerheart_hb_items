@@ -1,0 +1,107 @@
+{
+  "name": "Soul-Thirsting Champion - Evolution",
+  "type": "feature",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": "<p><strong>Evolution: </strong>The Champion gains a +2 bonus to their attack rolls and can take the \"Double Swipe\" action.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Soul-Thirsting",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "value": 2,
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "GqoUpCcKiIX390mc",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732746,
+        "modifiedTime": 1792929732746
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!7FbdeaSwtgEbmfav.GqoUpCcKiIX390mc"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Eternal Champion",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "177afa0e46e448057e0e9255b8d38a44384d4fd7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732746,
+    "modifiedTime": 1792929732757,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "7FbdeaSwtgEbmfav",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!7FbdeaSwtgEbmfav"
+}

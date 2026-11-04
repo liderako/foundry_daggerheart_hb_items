@@ -1,0 +1,148 @@
+{
+  "name": "Uneasy Enlighten Potion (HB)",
+  "type": "consumable",
+  "_id": "UneasyEnlighten1",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your next Knowledge Roll. When you drink it, the GM gains a Fear.</p>",
+    "quantity": 1,
+    "actions": {
+      "krya3Wu53zMqlQ0J": {
+        "type": "effect",
+        "_id": "krya3Wu53zMqlQ0J",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "UneasyEnlighten1",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "Kfyhsph6LsFk8O9n",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/vial-cork-empty.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Enlighten Potion",
+      "img": "icons/consumables/potions/vial-cork-empty.webp",
+      "transfer": false,
+      "_id": "Kfyhsph6LsFk8O9n",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.knowledge.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793799408081,
+        "modifiedTime": 1793799408081,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!UneasyEnlighten1.Kfyhsph6LsFk8O9n"
+    }
+  ],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2300000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 2.5
+    },
+    "mist-age-alchemy": {
+      "onUse": {
+        "fear": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "5341623891a944f40d76dfd442293282806e535f"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793799408081,
+    "modifiedTime": 1793799584294,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UneasyEnlighten1"
+}

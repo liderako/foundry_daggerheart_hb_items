@@ -1,0 +1,47 @@
+{
+  "name": "Maintain Distance",
+  "type": "feature",
+  "img": "icons/skills/movement/arrow-upward-blue.webp",
+  "system": {
+    "description": "<p>After making a standard attack, the @Lookup[@name] can move anywhere within Far range.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Harrier",
+      "source": "official",
+      "aliases": [
+        "Ride-By"
+      ]
+    },
+    "scene-packer": {
+      "hash": "c68d362191fa826f59c04873b99ca4cff87be487"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731996,
+    "modifiedTime": 1792929732004,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "S6la5j1AB7Bb0mJe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!S6la5j1AB7Bb0mJe"
+}

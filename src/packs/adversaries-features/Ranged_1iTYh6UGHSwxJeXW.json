@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": "qnwpCj3CREvMYfEV",
+  "name": "Ranged",
+  "color": null,
+  "sorting": "a",
+  "_id": "1iTYh6UGHSwxJeXW",
+  "description": "",
+  "sort": 800000,
+  "flags": {
+    "scene-packer": {
+      "hash": "232fa080bdd2c23f0c0848d41459aa889a72cf55"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352375968,
+    "modifiedTime": 1758352389152,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!1iTYh6UGHSwxJeXW"
+}

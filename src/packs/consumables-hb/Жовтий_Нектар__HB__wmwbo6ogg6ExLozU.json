@@ -1,0 +1,141 @@
+{
+  "name": "Жовтий Нектар (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/flask-corked-yellow-glow.webp",
+  "system": {
+    "description": "<p>After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "goGJk7IIgbOvrTVZ": {
+        "type": "effect",
+        "_id": "goGJk7IIgbOvrTVZ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "wmwbo6ogg6ExLozU",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "oTTGr4S9AS5BJEZY",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Consume",
+        "range": ""
+      }
+    }
+  },
+  "_id": "wmwbo6ogg6ExLozU",
+  "effects": [
+    {
+      "name": "Yakamel Milk",
+      "disabled": false,
+      "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+      "description": "<p>After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.</p>",
+      "transfer": false,
+      "statuses": [],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "oTTGr4S9AS5BJEZY",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!wmwbo6ogg6ExLozU.oTTGr4S9AS5BJEZY"
+    }
+  ],
+  "folder": null,
+  "sort": 11100000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 2
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555865,
+    "modifiedTime": 1792832787177,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!wmwbo6ogg6ExLozU"
+}

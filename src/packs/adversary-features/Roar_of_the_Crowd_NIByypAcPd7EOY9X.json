@@ -1,0 +1,45 @@
+{
+  "name": "Roar of the Crowd",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The first time the @Lookup[@name] takes the spotlight in a fight with allies or onlookers, they announce themselves. Every PC must make a Presence Reaction Roll. For each failure, you gain a Fear.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gladiator",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "18d8316ef5cc1fc5188b314977892e08840d8e27"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "NIByypAcPd7EOY9X",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!NIByypAcPd7EOY9X"
+}

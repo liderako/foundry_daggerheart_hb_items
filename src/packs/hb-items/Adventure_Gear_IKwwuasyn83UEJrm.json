@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Adventure Gear",
+  "color": null,
+  "sorting": "a",
+  "_id": "IKwwuasyn83UEJrm",
+  "description": "",
+  "sort": 700000,
+  "flags": {
+    "scene-packer": {
+      "hash": "80f318d2550476238ac3f00fd04d73276b77c862"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098301643,
+    "modifiedTime": 1772099468591,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!IKwwuasyn83UEJrm"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Painwebs",
+  "type": "feature",
+  "img": "icons/creatures/webs/web-spider-glowing-purple.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spend a Fear to target a point within Close range and create a spiderweb that covers an area within Close range of that point. Creatures who move through the area must mark a Stress. Each target in the area when the webs appear must succeed on an Agility Reaction Roll or be temporarily Restrained. Restrained targets must mark a Stress when they take damage or make an action roll.</p>",
+    "actions": {
+      "Tffe7w2F24XPJt0c": {
+        "type": "attack",
+        "_id": "Tffe7w2F24XPJt0c",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [
+          {
+            "name": "Painwebs",
+            "type": "placed",
+            "shape": "circle",
+            "size": "close",
+            "hasHole": false,
+            "effects": []
+          }
+        ],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Agility Reaction Roll",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Painweaver",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a07e12aa974d81dcf62a106e5890ce472b8266d1"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732860,
+    "modifiedTime": 1792929732865,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "crRyvYmeHWZqLsyO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!crRyvYmeHWZqLsyO"
+}

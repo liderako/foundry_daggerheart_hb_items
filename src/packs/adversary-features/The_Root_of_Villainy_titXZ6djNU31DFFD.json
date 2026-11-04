@@ -1,0 +1,84 @@
+{
+  "name": "The Root of Villainy",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to spotlight two other Demons within Far range.</p>",
+    "resource": null,
+    "actions": {
+      "ozGST8UY2MJnrd3w": {
+        "type": "effect",
+        "_id": "ozGST8UY2MJnrd3w",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spotlight Demons",
+        "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Hubris",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e85458def83dda0015d782dee7ccdefe708cf47d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732335,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "titXZ6djNU31DFFD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!titXZ6djNU31DFFD"
+}

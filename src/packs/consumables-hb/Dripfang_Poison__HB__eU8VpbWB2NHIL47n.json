@@ -1,0 +1,109 @@
+{
+  "name": "Dripfang Poison (HB)",
+  "type": "consumable",
+  "_id": "eU8VpbWB2NHIL47n",
+  "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
+  "system": {
+    "description": "<p>A creature who consumes this poison takes 8d10 direct magic damage.</p>",
+    "quantity": 1,
+    "actions": {
+      "F8CUhhCuZMnXVCrw": {
+        "type": "damage",
+        "_id": "F8CUhhCuZMnXVCrw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "eU8VpbWB2NHIL47n",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "flatMultiplier": 8,
+              "dice": "d10",
+              "bonus": null
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Consume",
+        "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7800000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555863,
+    "modifiedTime": 1792854217097,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!eU8VpbWB2NHIL47n"
+}

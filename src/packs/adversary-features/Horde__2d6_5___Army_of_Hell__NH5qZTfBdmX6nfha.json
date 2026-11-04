@@ -1,0 +1,57 @@
+{
+  "name": "Horde (2d6+5) (Army of Hell)",
+  "type": "feature",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the Legion has marked half or more of its HP, its standard attack deals <strong>2d6+5</strong> magic damage instead.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "importedFrom": {
+      "compendium": "daggerheart.adversaries",
+      "adversary": "Ghastly Legion",
+      "tier": 4,
+      "type": "Horde",
+      "customTag": "Core Rulebook",
+      "originalId": "yt10KrDz0zvTYmQa",
+      "isSpecialCase": false
+    },
+    "dhImporter": {
+      "isCompendium": true
+    },
+    "mist-age-organization": {
+      "adversary": "Army of Hell",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c6975af33b9073f6f196cc20d5be5ddcbc970a58"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732855,
+    "modifiedTime": 1792929732863,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "NH5qZTfBdmX6nfha",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!NH5qZTfBdmX6nfha"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Dead Generations",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The gravestones are marked with mortals of generations past, with words commemorating their lives and the love of their families. The patterns of local history can be learned by a careful study of the graves.</p><section id=\"secret-UjVqDgUY7C3XPU8P\" class=\"secret\"><p><em>What is the most tragic gravestone in the yard? What past events are apparent in the death markers? Is there a gravestone out of place?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/sundries/flags/banner-skull-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Graveyard",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e4a111de45ab3bb575ef48190997bc39ab6e8456"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732636,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "93cJ2IJq67HywaQ0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!93cJ2IJq67HywaQ0"
+}

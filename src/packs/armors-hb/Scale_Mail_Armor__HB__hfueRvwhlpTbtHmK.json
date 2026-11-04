@@ -1,0 +1,120 @@
+{
+  "folder": "h4QgrovjVZ1oee7O",
+  "name": "Scale Mail Armor (HB)",
+  "type": "armor",
+  "_id": "hfueRvwhlpTbtHmK",
+  "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+  "system": {
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "description": "",
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 3
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 14
+    },
+    "armorFeatures": [
+      {
+        "value": "cumbersome",
+        "effectIds": [
+          "2wGrVqcFO8jiTuDv"
+        ],
+        "actionIds": []
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "Cumbersome",
+      "description": "-1 to Finesse",
+      "img": "icons/commodities/metal/mail-plate-steel.webp",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.finesse.value",
+            "type": "add",
+            "value": -1,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "2wGrVqcFO8jiTuDv",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!hfueRvwhlpTbtHmK.2wGrVqcFO8jiTuDv"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 25
+    },
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 3,
+        "value": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555656,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!hfueRvwhlpTbtHmK"
+}

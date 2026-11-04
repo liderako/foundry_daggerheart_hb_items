@@ -1,0 +1,45 @@
+{
+  "name": "Weak Structure",
+  "type": "feature",
+  "img": "icons/commodities/metal/barstock-broken-steel.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] marks HP from physical damage, they must mark an additional HP.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Construct",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dc380a358f9db656ea05af10d4e3b59d3ec10153"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732433,
+    "modifiedTime": 1792929732449,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "GESss72InR41PXor",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!GESss72InR41PXor"
+}

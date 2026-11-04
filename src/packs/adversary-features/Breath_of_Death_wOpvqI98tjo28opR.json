@@ -1,0 +1,192 @@
+{
+  "name": "Breath of Death",
+  "type": "feature",
+  "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
+  "system": {
+    "description": "<p><strong>Spend 2 Fear</strong> to breathe a cloud of toxic smoke in front of the Decay-Bringer within Far range. All targets in that area must make a Strength Reaction Roll. Targets who fail take <strong>3d10+4</strong> magic damage and are <em>Poisoned</em> until their next rest or they succeed on a Knowledge Roll (18). While <em>Poisoned</em>, the target must roll a d6 before they make an action roll. On a result of 4 or lower, they must mark a Stress. Targets who succeed take half damage.</p>",
+    "actions": {
+      "frRYoL7oHYFDtjVg": {
+        "_id": "frRYoL7oHYFDtjVg",
+        "type": "attack",
+        "name": "Breath of Death",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 3,
+              "dice": "d10",
+              "bonus": 4,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "range": "far",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "WmmNdsawAdJdbuOu",
+            "onSave": false
+          }
+        ],
+        "save": {
+          "trait": "strength",
+          "difficulty": null,
+          "damageMod": "half"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Breath of Death",
+      "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
+      "origin": "Actor.l2BG24DlJNqCcbTD.Item.27pRLNWGXUKC66Br",
+      "transfer": false,
+      "_id": "WmmNdsawAdJdbuOu",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "poison"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732633,
+        "modifiedTime": 1792929732633
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!wOpvqI98tjo28opR.WmmNdsawAdJdbuOu"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragon Lich: Decay-Bringer",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "303f1aeeeba8afd60c502f39cd53d83cd8c822ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732633,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "wOpvqI98tjo28opR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!wOpvqI98tjo28opR"
+}

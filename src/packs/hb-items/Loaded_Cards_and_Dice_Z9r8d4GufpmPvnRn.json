@@ -1,0 +1,45 @@
+{
+  "name": "Loaded Cards and Dice",
+  "type": "loot",
+  "system": {
+    "attribution": {},
+    "description": "<p>Grant advantage on Finesse rolls when attempting to cheat at games of chance.</p>",
+    "quantity": 1,
+    "actions": {},
+    "gmNotes": ""
+  },
+  "_id": "Z9r8d4GufpmPvnRn",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "effects": [],
+  "folder": "16QGoy17bFCdi65G",
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "59f2a4157bc9d9f5b96b61ba292720103c8d4d07",
+      "sourceId": "Actor.cV90gNNNapy4c7tY.Item.Z9r8d4GufpmPvnRn"
+    },
+    "mist-age-prices": {
+      "price": 0
+    },
+    "mist-age-weight": {
+      "slots": 0.25,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792782115745,
+    "modifiedTime": 1792782696815,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 300000,
+  "_key": "!items!Z9r8d4GufpmPvnRn"
+}

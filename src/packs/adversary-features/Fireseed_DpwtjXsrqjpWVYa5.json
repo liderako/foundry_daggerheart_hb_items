@@ -1,0 +1,75 @@
+{
+  "name": "Fireseed",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>The @Lookup[@name] bleeds magic fire. When the @Lookup[@name] marks a HP, summon one Minor Fire Elemental within Very Close range.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "s1fquzRZAhLqY7VW": {
+        "type": "summon",
+        "_id": "s1fquzRZAhLqY7VW",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.DscWkNVoHak6P4hh",
+            "count": "1"
+          }
+        ],
+        "name": "",
+        "range": "veryClose"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Phoenix",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "30ec1e3463453f26b32737bfaf5cf10290a9f52f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731847,
+    "modifiedTime": 1792929731860,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "DpwtjXsrqjpWVYa5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!DpwtjXsrqjpWVYa5"
+}

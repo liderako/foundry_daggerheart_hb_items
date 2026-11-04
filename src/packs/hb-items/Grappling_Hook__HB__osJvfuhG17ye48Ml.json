@@ -1,0 +1,89 @@
+{
+  "folder": "IKwwuasyn83UEJrm",
+  "name": "Grappling Hook (HB)",
+  "type": "loot",
+  "img": "icons/tools/fasteners/chain-hook-grey.webp",
+  "system": {
+    "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.753);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">You gain advantage on action rolls to climb sheer surfaces.</span></p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [
+    {
+      "name": "Small Weight",
+      "img": "icons/containers/bags/case-simple-leather-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>1</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774034225365,
+        "modifiedTime": 1774034225365,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "UYUSLEcdDily5nfT",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!osJvfuhG17ye48Ml.UYUSLEcdDily5nfT"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "e12c797b6874d955313d6ad6ed380c9c1b73f138",
+      "sourceId": "Actor.cV90gNNNapy4c7tY.Item.J1c708r5L9TYckER"
+    },
+    "mist-age-prices": {
+      "price": 0
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1772098868537,
+    "modifiedTime": 1792782229477,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "osJvfuhG17ye48Ml",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!osJvfuhG17ye48Ml"
+}

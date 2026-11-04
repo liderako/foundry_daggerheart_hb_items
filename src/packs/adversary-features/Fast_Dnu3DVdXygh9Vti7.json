@@ -1,0 +1,45 @@
+{
+  "name": "Fast",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Hut can move up to Far range when spotlighted.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrows-up-trio-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Chicken-foot Hut",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7b796ec49836468d6b7546588809dd2c980e1ee7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731844,
+    "modifiedTime": 1792929731859,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Dnu3DVdXygh9Vti7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Dnu3DVdXygh9Vti7"
+}

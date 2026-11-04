@@ -1,0 +1,86 @@
+{
+  "name": "You Fall, I Rise",
+  "type": "feature",
+  "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When an adversary within Far range is defeated, spend a Fear to clear 2 HP or 2 Stress. The Ritualist also gains advantage on their next attack roll.</p>",
+    "actions": {
+      "JeFD7YtjrclAXBpV": {
+        "type": "effect",
+        "_id": "JeFD7YtjrclAXBpV",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Cult Ritualist",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "382f72c89dc43547c90b2ebf9b14ff8b0a129979"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732918,
+    "modifiedTime": 1792929732920,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "BWXGOxQ6vu684kcH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BWXGOxQ6vu684kcH"
+}

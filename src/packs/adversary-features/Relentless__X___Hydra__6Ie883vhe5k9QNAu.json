@@ -1,0 +1,45 @@
+{
+  "name": "Relentless (X) (Hydra)",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] can be spotlighted X times per GM turn, where X is the @Lookup[@name]'s number of heads. Spend Fear as usual to spotlight them.</p><section class=\"secret\" id=\"secret-AOW6OiOMzL5FUfWv\"><p><br>Note: Automation is not added so manually spend fear as per text.</p></section>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hydra",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "91fe0dc5d9ddff7bf81a4ece327a7d037eec4f1c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732209,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "6Ie883vhe5k9QNAu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6Ie883vhe5k9QNAu"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Invisible",
+  "type": "feature",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>While the Assassin has no HP marked, they can’t be seen except through magical means, attack rolls against them are made with disadvantage, and they have advantage on attacks.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spectral Assassin",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "205ddf4dac3ece87355dfd97de54e1347b754254"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732644,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "0Y7aw3iMqmij8rnr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0Y7aw3iMqmij8rnr"
+}

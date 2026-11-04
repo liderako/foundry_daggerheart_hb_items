@@ -1,0 +1,64 @@
+{
+  "folder": "hLn0v6ov6KuFgptu",
+  "name": "Rosewild Armor (HB)",
+  "type": "armor",
+  "_id": "tN8kAeBvNKM3EBFo",
+  "img": "icons/equipment/chest/breastplate-banded-leather-purple.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "hopeful",
+        "effectIds": [],
+        "actionIds": [
+          "QRTnCYxJfuJHdnyV"
+        ]
+      }
+    ],
+    "baseThresholds": {
+      "major": 11,
+      "severe": 23
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 5,
+        "value": 5
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555656,
+    "modifiedTime": 1793115586301,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!tN8kAeBvNKM3EBFo"
+}

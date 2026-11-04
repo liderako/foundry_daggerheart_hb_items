@@ -1,0 +1,124 @@
+{
+  "name": "Fall Back",
+  "type": "feature",
+  "img": "icons/skills/movement/arrow-upward-yellow.webp",
+  "system": {
+    "description": "<p>When a creature moves into Melee range to make an attack, you can <strong>mark a Stress</strong> before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal <strong>1d10+2</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "FiuiLUbNUL0YKq7w": {
+        "type": "attack",
+        "_id": "FiuiLUbNUL0YKq7w",
+        "systemPath": "actions",
+        "description": "<p>When a creature moves into Melee range to make an attack, you can <strong>mark a Stress</strong> before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal <strong>1d10+2</strong> physical damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d10",
+                "bonus": 2,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/movement/arrow-upward-yellow.webp",
+        "range": "close"
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "MeqhdwNxFAnraV6Q",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.uRtghKE9mHlII4rs.Item.v8TMp5ATyAjrmJJM",
+      "hash": "03b77a7dcdd2a1d2c15533a5c5fd8fe024519f89"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352481725,
+    "modifiedTime": 1758352603780,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "O2zFOqhshIsZWI8c",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!O2zFOqhshIsZWI8c"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Hush",
+  "type": "feature",
+  "img": "icons/magic/unholy/orb-stone-pink.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to magically <em>Silence</em> a target within Close range until they clear the condition with a successful Presence roll (14) or the Assassin is defeated. While <em>Silenced</em>, they can’t make noise and can’t cast spells.</p>",
+    "actions": {
+      "YgndSZ7bda7NNK3v": {
+        "_id": "YgndSZ7bda7NNK3v",
+        "type": "ability",
+        "name": "Hush",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "close",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "yy5MkiHpeS5sIG5K": {
+        "type": "effect",
+        "_id": "yy5MkiHpeS5sIG5K",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Spectral Assassin",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b96e0dd39ccd82d33e1ed0e75af717fd356ccf50"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732643,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "y5vIpb6bU1UXA0LF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!y5vIpb6bU1UXA0LF"
+}

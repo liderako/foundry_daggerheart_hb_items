@@ -1,0 +1,107 @@
+{
+  "name": "Doombringer (Fallen Warlord: Undefeated Champion)",
+  "type": "feature",
+  "system": {
+    "description": "<p>When a target marks HP from an attack by the @Lookup[@name], all PCs within Far range of the target lose a Hope.</p>",
+    "resource": null,
+    "actions": {
+      "liwKSCTmQqZasAf6": {
+        "type": "damage",
+        "_id": "liwKSCTmQqZasAf6",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hope": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hope",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Lose Hope",
+        "img": "icons/magic/death/skull-energy-light-purple.webp",
+        "range": "far",
+        "areas": [
+          {
+            "name": "Doombringer",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "far",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fallen Warlord: Undefeated Champion",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5e5e86f1f6abc63e724c02454f54706726563ccd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731727,
+    "modifiedTime": 1792929731738,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "scHLTsYZ6ujzC0On",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!scHLTsYZ6ujzC0On"
+}

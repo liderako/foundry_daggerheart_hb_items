@@ -1,0 +1,44 @@
+{
+  "name": "Improved Brewer's Supplies (HB)",
+  "type": "loot",
+  "img": "icons/containers/barrels/barrel-oak-gold.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A big glass jug, a sack of hops, a siphon and a length of tubing.</p><p>+3 to brewing checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 40
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "e519bab4e5ddfa63a1b6b20bcfbea21b31b94e14"
+    }
+  },
+  "_id": "lH2GhgiO1C7BMzbZ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185236,
+    "modifiedTime": 1792863185242,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lH2GhgiO1C7BMzbZ"
+}

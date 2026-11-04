@@ -1,0 +1,186 @@
+{
+  "name": "Consume Kindling",
+  "type": "feature",
+  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "system": {
+    "description": "<p>Three times per scene, when the Elemental moves onto objects that are highly flammable, consume them to clear a HP or a Stress.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "3",
+      "icon": "fa-solid fa-fire",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "CTWSVVisdgJgF7pd": {
+        "type": "healing",
+        "_id": "CTWSVVisdgJgF7pd",
+        "systemPath": "actions",
+        "description": "<p>Three times per scene, when the Elemental moves onto objects that are highly flammable, consume them to clear a HP or a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": []
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Heal HP",
+        "img": "icons/magic/fire/elemental-fire-flying.webp",
+        "range": ""
+      },
+      "e0fG0xtj6hOUp66o": {
+        "type": "healing",
+        "_id": "e0fG0xtj6hOUp66o",
+        "systemPath": "actions",
+        "description": "<p>Three times per scene, when the Elemental moves onto objects that are highly flammable, consume them to clear a HP or a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": []
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Healing",
+        "img": "icons/magic/fire/elemental-fire-flying.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.DscWkNVoHak6P4hh.Item.3u6wvKPJAS2v5nWV",
+      "hash": "f76a227ce22a165789b0e7648caa14ca53bb5511"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352177894,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "iQpXHNVo0NMFG30W",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!iQpXHNVo0NMFG30W"
+}

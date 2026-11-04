@@ -1,0 +1,123 @@
+{
+  "name": "Seeping In",
+  "type": "feature",
+  "img": "icons/magic/acid/dissolve-vomit-green-brown.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to <em>Poison</em> a target with 3 or more sludge tokens until their next rest or they succeed on a Knowledge Roll (16). While <em>Poisoned</em>, the target must roll a d6 before they make an action roll. On a result of 4 or lower, they must mark a Stress.</p>",
+    "actions": {
+      "vdMrILWlbAe7JPzX": {
+        "_id": "vdMrILWlbAe7JPzX",
+        "type": "ability",
+        "name": "Seeping In",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          },
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "hqZ5XQPkg2Vgqfkb": {
+        "type": "effect",
+        "_id": "hqZ5XQPkg2Vgqfkb",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Plague Spitter",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "274204f0ad4646f830e7d271eec8a95a08263b5d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732744,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "YnBQeKrWC1O0BYz6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!YnBQeKrWC1O0BYz6"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "rkSdPu86ybLz6aKF",
+  "name": "Advanced Leather Armor (HB)",
+  "type": "armor",
+  "_id": "itSOp2GCyem0f7oM",
+  "img": "icons/equipment/chest/breastplate-layered-leather-blue.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "description": "",
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "armorFeatures": [],
+    "baseThresholds": {
+      "major": 11,
+      "severe": 27
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 60
+    },
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 5,
+        "value": 5
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792763302982,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!itSOp2GCyem0f7oM"
+}

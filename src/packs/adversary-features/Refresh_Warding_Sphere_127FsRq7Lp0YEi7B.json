@@ -1,0 +1,84 @@
+{
+  "name": "Refresh Warding Sphere",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to refresh the @Lookup[@name]'s \"Warding Sphere\" reaction.</p>",
+    "resource": null,
+    "actions": {
+      "FCuksmAGRC4061zm": {
+        "type": "effect",
+        "_id": "FCuksmAGRC4061zm",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Wizard",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "94ee8310c184fe1117f0ab42995567db779e224e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732208,
+    "modifiedTime": 1792929732224,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "127FsRq7Lp0YEi7B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!127FsRq7Lp0YEi7B"
+}

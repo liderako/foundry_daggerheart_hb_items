@@ -1,0 +1,64 @@
+{
+  "folder": "rkSdPu86ybLz6aKF",
+  "name": "Runes of Fortification (HB)",
+  "type": "armor",
+  "_id": "P4qAEDJUoNLgVRsA",
+  "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 6
+    },
+    "description": "",
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "painful",
+        "effectIds": [],
+        "actionIds": [
+          "37KLF2bim9nRdPTU"
+        ]
+      }
+    ],
+    "baseThresholds": {
+      "major": 17,
+      "severe": 43
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 6,
+        "value": 6
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555655,
+    "modifiedTime": 1793115586299,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!P4qAEDJUoNLgVRsA"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Gecko Gloves (HB)",
+  "type": "loot",
+  "_id": "CGzjBpHJRG8KSt5Y",
+  "img": "icons/equipment/hand/glove-ring-leather-green.webp",
+  "system": {
+    "description": "<p>You can climb up vertical surfaces and across ceilings.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 35
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556015,
+    "modifiedTime": 1792773594565,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!CGzjBpHJRG8KSt5Y"
+}

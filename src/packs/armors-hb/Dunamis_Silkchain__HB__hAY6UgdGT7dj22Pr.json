@@ -1,0 +1,64 @@
+{
+  "folder": "Hbjp64XzuyJs2hOs",
+  "name": "Dunamis Silkchain (HB)",
+  "type": "armor",
+  "_id": "hAY6UgdGT7dj22Pr",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 7
+    },
+    "description": "",
+    "actions": {},
+    "tier": 4,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "timeslowing",
+        "effectIds": [],
+        "actionIds": [
+          "8PD5JQuS05IA6HJT"
+        ]
+      }
+    ],
+    "baseThresholds": {
+      "major": 13,
+      "severe": 36
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 7,
+        "value": 7
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555656,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!hAY6UgdGT7dj22Pr"
+}

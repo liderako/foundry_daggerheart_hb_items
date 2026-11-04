@@ -1,0 +1,45 @@
+{
+  "name": "Ominous Knowledge",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] sees a mortal creature, they instantly know one of their personal nightmares.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/mask-yellow-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Oracle of Doom",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dfbd136a89499a6cf3f2dd672627d163b416eed6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732101,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "GZ6mOlj2ZAw25zje",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!GZ6mOlj2ZAw25zje"
+}

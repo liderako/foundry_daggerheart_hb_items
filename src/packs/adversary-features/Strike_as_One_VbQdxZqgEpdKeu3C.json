@@ -1,0 +1,84 @@
+{
+  "name": "Strike as One",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to spotlight a number of other Assassins equal to the @Lookup[@name]'s unmarked Stress.</p>",
+    "resource": null,
+    "actions": {
+      "vKRDbD07bqR317Zv": {
+        "type": "effect",
+        "_id": "vKRDbD07bqR317Zv",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/movement/arrows-up-trio-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrows-up-trio-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Master Assassin",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "908dacb030cc22bac661f55ecc3be54b93c7d176"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732223,
+    "modifiedTime": 1792929732229,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "VbQdxZqgEpdKeu3C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!VbQdxZqgEpdKeu3C"
+}

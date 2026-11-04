@@ -1,0 +1,44 @@
+{
+  "name": "Lap Harp",
+  "type": "loot",
+  "img": "icons/tools/instruments/harp-lap-brown.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 25
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "f6d5fea081b52e0fb85eb74e168aae655c0a1595"
+    }
+  },
+  "_id": "frwkrpdLQw4MgHSY",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596372,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!frwkrpdLQw4MgHSY"
+}

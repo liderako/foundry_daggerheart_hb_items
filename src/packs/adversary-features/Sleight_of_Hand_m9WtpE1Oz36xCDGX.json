@@ -1,0 +1,75 @@
+{
+  "name": "Sleight of Hand",
+  "type": "feature",
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "_id": "m9WtpE1Oz36xCDGX",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to palm, swap, or plant a small object (card, coin, ring, vial) on a creature within Melee range. A PC actively watching her hands can make an <strong>Instinct Reaction Roll (15)</strong> to notice.</p>",
+    "resource": null,
+    "actions": {
+      "4o9BeRf7jVYtTEKt": {
+        "type": "effect",
+        "_id": "4o9BeRf7jVYtTEKt",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/sundries/gaming/playing-cards-grey.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "_key": "!items!m9WtpE1Oz36xCDGX"
+}

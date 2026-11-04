@@ -1,0 +1,71 @@
+{
+  "name": "Overwhelm",
+  "type": "feature",
+  "img": "icons/magic/death/blood-corruption-vomit-red.webp",
+  "system": {
+    "description": "<p>When the Zombies mark HP from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack against the attacker.</p>",
+    "resource": null,
+    "actions": {
+      "0Im5AEgp8gJaVJHh": {
+        "type": "effect",
+        "_id": "0Im5AEgp8gJaVJHh",
+        "systemPath": "actions",
+        "description": "<p>When the Zombies mark HP from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack against the attacker.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/death/blood-corruption-vomit-red.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "CYtq5UAUTjmZFoM5",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.Nf0v43rtflV56V2T.Item.jQmltra0ovHE33Nx",
+      "hash": "dbf463c38fd3a00e927ce0dabfd9a54c34d9da00"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352441950,
+    "modifiedTime": 1758352442019,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "4bA028wBJl1pwD6u",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!4bA028wBJl1pwD6u"
+}

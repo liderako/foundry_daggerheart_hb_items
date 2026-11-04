@@ -1,0 +1,37 @@
+{
+  "name": "Concoction (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
+  "system": {
+    "description": "<p>You can drink this potion to discover the deepest fear of the next person you make eye contact with.</p>",
+    "quantity": 1,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {}
+  },
+  "_id": "PRtw3OSktTtTSkJ6",
+  "effects": [],
+  "folder": null,
+  "sort": 4700000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555862,
+    "modifiedTime": 1792764555862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!PRtw3OSktTtTSkJ6"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Torture Field",
+  "type": "feature",
+  "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Once per scene, spend a Fear and choose a point within Far range. A magical zone of pain fills the area within a Close range of that point until the end of the scene. PCs in the area must mark a Stress to make an action roll.</p>",
+    "actions": {
+      "rDV1s7WHYkhdxi9Y": {
+        "type": "effect",
+        "_id": "rDV1s7WHYkhdxi9Y",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Sorcerer",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0ee3729edd2e99737498dfedb2cf67dec6f1fd3a"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732915,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "eEmOfw3hGkA0WZcO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!eEmOfw3hGkA0WZcO"
+}

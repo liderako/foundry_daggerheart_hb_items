@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Weapon",
+  "color": null,
+  "sorting": "a",
+  "_id": "Er9HfvLjNty5Fy1T",
+  "description": "",
+  "sort": 500000,
+  "flags": {
+    "scene-packer": {
+      "hash": "c181d7480b85e8377ab1933ddd780946a735997d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098508223,
+    "modifiedTime": 1772099468591,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!Er9HfvLjNty5Fy1T"
+}

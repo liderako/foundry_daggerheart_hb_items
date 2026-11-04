@@ -1,0 +1,45 @@
+{
+  "name": "Scary (Necropriest)",
+  "type": "feature",
+  "img": "icons/magic/control/fear-fright-white.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, the target must also mark a Stress.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Necropriest",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "98b7457a66bca5337315b58d90e470dfadfbb5c2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732744,
+    "modifiedTime": 1792929732757,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "Hhf6z91zYV7Wme5O",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Hhf6z91zYV7Wme5O"
+}

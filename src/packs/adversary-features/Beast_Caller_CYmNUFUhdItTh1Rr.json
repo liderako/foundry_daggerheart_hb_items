@@ -1,0 +1,84 @@
+{
+  "name": "Beast-Caller",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Spend a Fear</strong> to have the Spirit Singer summon <strong>2d4</strong> Guahalan Spirit Beasts within Very Close range and immediately spotlight one.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "RdekCPAM3sRbM7Vv": {
+        "type": "summon",
+        "_id": "RdekCPAM3sRbM7Vv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.PV0FTOWQWLw3PDlY",
+            "count": "2d4"
+          }
+        ],
+        "name": "Spend Fear",
+        "range": "veryClose"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Guahalan Spirit Singer",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "69ced1d44ab06cfecc1cf036f4d33a5cc5ea3ef8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731593,
+    "modifiedTime": 1792929731607,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CYmNUFUhdItTh1Rr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CYmNUFUhdItTh1Rr"
+}

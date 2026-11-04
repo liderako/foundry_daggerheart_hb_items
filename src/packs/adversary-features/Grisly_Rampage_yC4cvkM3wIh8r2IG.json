@@ -1,0 +1,85 @@
+{
+  "name": "Grisly Rampage",
+  "type": "feature",
+  "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
+  "system": {
+    "description": "<p><em>Countdown (6).</em> When the Vampire takes damage for the first time, activate the countdown. When they mark HP, tick down this countdown by the number of HP marked. When it triggers, the Vampire evolves into a Rampaging @Lookup[@name] (see “Rampaging @Lookup[@name] - Evolution”)</p>",
+    "actions": {
+      "ZOs0e4pO967IIqlB": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Grisly Rampage",
+            "type": "encounter",
+            "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "ZOs0e4pO967IIqlB",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Feral Vampire",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8bc400b8ba3d3ca954f17d71186dae6f873b265e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732643,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "yC4cvkM3wIh8r2IG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yC4cvkM3wIh8r2IG"
+}

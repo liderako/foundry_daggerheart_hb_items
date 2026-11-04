@@ -1,0 +1,48 @@
+{
+  "folder": "iApzSV5AhCgNf7ad",
+  "name": "Срібне Намисто",
+  "type": "loot",
+  "img": "icons/equipment/neck/choker-thin-silver-blue.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "gmNotes": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "631ab8fb19cd5dc7cab7f80588a4f04ff170fbc6",
+      "sourceId": "Actor.iKyqfmPpJaNQOq3G.Item.iZroAgfrF33CVLFL"
+    },
+    "item-piles": {
+      "item": {}
+    },
+    "mist-age-prices": {
+      "price": 14
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792782608625,
+    "modifiedTime": 1792783618192,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "iZroAgfrF33CVLFL",
+  "sort": 300000,
+  "_key": "!items!iZroAgfrF33CVLFL"
+}

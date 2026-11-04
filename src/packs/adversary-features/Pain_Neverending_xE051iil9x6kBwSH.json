@@ -1,0 +1,48 @@
+{
+  "name": "Pain Neverending",
+  "type": "feature",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC marks HP from the Queen's damage, give them a number of pain tokens equal to the HP marked. If a target has any pain tokens, they are Vulnerable. All pain tokens are removed when the Queen is defeated.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Queen of Pain",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7aa423eec2d2f90fd3f2421f9a29db836d219e88"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732860,
+    "modifiedTime": 1792929732865,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "xE051iil9x6kBwSH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!xE051iil9x6kBwSH"
+}

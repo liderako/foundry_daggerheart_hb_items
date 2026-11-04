@@ -1,0 +1,140 @@
+{
+  "name": "Bitter Health Potion (HB)",
+  "type": "consumable",
+  "_id": "eSXsx0Qw5FfucVi5",
+  "img": "icons/consumables/potions/potion-tube-corked-orange.webp",
+  "system": {
+    "description": "<p>Clear 1d4 HP and mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "D98HZE3FHzb9xGn3": {
+        "type": "healing",
+        "_id": "D98HZE3FHzb9xGn3",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "eSXsx0Qw5FfucVi5",
+            "step": null,
+            "consumeOnSuccess": false
+          },
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-tube-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 1100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "71b5df76279ae7c335dde8fc0feaee04572535bb"
+    },
+    "mist-age-prices": {
+      "price": 6
+    },
+    "mist-age-weight": {
+      "slots": null
+    },
+    "mist-age-equipment": {
+      "mystery": {
+        "unidentified": false,
+        "name": "",
+        "img": ""
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793788536188,
+    "modifiedTime": 1793792670283,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eSXsx0Qw5FfucVi5"
+}

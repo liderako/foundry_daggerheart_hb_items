@@ -1,0 +1,192 @@
+{
+  "name": "Debilitating Toxin",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Make an attack against a target within Melee range. On a success, <strong>spend a Fear</strong> to deal <strong>4d6+5</strong> physical damage and <em>Poison</em> them until their next rest or they succeed on a Knowledge Roll. While <em>Poisoned</em>, the target must mark a Stress before they make an action roll.</p>",
+    "resource": null,
+    "actions": {
+      "bzsPBh84BtgKR4N8": {
+        "type": "attack",
+        "_id": "bzsPBh84BtgKR4N8",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "consumeOnSuccess": true,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 4,
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "includeBase": false,
+            "direct": false,
+            "itemId": null,
+            "fullRestore": false
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "QLgD1rhoNwHte7D1",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/melee/strike-dagger-poison-green.webp",
+        "range": "melee",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-dagger-poison-green.webp",
+  "effects": [
+    {
+      "name": "Debilitating Toxin",
+      "img": "icons/skills/melee/strike-dagger-poison-green.webp",
+      "origin": "Actor.T4ZU7pwG018Rnz2h.Item.7UZn0d6weB5hP7We",
+      "transfer": false,
+      "_id": "QLgD1rhoNwHte7D1",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Poison them until their next rest or they succeed on a Knowledge Roll. While Poisoned, the target must mark a Stress before they make an action roll.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poison"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732441,
+        "modifiedTime": 1792929732441
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!qH91mKdJBSJ8NthN.QLgD1rhoNwHte7D1"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Master Ninja",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "bdd751140f9b6ef9792cdd0ece095f56921ee297"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732441,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "qH91mKdJBSJ8NthN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qH91mKdJBSJ8NthN"
+}

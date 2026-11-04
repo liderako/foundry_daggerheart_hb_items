@@ -1,0 +1,45 @@
+{
+  "name": "Only a Rumor",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>While deep underwater, the @Lookup[@name] can't be located or targeted.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Plesiosaurus",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0288ad90b7ddb4f3577f86b5e063fe8e38fc4fc5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732102,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "E0BQPmyJnY23U3iZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!E0BQPmyJnY23U3iZ"
+}

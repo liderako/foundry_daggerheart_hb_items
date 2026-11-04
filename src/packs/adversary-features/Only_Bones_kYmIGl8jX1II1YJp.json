@@ -1,0 +1,102 @@
+{
+  "name": "Only Bones",
+  "type": "feature",
+  "img": "icons/magic/death/bones-crossed-orange.webp",
+  "system": {
+    "description": "<p>The @Lookup[@name] is resistant to physical damage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Only Bones",
+      "type": "base",
+      "_id": "zTepuF1Z5OObQdSi",
+      "img": "icons/magic/death/bones-crossed-orange.webp",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.physical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Warrior is resistant to physical damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732102,
+        "modifiedTime": 1792929732102,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!kYmIGl8jX1II1YJp.zTepuF1Z5OObQdSi"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Skeleton Warrior",
+      "source": "official",
+      "aliases": [
+        "Warped Fortitude",
+        "Obsidian Scales"
+      ]
+    },
+    "scene-packer": {
+      "hash": "569555ae43b79ea4ff0d55eb5b457a27c45607c9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732102,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "kYmIGl8jX1II1YJp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kYmIGl8jX1II1YJp"
+}

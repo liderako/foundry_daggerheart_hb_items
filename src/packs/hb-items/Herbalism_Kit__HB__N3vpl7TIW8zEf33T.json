@@ -1,0 +1,85 @@
+{
+  "name": "Herbalism Kit (HB)",
+  "type": "loot",
+  "img": "icons/tools/laboratory/bowl-herbs-green.webp",
+  "system": {
+    "description": "<p>+2 to herbalism checks</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "9qvBU8yW6LK8pao7",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!N3vpl7TIW8zEf33T.9qvBU8yW6LK8pao7"
+    }
+  ],
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.o8CIciEvxDv49Vc1",
+      "hash": "856fd1c924a68ea6d1af853056e71cd4de5c1307"
+    },
+    "mist-age-prices": {
+      "price": 12
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1774034340708,
+    "modifiedTime": 1792863188237,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "N3vpl7TIW8zEf33T",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!N3vpl7TIW8zEf33T"
+}

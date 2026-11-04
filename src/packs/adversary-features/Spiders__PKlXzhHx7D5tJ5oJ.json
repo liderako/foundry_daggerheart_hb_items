@@ -1,0 +1,48 @@
+{
+  "name": "Spiders!",
+  "type": "feature",
+  "img": "icons/environment/creatures/bug-spider-blue.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] succeeds on an attack, give the target a spider token. All spider tokens can be removed by succeeding on a Finesse Roll (14 + the number of spider tokens).</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Painweaver",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8054dd826ec153fd2a19442e399a3441d79cef9f"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732914,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "PKlXzhHx7D5tJ5oJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PKlXzhHx7D5tJ5oJ"
+}

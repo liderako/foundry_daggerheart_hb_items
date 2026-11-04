@@ -1,0 +1,45 @@
+{
+  "name": "Fire and Ruin",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Block the PCs’ path with burning buildings or rubble-choked streets.</p><hr><p><em>What significant structure is on fire? What weapons have been unleashed against the city?</em></p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/earth/lava-stone-fire-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "City Sack",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3d493e54c9367518bdbf9310fa47d90f0a92e228"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732443,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "tZb7OkfMB1DomuZt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!tZb7OkfMB1DomuZt"
+}

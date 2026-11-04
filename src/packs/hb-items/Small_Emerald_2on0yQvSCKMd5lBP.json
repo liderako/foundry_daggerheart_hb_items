@@ -1,0 +1,43 @@
+{
+  "folder": "iApzSV5AhCgNf7ad",
+  "name": "Small Emerald",
+  "type": "loot",
+  "_id": "2on0yQvSCKMd5lBP",
+  "img": "icons/commodities/gems/gem-cut-table-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3352cc3691c7436b2102e0299dbb3dbdbdb424fe"
+    },
+    "mist-age-prices": {
+      "price": 10
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772831158531,
+    "modifiedTime": 1792783622336,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!2on0yQvSCKMd5lBP"
+}

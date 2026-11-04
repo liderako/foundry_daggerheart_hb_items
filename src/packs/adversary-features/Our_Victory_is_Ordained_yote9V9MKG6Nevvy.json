@@ -1,0 +1,84 @@
+{
+  "name": "Our Victory is Ordained",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> to empower <strong>1d4+1</strong> allies within Close range. Those allies become <em>Blessed</em> until they mark any Stress or the Priest marks their last HP. While they are <em>Blessed</em>, they add a <strong>d8</strong> to their attack and damage rolls.</p>",
+    "resource": null,
+    "actions": {
+      "zWtwSke3g9eo6uA0": {
+        "type": "effect",
+        "_id": "zWtwSke3g9eo6uA0",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Priest",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "ef68a4dd23b5ea801d777b907fefeeffe7e83527"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732531,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "yote9V9MKG6Nevvy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yote9V9MKG6Nevvy"
+}

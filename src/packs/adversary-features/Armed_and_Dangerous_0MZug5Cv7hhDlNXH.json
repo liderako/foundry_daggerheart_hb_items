@@ -1,0 +1,121 @@
+{
+  "name": "Armed and Dangerous",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the Octopus first appears, place a <strong>d8</strong> on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die's value to the damage dealt. After you add its value to a roll, decrease the die's value by 1.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": {
+      "type": "die",
+      "value": 8,
+      "max": "",
+      "recovery": null,
+      "progression": "increasing",
+      "dieFaces": "d8",
+      "icon": "",
+      "diceStates": {}
+    },
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/biological/tentacle-purple-white.webp",
+  "effects": [
+    {
+      "name": "Armed And Dangerous",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.damage.bonus",
+            "type": "add",
+            "value": "ITEM.@system.resource.value",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "damageType",
+            "damageType": "physical"
+          }
+        ]
+      },
+      "_id": "9nzj5ORCAjHBF9rS",
+      "img": "icons/commodities/biological/tentacle-purple-white.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>When the Octopus first appears, place a <strong>d8</strong> on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die's value to the damage dealt. After you add its value to a roll, decrease the die's value by 1.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731585,
+        "modifiedTime": 1792929731585,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!0MZug5Cv7hhDlNXH.9nzj5ORCAjHBF9rS"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Giant Octopus",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f984b8d1521b5ec3dca7e8fc0bbcd23a45f0172c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731585,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "0MZug5Cv7hhDlNXH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0MZug5Cv7hhDlNXH"
+}

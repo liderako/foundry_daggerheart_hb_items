@@ -1,0 +1,38 @@
+{
+  "name": "Destructible",
+  "type": "feature",
+  "img": "icons/commodities/biological/hand-clawed-tan.webp",
+  "system": {
+    "description": "<p>When the Zombie takes Major or greater damage, they mark an additional HP.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.EQTOAOUrkIvS2z88.Item.rEJ1kAfhHQZWhrZj",
+      "hash": "165e5df95ddd0fc6c5f992c398f43bd01be9b4db"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352335556,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "Utc6K7Kon1VDyi4f",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Utc6K7Kon1VDyi4f"
+}

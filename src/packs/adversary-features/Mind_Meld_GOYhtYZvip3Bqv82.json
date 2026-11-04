@@ -1,0 +1,45 @@
+{
+  "name": "Mind Meld",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>All Fungispunj can telepathically communicate with one another. When the Sporophore would be forced to mark Stress from an attack, it can cause Fungispunj allies in the scene to mark that Stress in its place, distributed among allies as it chooses.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fungispunj Sporophore",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d017498cf1f47f66376e0d4b18883981e1a13e32"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732095,
+    "modifiedTime": 1792929732112,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "GOYhtYZvip3Bqv82",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!GOYhtYZvip3Bqv82"
+}

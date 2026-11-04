@@ -1,0 +1,45 @@
+{
+  "name": "Jaunt",
+  "type": "feature",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": "<p>Before or after making a standard attack, the Spirit teleports to a location within Far range.</p>",
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Unstable Spirit",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c955878dfff0c0fc67cd2575cbbf0ded307c1cfa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732644,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "IauBCic1jLNfnGKp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!IauBCic1jLNfnGKp"
+}

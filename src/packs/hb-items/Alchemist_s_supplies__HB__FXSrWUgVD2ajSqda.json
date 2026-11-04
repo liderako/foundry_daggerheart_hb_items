@@ -1,0 +1,84 @@
+{
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "name": "Alchemist's supplies (HB)",
+  "type": "loot",
+  "_id": "FXSrWUgVD2ajSqda",
+  "img": "icons/tools/laboratory/vials-blue-pink.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>They typically include <strong>two glass beakers, a metal frame for heating, a glass stirring rod, a mortar and pestle, and a pouch of ingredients like salt, powdered iron, and purified water</strong>.</p><p>+2 to alchemy checks</p>",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "B Weight",
+      "img": "icons/containers/bags/case-simple-leather-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>3</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774039472027,
+        "modifiedTime": 1774039479039,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "ELJKNVyjJ9teNmrO",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!FXSrWUgVD2ajSqda.ELJKNVyjJ9teNmrO"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6fe748d77162b50082c99f66a2040b125676a891"
+    },
+    "mist-age-prices": {
+      "price": 25
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1772831278854,
+    "modifiedTime": 1792863188237,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!FXSrWUgVD2ajSqda"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Fuel for the Flames",
+  "type": "feature",
+  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC within Very Close range takes magic damage, increase it by 3.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Soul Candle",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "add6eff521c6cbf5880acae8d364279bd4a2ae58"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732853,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "pB4Gr6ghYVEjYQWe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!pB4Gr6ghYVEjYQWe"
+}

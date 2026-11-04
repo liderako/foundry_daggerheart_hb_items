@@ -1,0 +1,45 @@
+{
+  "name": "Rending Jaws",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, the target must mark 2 Armor Slots to reduce the severity by one threshold.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Chimera",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7f724e87feb5fa544e9d47ae0ee6896f62ed5ff4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732210,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "KFxCnzaXTPOUTQ9f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!KFxCnzaXTPOUTQ9f"
+}

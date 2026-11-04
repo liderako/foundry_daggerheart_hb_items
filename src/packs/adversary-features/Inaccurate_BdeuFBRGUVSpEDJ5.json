@@ -1,0 +1,45 @@
+{
+  "name": "Inaccurate",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The @Lookup[@name] has disadvantage on attacks against targets at Very Far range.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Arquebusier",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b8278163c8ed32642a95d5c242b4d5d9daed51f9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732448,
+    "modifiedTime": 1792929732453,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "BdeuFBRGUVSpEDJ5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BdeuFBRGUVSpEDJ5"
+}

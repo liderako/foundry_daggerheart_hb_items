@@ -1,0 +1,109 @@
+{
+  "name": "All Must fall",
+  "type": "feature",
+  "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+  "system": {
+    "description": "<p>When a PC rolls a failure with Fear while within Close range of the @Lookup[@name], they lose a Hope.</p>",
+    "resource": null,
+    "actions": {
+      "XQ7QebA0iGvMti4A": {
+        "type": "damage",
+        "_id": "XQ7QebA0iGvMti4A",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hope": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hope",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Hope Damage",
+        "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+        "range": "",
+        "areas": [
+          {
+            "name": "All Must fall",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "close",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Minor Demon",
+      "source": "official",
+      "aliases": [
+        "You Are Disfavored"
+      ]
+    },
+    "scene-packer": {
+      "hash": "2ba7124ab0fecb3bfe8b37c5725ae04fab501cea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731580,
+    "modifiedTime": 1792929731604,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "yMCpqQuRXGZk4AUq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yMCpqQuRXGZk4AUq"
+}

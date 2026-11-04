@@ -1,0 +1,45 @@
+{
+  "name": "Reaper Man",
+  "type": "feature",
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "system": {
+    "description": "<p>Social actions made against Death that pertain to cats or children have advantage.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Incarnate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "59eef296812b7bcf7d55db3dd0f2d09117844fad"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732742,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "QXPnp49W5fdLcfOl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!QXPnp49W5fdLcfOl"
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Uneasy Charm Potion (HB)",
+  "type": "consumable",
+  "_id": "UneasyCharm00001",
+  "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your next Presence Roll. When you drink it, the GM gains a Fear.</p>",
+    "quantity": 1,
+    "actions": {
+      "arNC0ofhfmABPCgT": {
+        "type": "effect",
+        "_id": "arNC0ofhfmABPCgT",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "UneasyCharm00001",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "aMbmd320zzxxtzp3",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Charm Potion",
+      "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+      "transfer": false,
+      "_id": "aMbmd320zzxxtzp3",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.presence.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793799408080,
+        "modifiedTime": 1793799408080,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!UneasyCharm00001.aMbmd320zzxxtzp3"
+    }
+  ],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2300000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 2.5
+    },
+    "mist-age-alchemy": {
+      "onUse": {
+        "fear": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "ea178e9a3c63cd92c81b6570324fd03bc67531bc"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793799408080,
+    "modifiedTime": 1793799584294,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UneasyCharm00001"
+}

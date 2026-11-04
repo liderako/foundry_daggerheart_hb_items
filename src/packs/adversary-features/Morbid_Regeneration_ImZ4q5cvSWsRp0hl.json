@@ -1,0 +1,85 @@
+{
+  "name": "Morbid Regeneration",
+  "type": "feature",
+  "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+  "system": {
+    "description": "<p><em>Countdown (Loop 1d4).</em> When the Troll takes damage for the first time, activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, clear a HP. If the Troll takes magic damage, tick up the countdown.</p>",
+    "actions": {
+      "auw9QmKnKSjb1IkL": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Morbid Regeneration",
+            "type": "encounter",
+            "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+            "progress": {
+              "looping": "looping",
+              "type": "fear",
+              "startFormula": "1d4",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "auw9QmKnKSjb1IkL",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Plague Troll",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "cba210bc88ab1876ae1f7c39218544003d3c34b4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732646,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "ImZ4q5cvSWsRp0hl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ImZ4q5cvSWsRp0hl"
+}

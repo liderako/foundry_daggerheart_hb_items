@@ -1,0 +1,48 @@
+{
+  "name": "Aura of Decay (Demon of Decay)",
+  "type": "feature",
+  "img": "icons/magic/death/skull-poison-green.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>PCs can't clear HP while within Very Close range of the Demon.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon of Decay",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3f937e2e5d69cc1b0453e2667190359acb7879b6"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732753,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "tKjyTQBUWPpsKAeg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!tKjyTQBUWPpsKAeg"
+}

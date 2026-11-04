@@ -1,0 +1,83 @@
+{
+  "name": "Double Swipe (Mountain Troll)",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "attribution": {},
+    "description": "<p><strong>Spend a Fear</strong> to move up to Close range and make two standard attacks against a target within Melee range. If both attacks succeed, combine the damage, and the target loses a Hope.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "1BeKyLFvU7Dv77Cx": {
+        "type": "effect",
+        "_id": "1BeKyLFvU7Dv77Cx",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "close"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mountain Troll",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7638cc4c18e66cec089f3041ae6164fee483f876"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731728,
+    "modifiedTime": 1792929731739,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Fr4bkE4apuPlP7gH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Fr4bkE4apuPlP7gH"
+}

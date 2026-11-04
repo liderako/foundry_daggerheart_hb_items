@@ -1,0 +1,44 @@
+{
+  "name": "Lakestrider Boots (HB)",
+  "type": "loot",
+  "_id": "NgvmrJYKpA2PrRSo",
+  "img": "icons/equipment/feet/shoes-collared-leather-blue.webp",
+  "system": {
+    "description": "<p>You can walk on the surface of water as if it were soft ground.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 120
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792855284687,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!NgvmrJYKpA2PrRSo"
+}

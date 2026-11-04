@@ -1,0 +1,99 @@
+{
+  "name": "One More Round",
+  "type": "feature",
+  "img": "icons/consumables/drinks/alcohol-beer-mug-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Outside of combat, <strong>mark a Stress</strong> to keep a target drinking with flattery and laughter. The target must succeed on an <strong>Instinct Reaction Roll (14)</strong> or pass out for the rest of the scene, leaving the @Lookup[@name] free to rob them, tie them up, or slip away.</p>",
+    "actions": {
+      "namiRoundSave001": {
+        "_id": "namiRoundSave001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Roll Save",
+        "img": "icons/consumables/drinks/alcohol-beer-mug-yellow.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "range": "melee",
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          }
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": 14,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "zrvfmj55fZnDRQaa",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793533952187,
+    "modifiedTime": 1793533952187,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!zrvfmj55fZnDRQaa"
+}

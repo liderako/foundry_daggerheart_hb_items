@@ -1,0 +1,147 @@
+{
+  "name": "Лікер \"Континвельский\" (HB)",
+  "type": "consumable",
+  "_id": "CCPFm5iXXwvyYYwR",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your Instinct until your next rest.</p><p><br>Лікер що походить з центральной Валарії, з Континвельского Лісу за що і отримав свою назву. </p>",
+    "quantity": 1,
+    "actions": {
+      "zerWKpcBvtiaUfaw": {
+        "type": "effect",
+        "_id": "zerWKpcBvtiaUfaw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "CCPFm5iXXwvyYYwR",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "v2EXGXbJaewaMxFC",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Major Attune Potion",
+      "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
+      "transfer": false,
+      "_id": "v2EXGXbJaewaMxFC",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.instinct.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792834169146,
+        "modifiedTime": 1792834169146,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!CCPFm5iXXwvyYYwR.v2EXGXbJaewaMxFC"
+    }
+  ],
+  "folder": "s5jk0eqw5fKD5dXi",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.CCPFm5iXXwvyYYwR",
+      "hash": "e57dab67fa77b1fbb41d772cb42ebfe69536d857"
+    },
+    "mist-age-prices": {
+      "price": 5
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792834169146,
+    "modifiedTime": 1792839009609,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 200000,
+  "_key": "!items!CCPFm5iXXwvyYYwR"
+}

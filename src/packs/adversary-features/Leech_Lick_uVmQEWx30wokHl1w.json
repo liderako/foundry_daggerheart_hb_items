@@ -1,0 +1,83 @@
+{
+  "name": "Leech Lick",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>On a successful standard attack, you can <strong>spend a Fear</strong> to clear a number of Stress equal to the number of HP the target marked.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "SsVfjYLxVvu69zkJ": {
+        "type": "effect",
+        "_id": "SsVfjYLxVvu69zkJ",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": "self"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/biological/tongue-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gobstalker",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7c43f6b5ae6ce6d3b5ba16b0e891748d5e8235d9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731992,
+    "modifiedTime": 1792929732002,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "uVmQEWx30wokHl1w",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!uVmQEWx30wokHl1w"
+}

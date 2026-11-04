@@ -1,0 +1,45 @@
+{
+  "name": "Patrols",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>A group of <strong>1d4+3</strong> adversaries leaves or arrives at the fort.</p><hr><p><em>What are the patrols on lookout for? Have they had any problems in the area lately?</em></p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/spearfighter.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fort",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d8ee46cc6b257ecb792abdbab33948d89011c14c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732531,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "owOouOx74fi2mXWt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!owOouOx74fi2mXWt"
+}

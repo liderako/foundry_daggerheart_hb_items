@@ -1,0 +1,108 @@
+{
+  "name": "Adventurer's Backpack (HB)",
+  "type": "loot",
+  "img": "icons/containers/bags/pack-leather-strapped-tan.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>+15 slots of carrying capacity.</p>",
+    "quantity": 1,
+    "actions": {},
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Adventurer's Backpack",
+      "img": "icons/containers/bags/pack-leather-strapped-tan.webp",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "description": "<p>+15 slots of carrying capacity.</p>",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.mist-age-weight.bonusSlots",
+            "type": "add",
+            "value": 15,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "lcbeXUaR4wdbVRYZ",
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793016982032,
+        "modifiedTime": 1793016982032,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!uHYAod43wGNfSeKi.lcbeXUaR4wdbVRYZ"
+    }
+  ],
+  "folder": "IKwwuasyn83UEJrm",
+  "flags": {
+    "mist-age-prices": {
+      "price": 6
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false,
+      "wearable": true
+    },
+    "mist-age-equipment": {
+      "wearable": true,
+      "container": true,
+      "durability": {
+        "enabled": true,
+        "max": 6,
+        "value": 6
+      }
+    },
+    "scene-packer": {
+      "hash": "563f8b4d8d7d7f52cd0b4d775ea673f9ca77e6e7"
+    }
+  },
+  "_id": "uHYAod43wGNfSeKi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793016982032,
+    "modifiedTime": 1793016982033,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uHYAod43wGNfSeKi"
+}

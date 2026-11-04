@@ -1,0 +1,30 @@
+{
+  "type": "Item",
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "food",
+  "color": "#47d13d",
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": ""
+    },
+    "scene-packer": {
+      "hash": "e59b6d076f5dc99900dd7c0ece80e1b564d75fb6"
+    }
+  },
+  "sorting": "a",
+  "_id": "R8S2JakvOYajf4cP",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792838154958,
+    "modifiedTime": 1792838160761,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!R8S2JakvOYajf4cP"
+}

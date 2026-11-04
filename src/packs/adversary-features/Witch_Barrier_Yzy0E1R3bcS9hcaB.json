@@ -1,0 +1,109 @@
+{
+  "name": "Witch Barrier",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] has resistance to magic damage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+  "effects": [
+    {
+      "name": "Witch Barrier",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.magical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "hd02VKqWhG2Uu0t8",
+      "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Owl Witch has resistance to magic damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732434,
+        "modifiedTime": 1792929732434,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!Yzy0E1R3bcS9hcaB.hd02VKqWhG2Uu0t8"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Owl Witch",
+      "source": "official",
+      "aliases": [
+        "Unliving"
+      ]
+    },
+    "scene-packer": {
+      "hash": "cd098477de7f88a935695a6443d12ba117487f09"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732434,
+    "modifiedTime": 1792929732449,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Yzy0E1R3bcS9hcaB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Yzy0E1R3bcS9hcaB"
+}

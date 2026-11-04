@@ -1,0 +1,27 @@
+{
+  "name": "Martial Adversaries",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 200000,
+  "_id": "NV033ce1VxzTbk3F",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "1b42a703eed2caf51e4080c438be122c3b43118f"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731504,
+    "modifiedTime": 1792929731504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!NV033ce1VxzTbk3F"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Save Us!",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>A group of civilians beg the PCs for protection. <strong>Spend a Fear</strong> to reveal that they are being pursued by <strong>2d4+3</strong> adversaries, who appear at Far range.</p><hr><p><em>Do the civilians know who the PCs are? Is there a notable figure from the city among them?</em></p>",
+    "resource": null,
+    "actions": {
+      "nGUDjb8hr4tBNMAU": {
+        "type": "summon",
+        "_id": "nGUDjb8hr4tBNMAU",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon",
+        "img": "icons/environment/people/group.webp",
+        "range": "",
+        "triggers": [],
+        "areas": [],
+        "summon": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/group.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "City Sack",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c8cb61b37e5600b2d106b0d74baac95c1dc173c6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732537,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "6BiVYhz7Wqc7WaSb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6BiVYhz7Wqc7WaSb"
+}

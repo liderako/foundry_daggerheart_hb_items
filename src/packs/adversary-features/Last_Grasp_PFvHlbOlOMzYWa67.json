@@ -1,0 +1,144 @@
+{
+  "name": "Last Grasp",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Spend a Fear</strong> to choose a PC within Far range. Skeletal hands burst out of the ground at the PC's feet and <em>Restrain</em> them until the PC breaks free with a successful Strength Roll. When a target <em>Restrained</em> in this way spends Hope, you gain a Fear.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "TQp9dbp1V7RG2jZk": {
+        "type": "effect",
+        "_id": "TQp9dbp1V7RG2jZk",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "46cGBFkE9Kziv7FS",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Spend Fear",
+        "range": "far"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+  "effects": [
+    {
+      "name": "Last Grasp",
+      "disabled": false,
+      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "description": "<p>You are restrained until you break free with a successful Strength Roll. When you spend Hope, the GM gains a Fear.</p>",
+      "transfer": true,
+      "statuses": [
+        "restrained"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "46cGBFkE9Kziv7FS",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731990,
+        "modifiedTime": 1792929731990,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!PFvHlbOlOMzYWa67.46cGBFkE9Kziv7FS"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Entombed Necropriest",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f86e2405215cc0126dd11124aced87b09e7cd384"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731990,
+    "modifiedTime": 1792929732002,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "PFvHlbOlOMzYWa67",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PFvHlbOlOMzYWa67"
+}

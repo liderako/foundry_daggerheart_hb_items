@@ -1,0 +1,48 @@
+{
+  "name": "Shapeshift",
+  "type": "feature",
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Assume the guise of an animal or humanoid of your choice. The new guise can be up to twice the size or half the size of the @Lookup[@name]'s original form.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Rakshasa",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "de607743b7b723b538dff8a7a6a47e2a1602582d"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732912,
+    "modifiedTime": 1792929732918,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "jDvjYhCpZIXbxzW7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!jDvjYhCpZIXbxzW7"
+}

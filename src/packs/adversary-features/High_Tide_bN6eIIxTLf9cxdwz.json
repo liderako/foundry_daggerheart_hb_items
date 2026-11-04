@@ -1,0 +1,84 @@
+{
+  "name": "High Tide",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to knock the target back to Close range.</p>",
+    "resource": null,
+    "actions": {
+      "MXSyEGbaHeFgyOsB": {
+        "type": "effect",
+        "_id": "MXSyEGbaHeFgyOsB",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/water/tendrils-ice-thorns.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/water/tendrils-ice-thorns.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Greater Water Elemental",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "56440fb8c22b39239899a12641147c9b072973ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731983,
+    "modifiedTime": 1792929731999,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "bN6eIIxTLf9cxdwz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bN6eIIxTLf9cxdwz"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Seed Barrage",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> and make an attack against up to three targets within Close range pummeling them with giant acorns. Targets the @Lookup[@name] succeeds against take <strong>2d10+5</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "cM5BBUSFxOHBsV2G": {
+        "type": "damage",
+        "_id": "cM5BBUSFxOHBsV2G",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "consumeOnSuccess": false,
+            "itemId": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "flatMultiplier": 2,
+              "dice": "d10",
+              "bonus": 5,
+              "multiplier": "flat"
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": 3
+        },
+        "effects": [],
+        "name": "Mark Stress",
+        "img": "icons/consumables/nuts/nut-spiked-shell.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/consumables/nuts/nut-spiked-shell.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Oak Treant",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "32d4bd61bf0f61ea079457e717e7271d0ac3b855"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732214,
+    "modifiedTime": 1792929732226,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "zY4KT081x6eEtvB1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zY4KT081x6eEtvB1"
+}

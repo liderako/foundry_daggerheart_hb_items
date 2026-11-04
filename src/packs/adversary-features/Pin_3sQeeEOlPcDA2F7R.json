@@ -1,0 +1,144 @@
+{
+  "name": "Pin",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Hut makes a successful standard attack, you can <strong>mark a Stress</strong> to temporarily <em>Restrain</em> the target. The Hut drags the <em>Restrained</em> target when it moves.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "MrARhvjsWvXX0sn1": {
+        "type": "effect",
+        "_id": "MrARhvjsWvXX0sn1",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "TmPOgMEhFSv1ZPIf",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+  "effects": [
+    {
+      "name": "Pinned",
+      "disabled": false,
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "description": "<p>You are <em>Restrained</em>. The Hut drags you along when it moves.</p>",
+      "transfer": false,
+      "statuses": [
+        "restrained"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "TmPOgMEhFSv1ZPIf",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732107,
+        "modifiedTime": 1792929732107,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!3sQeeEOlPcDA2F7R.TmPOgMEhFSv1ZPIf"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Chicken-foot Hut",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c57423080f98f60d671ec92f47b6fa6a5ad3e8e0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732107,
+    "modifiedTime": 1792929732115,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "3sQeeEOlPcDA2F7R",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!3sQeeEOlPcDA2F7R"
+}

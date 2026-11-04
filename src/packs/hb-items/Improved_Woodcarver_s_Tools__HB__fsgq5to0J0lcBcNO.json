@@ -1,0 +1,44 @@
+{
+  "name": "Improved Woodcarver's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/engraving-tool-black.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A carving knife, a gouge, chisels and a small saw.</p><p>+3 to woodcarving checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 20
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "a4475e4009b1f9f4577ba144c0075fdec5a9df9f"
+    }
+  },
+  "_id": "fsgq5to0J0lcBcNO",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185239,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fsgq5to0J0lcBcNO"
+}

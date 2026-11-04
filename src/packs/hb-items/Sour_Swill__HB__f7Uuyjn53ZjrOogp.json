@@ -1,0 +1,201 @@
+{
+  "_id": "f7Uuyjn53ZjrOogp",
+  "name": "Sour Swill (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2000000,
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Mark 1 Stress. Until your next rest, you have a -1 penalty to your Agility and a +1 bonus to your Presence.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "gmNotes": "",
+    "actions": {
+      "UKE02UFG1XVfahmJ": {
+        "type": "effect",
+        "_id": "UKE02UFG1XVfahmJ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "f7Uuyjn53ZjrOogp",
+            "step": null,
+            "consumeOnSuccess": false
+          },
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "Bdgl6urEtQKUSfxf",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "XOUfumYWStSOzx5e",
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791381885,
+        "modifiedTime": 1793791381885,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!f7Uuyjn53ZjrOogp.XOUfumYWStSOzx5e"
+    },
+    {
+      "_id": "Bdgl6urEtQKUSfxf",
+      "name": "Sour Swill",
+      "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "conditionals": [],
+        "stacking": null,
+        "targetDispositions": [],
+        "changes": [
+          {
+            "key": "system.traits.presence.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": -1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>-1 Agility and +1 Presence until your next rest.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793791381885,
+        "modifiedTime": 1793791381885,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!f7Uuyjn53ZjrOogp.Bdgl6urEtQKUSfxf"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "340fe6b5dcb5ad1d26ca3446ac2f7940b9c62494"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793791381885,
+    "modifiedTime": 1793792670283,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f7Uuyjn53ZjrOogp"
+}

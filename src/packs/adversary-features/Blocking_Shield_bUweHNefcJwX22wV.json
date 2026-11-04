@@ -1,0 +1,45 @@
+{
+  "name": "Blocking Shield",
+  "type": "feature",
+  "system": {
+    "description": "<p>Creatures within Melee range of the @Lookup[@name] have disadvantage on attack rolls against them. Creatures trapped inside the @Lookup[@name] are immune to this feature.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vault Guardian Gaoler",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "2f327a9944a5ee4f2079d7eeccd513d59099e26c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731596,
+    "modifiedTime": 1792929731607,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "bUweHNefcJwX22wV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bUweHNefcJwX22wV"
+}

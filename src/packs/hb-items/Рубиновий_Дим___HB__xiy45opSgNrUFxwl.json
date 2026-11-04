@@ -1,0 +1,172 @@
+{
+  "name": "Рубиновий Дим  (HB)",
+  "type": "consumable",
+  "_id": "xiy45opSgNrUFxwl",
+  "img": "assets/hb-icons/ProfessionIcons/ProfessionAndCraftIcons/Enchantment/Enchantment_03_big_magicdust.png",
+  "system": {
+    "description": "<p>Mark a Stress and clear a HP.</p>",
+    "quantity": 1,
+    "actions": {
+      "FVn1NAbzHHyX2lsM": {
+        "type": "healing",
+        "_id": "FVn1NAbzHHyX2lsM",
+        "systemPath": "actions",
+        "description": "<p>Mark a Stress and clear a HP.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "cg6VtQ0eVZjDdcK0",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Imbibe",
+        "img": "icons/commodities/materials/bowl-powder-gold.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": 61,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "too small Weight",
+      "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792841918972,
+        "modifiedTime": 1792841918972,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "fmHNXs1Lg1tgLV3T",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!xiy45opSgNrUFxwl.fmHNXs1Lg1tgLV3T"
+    }
+  ],
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b784490702a0b4dd1f01086b290c53e5dc40c7ff",
+      "sourceId": "Actor.IEoXYFu6thpPJeKV.Item.xiy45opSgNrUFxwl"
+    },
+    "mist-age-prices": {
+      "price": 1.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792841918972,
+    "modifiedTime": 1792862127766,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 500000,
+  "_key": "!items!xiy45opSgNrUFxwl"
+}

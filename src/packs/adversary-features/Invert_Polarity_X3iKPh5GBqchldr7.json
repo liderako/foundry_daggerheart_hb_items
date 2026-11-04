@@ -1,0 +1,83 @@
+{
+  "name": "Invert Polarity",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>Up to three times per scene, you can <strong>spend a Fear</strong> to flip any die rolled onto its obverse result. This effect can't be used to alter a critical success.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "aDM9B189dj0PFVhK": {
+        "type": "effect",
+        "_id": "aDM9B189dj0PFVhK",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "3",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Temporal Enforcer",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "04db593298d1d7686afb041d3f8441c465f3fdd2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731988,
+    "modifiedTime": 1792929732001,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "X3iKPh5GBqchldr7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!X3iKPh5GBqchldr7"
+}

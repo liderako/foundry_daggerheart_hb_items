@@ -1,0 +1,39 @@
+{
+  "folder": "El6wQ0W4eqhZBZmj",
+  "name": "Психочуття",
+  "type": "feature",
+  "_id": "Y601SFZjz8FbQzGc",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Spend a Stress: Загострює зір, слух, нюх, смак та дотик та усі інші відчуття. Саме за допомогою цього відчуття храмовники відчувають коли чаклуни створють закляття.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false,
+    "featureForm": "passive"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "96b7100f104e641b75aed1fcd106a14f147dfc3a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772194796563,
+    "modifiedTime": 1789724763164,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!Y601SFZjz8FbQzGc"
+}

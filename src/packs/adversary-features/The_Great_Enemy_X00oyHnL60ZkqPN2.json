@@ -1,0 +1,48 @@
+{
+  "name": "The Great Enemy",
+  "type": "feature",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Demon enters the scene, gain [[/r 1d4+1]] Fear.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon of Might",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "67f515edb0fc5e7e10b80365fd26e806d0d6f6fb"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732915,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "X00oyHnL60ZkqPN2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!X00oyHnL60ZkqPN2"
+}

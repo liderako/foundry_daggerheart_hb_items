@@ -1,0 +1,105 @@
+{
+  "name": "Grave Calling",
+  "type": "feature",
+  "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+  "system": {
+    "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon [[/r 1d4+1]] @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Iejq1AZR5wtPlBby]{Warrior Wraiths}, which appear at Far range.</p>",
+    "actions": {
+      "pPc0LD3O6diEpVug": {
+        "_id": "pPc0LD3O6diEpVug",
+        "type": "ability",
+        "name": "Grave Calling",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "far",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "giGPMyVdqd45zuyy": {
+        "type": "summon",
+        "_id": "giGPMyVdqd45zuyy",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Iejq1AZR5wtPlBby",
+            "count": "1d4+1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Lich Knight",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5307692c227beb1f2440b16e096c5587d972a9bd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732641,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "JRXs5jzA9ecoNG6K",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!JRXs5jzA9ecoNG6K"
+}

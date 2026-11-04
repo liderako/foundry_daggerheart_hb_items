@@ -1,0 +1,84 @@
+{
+  "name": "Loyal to the End",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a knight within Close range takes damage, you can <strong>mark a Stress</strong> to move into Melee range of them and immediately spotlight the knight.</p>",
+    "resource": null,
+    "actions": {
+      "3Z0SZb4xxXsGwv9l": {
+        "type": "effect",
+        "_id": "3Z0SZb4xxXsGwv9l",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/life/heart-hand-gold-green.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/magic/life/heart-hand-gold-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Squire",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4daddd1d687df28fb1ec8b4bce1f8590b733bff2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732528,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "6oJ0KHb0kVvHzqUk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6oJ0KHb0kVvHzqUk"
+}

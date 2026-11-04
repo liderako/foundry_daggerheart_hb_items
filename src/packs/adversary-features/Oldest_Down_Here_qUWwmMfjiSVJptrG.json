@@ -1,0 +1,36 @@
+{
+  "name": "Oldest Down Here",
+  "type": "feature",
+  "img": "icons/skills/social/symbol-pyramid-eye.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Once per scene, a PC can ask the @Lookup[@name] one question about the sewers, the slums, or the people who live there, and he answers truthfully. In return, he always asks the PC a question of his own, and they must answer honestly.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "qUWwmMfjiSVJptrG",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793533952187,
+    "modifiedTime": 1793533952187,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!qUWwmMfjiSVJptrG"
+}

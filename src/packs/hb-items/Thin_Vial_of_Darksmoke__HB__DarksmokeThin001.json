@@ -1,0 +1,84 @@
+{
+  "name": "Thin Vial of Darksmoke (HB)",
+  "type": "consumable",
+  "_id": "DarksmokeThin001",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "system": {
+    "description": "<p>When an adversary attacks you, use this vial and roll a number of d4s equal to your Agility. Add the highest result to your Evasion against the attack.</p>",
+    "quantity": 1,
+    "actions": {
+      "DarksmokeTUse001": {
+        "type": "effect",
+        "_id": "DarksmokeTUse001",
+        "systemPath": "actions",
+        "description": "<p>When an adversary attacks you, use this vial and roll a number of d4s equal to your Agility. Add the highest result to your Evasion against the attack.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "DarksmokeThin001",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 3000000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 5.5
+    },
+    "scene-packer": {
+      "hash": "ed8f2e378d845797f04fe27d44cbcb7403391b87"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793794978080,
+    "modifiedTime": 1793794978081,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DarksmokeThin001"
+}

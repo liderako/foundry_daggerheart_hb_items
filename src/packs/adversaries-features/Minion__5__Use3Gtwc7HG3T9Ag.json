@@ -1,0 +1,38 @@
+{
+  "name": "Minion (5)",
+  "type": "feature",
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "system": {
+    "description": "<p>The Treant is defeated when they take any damage. For every 5 damage a PC deals to the Treant, defeat an additional Minion within range the attack would succeed against.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "urYLWb9vX4XvNTA8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.G62k4oSkhkoXEs2D.Item.gOgqATDRzPP7Jzbh",
+      "hash": "b9f24dbd14f60a625257656d2af157edeeeec98f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352186936,
+    "modifiedTime": 1758352190504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "Use3Gtwc7HG3T9Ag",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Use3Gtwc7HG3T9Ag"
+}

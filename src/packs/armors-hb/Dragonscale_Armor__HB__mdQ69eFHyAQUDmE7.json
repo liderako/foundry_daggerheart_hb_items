@@ -1,0 +1,64 @@
+{
+  "folder": "rkSdPu86ybLz6aKF",
+  "name": "Dragonscale Armor (HB)",
+  "type": "armor",
+  "_id": "mdQ69eFHyAQUDmE7",
+  "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "description": "",
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "impenetrable",
+        "effectIds": [],
+        "actionIds": [
+          "J1MCpcfXByKaSSgx"
+        ]
+      }
+    ],
+    "baseThresholds": {
+      "major": 11,
+      "severe": 27
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 5,
+        "value": 5
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555656,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mdQ69eFHyAQUDmE7"
+}

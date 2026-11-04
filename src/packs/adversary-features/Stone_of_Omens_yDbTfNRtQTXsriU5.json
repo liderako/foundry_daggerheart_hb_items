@@ -1,0 +1,45 @@
+{
+  "name": "Stone of Omens",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Inside the @Lookup[@name] is a stone that foretells good or ill fortune, depending on its color. A PC who searches the @Lookup[@name]'s remains finds the stone and makes a fate roll. On an even result, the PC gains Hope equal to half the result, which they can distribute among the PCs however they wish. On an odd result, you gain Fear equal to half the result.</p><p>[[/fr]]</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Atototl",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3be5463f016520d77d8a2ad9c45a611ea07e9ed3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732223,
+    "modifiedTime": 1792929732229,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "yDbTfNRtQTXsriU5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!yDbTfNRtQTXsriU5"
+}

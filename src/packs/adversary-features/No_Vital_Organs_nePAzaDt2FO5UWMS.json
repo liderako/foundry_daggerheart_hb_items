@@ -1,0 +1,45 @@
+{
+  "name": "No Vital Organs",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Creation doesn't take extra damage from attacks that critically succeed against it.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Waxwork Creation",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "1be00f77d41088db8fb593e1ac2fedbfcaf6cf06"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732101,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "nePAzaDt2FO5UWMS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!nePAzaDt2FO5UWMS"
+}

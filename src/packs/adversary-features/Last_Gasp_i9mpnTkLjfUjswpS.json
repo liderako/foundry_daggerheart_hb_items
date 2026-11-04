@@ -1,0 +1,79 @@
+{
+  "name": "Last Gasp",
+  "type": "feature",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "system": {
+    "description": "<p>Twice per scene when an undead within Close range is defeated, reanimate them as a @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.0H86bmFTyBhVB2am]{Lingering Shade} or @UUID[Compendium.daggerheart.adversaries.Actor.6l1a3Fazq8BoKIcc]{Skeleton Dredge} and immediately spotlight them.</p>",
+    "actions": {
+      "lKdmYKh06u34pp5k": {
+        "type": "summon",
+        "_id": "lKdmYKh06u34pp5k",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": 0,
+          "max": "2",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.6l1a3Fazq8BoKIcc",
+            "count": "1"
+          },
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.0H86bmFTyBhVB2am",
+            "count": "1"
+          }
+        ],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Acolyte",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "fda6a48d11d1de565bbf33165e72049ec861fa28"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732645,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "i9mpnTkLjfUjswpS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!i9mpnTkLjfUjswpS"
+}

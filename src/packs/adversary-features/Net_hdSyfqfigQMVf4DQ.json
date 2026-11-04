@@ -1,0 +1,180 @@
+{
+  "name": "Net",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Once per scene, throw a net onto a target within a Very Close range. The target must make an Agility or Strength Reaction Roll. On a failure, they must mark a Stress and become <em>Restrained</em>. <em>Restrained</em> lasts until they’re freed with a successful Finesse or Strength roll or by dealing at least 10 damage to the net.</p>",
+    "resource": null,
+    "actions": {
+      "FuARqsX7ERjEZhH3": {
+        "type": "attack",
+        "_id": "FuARqsX7ERjEZhH3",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "NY9ycmxA9Vrw86be",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/tools/fishing/net-tan.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/tools/fishing/net-tan.webp",
+  "effects": [
+    {
+      "name": "Ensnared",
+      "img": "icons/tools/fishing/net-tan.webp",
+      "origin": "Actor.m4CSV4hvC9y0aJCp.Item.kO2o2B3sGNIiqNGc",
+      "transfer": false,
+      "_id": "NY9ycmxA9Vrw86be",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Restrained lasts until you're freed with a successful Finesse or Strength roll or by dealing at least 10 damage to the net.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732530,
+        "modifiedTime": 1792929732530
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!hdSyfqfigQMVf4DQ.NY9ycmxA9Vrw86be"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gladiator",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8f952bed7e48651f185526ab11f926c335d9b3d7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732530,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "hdSyfqfigQMVf4DQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hdSyfqfigQMVf4DQ"
+}

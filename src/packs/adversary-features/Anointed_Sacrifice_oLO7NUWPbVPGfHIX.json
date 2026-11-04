@@ -1,0 +1,86 @@
+{
+  "name": "Anointed Sacrifice",
+  "type": "feature",
+  "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress to Anoint a PC or adversary within Far range. Whenever an Anointed creature marks any number of HP, you gain a Fear.</p>",
+    "actions": {
+      "OAHrtX8uDY9EMgJ0": {
+        "type": "effect",
+        "_id": "OAHrtX8uDY9EMgJ0",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Cult Ritualist",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "04b2a5391de6eb4e0b79b76cf347f663a3c77c86"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732752,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "oLO7NUWPbVPGfHIX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oLO7NUWPbVPGfHIX"
+}

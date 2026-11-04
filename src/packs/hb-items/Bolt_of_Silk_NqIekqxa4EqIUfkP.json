@@ -1,0 +1,44 @@
+{
+  "name": "Bolt of Silk",
+  "type": "loot",
+  "img": "icons/commodities/cloth/cloth-bolt-gold-red.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 20
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "0f526a648879005a9c16375844fdf8e102ef6103"
+    }
+  },
+  "_id": "NqIekqxa4EqIUfkP",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596372,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NqIekqxa4EqIUfkP"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Down the Drain",
+  "type": "feature",
+  "img": "icons/environment/wilderness/cave-entrance.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>The @Lookup[@name] knows the sewer routes beneath the slums. When she escapes through a drain, grate, or tunnel, pursuers must succeed on an <strong>Instinct Roll (15)</strong> to keep track of her.</p><p><strong>Spend a Fear</strong> to have her vanish from the scene entirely, along with anything she stole.</p>",
+    "actions": {
+      "namiDrainFear001": {
+        "_id": "namiDrainFear001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Spend Fear",
+        "img": "icons/environment/wilderness/cave-entrance.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "sdtY75W7t4sLCavH",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793533952187,
+    "modifiedTime": 1793533952187,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!sdtY75W7t4sLCavH"
+}

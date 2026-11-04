@@ -1,0 +1,44 @@
+{
+  "folder": "R8S2JakvOYajf4cP",
+  "name": "Meal with seafood",
+  "type": "consumable",
+  "_id": "aacf7YrLpGNN1Kow",
+  "img": "icons/consumables/meat/fish-raw-bowl-wooden-green-purple.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>If you will eat this meal you can clear 1 stress.</p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d45c8ddb33abfb745722289b61c3b20a8c33775c"
+    },
+    "mist-age-prices": {
+      "price": 1
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792836064890,
+    "modifiedTime": 1792838166431,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aacf7YrLpGNN1Kow"
+}

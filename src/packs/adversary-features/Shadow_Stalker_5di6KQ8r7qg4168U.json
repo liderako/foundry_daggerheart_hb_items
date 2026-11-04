@@ -1,0 +1,115 @@
+{
+  "name": "Shadow Stalker",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>While Hidden, the @Lookup[@name] gains a +2 bonus to its attack rolls.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "effects": [
+    {
+      "name": "Shadow Stalker",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": 2,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "_id": "GDZDLLpRtBvG8F18",
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>While Hidden, gain a +2 bonus to attack rolls.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732216,
+        "modifiedTime": 1792929732216,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!5di6KQ8r7qg4168U.GDZDLLpRtBvG8F18"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Panther",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a56eabaa969d3023886ea76dd7af49f0c8f9c495"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732216,
+    "modifiedTime": 1792929732227,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "5di6KQ8r7qg4168U",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!5di6KQ8r7qg4168U"
+}

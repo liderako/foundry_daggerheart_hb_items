@@ -1,0 +1,36 @@
+{
+  "name": "False Bottom",
+  "type": "feature",
+  "img": "icons/containers/chest/chest-reinforced-steel-cherry.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] always carries his goods in hidden pockets, false-bottomed crates, and stitched linings. A routine search by guards finds nothing. A PC who specifically searches him or his cargo must succeed on an <strong>Instinct Roll (15)</strong> to find the contraband.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "pywi73tMCUF40bKX",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!pywi73tMCUF40bKX"
+}

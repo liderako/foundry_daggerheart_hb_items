@@ -1,0 +1,200 @@
+{
+  "name": "Murky Health Draught (HB)",
+  "type": "consumable",
+  "_id": "XjsTrfKLc6DPiqAv",
+  "img": "icons/consumables/potions/bottle-round-flask-fumes-purple.webp",
+  "system": {
+    "description": "<p>Clear 1 HP and mark 1 Stress. Until your next rest, you have a -1 penalty to your Agility.</p>",
+    "quantity": 1,
+    "actions": {
+      "ILn62dVHmUZPH1RV": {
+        "type": "healing",
+        "_id": "ILn62dVHmUZPH1RV",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "XjsTrfKLc6DPiqAv",
+            "step": null,
+            "consumeOnSuccess": false
+          },
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "whwY9RRdsADHIX6R",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/bottle-round-flask-fumes-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Murky Health Draught",
+      "img": "icons/consumables/potions/bottle-round-flask-fumes-purple.webp",
+      "transfer": false,
+      "_id": "whwY9RRdsADHIX6R",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": -1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>-1 to Agility until your next rest.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793788536187,
+        "modifiedTime": 1793788536187,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!XjsTrfKLc6DPiqAv.whwY9RRdsADHIX6R"
+    }
+  ],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 900000,
+  "flags": {
+    "scene-packer": {
+      "hash": "24ebedb478257274712d62cc985ac6975377da87"
+    },
+    "mist-age-prices": {
+      "price": 0.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    },
+    "mist-age-equipment": {
+      "mystery": {
+        "unidentified": false,
+        "name": "",
+        "img": ""
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793788536187,
+    "modifiedTime": 1793792670282,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XjsTrfKLc6DPiqAv"
+}

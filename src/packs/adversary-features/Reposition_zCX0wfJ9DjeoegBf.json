@@ -1,0 +1,45 @@
+{
+  "name": "Reposition",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>After making a standard attack, the @Lookup[@name] can move anywhere within Close range.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/arrow-down-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Martial Artist",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dc242b4b894a121639ab4cdba667d0345ff83297"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "zCX0wfJ9DjeoegBf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zCX0wfJ9DjeoegBf"
+}

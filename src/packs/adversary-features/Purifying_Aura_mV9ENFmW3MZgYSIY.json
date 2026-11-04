@@ -1,0 +1,45 @@
+{
+  "name": "Purifying Aura",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Any PC who takes an action within the @Lookup[@name]'s Melee range can <strong>spend a Hope</strong> to purify themself in its healing warmth, clearing a HP or a Stress and all conditions.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Phoenix",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "9f8eb095c4571ce5788289692d19c53ef01144d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732111,
+    "modifiedTime": 1792929732116,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "mV9ENFmW3MZgYSIY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!mV9ENFmW3MZgYSIY"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Minion (12)",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Shadow is defeated when it takes any damage. For every 12 damage a PC deals to the Shadow, the PC defeats an additional Minion within range that the attack would succeed against.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Severed Shadow",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dc5daf3911d384b18f5e783faa0ae0a78307d820"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732095,
+    "modifiedTime": 1792929732112,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "UcVAatKBniAPydTL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UcVAatKBniAPydTL"
+}

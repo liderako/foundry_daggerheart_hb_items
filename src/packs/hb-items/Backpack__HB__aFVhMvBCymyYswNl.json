@@ -1,0 +1,107 @@
+{
+  "name": "Backpack (HB)",
+  "type": "loot",
+  "_id": "aFVhMvBCymyYswNl",
+  "img": "icons/containers/bags/pack-simple-embossed-leather-tan.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>+10 slots of carrying capacity.</p>",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "Backpack",
+      "img": "icons/containers/bags/pack-simple-embossed-leather-tan.webp",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "description": "<p>+10 slots of carrying capacity.</p>",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.mist-age-weight.bonusSlots",
+            "type": "add",
+            "value": 10,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "qZpAGcsOpeBGZlns",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793007862319,
+        "modifiedTime": 1793007862319,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!aFVhMvBCymyYswNl.qZpAGcsOpeBGZlns"
+    }
+  ],
+  "folder": "IKwwuasyn83UEJrm",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7c624f431a1c2605549ff602a983e2f118ed1bd9"
+    },
+    "mist-age-prices": {
+      "price": 0.2
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false,
+      "wearable": true
+    },
+    "mist-age-equipment": {
+      "wearable": true,
+      "container": true,
+      "durability": {
+        "enabled": true,
+        "max": 4,
+        "value": 4
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1772098589562,
+    "modifiedTime": 1793016352889,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!aFVhMvBCymyYswNl"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "hLn0v6ov6KuFgptu",
+  "name": "Hawkguard's Mantle (HB)",
+  "type": "armor",
+  "_id": "ZZfLZ0uTzROddFoj",
+  "img": "icons/equipment/chest/breastplate-layered-gold.webp",
+  "system": {
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "description": "",
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "actions": {
+      "DlCbxmVa5udw4wLA": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Gliding",
+        "description": "You can glide up to Far range and are immune to damage from falling.",
+        "img": "icons/skills/movement/arrow-upward-yellow.webp",
+        "_id": "DlCbxmVa5udw4wLA",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "armorFeatures": [
+      {
+        "value": "gliding",
+        "effectIds": [],
+        "actionIds": [
+          "DlCbxmVa5udw4wLA"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 4,
+        "value": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555655,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ZZfLZ0uTzROddFoj"
+}

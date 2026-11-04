@@ -1,0 +1,64 @@
+{
+  "folder": "Hbjp64XzuyJs2hOs",
+  "name": "Emberwoven Armor (HB)",
+  "type": "armor",
+  "_id": "bcQUh4QG3qFX0Vx6",
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 6
+    },
+    "description": "",
+    "actions": {},
+    "tier": 4,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "burning",
+        "effectIds": [],
+        "actionIds": [
+          "L8mHf4A8SylyxsMH"
+        ]
+      }
+    ],
+    "baseThresholds": {
+      "major": 13,
+      "severe": 36
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 6,
+        "value": 6
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764555656,
+    "modifiedTime": 1793115586300,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bcQUh4QG3qFX0Vx6"
+}

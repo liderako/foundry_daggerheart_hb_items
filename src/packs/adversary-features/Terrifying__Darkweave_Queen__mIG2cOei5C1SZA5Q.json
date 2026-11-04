@@ -1,0 +1,45 @@
+{
+  "name": "Terrifying (Darkweave Queen)",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When a PC fails an attack roll against the Queen, you gain a Fear.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Darkweave Queen",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "08210dbf12fa5d26851bd881f49df43c57e557e3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732333,
+    "modifiedTime": 1792929732348,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "mIG2cOei5C1SZA5Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!mIG2cOei5C1SZA5Q"
+}

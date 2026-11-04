@@ -1,0 +1,38 @@
+{
+  "name": "Magical Reflection",
+  "type": "feature",
+  "img": "icons/magic/light/beam-impact-deflect-teal.webp",
+  "system": {
+    "description": "<p>When the Elemental takes damage from an attack within Close range, deal an amount of damage to the attacker equal to half the damage they dealt.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.sRn4bqerfARvhgSV.Item.dnVB2DxbpYtwt0S0",
+      "hash": "c470b0d98317aab974b3b7f470aa61913f33dde9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352156793,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "CHeZZukijXr7KXBa",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CHeZZukijXr7KXBa"
+}

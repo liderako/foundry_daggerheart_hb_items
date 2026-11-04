@@ -1,0 +1,38 @@
+{
+  "name": "Flailing Limbs",
+  "type": "feature",
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "system": {
+    "description": "<p>When the Zombie makes a standard attack, they can attack all targets within Very Close range.</p><p>@Template[type:emanation|range:vc]</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.EQTOAOUrkIvS2z88.Item.0fn7rVLwBnyCyvTA",
+      "hash": "f1881f38cee77510946a20b244d1506d567986d9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352336663,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "qDizWbFHGWCbWfPf",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qDizWbFHGWCbWfPf"
+}

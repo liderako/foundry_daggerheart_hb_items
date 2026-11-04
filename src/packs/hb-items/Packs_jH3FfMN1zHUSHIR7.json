@@ -1,0 +1,30 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Packs",
+  "color": null,
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": ""
+    },
+    "scene-packer": {
+      "hash": "afe634ce12111ef3759b36d525c818554d01d44c"
+    }
+  },
+  "sorting": "a",
+  "_id": "jH3FfMN1zHUSHIR7",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792864867112,
+    "modifiedTime": 1792864867112,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!jH3FfMN1zHUSHIR7"
+}

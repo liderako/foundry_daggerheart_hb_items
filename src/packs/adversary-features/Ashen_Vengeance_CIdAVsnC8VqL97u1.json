@@ -1,0 +1,76 @@
+{
+  "name": "Ashen Vengeance",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] marks their last HP, replace them with the @UUID[Compendium.daggerheart.adversaries.Actor.pMuXGCSOQaxpi5tb]{Ashen Tyrant} and immediately spotlight them.</p>",
+    "resource": null,
+    "actions": {
+      "cFqFjemAfAjB0OB0": {
+        "type": "transform",
+        "_id": "cFqFjemAfAjB0OB0",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "transform": {
+          "actorUUID": "Compendium.daggerheart.adversaries.Actor.pMuXGCSOQaxpi5tb",
+          "resourceRefresh": {
+            "hitPoints": true,
+            "stress": true
+          }
+        },
+        "name": "Transform",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/fire/flame-burning-eye.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Volcanic Dragon: Molten Scourge",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "79c8a3fddab2ed307a1157a7f2311e600d591737"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731586,
+    "modifiedTime": 1792929731605,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CIdAVsnC8VqL97u1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CIdAVsnC8VqL97u1"
+}

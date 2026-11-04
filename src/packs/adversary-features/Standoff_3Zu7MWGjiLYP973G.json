@@ -1,0 +1,126 @@
+{
+  "name": "Standoff",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the participants step forward to begin the duel, activate a Progress Countdown (4) and a Consequence Countdown (4) as the two opponents read the other and seek the perfect opening move. When either countdown triggers, the PC must make a Finesse roll. They gain advantage if the Progress countdown triggered, or disadvantage if the Consequence countdown triggered. On a success, the PC immediately takes the spotlight and gains advantage on their first action roll. On a failure, the adversary immediately takes the spotlight and gains advantage on their first action roll.</p><hr><p><em>How does the adversary carry themselves? What opening attack are they preparing for?</em></p>",
+    "resource": null,
+    "actions": {
+      "cEJ9OjG74tVcJTdq": {
+        "type": "countdown",
+        "name": "Progress Countdown",
+        "countdown": [
+          {
+            "name": "Standoff Progress",
+            "type": "narrative",
+            "img": "icons/creatures/eyes/humanoid-single-yellow.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "4",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "cEJ9OjG74tVcJTdq",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "img": "icons/creatures/eyes/humanoid-single-yellow.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      },
+      "8jCrJtoG17c5IJip": {
+        "type": "countdown",
+        "name": "Consequence Countdown",
+        "countdown": [
+          {
+            "name": "Standoff Consequence",
+            "type": "narrative",
+            "img": "icons/creatures/eyes/human-single-brown.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "4",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "8jCrJtoG17c5IJip",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "img": "icons/creatures/eyes/humanoid-single-yellow.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/eyes/humanoid-single-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fateful Duel",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a71fb17c4164a7598e9d1826612f14ba05effdfa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732537,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "3Zu7MWGjiLYP973G",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!3Zu7MWGjiLYP973G"
+}

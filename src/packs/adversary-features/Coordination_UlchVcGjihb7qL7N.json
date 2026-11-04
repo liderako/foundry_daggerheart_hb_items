@@ -1,0 +1,45 @@
+{
+  "name": "Coordination",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, immediately spotlight an ally within Close range.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/blade-tips-double-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Centurion",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "46dd2a32486ec518dea7926b23deb924a2b016a7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732440,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "UlchVcGjihb7qL7N",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UlchVcGjihb7qL7N"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Improved Climber's Kit (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/claws-climbing.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A climber’s kit includes special pitons, boot tips, gloves, and a harness.</p><p>+3 to climbing checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 24
+    },
+    "mist-age-weight": {
+      "slots": 3,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "f3bd3b65d132bca1b98896d932361b28d8f2184c"
+    }
+  },
+  "_id": "D9ilU4Xsu6V9DtG4",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185242,
+    "modifiedTime": 1792863185244,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!D9ilU4Xsu6V9DtG4"
+}

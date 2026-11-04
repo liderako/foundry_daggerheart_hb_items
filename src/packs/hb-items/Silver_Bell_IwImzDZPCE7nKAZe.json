@@ -1,0 +1,44 @@
+{
+  "name": "Silver Bell",
+  "type": "loot",
+  "img": "icons/tools/instruments/bell-silver.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 0.2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "c68164f9af5633451bee060a9805c074d2768625"
+    }
+  },
+  "_id": "IwImzDZPCE7nKAZe",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596372,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IwImzDZPCE7nKAZe"
+}

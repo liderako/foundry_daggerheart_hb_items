@@ -1,0 +1,95 @@
+{
+  "name": "Battle Rage",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Countdown (5).</em> When the @Lookup[@name] is in the spotlight for the first time, activate the countdown. It ticks down whenever the @Lookup[@name] marks HP. While active, the @Lookup[@name] gains a bonus to damage rolls equal to their current number of marked HP, and they can’t be <em>Restrained</em> or <em>Vulnerable</em>. When it triggers, the @Lookup[@name] immediately takes the spotlight and clears all marked Stress.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 5,
+      "progression": "decreasing",
+      "max": "5",
+      "icon": "",
+      "recovery": null,
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "EJOBvqwn9w8i83V7": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Battle Rage",
+            "type": "encounter",
+            "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "0",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "EJOBvqwn9w8i83V7",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Berserker",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d6a220702c6535c3b0cbae4bb97976110f2c1dea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732438,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "2E6LFVfg3jZI26DJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!2E6LFVfg3jZI26DJ"
+}

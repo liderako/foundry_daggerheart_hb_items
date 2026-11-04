@@ -1,0 +1,84 @@
+{
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "Herbal antiseptic (HB)",
+  "type": "consumable",
+  "img": "icons/commodities/biological/tail-spiked-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "destroyOnEmpty": true
+  },
+  "effects": [
+    {
+      "name": "too small Weight",
+      "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "2xushmrcTCYW0cal",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!YHJxQKAzqRXRsSNC.2xushmrcTCYW0cal"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "9e7eac4e238a4c4614de4038fffc44721c4b73d0",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.t9h38KKgpEcSGYhM"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774034306120,
+    "modifiedTime": 1792862127766,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "YHJxQKAzqRXRsSNC",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!YHJxQKAzqRXRsSNC"
+}

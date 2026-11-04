@@ -1,0 +1,83 @@
+{
+  "name": "Venomous Tail",
+  "type": "feature",
+  "_id": "YR9MXmY9jX0meIj6",
+  "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Action: Spend a Fear to make an attack roll against a target within Close range. On a success, the target takes 2d8 physical damage and, if they mark any number of HP, becomes Infected until they heal any number of HP. While Infected, they have disadvantage on action rolls.</p>",
+    "resource": null,
+    "actions": {},
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [
+    {
+      "name": "Infected",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "_id": "OYVMPD8fDopAIDgH",
+      "img": "icons/magic/acid/dissolve-bone-skull.webp",
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#73ff00",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.2.1",
+        "createdTime": 1763637056672,
+        "modifiedTime": 1763637082417,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!YR9MXmY9jX0meIj6.OYVMPD8fDopAIDgH"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "783b8059b2738e8bb5e2a319c3f9c3ec72c52c50"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.1",
+    "createdTime": 1763636982095,
+    "modifiedTime": 1763637042056,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!YR9MXmY9jX0meIj6"
+}

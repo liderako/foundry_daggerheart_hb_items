@@ -1,0 +1,44 @@
+{
+  "name": "Suspended Rod (HB)",
+  "type": "loot",
+  "_id": "nnj12RiFanq7s5zv",
+  "img": "icons/commodities/tech/pipe-metal.webp",
+  "system": {
+    "description": "<p>This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556017,
+    "modifiedTime": 1792774018170,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!nnj12RiFanq7s5zv"
+}

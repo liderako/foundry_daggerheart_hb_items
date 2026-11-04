@@ -1,0 +1,44 @@
+{
+  "name": "Silver Chain",
+  "type": "loot",
+  "img": "icons/equipment/neck/choker-chain-thick-silver.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 12
+    },
+    "mist-age-weight": {
+      "slots": 0.2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "1328fd1893751f3c81c36e0be2c3c6701046b050"
+    }
+  },
+  "_id": "207Vvam9W9UmsZM3",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596368,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!207Vvam9W9UmsZM3"
+}

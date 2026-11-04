@@ -1,0 +1,36 @@
+{
+  "name": "Dual Flask (HB)",
+  "type": "loot",
+  "_id": "HCvcAu3sdHCspGMP",
+  "img": "icons/consumables/potions/round-decorated-snake-green.webp",
+  "system": {
+    "description": "<p>This flask can hold two different liquids. You can swap between them by flipping a small switch on the flask's side.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792764556016,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!HCvcAu3sdHCspGMP"
+}

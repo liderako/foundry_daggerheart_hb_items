@@ -1,0 +1,45 @@
+{
+  "name": "Adaptive Tactics",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>Pool. When the @Lookup[@name] fails an attack roll, add a token to the @Lookup[@name] Pool. All @Lookup[@name]s in the scene gain a bonus to attack rolls equal to the number of tokens in the @Lookup[@name] Pool. Clear all tokens when any @Lookup[@name] takes Severe damage or is defeated.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/tech/levers-colored.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mechanorb",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c94e3adcbc601b5b6e540089d706722e048de8bb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731581,
+    "modifiedTime": 1792929731604,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CYFJjn0O2enUwc4W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CYFJjn0O2enUwc4W"
+}

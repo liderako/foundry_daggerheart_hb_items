@@ -1,0 +1,44 @@
+{
+  "name": "Book",
+  "type": "loot",
+  "_id": "wX3bWCdJqJMNPani",
+  "img": "icons/sundries/books/book-backed-silver-red.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "folder": "iApzSV5AhCgNf7ad",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cf815f23d2cda75cfa1400776def317136114cc8"
+    },
+    "mist-age-prices": {
+      "price": 90
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792842271226,
+    "modifiedTime": 1792862125518,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wX3bWCdJqJMNPani"
+}

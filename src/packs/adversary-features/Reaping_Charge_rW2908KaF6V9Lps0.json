@@ -1,0 +1,161 @@
+{
+  "name": "Reaping Charge",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend a Fear</strong> to move to a point within Far range. All targets in the chariot’s path must make an Agility Reaction Roll. Targets who fail take <strong>2d6+5</strong> physical damage and become <em>Vulnerable</em> until their next roll with Hope.</p>",
+    "resource": null,
+    "actions": {
+      "lAVVAx0Grd0qUq4Z": {
+        "type": "attack",
+        "_id": "lAVVAx0Grd0qUq4Z",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "iNkuViRObc9SZHwz",
+            "onSave": false
+          }
+        ],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Attack",
+        "img": "icons/skills/melee/strike-blade-blood-red.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/strike-blade-blood-red.webp",
+  "effects": [
+    {
+      "name": "Reaping Charge",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "origin": "Actor.CdlBVnPfGrS6kleK.Item.9RvLfQunfhPwvSAm",
+      "transfer": false,
+      "_id": "iNkuViRObc9SZHwz",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p><em>Vulnerable</em> until your next roll with Hope.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732535,
+        "modifiedTime": 1792929732535
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!rW2908KaF6V9Lps0.iNkuViRObc9SZHwz"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Scythed Chariot",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dcf3c30875dce72775b9f1c4d1c69d8dfa33d6a0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732535,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "rW2908KaF6V9Lps0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!rW2908KaF6V9Lps0"
+}

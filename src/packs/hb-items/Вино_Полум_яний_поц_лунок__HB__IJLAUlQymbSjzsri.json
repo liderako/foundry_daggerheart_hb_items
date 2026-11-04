@@ -1,0 +1,147 @@
+{
+  "name": "Вино Полум'яний поцілунок (HB)",
+  "type": "consumable",
+  "_id": "IJLAUlQymbSjzsri",
+  "img": "icons/consumables/potions/potion-jar-corked-labeled-red.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your Presence until your next rest.</p>",
+    "quantity": 1,
+    "actions": {
+      "Bz6oZUN317mLvQSk": {
+        "type": "effect",
+        "_id": "Bz6oZUN317mLvQSk",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "IJLAUlQymbSjzsri",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "3iXv9QiuLGOfDCi2",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Major Charm Potion",
+      "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
+      "transfer": false,
+      "_id": "3iXv9QiuLGOfDCi2",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.presence.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792833815498,
+        "modifiedTime": 1792833815498,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!IJLAUlQymbSjzsri.3iXv9QiuLGOfDCi2"
+    }
+  ],
+  "folder": "s5jk0eqw5fKD5dXi",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.mist-age-hb-items.consumables-hb.Item.IJLAUlQymbSjzsri",
+      "hash": "8e52914c609d752ddd0f1ae6d8a6e75f47e513bb"
+    },
+    "mist-age-prices": {
+      "price": 5
+    },
+    "mist-age-weight": {
+      "slots": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792833815498,
+    "modifiedTime": 1793794688373,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": -100000,
+  "_key": "!items!IJLAUlQymbSjzsri"
+}

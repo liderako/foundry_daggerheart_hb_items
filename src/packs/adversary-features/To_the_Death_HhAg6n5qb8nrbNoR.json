@@ -1,0 +1,45 @@
+{
+  "name": "To the Death",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Duel participants gain a +5 bonus to their damage rolls. When a duel participant makes a death move, they cannot choose to Avoid Death.</p><hr><p><em>What has driven this duel to be to the death? Are such duels common?</em></p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fateful Duel",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "332bfc329477b44fa758454ce10e70e5fd3e0f54"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732539,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "HhAg6n5qb8nrbNoR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!HhAg6n5qb8nrbNoR"
+}

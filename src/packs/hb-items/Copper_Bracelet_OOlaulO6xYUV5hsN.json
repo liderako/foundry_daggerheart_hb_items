@@ -1,0 +1,44 @@
+{
+  "name": "Copper Bracelet",
+  "type": "loot",
+  "img": "icons/equipment/wrist/bracer-straight-copper-green.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 2
+    },
+    "mist-age-weight": {
+      "slots": 0.2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "7bdad857c6f5e4880e8ede98474aad6ce65a2b6a"
+    }
+  },
+  "_id": "OOlaulO6xYUV5hsN",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596368,
+    "modifiedTime": 1792786596371,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OOlaulO6xYUV5hsN"
+}

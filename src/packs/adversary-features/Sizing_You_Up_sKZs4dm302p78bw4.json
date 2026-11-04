@@ -1,0 +1,36 @@
+{
+  "name": "Sizing You Up",
+  "type": "feature",
+  "img": "icons/skills/social/peace-luck-insult.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The first time the @Lookup[@name] sees a creature, she knows the most valuable thing they carry and where they keep it. Her first <em>Quick Hands</em> against that creature is made with <strong>advantage</strong>.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "_id": "sKZs4dm302p78bw4",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793533952187,
+    "modifiedTime": 1793533952187,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!sKZs4dm302p78bw4"
+}

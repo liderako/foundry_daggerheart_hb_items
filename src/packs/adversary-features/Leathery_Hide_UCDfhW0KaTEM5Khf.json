@@ -1,0 +1,83 @@
+{
+  "name": "Leathery Hide",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the @Lookup[@name] would be forced to mark HP, you can mark any number of Stress instead of an equal number of HP.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "oewmJZJF7gu6f0kM": {
+        "type": "effect",
+        "_id": "oewmJZJF7gu6f0kM",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": true,
+            "key": "stress",
+            "value": 1,
+            "step": 1,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/leather/scales-brown.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Triceratops",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "08f8f77b5a9690bfa0e216ffe3f36d250a32be30"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731991,
+    "modifiedTime": 1792929732002,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "UCDfhW0KaTEM5Khf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UCDfhW0KaTEM5Khf"
+}

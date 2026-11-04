@@ -1,0 +1,158 @@
+{
+  "name": "Shroud of the Fallen",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to wrap an ally within Close range in a shroud of Protection until the @Lookup[@name] marks their last HP. While Protected, the target has resistance to all damage.</p>",
+    "resource": null,
+    "actions": {
+      "8yRj7EpEI4PlKNhl": {
+        "type": "effect",
+        "_id": "8yRj7EpEI4PlKNhl",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "U9lWz1LgeAiK5L85",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Protect",
+        "img": "icons/magic/unholy/orb-contained-pink.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/orb-contained-pink.webp",
+  "effects": [
+    {
+      "name": "Shroud of the Fallen",
+      "img": "icons/magic/unholy/orb-contained-pink.webp",
+      "transfer": false,
+      "_id": "U9lWz1LgeAiK5L85",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.magical.resistance",
+            "value": 1,
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "key": "system.resistance.physical.resistance",
+            "value": 1,
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": "<p>Until the Cult Adept marks their last HP.</p>"
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Resistance to all damage until the Adept marks their last HP</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732217,
+        "modifiedTime": 1792929732217,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!lWkaqqYiIOVj2NS6.U9lWz1LgeAiK5L85"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Cult Adept",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "785b675cdf0c13cea33b297c1268e95359260591"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732217,
+    "modifiedTime": 1792929732227,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "lWkaqqYiIOVj2NS6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lWkaqqYiIOVj2NS6"
+}

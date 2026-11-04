@@ -1,0 +1,47 @@
+{
+  "name": "Doombringer (Headless Horseman)",
+  "type": "feature",
+  "img": "icons/magic/death/weapon-scythe-rune-green.webp",
+  "system": {
+    "description": "<p>The Horseman has advantage on attacks against PCs with 0 Hope.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Headless Horseman",
+      "source": "undead",
+      "aliases": [
+        "Your Time is Up"
+      ]
+    },
+    "scene-packer": {
+      "hash": "2523b022d2c7cd9f5b87263e7bd3490744551745"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732636,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "SJwi15qijdJHxILe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!SJwi15qijdJHxILe"
+}

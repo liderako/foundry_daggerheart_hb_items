@@ -1,0 +1,27 @@
+{
+  "name": "Undead Adversaries",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 300000,
+  "_id": "RjQlZq8QE6mT10ot",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "07eea5b0ccd3b2103be122b0d3974bab830b5f4b"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731504,
+    "modifiedTime": 1792929731504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!RjQlZq8QE6mT10ot"
+}

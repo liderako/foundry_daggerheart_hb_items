@@ -1,0 +1,124 @@
+{
+  "name": "Forest Control",
+  "type": "feature",
+  "img": "icons/environment/wilderness/tree-spruce.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take <strong>1d10</strong> physical damage.</p>",
+    "resource": null,
+    "actions": {
+      "UyL02IaAO3m8LgWI": {
+        "type": "attack",
+        "_id": "UyL02IaAO3m8LgWI",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Fear</strong> to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take <strong>1d10</strong> physical damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d10",
+                "bonus": null,
+                "multiplier": "flat"
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": 15,
+          "damageMod": "none"
+        },
+        "name": "Pull Tree",
+        "img": "icons/environment/wilderness/tree-spruce.webp",
+        "range": "close"
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "MeqhdwNxFAnraV6Q",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.VtFBt9XBE0WrGGxP.Item.phtxvgptyvT3WoeK",
+      "hash": "469cd1062491fb2c3408bba8a05b570b31936a1d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352567910,
+    "modifiedTime": 1758352603780,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "kN8VRe5UxruaZEtB",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kN8VRe5UxruaZEtB"
+}

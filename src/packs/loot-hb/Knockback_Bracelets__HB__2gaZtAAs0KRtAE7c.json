@@ -1,0 +1,36 @@
+{
+  "name": "Knockback Bracelets (HB)",
+  "type": "loot",
+  "_id": "2gaZtAAs0KRtAE7c",
+  "img": "icons/equipment/wrist/bracer-reinforced.webp",
+  "system": {
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>On a successful weapon attack, you can knock your target back up to Close range from their location.</p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556015,
+    "modifiedTime": 1792764556015,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2gaZtAAs0KRtAE7c"
+}

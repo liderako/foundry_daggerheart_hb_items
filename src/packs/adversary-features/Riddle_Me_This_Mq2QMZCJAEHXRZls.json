@@ -1,0 +1,45 @@
+{
+  "name": "Riddle Me This",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] is obsessed with puzzles and can be distracted by brain teasers, word games, or other semi-intellectual diversions.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/trades/academics-investigation-puzzles.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Manticore",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a88dd0fe322abac490ec66ea1fd1d402e9422278"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732211,
+    "modifiedTime": 1792929732225,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Mq2QMZCJAEHXRZls",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Mq2QMZCJAEHXRZls"
+}

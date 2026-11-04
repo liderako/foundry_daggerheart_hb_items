@@ -1,0 +1,44 @@
+{
+  "folder": "iApzSV5AhCgNf7ad",
+  "name": "Silver Ring",
+  "type": "loot",
+  "img": "assets/hb-icons/MedievalIcons/ResourcesMedieval/RingSilver2.png",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "6c735087ae8b760a0ae76b4a19acda24b4972530",
+      "sourceId": "Actor.GtPv0zbt1YSGiXID.Item.ON29sfaEm2WzvmpN"
+    },
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.6",
+    "createdTime": 1775861016342,
+    "modifiedTime": 1792783623326,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "inqx0gW8EnoGpJpv",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!inqx0gW8EnoGpJpv"
+}

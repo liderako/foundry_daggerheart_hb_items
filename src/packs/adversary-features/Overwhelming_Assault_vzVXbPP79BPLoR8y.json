@@ -1,0 +1,86 @@
+{
+  "name": "Overwhelming Assault",
+  "type": "feature",
+  "img": "icons/skills/melee/strike-axe-energy-pink.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Make a standard attack against a target within Melee range. On a success, spend a Fear to make a second attack against the same target. If both attacks hit, combine the damage.</p>",
+    "actions": {
+      "WGiPUAGfeWWnkQNT": {
+        "type": "effect",
+        "_id": "WGiPUAGfeWWnkQNT",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Army of Hell",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c382cf8702448a69a5f6cea1b3bee9e008318792"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732859,
+    "modifiedTime": 1792929732865,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "vzVXbPP79BPLoR8y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!vzVXbPP79BPLoR8y"
+}

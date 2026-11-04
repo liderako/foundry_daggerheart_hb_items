@@ -1,0 +1,80 @@
+{
+  "name": "My Right Hand",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend 2 Fear</strong> to summon a Sword Saint, who appears at Close range.</p>",
+    "resource": null,
+    "actions": {
+      "8fm35kCDmv2J8QvS": {
+        "type": "summon",
+        "_id": "8fm35kCDmv2J8QvS",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon",
+        "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+        "range": "",
+        "triggers": [],
+        "areas": [],
+        "summon": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Destined Conqueror",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "fba6874d5a4a762fc3b6e44aec004b81e81a7fab"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732529,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Pgo3CrC9I1nRvPz3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Pgo3CrC9I1nRvPz3"
+}

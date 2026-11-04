@@ -1,0 +1,45 @@
+{
+  "name": "No Truces - Evolution",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "attribution": {},
+    "description": "<p>When the Fury has marked 6 HP, they unleash their full rage upon the PCs, clearing all Stress and temporary conditions. While in this rage, they gain a +2 to attack rolls, and they can make their standard attack against all targets within range.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Winged Fury",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d7f688676665d151ff2b7f5297c94cab88bd1ea7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732859,
+    "modifiedTime": 1792929732864,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "lHFVtFOlgPs9LAcJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lHFVtFOlgPs9LAcJ"
+}

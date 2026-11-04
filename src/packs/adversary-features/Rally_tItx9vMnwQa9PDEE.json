@@ -1,0 +1,84 @@
+{
+  "name": "Rally",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend 2 Fear</strong> to spotlight the @Lookup[@name] and up to <strong>1d6</strong> allies within Far range.</p>",
+    "resource": null,
+    "actions": {
+      "rspIh1H75osYN0gn": {
+        "type": "effect",
+        "_id": "rspIh1H75osYN0gn",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend 2 Fear",
+        "img": "icons/sundries/flags/banner-flag-red-white.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/sundries/flags/banner-flag-red-white.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Paladin",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "ab79dc00f5d1734feead0cbea5551eeebd96c5ff"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732533,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "tItx9vMnwQa9PDEE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!tItx9vMnwQa9PDEE"
+}

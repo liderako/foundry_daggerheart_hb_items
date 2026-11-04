@@ -1,0 +1,84 @@
+{
+  "name": "Bubble Shield",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Once per scene, <strong>spend a Fear</strong> to create a spherical shield of shimmering energy centered on the Mage. The shield extends out to a Close distance and remains in place until the end of the scene or the Mage is defeated. Creatures can move freely through the shield, but anything inside the shield cannot be targeted by attackers outside the shield.</p>",
+    "resource": null,
+    "actions": {
+      "gDwlLuvutrwAcTBu": {
+        "type": "effect",
+        "_id": "gDwlLuvutrwAcTBu",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Siege Mage",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4e295f638c747a64c8889125b3f43ecc145a4657"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732439,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "QSmQnwZzrMft4BXE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!QSmQnwZzrMft4BXE"
+}

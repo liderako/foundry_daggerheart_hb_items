@@ -1,0 +1,83 @@
+{
+  "name": "Expensive Failure",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When a PC within Melee range fails an action roll, you can <strong>mark a Stress</strong> to have the @Lookup[@name] brazenly steal a handful of gold from them.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "sf0EbTcIURgKJ3JV": {
+        "type": "effect",
+        "_id": "sf0EbTcIURgKJ3JV",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/currency/coins-wheat-stack-copper.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Catrin",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b862a6a7d2065cb4a5746bb12dad68f4c2048596"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731844,
+    "modifiedTime": 1792929731859,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "knxSz4KPMqWXg1I5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!knxSz4KPMqWXg1I5"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Double Swipe (Feral Vampire)",
+  "type": "feature",
+  "img": "icons/skills/melee/strikes-sword-scimitar.webp",
+  "system": {
+    "description": "<p>While rampaging, <strong>spend a Fear</strong> to move the @Lookup[@name] up to Close range and immediately make two standard attacks against a single target within Melee range. If both attacks hit, combine the damage and the target also loses a Hope.</p>",
+    "actions": {
+      "EUaWd5eTTQQTgUKv": {
+        "_id": "EUaWd5eTTQQTgUKv",
+        "type": "attack",
+        "name": "Double Swipe",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "range": "close",
+        "roll": {
+          "type": "attack",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6",
+            "flatMultiplier": 1,
+            "compare": null,
+            "treshold": null
+          },
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false
+        },
+        "baseAction": false,
+        "description": "",
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Feral Vampire",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c270101565f1e645389cc0b25115bf140d6b5151"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732636,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "1L0bHhUMGeLPomXN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!1L0bHhUMGeLPomXN"
+}

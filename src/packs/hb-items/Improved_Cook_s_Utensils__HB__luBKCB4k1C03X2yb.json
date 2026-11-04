@@ -1,0 +1,44 @@
+{
+  "name": "Improved Cook's Utensils (HB)",
+  "type": "loot",
+  "img": "icons/tools/cooking/knife-chef-steel-black.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>An iron pot, knives, forks, a stirring spoon and a ladle.</p><p>+3 to cooking checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "6778ac42433de7f5855637135b735c046353d34d"
+    }
+  },
+  "_id": "luBKCB4k1C03X2yb",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185241,
+    "modifiedTime": 1792863185244,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!luBKCB4k1C03X2yb"
+}

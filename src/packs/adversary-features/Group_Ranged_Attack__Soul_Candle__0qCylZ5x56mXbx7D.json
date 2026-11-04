@@ -1,0 +1,86 @@
+{
+  "name": "Group Ranged Attack (Soul Candle)",
+  "type": "feature",
+  "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spend a Fear to choose a target and spotlight up to 5 @Lookup[@name]s within Close range of them. Those Minions make one shared attack roll. On a success, they deal 4 magic damage each. Combine this damage.</p>",
+    "actions": {
+      "r8W5OM8BuliAja54": {
+        "type": "effect",
+        "_id": "r8W5OM8BuliAja54",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Soul Candle",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "269a6632c8fdaa1aca56119c359a498c9cd8d23a"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732853,
+    "modifiedTime": 1792929732863,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "0qCylZ5x56mXbx7D",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0qCylZ5x56mXbx7D"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Bloodsworn Retainers",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend 2 Fear</strong> to summon a @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Xucs82KOCSxTvd7m]{Blood Bender} and [[/r 1d4+1]] @UUID[Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG]{Vampires}, who appear at Far range and immediately take the spotlight.</p>",
+    "resource": null,
+    "actions": {
+      "jGFOnU6PNdWU6iF4": {
+        "type": "summon",
+        "_id": "jGFOnU6PNdWU6iF4",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG",
+            "count": "1d4+1"
+          },
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Xucs82KOCSxTvd7m",
+            "count": "1"
+          }
+        ],
+        "name": "Spend Fear",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Lord",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "0f6f3624061fba2305fc5e9b04598cf534873b53"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732547,
+    "modifiedTime": 1792929732552,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "EEAYIori3l5NE7mV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!EEAYIori3l5NE7mV"
+}

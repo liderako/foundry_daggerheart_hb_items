@@ -1,0 +1,82 @@
+{
+  "name": "Book of Tyfar (HB)",
+  "type": "loot",
+  "img": "icons/sundries/books/book-rounded-teal.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [
+    {
+      "name": "Small Weight",
+      "img": "icons/containers/bags/case-simple-leather-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>1</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "enNpk7hrwZB15Dmn",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!aAjhpBgMO0Ejw5uD.enNpk7hrwZB15Dmn"
+    }
+  ],
+  "folder": "4Zj1rM45GMaRWnj1",
+  "flags": {
+    "scene-packer": {
+      "hash": "deba9f6ce77842c3958185cbedd75bfa0819de91",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.FVEErDWAUGDx7l1y"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774034381799,
+    "modifiedTime": 1775860958080,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "aAjhpBgMO0Ejw5uD",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!aAjhpBgMO0Ejw5uD"
+}

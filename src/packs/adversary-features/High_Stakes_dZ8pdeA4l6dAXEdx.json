@@ -1,0 +1,75 @@
+{
+  "name": "High Stakes",
+  "type": "feature",
+  "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+  "_id": "dZ8pdeA4l6dAXEdx",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to draw a PC into a wager: coin, secret, favor, or item. If they accept, the PC makes a <strong>Presence or Instinct Roll (15)</strong>. On a success, they win the stakes and the @Lookup[@name] marks a Stress. On a failure, they lose the stakes and mark a Stress. On a roll <strong>with Fear</strong>, she also learns something they would rather keep hidden.</p>",
+    "resource": null,
+    "actions": {
+      "9ue4DN0CjTOCyYjI": {
+        "type": "effect",
+        "_id": "9ue4DN0CjTOCyYjI",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "_key": "!items!dZ8pdeA4l6dAXEdx"
+}

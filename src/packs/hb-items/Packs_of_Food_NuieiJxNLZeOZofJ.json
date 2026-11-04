@@ -1,0 +1,44 @@
+{
+  "folder": "jH3FfMN1zHUSHIR7",
+  "name": "Packs of Food",
+  "type": "loot",
+  "_id": "NuieiJxNLZeOZofJ",
+  "img": "icons/containers/boxes/crate-reinforced-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7db2987578345e975f3e9c888a1e5391d9c169c5"
+    },
+    "mist-age-prices": {
+      "price": 10
+    },
+    "mist-age-weight": {
+      "slots": 20,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792864883364,
+    "modifiedTime": 1792864949834,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NuieiJxNLZeOZofJ"
+}

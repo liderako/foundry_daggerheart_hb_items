@@ -1,0 +1,48 @@
+{
+  "name": "Fireproof Fur",
+  "type": "feature",
+  "img": "icons/magic/fire/barrier-shield-explosion-yellow.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Tiger is immune to damage from fire.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Tiger",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "dbeb1996bf9897b7f685e16b05099fe237d4eb11"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732852,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "kRPuNtly0L6IokDN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kRPuNtly0L6IokDN"
+}

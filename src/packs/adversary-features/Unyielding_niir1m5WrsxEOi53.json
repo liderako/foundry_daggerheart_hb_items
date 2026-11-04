@@ -1,0 +1,104 @@
+{
+  "name": "Unyielding",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] has resistance to physical damage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "effects": [
+    {
+      "name": "Unyielding",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.physical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "D1lCoe9WVr6vYuD9",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Legion has resistance to physical damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732342,
+        "modifiedTime": 1792929732342,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!niir1m5WrsxEOi53.D1lCoe9WVr6vYuD9"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Zombie Legion",
+      "source": "official",
+      "aliases": [
+        "Empty Husk",
+        "Ethereal Form",
+        "Molten Rock",
+        "Pain Drinker (Evolution)"
+      ]
+    },
+    "scene-packer": {
+      "hash": "1757dafe7a1e2be1c28486a05e5003304451f3b5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732342,
+    "modifiedTime": 1792929732350,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "niir1m5WrsxEOi53",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!niir1m5WrsxEOi53"
+}

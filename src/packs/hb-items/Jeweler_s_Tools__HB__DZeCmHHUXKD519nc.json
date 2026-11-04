@@ -1,0 +1,44 @@
+{
+  "name": "Jeweler's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A loupe, fine pliers and tweezers, files, a small saw and a polishing cloth.</p><p>+2 to jewelry checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 20
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "9128faaa190595cc591adacccd0109150464ed6e"
+    }
+  },
+  "_id": "DZeCmHHUXKD519nc",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185236,
+    "modifiedTime": 1792863185242,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DZeCmHHUXKD519nc"
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Grapple (Giant Octopus)",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>When the Octopus succeeds on a standard attack, you can <strong>spend a Fear</strong> to have the Octopus Grapple the target. While Grappled, the target is <em>Restrained</em> and <em>Vulnerable</em> until they break free with a successful Strength or Finesse Roll.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "jPORgfoit1Dysm11": {
+        "type": "effect",
+        "_id": "jPORgfoit1Dysm11",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "RKroGrvQgGYygBzh",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/biological/tentacle-pink.webp",
+  "effects": [
+    {
+      "name": "Grappled",
+      "disabled": false,
+      "img": "icons/commodities/biological/tentacle-pink.webp",
+      "description": "<p>While Grappled, you are <em>Restrained</em> and <em>Vulnerable</em> until you break free with a successful Strength or Finesse Roll.</p>",
+      "transfer": false,
+      "statuses": [
+        "restrain",
+        "vulnerable"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "RKroGrvQgGYygBzh",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731854,
+        "modifiedTime": 1792929731854,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!UITwihaV4Nh7mkET.RKroGrvQgGYygBzh"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Giant Octopus",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "2bd165aedd7108e40b211ae2b8d9ba0fa23dbc28"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731854,
+    "modifiedTime": 1792929731861,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "UITwihaV4Nh7mkET",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UITwihaV4Nh7mkET"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "I'm Done Playing Games - Evolution",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "attribution": {},
+    "description": "<p>The Gladiator gains a +1 bonus to their Difficulty. Targets who mark HP from the Gladiator’s attacks must also mark a Stress.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [
+    {
+      "name": "Evolution",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.difficulty",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "CfyRdLE4YNzDLQrd",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "disabled": true,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732856,
+        "modifiedTime": 1792929732856,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!lv5LQbzeqErgCSBx.CfyRdLE4YNzDLQrd"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon Gladiator",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b9b65897557dad5cbb8fd5374af464f09a79b158"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732856,
+    "modifiedTime": 1792929732864,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "lv5LQbzeqErgCSBx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!lv5LQbzeqErgCSBx"
+}

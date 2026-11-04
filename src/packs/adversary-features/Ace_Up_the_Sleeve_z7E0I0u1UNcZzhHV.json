@@ -1,0 +1,75 @@
+{
+  "name": "Ace Up the Sleeve",
+  "type": "feature",
+  "img": "icons/sundries/gaming/playing-cards-black.webp",
+  "_id": "z7E0I0u1UNcZzhHV",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "system": {
+    "description": "<p>When a PC succeeds on a roll against the @Lookup[@name] in a game, wager, or social contest, <strong>mark a Stress</strong> to force them to reroll their Hope Die and keep the new result.</p>",
+    "resource": null,
+    "actions": {
+      "kkBLhfFPoQ3PZKi1": {
+        "type": "effect",
+        "_id": "kkBLhfFPoQ3PZKi1",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/sundries/gaming/playing-cards-black.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "_key": "!items!z7E0I0u1UNcZzhHV"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "The Endless Horde",
+  "type": "feature",
+  "img": "icons/magic/death/undead-skeleton-rags-fire-green.webp",
+  "system": {
+    "description": "<p>Undead Hordes and Minions within a Close range of the @Lookup[@name] have advantage on attacks.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Necromancer",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "bf88aadeb02ed125f30a5dd5199dc625866bae9a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732749,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "B6Nvhk0BrPgmgsVW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!B6Nvhk0BrPgmgsVW"
+}

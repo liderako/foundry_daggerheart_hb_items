@@ -1,0 +1,48 @@
+{
+  "name": "Hulking Prowler",
+  "type": "feature",
+  "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] has advantage on attacks if they are Hidden or disguised.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Oni",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "119c9c7f9d4d5001a9519269e195ac43de0c9527"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732855,
+    "modifiedTime": 1792929732863,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "UbLtbgKDMef8oj3Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!UbLtbgKDMef8oj3Z"
+}

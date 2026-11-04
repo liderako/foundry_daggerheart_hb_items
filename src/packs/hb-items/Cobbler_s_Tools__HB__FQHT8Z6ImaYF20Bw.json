@@ -1,0 +1,44 @@
+{
+  "name": "Cobbler's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/hammer-cobbler-steel.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A cobbler's hammer, an awl, a knife, a last, spare leather and waxed thread.</p><p>+2 to cobbling checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 3
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "7137d912a90bd2b20f0951b1078e42ef634a1933"
+    }
+  },
+  "_id": "FQHT8Z6ImaYF20Bw",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185240,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FQHT8Z6ImaYF20Bw"
+}

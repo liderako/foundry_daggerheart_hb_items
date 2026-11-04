@@ -1,0 +1,51 @@
+{
+  "name": "Incense to speak with Dead (HB)",
+  "type": "consumable",
+  "_id": "bTIQNBuvPUgAgAny",
+  "img": "icons/consumables/plants/dried-bundle-tied-stems-sticks-brown.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "destroyOnEmpty": true
+  },
+  "effects": [],
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "07700aa515f7ebca75c466dbc9b2dc19b9adc218"
+    },
+    "mist-age-prices": {
+      "price": 0.5
+    },
+    "mist-age-weight": {
+      "slots": null
+    },
+    "mist-age-equipment": {
+      "mystery": {
+        "unidentified": false,
+        "name": "",
+        "img": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772099388805,
+    "modifiedTime": 1793806229238,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!bTIQNBuvPUgAgAny"
+}

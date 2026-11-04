@@ -1,0 +1,93 @@
+{
+  "name": "All Must fall",
+  "type": "feature",
+  "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+  "system": {
+    "description": "<p>When a PC rolls a failure with Fear while within Close range of the Demon, they lose a Hope.</p><p>@Template[type:emanation|range:c]</p>",
+    "resource": null,
+    "actions": {
+      "XQ7QebA0iGvMti4A": {
+        "type": "damage",
+        "_id": "XQ7QebA0iGvMti4A",
+        "systemPath": "actions",
+        "description": "<p>When a PC rolls a failure with Fear while within Close range of the Demon, they lose a Hope.</p><p>@Template[type:emanation|range:c]</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hope",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": []
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Hope Damage",
+        "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.3tqCjDwJAQ7JKqMb.Item.kD9kO92V7t3IqZu8",
+      "hash": "e16694dc6f56d493dc14de33c5f3ce998f87322f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352167945,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "iALOlzVFLd072fje",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!iALOlzVFLd072fje"
+}

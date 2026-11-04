@@ -1,0 +1,27 @@
+{
+  "name": "Результати крафту",
+  "type": "Item",
+  "folder": "cFO6YIHU7xbE6L65",
+  "sorting": "a",
+  "_id": "xYUPyV2NyWvA96IQ",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "5daca4bca4a49ac6780b1c5a3103589129f89506"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793792670265,
+    "modifiedTime": 1793792670265,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!xYUPyV2NyWvA96IQ"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Just a Tree",
+  "type": "feature",
+  "system": {
+    "description": "<p>Before they make their first attack in a fight or after they become Hidden the @Lookup[@name] is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/wilderness/tree-spruce-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Oak Treant",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "56f132c3dd542a752cf84a879d8d8d0f1fb78420"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731993,
+    "modifiedTime": 1792929732003,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "0jGOAhp3a43UoYCi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0jGOAhp3a43UoYCi"
+}

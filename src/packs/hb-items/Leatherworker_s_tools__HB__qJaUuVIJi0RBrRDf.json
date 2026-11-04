@@ -1,0 +1,84 @@
+{
+  "name": "Leatherworker's tools (HB)",
+  "type": "loot",
+  "_id": "qJaUuVIJi0RBrRDf",
+  "img": "icons/weapons/daggers/knife-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Components: Leatherworker's tools include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.<br /><br />+2 to check</p>",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038885996,
+        "modifiedTime": 1774038885996,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "KXwQRGb3gck2oDOe",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!qJaUuVIJi0RBrRDf.KXwQRGb3gck2oDOe"
+    }
+  ],
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "53236147758169e7bd0d6879aec8b6780fc6b4b4"
+    },
+    "mist-age-prices": {
+      "price": 10
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772351972649,
+    "modifiedTime": 1792764556150,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!qJaUuVIJi0RBrRDf"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "iApzSV5AhCgNf7ad",
+  "name": "Fine Лютня",
+  "type": "loot",
+  "_id": "hQvgMKDAPedvhOpR",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "efe09877fb25e8ddfb6ed244c4a2b978ae9d82b1",
+      "sourceId": "Actor.iKyqfmPpJaNQOq3G.Item.hQvgMKDAPedvhOpR"
+    },
+    "item-piles": {
+      "item": {}
+    },
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792782696792,
+    "modifiedTime": 1792783625567,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 25000,
+  "_key": "!items!hQvgMKDAPedvhOpR"
+}

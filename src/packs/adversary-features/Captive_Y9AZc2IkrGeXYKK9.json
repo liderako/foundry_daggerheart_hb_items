@@ -1,0 +1,45 @@
+{
+  "name": "Captive",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Reveal a dangerous person or creature locked up in a cage inside the fort.</p><hr><p><em>How did the garrison capture them, and why? How wounded is the captive?</em></p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/traps/cage-simple-wood.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fort",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b04e781a64cd66a90da9a386d713c5311646be01"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732439,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Y9AZc2IkrGeXYKK9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Y9AZc2IkrGeXYKK9"
+}

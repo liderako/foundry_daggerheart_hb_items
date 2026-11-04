@@ -1,0 +1,84 @@
+{
+  "name": "Scapegoat (Royal Advisor)",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17).</p><p>[[/dr trait=presence difficulty=17]]</p>",
+    "resource": null,
+    "actions": {
+      "6oaHwUVWTmF362vI": {
+        "type": "effect",
+        "_id": "6oaHwUVWTmF362vI",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/magic/unholy/orb-hands-pink.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Royal Advisor",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "11570ab3acf9f0d92fe6b3f565349cc36926e4cd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732213,
+    "modifiedTime": 1792929732226,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "fgEnVCQGQSVVxKzr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fgEnVCQGQSVVxKzr"
+}

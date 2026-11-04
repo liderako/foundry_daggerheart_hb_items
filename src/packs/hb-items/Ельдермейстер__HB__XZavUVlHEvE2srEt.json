@@ -1,0 +1,126 @@
+{
+  "name": "Ельдермейстер (HB)",
+  "type": "consumable",
+  "_id": "XZavUVlHEvE2srEt",
+  "img": "icons/consumables/drinks/tea-jug-glowing-brown-pink.webp",
+  "system": {
+    "description": "<p>You can drink this potion to fall asleep for a full night's rest. You clear all Stress upon waking.</p><p><br>Напій що походить з Джахіза виготовляється з багатьох трав що ростуть в джунглях поруч з містом. Рецепт строго приховується. <br>Після того як його вип'єш будеш спати дуже крепким сном ночью.</p>",
+    "quantity": 1,
+    "actions": {
+      "0cqzI66ChzO6x8WF": {
+        "type": "healing",
+        "_id": "0cqzI66ChzO6x8WF",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "XZavUVlHEvE2srEt",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": true,
+              "itemId": null
+            }
+          }
+        },
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "name": "Wake",
+        "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": "s5jk0eqw5fKD5dXi",
+  "flags": {
+    "scene-packer": {
+      "hash": "8eddc86d0a3b67ef02734b32b3c0d93399d20851",
+      "sourceId": "Item.XZavUVlHEvE2srEt"
+    },
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792839938683,
+    "modifiedTime": 1792840328331,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "sort": 300000,
+  "_key": "!items!XZavUVlHEvE2srEt"
+}

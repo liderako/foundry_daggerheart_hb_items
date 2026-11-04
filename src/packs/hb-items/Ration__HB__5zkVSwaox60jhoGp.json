@@ -1,0 +1,90 @@
+{
+  "folder": "R8S2JakvOYajf4cP",
+  "name": "Ration (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "system": {
+    "description": "<p>Сухий раціон для бідняків (засушенне старе м'ясо чи риба, іноді якась каша містичного походження яку треба приготувати)</p>",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "attribution": {},
+    "destroyOnEmpty": true
+  },
+  "effects": [
+    {
+      "name": "too small Weight",
+      "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.1</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "MdHa8ZontOe4Ee1Z",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!5zkVSwaox60jhoGp.MdHa8ZontOe4Ee1Z"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.jgsBAVjYTftUG2HC",
+      "hash": "934149aa0fe4eb51a867afb9d5ed0875e50e4013"
+    },
+    "mist-age-prices": {
+      "price": 0.2
+    },
+    "mist-age-weight": {
+      "slots": 0.25
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1774034301784,
+    "modifiedTime": 1792839420438,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "5zkVSwaox60jhoGp",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!5zkVSwaox60jhoGp"
+}

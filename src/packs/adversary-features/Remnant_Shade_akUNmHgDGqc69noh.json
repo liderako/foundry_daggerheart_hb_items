@@ -1,0 +1,73 @@
+{
+  "name": "Remnant Shade",
+  "type": "feature",
+  "img": "icons/magic/death/undead-ghost-strike-white.webp",
+  "system": {
+    "description": "<p>When the Armor is defeated, replace it with an @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Qj2rT7m7aSsO7R1e]{Accursed Soul}.</p>",
+    "actions": {
+      "MyG4GKOBck7ArEes": {
+        "type": "summon",
+        "_id": "MyG4GKOBck7ArEes",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.Qj2rT7m7aSsO7R1e",
+            "count": "1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Soulbound Armor",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "542d1da9ea8d3cea79ef973cd261b063135ae2d6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732742,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "akUNmHgDGqc69noh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!akUNmHgDGqc69noh"
+}

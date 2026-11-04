@@ -1,0 +1,84 @@
+{
+  "name": "Falling in Line",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Spend 2 Fear to reveal that an NPC no longer opposes the Conqueror or has chosen to join them.</p>",
+    "resource": null,
+    "actions": {
+      "6Gzqy9X2PTTMEntx": {
+        "type": "effect",
+        "_id": "6Gzqy9X2PTTMEntx",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend 2 Fear",
+        "img": "systems/daggerheart/assets/icons/documents/items/stars-stack.svg",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/sundries/flags/banner-flag-white.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Destined Conqueror",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "bf9f28cd66c9ecb237a5f29ef7c2aa174e7c93d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732444,
+    "modifiedTime": 1792929732452,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "d1S8yI5ZAxiFxuL3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!d1S8yI5ZAxiFxuL3"
+}

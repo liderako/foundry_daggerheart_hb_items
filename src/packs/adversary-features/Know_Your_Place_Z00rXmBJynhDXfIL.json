@@ -1,0 +1,45 @@
+{
+  "name": "Know Your Place",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Mark a Stress</strong> to assert authority over non-nobles. All targets within Close range must succeed on a Presence Reaction Roll or become <em>Cowed</em> until the scene ends or they succeed on a social action against the Noble. A <em>Cowed</em> PC must spend a Hope to make an action roll.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Ambitious Noble",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "690017a4decdb0bb70ef32591ba62d6a66c3ba1e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732528,
+    "modifiedTime": 1792929732547,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Z00rXmBJynhDXfIL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Z00rXmBJynhDXfIL"
+}

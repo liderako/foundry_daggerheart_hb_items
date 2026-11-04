@@ -1,0 +1,45 @@
+{
+  "name": "Too Many to Handle",
+  "type": "feature",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] is within Melee range of a creature and at least one other @Lookup[@name] is within Close range, all attacks against that creature have advantage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Shambling Zombie",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c6f49cdb1bf7589a3a5df27b70fb10933647c87d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732338,
+    "modifiedTime": 1792929732349,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "aj3azlTQ4c8gtFet",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!aj3azlTQ4c8gtFet"
+}

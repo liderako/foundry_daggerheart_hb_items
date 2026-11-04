@@ -1,0 +1,99 @@
+{
+  "name": "Won't Stay Dead",
+  "type": "feature",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] is defeated, you can spotlight them and roll a <strong>d6</strong>. On a result of 6, if there are other adversaries on the battlefield, the @Lookup[@name] re-forms with no marked HP.</p>",
+    "resource": null,
+    "actions": {
+      "QnuFrptj8oARaA3i": {
+        "type": "attack",
+        "_id": "QnuFrptj8oARaA3i",
+        "systemPath": "actions",
+        "description": "<p>When the Warrior is defeated, you can spotlight them and roll a <strong>d6</strong>. On a result of 6, if there are other adversaries on the battlefi eld, the Warrior re-forms with no marked HP.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "diceSet",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "equal",
+            "treshold": 6
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Use",
+        "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Skeleton Warrior",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3a966d169a4bae0fadbc01f99056dc2f73582984"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732435,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "myXh9hS4WnMDGiyV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!myXh9hS4WnMDGiyV"
+}

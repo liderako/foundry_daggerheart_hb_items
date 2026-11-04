@@ -1,0 +1,30 @@
+{
+  "type": "Item",
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "Drink",
+  "color": null,
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": ""
+    },
+    "scene-packer": {
+      "hash": "801865b4ff40c127370c9e3c804eae7dac1b945a"
+    }
+  },
+  "sorting": "a",
+  "_id": "s5jk0eqw5fKD5dXi",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792839004700,
+    "modifiedTime": 1792839004700,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!s5jk0eqw5fKD5dXi"
+}

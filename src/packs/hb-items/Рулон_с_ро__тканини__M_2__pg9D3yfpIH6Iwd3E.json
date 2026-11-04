@@ -1,0 +1,44 @@
+{
+  "name": "Рулон сірої тканини (M-2)",
+  "type": "loot",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "img": "icons/commodities/cloth/cloth-bolt-gold.webp",
+  "effects": [],
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.YlNR3wCcqqtjZsAh",
+      "hash": "ab1e6001d2cc97f1325ee0c5558207fe96c40e11"
+    },
+    "mist-age-prices": {
+      "price": null
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772098482777,
+    "modifiedTime": 1792783620944,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "pg9D3yfpIH6Iwd3E",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!pg9D3yfpIH6Iwd3E"
+}

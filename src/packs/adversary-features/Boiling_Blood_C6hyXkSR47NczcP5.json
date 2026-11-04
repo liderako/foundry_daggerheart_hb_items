@@ -1,0 +1,48 @@
+{
+  "name": "Boiling Blood",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>PCs use a d20 as their Fear Die in the environment. </p><blockquote><p>What sounds and smells permeate the air here? What keeps the PCs constantly on edge?</p></blockquote>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Torture Pit",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c0fdbd5811fe54afdcbbabe3d6576ce59fdd306a"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732755,
+    "modifiedTime": 1792929732760,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "C6hyXkSR47NczcP5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!C6hyXkSR47NczcP5"
+}

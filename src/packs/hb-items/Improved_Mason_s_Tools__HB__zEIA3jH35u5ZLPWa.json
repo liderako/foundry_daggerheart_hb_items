@@ -1,0 +1,44 @@
+{
+  "name": "Improved Mason's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/trowel.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A trowel, a mason's hammer, chisels, brushes and a square.</p><p>+3 to masonry checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 8
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "d8402657dd08710ff76b02785c8cbfafbccb42d9"
+    }
+  },
+  "_id": "zEIA3jH35u5ZLPWa",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185240,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zEIA3jH35u5ZLPWa"
+}

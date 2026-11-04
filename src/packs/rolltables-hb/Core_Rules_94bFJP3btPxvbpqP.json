@@ -1,0 +1,17 @@
+{
+  "type": "RollTable",
+  "folder": null,
+  "name": "Core Rules",
+  "color": "#e5a50a",
+  "sorting": "a",
+  "_id": "94bFJP3btPxvbpqP",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5"
+  },
+  "_key": "!folders!94bFJP3btPxvbpqP"
+}

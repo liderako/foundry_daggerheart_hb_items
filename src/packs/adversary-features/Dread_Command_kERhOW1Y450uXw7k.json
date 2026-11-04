@@ -1,0 +1,86 @@
+{
+  "name": "Dread Command",
+  "type": "feature",
+  "img": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Spend 2 Fear to spotlight up to 5 other demons within Far range. Attacks they make while spotlighted in this way critically succeed on attack rolls of 19-20.</p>",
+    "actions": {
+      "kevxYLvkk1jKHOOj": {
+        "type": "effect",
+        "_id": "kevxYLvkk1jKHOOj",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend 2 Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Prince",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8e35c5e5e34eb7d5c16b36cd0ddf3da224f3a765"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732852,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "kERhOW1Y450uXw7k",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kERhOW1Y450uXw7k"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Memory Anchor",
+  "type": "feature",
+  "img": "icons/equipment/neck/necklace-simple-bead-grey.webp",
+  "system": {
+    "description": "<p>PCs who possess an object from the @Lookup[@name]'s past have advantage on social actions against them.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Echo",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "ae49a64c283996b101d4ee9856499e34921bca6d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732645,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "BwIcIw4EXUyTgv2p",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!BwIcIw4EXUyTgv2p"
+}

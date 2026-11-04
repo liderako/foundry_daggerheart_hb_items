@@ -1,0 +1,95 @@
+{
+  "name": "Sneak attack",
+  "type": "feature",
+  "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+  "system": {
+    "description": "<p>If the target is adjacent to one of the attacker’s allies, or if the attacker is hidden from the target, this attack deals an additional <strong>1d6 damage</strong>.</p>",
+    "resource": null,
+    "actions": {
+      "e4VG6QmoW6iF0sY9": {
+        "type": "damage",
+        "_id": "e4VG6QmoW6iF0sY9",
+        "systemPath": "actions",
+        "description": "<p>If the target is adjacent to one of the attacker’s allies, or if the attacker is hidden from the target, this attack deals an additional <strong>1d6 damage</strong>.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "prof",
+                "dice": "d6",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "physical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "name": "Damage",
+        "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+        "range": "melee"
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "MeqhdwNxFAnraV6Q",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.5Lh1T0zaT8Pkr2U2.Item.j74VUvyDsEtslVbG",
+      "hash": "0b137ecb632d98ba6697095a1143b70d8305dfb8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352679688,
+    "modifiedTime": 1758352679688,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "4SoVZQ4Ooejx40TS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!4SoVZQ4Ooejx40TS"
+}

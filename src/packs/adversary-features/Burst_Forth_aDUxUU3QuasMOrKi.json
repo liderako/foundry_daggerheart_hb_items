@@ -1,0 +1,75 @@
+{
+  "name": "Burst Forth",
+  "type": "feature",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "system": {
+    "description": "<p>When the Giant marks their last HP, [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT]{Failed Experiments} crawl from its corpse and appear within Melee range.</p>",
+    "actions": {
+      "ZxDf3f0aDXYOWpbL": {
+        "type": "summon",
+        "_id": "ZxDf3f0aDXYOWpbL",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT",
+            "count": "1d4"
+          }
+        ],
+        "name": "",
+        "range": "melee",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Writhing Giant",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "cd3816ce11d680d486f27e0a17640e09ee789c0b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732634,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "aDUxUU3QuasMOrKi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!aDUxUU3QuasMOrKi"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Segmented",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name]'s body is divided into three segments: Head, Center, and Tail. The @Lookup[@name] always moves from the Head first, pulling the Center and then Tail behind it. A creature can target the @Lookup[@name] with an attack as long as at least one of her segments is within range, but the @Lookup[@name] can make a standard attack only against a target within range of her Head. If an attack deals damage to the @Lookup[@name] and her Head is within range, the attack deals an extra <strong>1d10</strong> damage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/biological/shell-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Water Mother",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "763a95c457afdf2b9f20ccdec56811e561824093"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732214,
+    "modifiedTime": 1792929732226,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "jUUqaY4TKbtpuNZg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!jUUqaY4TKbtpuNZg"
+}

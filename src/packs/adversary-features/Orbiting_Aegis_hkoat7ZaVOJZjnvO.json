@@ -1,0 +1,54 @@
+{
+  "name": "Orbiting Aegis",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When the @Lookup[@name] appears, they conjure six discs of magical energy that orbit around them. Place a <strong>d6</strong> Aegis Die on this stat block with the 6 value facing up. When a PC makes a successful attack against the @Lookup[@name], roll a <strong>[[/r d6]]</strong>.</p><p>If the result is equal to or less than the value of the Aegis Die, tick the Aegis Die down and ignore the damage. A PC can make a Knowledge Roll to tick down the Aegis Die by 1 on a success or by 2 on a success with Hope.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": {
+      "type": "die",
+      "value": 6,
+      "max": "",
+      "recovery": null,
+      "progression": "increasing",
+      "dieFaces": "d6",
+      "icon": "",
+      "diceStates": {}
+    },
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Archmage",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c0d0f5f19bfb238dd3a9095dac6920289f96b9cd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732103,
+    "modifiedTime": 1792929732114,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "hkoat7ZaVOJZjnvO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hkoat7ZaVOJZjnvO"
+}

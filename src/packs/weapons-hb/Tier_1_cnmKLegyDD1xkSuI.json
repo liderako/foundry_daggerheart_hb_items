@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "vc6psFLwYfjOAVZu",
+  "name": "Tier 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "cnmKLegyDD1xkSuI",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5"
+  },
+  "_key": "!folders!cnmKLegyDD1xkSuI"
+}

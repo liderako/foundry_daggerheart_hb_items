@@ -1,0 +1,74 @@
+{
+  "name": "I Have Never Known Defeat",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] marks their last HP, replace them with the @UUID[Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5]{Fallen Warlord: Undefeated Champion} and immediately spotlight them.</p>",
+    "resource": null,
+    "actions": {
+      "gP426WmWbtrZEWCD": {
+        "type": "transform",
+        "_id": "gP426WmWbtrZEWCD",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "transform": {
+          "actorUUID": "Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5",
+          "resourceRefresh": {
+            "hitPoints": true,
+            "stress": true
+          }
+        },
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Fallen Warlord: Realm-Breaker",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "382a6ded87b4a518ee26c0c87309cb467b4771a7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731986,
+    "modifiedTime": 1792929732000,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Ddarbb3iCeeXRbUi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Ddarbb3iCeeXRbUi"
+}

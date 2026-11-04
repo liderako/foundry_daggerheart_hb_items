@@ -1,0 +1,45 @@
+{
+  "name": "Carrion Eater",
+  "type": "feature",
+  "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+  "system": {
+    "description": "<p><strong>T</strong>he Vulture has advantage on attack rolls against a target that has marked 3 or more HP.</p>",
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Blood Vulture",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "45811d480997476ed9c4c2fd9612132fa44f8217"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732634,
+    "modifiedTime": 1792929732649,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "PDClEPkO83HrUfhO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!PDClEPkO83HrUfhO"
+}

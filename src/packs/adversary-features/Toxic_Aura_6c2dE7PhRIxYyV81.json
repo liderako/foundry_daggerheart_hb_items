@@ -1,0 +1,143 @@
+{
+  "name": "Toxic Aura",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] emits a foul stench that renders all non-Harpies <em>Vulnerable</em> while within Very Close range.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "dmvF8Xl8trtYxVYA": {
+        "type": "effect",
+        "_id": "dmvF8Xl8trtYxVYA",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [
+          {
+            "name": "Foul Stench",
+            "type": "attached",
+            "shape": "emanation",
+            "size": "veryClose",
+            "hasHole": false,
+            "effects": [
+              "b1p1GOBQ4VRDKvn6"
+            ]
+          }
+        ],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Stench",
+        "range": "self"
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/air/fog-gas-smoke-green.webp",
+  "effects": [
+    {
+      "name": "Foul Stench",
+      "disabled": false,
+      "img": "icons/magic/air/fog-gas-smoke-green.webp",
+      "description": "<p>The Harpy emits a foul stench that renders all non-Harpies <em>Vulnerable</em> while within Very Close range.</p>",
+      "transfer": false,
+      "statuses": [
+        "vulnerable"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [
+          1
+        ],
+        "conditionals": []
+      },
+      "_id": "b1p1GOBQ4VRDKvn6",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732339,
+        "modifiedTime": 1792929732339,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!6c2dE7PhRIxYyV81.b1p1GOBQ4VRDKvn6"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Harpy",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4c8b4bfcaab0cc90b9fe11c161f677a7f9b48ae6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732339,
+    "modifiedTime": 1792929732349,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "6c2dE7PhRIxYyV81",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!6c2dE7PhRIxYyV81"
+}

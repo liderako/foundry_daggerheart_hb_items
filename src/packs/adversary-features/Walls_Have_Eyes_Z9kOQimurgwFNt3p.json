@@ -1,0 +1,85 @@
+{
+  "name": "Walls Have Eyes",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Countdown (6).</em> When the PCs enter the estate, activate the countdown. It ticks down when they draw attention to themselves or disturb the normal operations of the estate. When it triggers, the PCs have been sensed by the vampires. Summon a number of adversaries equal to twice the number of PCs, which appear at Far range and take the spotlight.</p><section id=\"secret-J4P4xaosgdeS6dCf\" class=\"secret\"><p><em>What seemingly ordinary aspects of the estate actually act to extend the vampire's surveillance? What creatures prowl in the dark corners?</em></p></section>",
+    "resource": null,
+    "actions": {
+      "2aYqh4EOSLRENi3r": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Walls Have Eyes",
+            "type": "narrative",
+            "img": "icons/creatures/slimes/slime-giant-face-eyes.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "2aYqh4EOSLRENi3r",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/slimes/slime-giant-face-eyes.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Clan's Estate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "44b49376728550b6126d8f08e0fe412200f4db84"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732750,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "Z9kOQimurgwFNt3p",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Z9kOQimurgwFNt3p"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Blasphemer",
+  "type": "feature",
+  "img": "icons/magic/unholy/hands-praying-fire-green.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When a PC targets the @Lookup[@name] with a spell or ability from the Splendor domain, the PC has disadvantage on the action roll.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Antipriest",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6ae3eef5fd06537bbd4b7467223b364412883a8a"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732754,
+    "modifiedTime": 1792929732760,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "ZouhJX6rFuSDADxe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ZouhJX6rFuSDADxe"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Noxious Air",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>A PC who takes a rest in the Mycelial Growth must mark [[/r 1d4]] Stress.</p><section id=\"secret-XcsoqkarwcrqvDMb\" class=\"secret\"><p><em>What remnants of the former settlement still remain? How did the inhabitants try, and fail, to fight the spreading infection?</em></p></section>",
+    "resource": null,
+    "actions": {
+      "cGTNykRSnSluHEYA": {
+        "type": "damage",
+        "_id": "cGTNykRSnSluHEYA",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null,
+                "multiplier": "flat"
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "itemId": null,
+              "fullRestore": false
+            }
+          }
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "name": "Stress",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/air/fog-gas-smoke-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mycelial Overgrowth",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "c605e1f96692f43bacbd484401b64ba04f96b5e5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732646,
+    "modifiedTime": 1792929732652,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "0ZWb8lg2wyifAEkl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0ZWb8lg2wyifAEkl"
+}

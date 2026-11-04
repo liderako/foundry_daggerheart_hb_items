@@ -1,0 +1,48 @@
+{
+  "name": "Color-Shift",
+  "type": "feature",
+  "img": "icons/creatures/reptiles/chameleon-camouflage-green-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>The Tiger magically alters its coloration to blend in to its surroundings. Become Hidden until after the Tiger’s next attack. While Hidden, PCs have disadvantage on rolls to spot the Tiger.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Tiger",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b410ba49b596a0fd1f9a3038de135d70220892cb"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732849,
+    "modifiedTime": 1792929732861,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "HZJ5zENEAGLYUgTh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!HZJ5zENEAGLYUgTh"
+}

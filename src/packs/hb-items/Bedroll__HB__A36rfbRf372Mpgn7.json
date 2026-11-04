@@ -1,0 +1,85 @@
+{
+  "folder": "IKwwuasyn83UEJrm",
+  "name": "Bedroll (HB)",
+  "type": "loot",
+  "img": "icons/sundries/survival/bedroll-blue-red.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038842562,
+        "modifiedTime": 1774038842562,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "rcmqU8V3T54OpMyw",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!A36rfbRf372Mpgn7.rcmqU8V3T54OpMyw"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "fcbee6adc65014a695b68b315a6de508e4d30108",
+      "sourceId": "Actor.0KYsj9eGiltXmbtE.Item.JdGyfQYh1xRMCyWT"
+    },
+    "mist-age-prices": {
+      "price": 0.5
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774033439293,
+    "modifiedTime": 1792764556148,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "A36rfbRf372Mpgn7",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!A36rfbRf372Mpgn7"
+}

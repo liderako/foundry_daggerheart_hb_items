@@ -1,0 +1,75 @@
+{
+  "name": "Skilled Opportunist (Perfected Zombie)",
+  "type": "feature",
+  "system": {
+    "description": "<p>When another adversary deals damage to a target within Very Close range of the @Lookup[@name], you can <strong>spend a Fear</strong> to add the @Lookup[@name]'s standard attack damage to the damage roll.</p>",
+    "resource": null,
+    "actions": {
+      "To2z7XQItxcMxKBp": {
+        "type": "effect",
+        "_id": "To2z7XQItxcMxKBp",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Perfected Zombie",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f93bf0bc5360e5467585f3329dacb44b05370601"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732218,
+    "modifiedTime": 1792929732228,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "kfVe6YA1Tr2Lk1sv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kfVe6YA1Tr2Lk1sv"
+}

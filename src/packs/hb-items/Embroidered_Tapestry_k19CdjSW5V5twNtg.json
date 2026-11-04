@@ -1,0 +1,44 @@
+{
+  "name": "Embroidered Tapestry",
+  "type": "loot",
+  "img": "icons/commodities/cloth/cloth-patterned-teal.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": 3,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "acdcb46a3e376a265a795a4c8404e996edf0d44f"
+    }
+  },
+  "_id": "k19CdjSW5V5twNtg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596372,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!k19CdjSW5V5twNtg"
+}

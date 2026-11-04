@@ -1,0 +1,47 @@
+{
+  "name": "Overwhelming Force",
+  "type": "feature",
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "system": {
+    "description": "<p>Targets who mark HP from the @Lookup[@name]'s standard attack are knocked back to Very Close range.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Bear",
+      "source": "official",
+      "aliases": [
+        "Clear the Space"
+      ]
+    },
+    "scene-packer": {
+      "hash": "4156ed715ea4032c7af77468a87815496e1b6323"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732104,
+    "modifiedTime": 1792929732115,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "LJ5N8d5q23jvOS9Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!LJ5N8d5q23jvOS9Y"
+}

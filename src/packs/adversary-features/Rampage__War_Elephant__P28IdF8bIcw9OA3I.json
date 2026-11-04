@@ -1,0 +1,45 @@
+{
+  "name": "Rampage (War Elephant)",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the Elephant has 3 Stress or 7 HP marked, it flies into an uncontrolled frenzy, attacking everything indiscriminately. It immediately takes the spotlight and uses its Trample action (no Fear required) to move away from the PCs.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Elephant",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d08f2f97eb3882675b26bb9b92b8864204aa3a3e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732534,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "P28IdF8bIcw9OA3I",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!P28IdF8bIcw9OA3I"
+}

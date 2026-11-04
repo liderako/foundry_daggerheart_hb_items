@@ -1,0 +1,36 @@
+{
+  "name": "Marked Deck",
+  "type": "feature",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "_id": "kJGrK9z31nI5VpND",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "system": {
+    "description": "<p>In any game of chance the @Lookup[@name] has set up or is dealing, she rolls with <strong>advantage</strong>, and any PC trying to spot the marks or the cheat makes their roll with <strong>disadvantage</strong>.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "_key": "!items!kJGrK9z31nI5VpND"
+}

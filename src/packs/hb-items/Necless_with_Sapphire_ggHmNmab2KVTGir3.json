@@ -1,0 +1,43 @@
+{
+  "name": "Necless with Sapphire",
+  "type": "loot",
+  "_id": "ggHmNmab2KVTGir3",
+  "img": "icons/equipment/neck/pendant-rough-silver-blue.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "folder": "iApzSV5AhCgNf7ad",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9bf24898480564afe061fdb2aa3e5b7a42f7f4d0"
+    },
+    "mist-age-prices": {
+      "price": 21
+    },
+    "mist-age-weight": {
+      "slots": 0.1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.1",
+    "createdTime": 1774171524767,
+    "modifiedTime": 1792786596535,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!ggHmNmab2KVTGir3"
+}

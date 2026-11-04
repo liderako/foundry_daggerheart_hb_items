@@ -1,0 +1,181 @@
+{
+  "name": "Gill Salve Potion (HB)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-fumes-blue.webp",
+  "system": {
+    "description": "<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>",
+    "quantity": 1,
+    "actions": {
+      "57IIcyhEs2ByoENx": {
+        "type": "effect",
+        "_id": "57IIcyhEs2ByoENx",
+        "systemPath": "actions",
+        "description": "<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "Nvbb9mze6o5D0AEg",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "5rL9CY5GO9SJcEZq",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Apply",
+        "img": "icons/commodities/materials/bowl-powder-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "consumeOnUse": true,
+    "destroyOnEmpty": true,
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": 61,
+      "artist": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Gill Salve",
+      "img": "icons/commodities/materials/bowl-powder-blue.webp",
+      "origin": "Compendium.daggerheart.consumables.Item.Nvbb9mze6o5D0AEg",
+      "transfer": false,
+      "_id": "5rL9CY5GO9SJcEZq",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.7.1",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!guTKDoyXyEcti7Qm.5rL9CY5GO9SJcEZq"
+    },
+    {
+      "name": "Potion Small Weight",
+      "img": "icons/consumables/drinks/wine-amphora-clay-red.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.5</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038683184,
+        "modifiedTime": 1774038683184,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "v4D9OuZDNIPRjuo9",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!guTKDoyXyEcti7Qm.v4D9OuZDNIPRjuo9"
+    }
+  ],
+  "folder": "cFO6YIHU7xbE6L65",
+  "flags": {
+    "scene-packer": {
+      "hash": "9715bc074ae7b5ac759f39d81330e4be9371dd14",
+      "sourceId": "Actor.KS6i5KW4RglBX7fT.Item.Nvbb9mze6o5D0AEg"
+    },
+    "mist-age-prices": {
+      "price": 0
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772830923368,
+    "modifiedTime": 1792778072380,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "guTKDoyXyEcti7Qm",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!guTKDoyXyEcti7Qm"
+}

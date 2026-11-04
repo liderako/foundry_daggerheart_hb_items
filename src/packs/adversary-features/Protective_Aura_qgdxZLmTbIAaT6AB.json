@@ -1,0 +1,142 @@
+{
+  "name": "Protective Aura",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] conjure a sparkling magical aura. While the aura is in effect, attack rolls made against the @Lookup[@name] or an ally within Very Close range are made with disadvantage. This effect lasts until the @Lookup[@name] takes damage.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "Yl897q9AAa6EjqW7": {
+        "type": "effect",
+        "_id": "Yl897q9AAa6EjqW7",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [
+          {
+            "name": "Protective Aura",
+            "type": "attached",
+            "shape": "emanation",
+            "size": "veryClose",
+            "hasHole": false,
+            "effects": [
+              "YheawLsPcTD4FvSC"
+            ]
+          }
+        ],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
+  "effects": [
+    {
+      "name": "Protective Aura",
+      "disabled": false,
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
+      "description": "<p>While the aura is in effect, attack rolls made against the Unicorn or an ally within Very Close range are made with disadvantage. This effect lasts until the Unicorn takes damage.</p>",
+      "transfer": false,
+      "statuses": [],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [
+          1,
+          0
+        ],
+        "conditionals": []
+      },
+      "_id": "YheawLsPcTD4FvSC",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732109,
+        "modifiedTime": 1792929732109,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!qgdxZLmTbIAaT6AB.YheawLsPcTD4FvSC"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Unicorn",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "396b6b80bdad2aa2ebd69ab43cc5ca3c2eaf3d4b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732109,
+    "modifiedTime": 1792929732116,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "qgdxZLmTbIAaT6AB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qgdxZLmTbIAaT6AB"
+}

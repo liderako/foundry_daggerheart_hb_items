@@ -1,0 +1,86 @@
+{
+  "name": "Sigil of Loyalty",
+  "type": "feature",
+  "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark a Stress to empower a demon within Very Close range. That demon has advantage on all rolls while within Close range of the Prince.</p>",
+    "actions": {
+      "uWtrnfn9tN0g37Uf": {
+        "type": "effect",
+        "_id": "uWtrnfn9tN0g37Uf",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Prince",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f3c0b33a2b0210938b6f184030c19012bd552c04"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732913,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "DGCVxYG2Avt8Xc8l",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!DGCVxYG2Avt8Xc8l"
+}

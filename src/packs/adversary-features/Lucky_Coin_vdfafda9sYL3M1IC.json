@@ -1,0 +1,36 @@
+{
+  "name": "Lucky Coin",
+  "type": "feature",
+  "img": "icons/commodities/currency/coin-embossed-skull-gold.webp",
+  "_id": "vdfafda9sYL3M1IC",
+  "effects": [],
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "system": {
+    "description": "<p>Once per scene, when the @Lookup[@name] would mark Hit Points, flip her coin (roll <strong>1d2</strong>). On a 2, she slips away and marks a Stress instead. On a 1, the coin is lost and you gain a Fear.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "_key": "!items!vdfafda9sYL3M1IC"
+}

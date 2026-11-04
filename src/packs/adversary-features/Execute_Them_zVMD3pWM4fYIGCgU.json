@@ -1,0 +1,45 @@
+{
+  "name": "Execute Them",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> per PC in the party to have the group condemned for crimes real or imagined. A PC who succeeds on a Presence Roll can demand trial by combat or another special form of trial.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/treasure/crown-gold-satin-gems-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Monarch",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "e48656a9833529af76bf77f334cd62e9ff0bdc65"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731843,
+    "modifiedTime": 1792929731858,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "zVMD3pWM4fYIGCgU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zVMD3pWM4fYIGCgU"
+}

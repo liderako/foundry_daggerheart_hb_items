@@ -1,0 +1,79 @@
+{
+  "name": "Glider (HB)",
+  "type": "loot",
+  "_id": "CiXwelozmBDcPY48",
+  "img": "icons/commodities/leather/leather-patch-red.webp",
+  "system": {
+    "description": "<p>While falling, you can <strong>mark a Stress</strong> to deploy this small parachute and glide safely to the ground.</p>",
+    "quantity": 1,
+    "actions": {
+      "Adz50oihGEMJxbyA": {
+        "type": "effect",
+        "_id": "Adz50oihGEMJxbyA",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/commodities/leather/leather-patch-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 20
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792763303423,
+    "modifiedTime": 1792764556015,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!CiXwelozmBDcPY48"
+}

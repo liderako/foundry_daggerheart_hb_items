@@ -1,0 +1,45 @@
+{
+  "name": "Overwhelming",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the Elephant makes a successful attack against a PC, they must mark a Stress and you gain a Fear.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/undead-skeleton-tusk-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "War Elephant",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4570f1a0c1294c08d0ffd8f5d00445899d493b83"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732533,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "n7YFI8Yv4opmsPJF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!n7YFI8Yv4opmsPJF"
+}

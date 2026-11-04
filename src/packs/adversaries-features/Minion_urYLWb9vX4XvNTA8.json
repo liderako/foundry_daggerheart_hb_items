@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": "qnwpCj3CREvMYfEV",
+  "name": "Minion",
+  "color": null,
+  "sorting": "a",
+  "_id": "urYLWb9vX4XvNTA8",
+  "description": "",
+  "sort": 500000,
+  "flags": {
+    "scene-packer": {
+      "hash": "a04480979b7f1461a132d1c3e6d18568e034faa6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758351875500,
+    "modifiedTime": 1758351876384,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!urYLWb9vX4XvNTA8"
+}

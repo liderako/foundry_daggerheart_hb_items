@@ -1,0 +1,71 @@
+{
+  "name": "Reaper",
+  "type": "feature",
+  "img": "icons/magic/death/skull-energy-light-white.webp",
+  "system": {
+    "description": "<p>Before rolling damage for the Demon’s attack, you can <strong>mark a Stress</strong> to gain a bonus to the damage roll equal to the Demon’s current number of marked HP.</p>",
+    "resource": null,
+    "actions": {
+      "vZq3iaJrMzLYbqQN": {
+        "type": "effect",
+        "_id": "vZq3iaJrMzLYbqQN",
+        "systemPath": "actions",
+        "description": "<p>Before rolling damage for the Demon’s attack, you can <strong>mark a Stress</strong> to gain a bonus to the damage roll equal to the Demon’s current number of marked HP.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "keyIsID": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/magic/death/skull-energy-light-white.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "folder": "FPIjiSX10L4t2ZE1",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.3tqCjDwJAQ7JKqMb.Item.bpLBGTW1DmXPgIcx",
+      "hash": "c90729f70e2b2edf57ce3350a479423745d502b9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352170252,
+    "modifiedTime": 1758352336733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "kZUQvHBaprBJ1UXO",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!kZUQvHBaprBJ1UXO"
+}

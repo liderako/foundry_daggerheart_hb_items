@@ -1,0 +1,44 @@
+{
+  "name": "Carved Bone Chess Set",
+  "type": "loot",
+  "img": "icons/sundries/gaming/chess-king-gray.webp",
+  "folder": "iApzSV5AhCgNf7ad",
+  "system": {
+    "quantity": 1,
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 25
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "076476c4ff56485f8395be98b12a70926bfdb221"
+    }
+  },
+  "_id": "EIVfeutFqIo6WABN",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792786596369,
+    "modifiedTime": 1792786596372,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EIVfeutFqIo6WABN"
+}

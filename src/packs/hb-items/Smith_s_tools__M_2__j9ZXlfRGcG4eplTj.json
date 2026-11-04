@@ -1,0 +1,40 @@
+{
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "name": "Smith’s tools (M-2)",
+  "type": "loot",
+  "img": "icons/tools/smithing/pincers.webp",
+  "system": {
+    "description": "<p>+2 to smith checks</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {}
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.7PfJGfDHtD3HAUB6.Item.wC8cT5Mcje2ljCxz",
+      "hash": "0c938efee25db23ba5aa3c03a4ba0ff6e1b32268"
+    },
+    "mist-age-prices": {
+      "price": 10
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772351515422,
+    "modifiedTime": 1792863188237,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "j9ZXlfRGcG4eplTj",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!j9ZXlfRGcG4eplTj"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Gem of Audacity (HB)",
+  "type": "loot",
+  "_id": "hMu9It3ThCLCXuCA",
+  "img": "icons/commodities/gems/gem-rough-cushion-pink-yellow.webp",
+  "system": {
+    "description": "<p>You can attach this gem to a weapon, allowing you to use your Presence when making an attack with that weapon.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556017,
+    "modifiedTime": 1792764556017,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!hMu9It3ThCLCXuCA"
+}

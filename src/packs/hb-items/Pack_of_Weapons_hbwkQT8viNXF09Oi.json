@@ -1,0 +1,44 @@
+{
+  "folder": "jH3FfMN1zHUSHIR7",
+  "name": "Pack of Weapons",
+  "type": "loot",
+  "_id": "hbwkQT8viNXF09Oi",
+  "img": "icons/weapons/swords/swords-short.webp",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f3c75fa7510620da3981713fc689c05139d1115b"
+    },
+    "mist-age-prices": {
+      "price": 50
+    },
+    "mist-age-weight": {
+      "slots": 20,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792864756108,
+    "modifiedTime": 1792864870000,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hbwkQT8viNXF09Oi"
+}

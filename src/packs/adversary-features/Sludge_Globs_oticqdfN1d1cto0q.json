@@ -1,0 +1,45 @@
+{
+  "name": "Sludge Globs",
+  "type": "feature",
+  "img": "icons/magic/acid/projectiles-trio-salvo.webp",
+  "system": {
+    "description": "<p>When the @Lookup[@name] succeeds on an attack, give the target a sludge token. If a target has any sludge tokens, they are <em>Vulnerable</em>. All sludge tokens can be removed by succeeding on a Strength Roll (14).</p>",
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Plague Spitter",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "79189aa833eca88a2462ff7b9ce1534b87b4a304"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732745,
+    "modifiedTime": 1792929732757,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "oticqdfN1d1cto0q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oticqdfN1d1cto0q"
+}

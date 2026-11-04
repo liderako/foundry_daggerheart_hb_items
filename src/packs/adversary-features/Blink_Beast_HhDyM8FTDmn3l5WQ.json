@@ -1,0 +1,45 @@
+{
+  "name": "Blink Beast",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When combat begins, place a duplicate within Close range of the @Lookup[@name]. The @Lookup[@name] occupies both its place and its duplicate's. The duplicate can move when the @Lookup[@name] is spotlighted, and the @Lookup[@name] can target enemies with attacks as if it were in its duplicate's place. When the @Lookup[@name] or duplicate is attacked, the attacker rolls a <strong>[[/r d6]]</strong>. On an even result, they target the @Lookup[@name]. On an odd result, they target the duplicate, and the attack fails. If an attack succeeds against the @Lookup[@name], the duplicate is dispelled until you <strong>spend a Fear</strong> to conjure it again.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Doppelhound",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "76f46a2750da4800eaeadd0fc9a304af4d13c8a6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731596,
+    "modifiedTime": 1792929731607,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "HhDyM8FTDmn3l5WQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!HhDyM8FTDmn3l5WQ"
+}

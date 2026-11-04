@@ -1,0 +1,115 @@
+{
+  "name": "Witchfire",
+  "type": "feature",
+  "img": "icons/weapons/sickles/scythe-bone-green-fire.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to enchant an ally within Close range's attacks with magical black flames. Until the Witch is defeated, the ally's attacks deal direct magic damage and add <strong>1d4</strong> to their damage rolls.</p>",
+    "actions": {
+      "DGZu9Yai5P6trItk": {
+        "_id": "DGZu9Yai5P6trItk",
+        "type": "ability",
+        "name": "Witchfire",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "close",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "4VkWlwE01kNzC8Jx": {
+        "type": "effect",
+        "_id": "4VkWlwE01kNzC8Jx",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Death Witch",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "98a6332aea0a6b9eb76f9eeb655632a36cc3e065"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732751,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "eslpZnYGgLNS48sn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!eslpZnYGgLNS48sn"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "ZMzmwE5SpzyT61Ig",
+  "name": "Dust of corals (HB)",
+  "type": "consumable",
+  "img": "assets/hb-icons/ProfessionIcons/ProfessionAndCraftIcons/Enchantment/Enchantment_04_magicdust.png",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [
+    {
+      "name": "too small Weight",
+      "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.6",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "_id": "2xushmrcTCYW0cal",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Rn1275cxMXhBXvPk.2xushmrcTCYW0cal"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "ee99a0aa221e60c258d5623b3e2c4aa5f7db2508",
+      "sourceId": "Item.U81ca9gbdfDPEL8T"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.9.6",
+    "createdTime": 1775861581736,
+    "modifiedTime": 1792777910289,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "Rn1275cxMXhBXvPk",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Rn1275cxMXhBXvPk"
+}

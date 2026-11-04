@@ -1,0 +1,114 @@
+{
+  "name": "Encumber",
+  "type": "feature",
+  "img": "icons/magic/nature/root-vine-entangled-hands.webp",
+  "system": {
+    "description": "<p>When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed.</p>",
+    "resource": null,
+    "actions": {
+      "Cdw2XxA5NhAQhQse": {
+        "type": "effect",
+        "_id": "Cdw2XxA5NhAQhQse",
+        "systemPath": "actions",
+        "description": "<p>When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "PdkhaTw2j15KJwBf",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Give Token",
+        "img": "icons/magic/nature/root-vine-entangled-hands.webp",
+        "range": ""
+      }
+    },
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [
+    {
+      "name": "Encumber",
+      "img": "icons/magic/nature/root-vine-entangled-hands.webp",
+      "origin": "Compendium.daggerheart.adversaries.Actor.jd4MVRwy9zTfmRRE.Item.JRSGc3ozDnKCAvCj",
+      "transfer": true,
+      "_id": "PdkhaTw2j15KJwBf",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p> If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.1.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!LMSX2zrcPiYs9P50.PdkhaTw2j15KJwBf"
+    }
+  ],
+  "folder": "CYtq5UAUTjmZFoM5",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.PKSXFuaIHUCoH63A.Item.JRSGc3ozDnKCAvCj",
+      "hash": "e277395de67c337db0d5d6d600aca2b63ae127a9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "1.1.2",
+    "createdTime": 1758352063195,
+    "modifiedTime": 1758352442019,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "LMSX2zrcPiYs9P50",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!LMSX2zrcPiYs9P50"
+}

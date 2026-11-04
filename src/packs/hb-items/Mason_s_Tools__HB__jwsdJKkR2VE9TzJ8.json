@@ -1,0 +1,44 @@
+{
+  "name": "Mason's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/hammer-mason-white-grey.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A trowel, a mason's hammer, chisels, brushes and a square.</p><p>+2 to masonry checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 4
+    },
+    "mist-age-weight": {
+      "slots": 2,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "663482523ccfe721de76522d5ae6216f35349f89"
+    }
+  },
+  "_id": "jwsdJKkR2VE9TzJ8",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185240,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jwsdJKkR2VE9TzJ8"
+}

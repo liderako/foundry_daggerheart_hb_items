@@ -1,0 +1,154 @@
+{
+  "name": "Stolen Armor",
+  "type": "feature",
+  "system": {
+    "featureForm": "evolution",
+    "description": "<p><em>Countdown</em>. When combat begins, activate a countdown with a value equal to the number of PCs. When the Troll takes damage, reduce the severity by one threshold, then tick down the countdown. When it triggers, the Troll evolves (see \"Enraged @Lookup[@name]\").</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "CxueuYXnhqT4EP7l": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Stolen Armor",
+            "type": "encounter",
+            "hidden": false,
+            "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "startFormula": "@partySize",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {}
+          }
+        ],
+        "_id": "CxueuYXnhqT4EP7l",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "effects": [
+    {
+      "name": "Stolen Armor",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.rules.damageReduction.reduceSeverity.magical",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.rules.damageReduction.reduceSeverity.physical",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "IeHRd0HSjeDWmMkB",
+      "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>When the Troll takes damage, reduce the severity by one threshold.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732223,
+        "modifiedTime": 1792929732223,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!5qiAIcjs2yWosV2j.IeHRd0HSjeDWmMkB"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mountain Troll",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "26a865dfb0109503c8f1c93b0cc692c833e1248a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732223,
+    "modifiedTime": 1792929732229,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "5qiAIcjs2yWosV2j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!5qiAIcjs2yWosV2j"
+}

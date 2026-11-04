@@ -1,0 +1,23 @@
+{
+  "name": "Social",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 500000,
+  "_id": "DXSl0xPQ6CFB4UPt",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793528998970,
+    "modifiedTime": 1793528998970,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!DXSl0xPQ6CFB4UPt"
+}

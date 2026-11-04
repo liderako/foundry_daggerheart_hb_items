@@ -1,0 +1,160 @@
+{
+  "name": "Your Struggle is Pointless",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to weigh down the spirits of all PCs within Far range. All targets affected replace their Hope Die with a <strong>d8</strong> until they roll a success with Hope or their next rest.</p>",
+    "resource": null,
+    "actions": {
+      "n0RYO05pROFU6ov3": {
+        "type": "effect",
+        "_id": "n0RYO05pROFU6ov3",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "6WSx03mFbpbPWnOI",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/magic/death/skull-flames-white-blue.webp",
+        "range": "far",
+        "areas": [
+          {
+            "name": "Your Struggle is Pointless",
+            "type": "placed",
+            "shape": "emanation",
+            "size": "far",
+            "effects": [],
+            "hasHole": false
+          }
+        ],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
+  "effects": [
+    {
+      "name": "Your Struggle is Pointless",
+      "img": "icons/magic/death/skull-flames-white-blue.webp",
+      "transfer": false,
+      "_id": "6WSx03mFbpbPWnOI",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.rules.dualityRoll.defaultHopeDice",
+            "value": 8,
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "shortRest",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>All targets affected replace their Hope Die with a <strong>d8</strong> until they roll a success with Hope or their next rest.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929732436,
+        "modifiedTime": 1792929732436,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!zKfwyAgIEeL4CZ0x.6WSx03mFbpbPWnOI"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Despair",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "acd18083d59dbf878d997215dc76abb33a5256eb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732436,
+    "modifiedTime": 1792929732450,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "zKfwyAgIEeL4CZ0x",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!zKfwyAgIEeL4CZ0x"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Demonic Adversaries",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 400000,
+  "_id": "UTWmtqgkiEoB1cbn",
+  "description": "",
+  "folder": null,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "71070230e6cfda064dfa6cf3f35ec8e2947aeecb"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731504,
+    "modifiedTime": 1792929731504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!UTWmtqgkiEoB1cbn"
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Mark Target",
+  "type": "feature",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to Mark a target within Far range until the @Lookup[@name] is destroyed or the Marked target becomes Hidden. While the target is Marked, their Evasion is halved.</p>",
+    "resource": null,
+    "actions": {
+      "1SfYAIIr5znuHCKX": {
+        "type": "effect",
+        "_id": "1SfYAIIr5znuHCKX",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "yQ85C0JHRG1pwu8a",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+  "effects": [
+    {
+      "name": "Marked",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "transfer": false,
+      "_id": "yQ85C0JHRG1pwu8a",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "override",
+            "value": "@system.evasion / 2",
+            "priority": 10,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Marked until the Turret is destroyed or you become <em>Hidden</em>. While you are Marked, your Evasion is halved.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731997,
+        "modifiedTime": 1792929731997,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_key": "!items.effects!hV0TsH5ZhlSm3woP.yQ85C0JHRG1pwu8a"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vault Guardian Turret",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "eda74dc7b0cba2f3dcaf25651569d7bd2bb540ac"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731997,
+    "modifiedTime": 1792929732004,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "hV0TsH5ZhlSm3woP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hV0TsH5ZhlSm3woP"
+}

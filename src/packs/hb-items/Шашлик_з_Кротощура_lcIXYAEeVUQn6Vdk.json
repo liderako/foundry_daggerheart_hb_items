@@ -1,0 +1,44 @@
+{
+  "folder": "R8S2JakvOYajf4cP",
+  "name": "Шашлик з Кротощура",
+  "type": "consumable",
+  "_id": "lcIXYAEeVUQn6Vdk",
+  "img": "icons/consumables/food/cooked-kebab-meat-skewer-orange.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.753);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Roll a fate dice on hope you can clear 1 HP but be carefull do not eat too much!</span></p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e808970ee4158818832144a92b6a0519abb6ca3b"
+    },
+    "mist-age-prices": {
+      "price": 0.3
+    },
+    "mist-age-weight": {
+      "slots": null
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792838476147,
+    "modifiedTime": 1792838600677,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lcIXYAEeVUQn6Vdk"
+}

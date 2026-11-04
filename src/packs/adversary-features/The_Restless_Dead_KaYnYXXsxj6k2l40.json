@@ -1,0 +1,84 @@
+{
+  "name": "The Restless Dead",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><strong>Spend a Fear</strong> to summon a number of  @UUID[Compendium.daggerheart.adversaries.Actor.2nXz4ilAY4xuhKLm]{Shambling Zombies} equal to the number of PCs, which appear within Close range of the PCs.</p><section id=\"secret-IU1VPO4EieJjiFsl\" class=\"secret\"><p><em>What has roused the dead from their graves? Who were these corpses in life? Are the dead being controlled by an outside force?</em></p></section>",
+    "resource": null,
+    "actions": {
+      "wklO0C8uiuMAgTKE": {
+        "type": "summon",
+        "_id": "wklO0C8uiuMAgTKE",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.2nXz4ilAY4xuhKLm",
+            "count": "4"
+          }
+        ],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Graveyard",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "107cc9088ebb421b25511d7e23063e500721b402"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732749,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "KaYnYXXsxj6k2l40",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!KaYnYXXsxj6k2l40"
+}

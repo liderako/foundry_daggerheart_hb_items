@@ -1,0 +1,48 @@
+{
+  "name": "Blood For the Blood Gods",
+  "type": "feature",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Butcher has advantage on attack rolls against a target that is <em>Bleeding</em>, or has 4 or more HP marked.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Cult Butcher",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "cb647ed1c48b4a19c43d5dd77b0b575f9c3038d3"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732754,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "rLZk8dHLUc1OcZ5M",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!rLZk8dHLUc1OcZ5M"
+}

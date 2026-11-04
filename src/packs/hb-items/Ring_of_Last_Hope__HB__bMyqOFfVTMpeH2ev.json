@@ -1,0 +1,37 @@
+{
+  "folder": "4Zj1rM45GMaRWnj1",
+  "name": "Ring of Last Hope (HB)",
+  "type": "loot",
+  "img": "icons/equipment/finger/ring-band-gold-purple.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Before you mark your last HP Slot, roll a d6. On a result of 4-6, do not mark your last HP slot, after applying effect ring is not work anymore and become simple ring.</p>",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "03b4ad656d5b5befccbf38b32aa5c11adb57684d",
+      "sourceId": "Item.IWYo5zyGohjxdYTM"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772097147130,
+    "modifiedTime": 1775860958080,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "bMyqOFfVTMpeH2ev",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bMyqOFfVTMpeH2ev"
+}

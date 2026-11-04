@@ -1,0 +1,45 @@
+{
+  "name": "Throngs of Servants",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The estate is full of various enthralled servants tending to the whims of the vampire and the maintenance of the estate. They are entirely beneath the notice of the vampires, so PCs who dress and act appropriately can blend in with the help for a time.</p><section id=\"secret-tWvPXoHcUk4EpW52\" class=\"secret\"><p><em>Who is the head servant who keeps the others in line? Are all the servants familiars, thralls, undead, or are some mere mortals?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/environment/people/cleric-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Clan's Estate",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b8ee8a5778f6dbf171cf0080a7bd6b3246af5f07"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732749,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "qygvW8pBxa5Yc9f4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qygvW8pBxa5Yc9f4"
+}

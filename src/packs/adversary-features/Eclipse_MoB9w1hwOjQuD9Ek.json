@@ -1,0 +1,85 @@
+{
+  "name": "Eclipse",
+  "type": "feature",
+  "img": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
+  "system": {
+    "description": "<p><em>Countdown (8)</em>. When the Vampire is in the spotlight for the first time, activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, plunge the entire area within Far range into complete darkness only the Vampire and their allies can see through. Every target in the darkness must mark a Stress, and attack rolls have disadvantage when targeting the Vampire or their allies within this shadow. The eclipse lasts until the end of the scene or the Vampire is defeated.</p>",
+    "actions": {
+      "Zl1m6OzHKu0IYrFx": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Eclipse",
+            "type": "narrative",
+            "img": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "fear",
+              "startFormula": "8",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "Zl1m6OzHKu0IYrFx",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Vampire Lord",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4ee5d28c817d2d20f7ad943f68eaa3f5772681b6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732637,
+    "modifiedTime": 1792929732650,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "MoB9w1hwOjQuD9Ek",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!MoB9w1hwOjQuD9Ek"
+}

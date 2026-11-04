@@ -1,0 +1,44 @@
+{
+  "name": "Navigator's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/navigation/sextant-brass-brown.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A sextant, a compass, calipers, a ruler, parchment, ink and a quill.</p><p>+2 to navigation checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 25
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "d577f8f815811fa6f96fb313793610d4e16370dd"
+    }
+  },
+  "_id": "H7RiObmNlrkovB7O",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185235,
+    "modifiedTime": 1792863185242,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H7RiObmNlrkovB7O"
+}

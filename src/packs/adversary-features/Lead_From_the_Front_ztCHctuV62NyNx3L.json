@@ -1,0 +1,45 @@
+{
+  "name": "Lead From the Front",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The @Lookup[@name] gains a +1 bonus to their damage rolls for each ally within Very Close range of them (up to a +5 bonus).</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Centurion",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "880b73e76fce4617dff83bddf6f90365d104990c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732528,
+    "modifiedTime": 1792929732548,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "ztCHctuV62NyNx3L",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!ztCHctuV62NyNx3L"
+}

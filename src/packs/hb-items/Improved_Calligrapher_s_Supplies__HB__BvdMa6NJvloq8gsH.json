@@ -1,0 +1,44 @@
+{
+  "name": "Improved Calligrapher's Supplies (HB)",
+  "type": "loot",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>Inks, quills and fine brushes, good parchment, a ruler and a blotter.</p><p>+3 to calligraphy checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 60
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "5d5f27d3a8813dcc450a65da03cd0d2fd288ac29"
+    }
+  },
+  "_id": "BvdMa6NJvloq8gsH",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185236,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BvdMa6NJvloq8gsH"
+}

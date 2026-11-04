@@ -1,0 +1,39 @@
+{
+  "folder": "4Zj1rM45GMaRWnj1",
+  "name": "Spellscroll of Terrify (S)",
+  "type": "consumable",
+  "img": "icons/sundries/documents/document-symbol-skull-tan.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Make a Spellcast Roll against a target within Far range. On a success, the target marks 1d4 Stress and you can choose to make the target run one range away from you (Close to Far, Far to Very Far, etc). On a success with Fear, the target becomes temporarily Vulnerable.</p>",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "destroyOnEmpty": true
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "489b725a329c621c9c6478bb04452d066feed36b",
+      "sourceId": "Item.nH2PF7pVGS5DdlsY"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "daggerheart",
+    "systemVersion": "1.7.1",
+    "createdTime": 1772097168292,
+    "modifiedTime": 1775860958080,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_id": "NTGmESSaaqr5MRYu",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!NTGmESSaaqr5MRYu"
+}

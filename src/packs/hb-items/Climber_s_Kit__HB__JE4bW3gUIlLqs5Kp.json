@@ -1,0 +1,88 @@
+{
+  "name": "Climber's Kit (HB)",
+  "type": "loot",
+  "_id": "JE4bW3gUIlLqs5Kp",
+  "img": "icons/tools/fasteners/nail-steel.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>A climber’s kit includes special pitons, boot tips, gloves, and a harness.</p><p>+2 to climbing checks</p>",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "name": "Medium Weight",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        },
+        "changes": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>2</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "1.9.1",
+        "createdTime": 1774038858939,
+        "modifiedTime": 1774038858939,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+      },
+      "_id": "X4UZMoaULn9TwhxN",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!JE4bW3gUIlLqs5Kp.X4UZMoaULn9TwhxN"
+    }
+  ],
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cc4d8b5a7571c826ca3f16cc2f0f239544442730"
+    },
+    "mist-age-prices": {
+      "price": 12
+    },
+    "mist-age-weight": {
+      "slots": 3,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1772099047171,
+    "modifiedTime": 1792863188237,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!items!JE4bW3gUIlLqs5Kp"
+}

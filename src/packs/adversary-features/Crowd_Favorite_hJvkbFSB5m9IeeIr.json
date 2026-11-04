@@ -1,0 +1,86 @@
+{
+  "name": "Crowd Favorite",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p><em>Countdown (Loop 1d6).</em> Activate the countdown when the PCs enter the arena. It ticks down when a PC performs a spectacular feat of violence or hypes up the crowd. When it triggers, a PC can take the spotlight and gain 2 Hope or clear 2 Stress.</p><hr><p><em>What types of showmanship does this crowd prefer? Are there established rivalries or teams?</em></p>",
+    "resource": null,
+    "actions": {
+      "cCKCI6Q885LxEW3X": {
+        "type": "countdown",
+        "name": "Start Countdown",
+        "countdown": [
+          {
+            "name": "Crowd Favorite",
+            "type": "encounter",
+            "img": "icons/skills/social/intimidation-impressing.webp",
+            "progress": {
+              "looping": "looping",
+              "type": "custom",
+              "startFormula": "1d6",
+              "current": 1,
+              "start": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "_id": "cCKCI6Q885LxEW3X",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "img": "icons/skills/social/intimidation-impressing.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Arena",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "a9dd9db193a91dba07180a96c828b8b2577f2d60"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732441,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "hJvkbFSB5m9IeeIr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!hJvkbFSB5m9IeeIr"
+}

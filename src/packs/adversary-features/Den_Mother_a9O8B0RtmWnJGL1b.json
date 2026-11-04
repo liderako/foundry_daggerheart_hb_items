@@ -1,0 +1,83 @@
+{
+  "name": "Den Mother",
+  "type": "feature",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Once per scene, <strong>spend 2 Fear</strong> to summon up to two Darkweave adversaries (other than @Lookup[@name]s), who appear within Close range and immediately take the spotlight.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "Evpfh4Phbsiqv6wN": {
+        "type": "effect",
+        "_id": "Evpfh4Phbsiqv6wN",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 2,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/invertebrates/tick-cross-glowing-purple.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Darkweave Queen",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "286bb85c8c540f45bc4cc4b335077853a9e351fc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731724,
+    "modifiedTime": 1792929731734,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "a9O8B0RtmWnJGL1b",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!a9O8B0RtmWnJGL1b"
+}

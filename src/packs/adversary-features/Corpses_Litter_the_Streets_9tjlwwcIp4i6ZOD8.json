@@ -1,0 +1,45 @@
+{
+  "name": "Corpses Litter the Streets",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The air of the city is filled with smoke and screams. PCs with any Stress marked have their Hope Die reduced to a <strong>d10</strong> while in this environment.</p><hr><p><em>Do the invaders spare any inhabitants? Is anywhere in the city safe?</em></p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "City Sack",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6c4de012a7a20d898d1c0811f13cce1581aae149"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732440,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "9tjlwwcIp4i6ZOD8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!9tjlwwcIp4i6ZOD8"
+}

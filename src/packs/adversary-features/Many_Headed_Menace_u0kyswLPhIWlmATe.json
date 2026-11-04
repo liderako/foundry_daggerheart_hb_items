@@ -1,0 +1,54 @@
+{
+  "name": "Many-Headed Menace",
+  "type": "feature",
+  "system": {
+    "description": "<p>The @Lookup[@name] begins with three heads and can have up to five. When the @Lookup[@name] takes Major or greater damage, they lose a head.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 3,
+      "max": "5",
+      "icon": "",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hydra",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8fb16a1fba1fbb1b58f01187ab5b0ceeb86bbf55"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731996,
+    "modifiedTime": 1792929732004,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "u0kyswLPhIWlmATe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!u0kyswLPhIWlmATe"
+}

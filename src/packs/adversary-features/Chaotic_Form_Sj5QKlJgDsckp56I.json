@@ -1,0 +1,45 @@
+{
+  "name": "Chaotic Form",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] attacks, roll <strong>2d4</strong> and use the result as their attack modifier.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Outer Realms Abomination",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "749cddd86f20bf5182804725a945a46b67a8f2d2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731712,
+    "modifiedTime": 1792929731731,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "Sj5QKlJgDsckp56I",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Sj5QKlJgDsckp56I"
+}

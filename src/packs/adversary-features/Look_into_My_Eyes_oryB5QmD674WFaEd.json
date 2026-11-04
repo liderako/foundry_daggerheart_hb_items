@@ -1,0 +1,99 @@
+{
+  "name": "Look into My Eyes",
+  "type": "feature",
+  "system": {
+    "description": "<p>A creature who moves into Melee range of the @Lookup[@name] must make an Instinct Reaction Roll. On a failure, you gain <strong>[[/r 1d4]]</strong> Fear.</p>",
+    "resource": null,
+    "actions": {
+      "lOgkZTR1hybc6bnJ": {
+        "type": "attack",
+        "_id": "lOgkZTR1hybc6bnJ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Roll Save",
+        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Head Vampire",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6ab2f1943a2d9fe3dccd336731d915b26518f1bb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731994,
+    "modifiedTime": 1792929732003,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "oryB5QmD674WFaEd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oryB5QmD674WFaEd"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Unstoppable",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>If the @Lookup[@name]’s Battle Rage is active, <strong>mark a Stress</strong> when the @Lookup[@name] takes physical damage to reduce the severity of the damage they take by one threshold.</p>",
+    "resource": null,
+    "actions": {
+      "Yc29uN6keNHQ44Xo": {
+        "type": "effect",
+        "_id": "Yc29uN6keNHQ44Xo",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "reaction",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mark Stress",
+        "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+        "range": "",
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Berserker",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "56f65908765e01f4bdf0e419efe92f65203d3e7e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732540,
+    "modifiedTime": 1792929732551,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Z66s9694opXHDovj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Z66s9694opXHDovj"
+}

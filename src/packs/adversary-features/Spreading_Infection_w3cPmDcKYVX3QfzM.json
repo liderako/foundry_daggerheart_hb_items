@@ -1,0 +1,45 @@
+{
+  "name": "Spreading Infection",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>The Mycelial Growth is slowly expanding into new areas, its spores carried by the infected creatures that wander out from it. The PCs can take action to stymie the growth, such as destroying spore-spewing structures or burning away spreading mycelium.</p><section id=\"secret-MTj7JYtBDj5amW8e\" class=\"secret\"><p><em>How large has this growth already gotten? Where did this infection come from? Does it have a particular goal it's trying to reach?</em></p></section>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/nature/tree-bare-glow-yellow.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mycelial Overgrowth",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "4e9ca1a228d8453089bcf08f6c528a35c591faf1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732748,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "w3cPmDcKYVX3QfzM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!w3cPmDcKYVX3QfzM"
+}

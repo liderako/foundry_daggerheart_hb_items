@@ -1,0 +1,44 @@
+{
+  "name": "Improved Navigator's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/navigation/sextant-complex-brown.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>A sextant, a compass, calipers, a ruler, parchment, ink and a quill.</p><p>+3 to navigation checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 50
+    },
+    "mist-age-weight": {
+      "slots": 0.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "b0d8d605388a79f24311e8f4f46c9bad14160187"
+    }
+  },
+  "_id": "c2DN7byazcGvpx07",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185237,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c2DN7byazcGvpx07"
+}

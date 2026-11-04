@@ -1,0 +1,106 @@
+{
+  "name": "Dragon Rider",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] is spotlighted, their dragon mount can also move. While flying, the @Lookup[@name] gains a +3 bonus to their Difficulty.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "effects": [
+    {
+      "name": "Dragon Rider",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [
+          {
+            "key": "system.difficulty",
+            "value": 3,
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "w8wLcSsTiTU3mS7e",
+      "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>While flying, the Dragonlord gains a +3 bonus to their Difficulty.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732442,
+        "modifiedTime": 1792929732442
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 0,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!fndFZBv5kL1w6KwS.w8wLcSsTiTU3mS7e"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragonlord",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "2f3ed2fa1adebe266c1b12d2be85ca07ab69edc9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732442,
+    "modifiedTime": 1792929732451,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "fndFZBv5kL1w6KwS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!fndFZBv5kL1w6KwS"
+}

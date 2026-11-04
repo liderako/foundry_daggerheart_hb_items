@@ -1,0 +1,45 @@
+{
+  "name": "Cracked Scales",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] takes damage, roll a number of d6s equal to HP marked. For each result of 4 or higher, you gain a Fear.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/commodities/leather/scales-brown.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Volcanic Dragon: Molten Scourge",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "d09c167c79149652e80d95d8221c65152b292578"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731719,
+    "modifiedTime": 1792929731733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "AdtI0PQwZnD0VGT4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!AdtI0PQwZnD0VGT4"
+}

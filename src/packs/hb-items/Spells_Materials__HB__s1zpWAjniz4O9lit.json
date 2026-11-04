@@ -1,0 +1,90 @@
+{
+  "folder": "Z8VpwJrB8cpOlhMo",
+  "name": "Spells Materials (HB)",
+  "type": "consumable",
+  "img": "assets/hb-icons/ProfessionIcons/ProfessionAndCraftIcons/Enchantment/Enchantment_05_magicdust.png",
+  "system": {
+    "attribution": {},
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "consumeOnUse": true,
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "too small Weight",
+      "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>0.05</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "modifiedTime": 1793806287738,
+        "createdTime": 1793806287738,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "2xushmrcTCYW0cal",
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!s1zpWAjniz4O9lit.2xushmrcTCYW0cal"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "eca17012a52354e4b17f177b15ba7ef1584b3ad4",
+      "sourceId": "Item.s1zpWAjniz4O9lit"
+    },
+    "asset-librarian": {
+      "filterTag": [
+        "consumable"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793806287738,
+    "modifiedTime": 1793806287739,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_id": "s1zpWAjniz4O9lit",
+  "sort": 0,
+  "_key": "!items!s1zpWAjniz4O9lit"
+}

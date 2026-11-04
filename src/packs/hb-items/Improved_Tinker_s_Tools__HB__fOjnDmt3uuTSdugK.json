@@ -1,0 +1,44 @@
+{
+  "name": "Improved Tinker's Tools (HB)",
+  "type": "loot",
+  "img": "icons/tools/hand/pliers-shears-wire-cutters.webp",
+  "folder": "fb2m4iMKNzyNK0Wd",
+  "system": {
+    "quantity": 1,
+    "description": "<p>Small hand tools, thread, needles, a whetstone, scraps of cloth and leather, and a pot of glue.</p><p>+3 to tinkering checks</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "actions": {}
+  },
+  "flags": {
+    "mist-age-prices": {
+      "price": 30
+    },
+    "mist-age-weight": {
+      "slots": 2.5,
+      "worn": false
+    },
+    "scene-packer": {
+      "hash": "70140952dd0820a917e766370293ec7c633a8dc8"
+    }
+  },
+  "_id": "fOjnDmt3uuTSdugK",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792863185237,
+    "modifiedTime": 1792863185243,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fOjnDmt3uuTSdugK"
+}

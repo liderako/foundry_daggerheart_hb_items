@@ -1,0 +1,36 @@
+{
+  "name": "Greatstone (HB)",
+  "type": "loot",
+  "_id": "y7zABzR0Q2fRskTw",
+  "img": "icons/commodities/treasure/token-etched-h-brown.webp",
+  "system": {
+    "description": "<p>You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature.</p><p><strong>Powerful</strong>: On a successful attack, roll an additional damage die and discard the lowest result.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556018,
+    "modifiedTime": 1792764556018,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!y7zABzR0Q2fRskTw"
+}

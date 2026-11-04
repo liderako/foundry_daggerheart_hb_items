@@ -1,0 +1,109 @@
+{
+  "name": "Fiendish Nature",
+  "type": "feature",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
+  "effects": [
+    {
+      "name": "Fiendish Nature",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resistance.magical.resistance",
+            "type": "override",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "sPtaHnm0uxvSDpgi",
+      "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731846,
+        "modifiedTime": 1792929731846,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!K7xV5B8ydi3NZRWl.sPtaHnm0uxvSDpgi"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Shapeshifting Fiend",
+      "source": "official",
+      "aliases": [
+        "Fiendish Resistance"
+      ]
+    },
+    "scene-packer": {
+      "hash": "22d90f93c6d3bf84741a2b5b30eca3bd8a80eed2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731846,
+    "modifiedTime": 1792929731859,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "K7xV5B8ydi3NZRWl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!K7xV5B8ydi3NZRWl"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Blood and Carnage",
+  "type": "feature",
+  "img": "icons/svg/cave.svg",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When a PC or adversary deals damage to a target, they can choose to mark 1 HP to force the target to mark an additional HP. </p><blockquote><p>What do you think makes you fight so viciously? Do you enjoy killing?</p></blockquote>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Blood War",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "96dfca87d479948d8a6e0754d14c3a2a54f4c0ab"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732754,
+    "modifiedTime": 1792929732759,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "n8Rl6uxtt30BqJqS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!n8Rl6uxtt30BqJqS"
+}

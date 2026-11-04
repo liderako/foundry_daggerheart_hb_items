@@ -1,0 +1,44 @@
+{
+  "name": "Lorekeeper (HB)",
+  "type": "loot",
+  "_id": "JsPYzrqpITqGj23I",
+  "img": "icons/sundries/books/book-backed-wood-tan.webp",
+  "system": {
+    "description": "<p>You can store the name and details of up to three hostile creatures inside this book. You gain a +1 bonus to action rolls against those creatures.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "mist-age-prices": {
+      "price": 45
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792842189189,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JsPYzrqpITqGj23I"
+}

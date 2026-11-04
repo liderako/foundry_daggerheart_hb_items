@@ -1,0 +1,45 @@
+{
+  "name": "Deadly Flight",
+  "type": "feature",
+  "system": {
+    "description": "<p>While flying the @Lookup[@name] can move up to Far range instead of Close range before taking an action.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/movement/feet-winged-boots-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Adult Flickerfly",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "53ef0e26445fda59686bdf6cba124ba806ef6d58"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731722,
+    "modifiedTime": 1792929731734,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "3G2zofPhatSfx96d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!3G2zofPhatSfx96d"
+}

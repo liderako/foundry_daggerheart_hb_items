@@ -1,0 +1,73 @@
+{
+  "name": "Restless Servitude",
+  "type": "feature",
+  "img": "icons/magic/death/skull-fire-white-yellow.webp",
+  "system": {
+    "description": "<p>When the Guardian is defeated, you can spotlight them and roll a [[/r d6]]. On a result of 5-6, if there are other adversaries on the battlefield, the Guardian re-forms with 2 marked HP. Otherwise, replace the @Lookup[@name] with a @UUID[Compendium.daggerheart.adversaries.Actor.UFVGl1osOsJTneLf]{Spectral Guardian} and immediately spotlight them.</p>",
+    "actions": {
+      "vn93RWxagsKQp4Vv": {
+        "type": "summon",
+        "_id": "vn93RWxagsKQp4Vv",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.UFVGl1osOsJTneLf",
+            "count": "1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "passive",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Tomb Guardian",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "15125cae5c0ba63239a11588bdab2c5a7899fae8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732742,
+    "modifiedTime": 1792929732756,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "0XnPlRs8xYgEd4Oq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!0XnPlRs8xYgEd4Oq"
+}

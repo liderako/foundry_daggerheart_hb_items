@@ -1,0 +1,99 @@
+{
+  "name": "Peerless Duelist",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When the @Lookup[@name] makes an attack against a creature and no other creatures are within Melee range, they gain advantage on the attack.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "effects": [
+    {
+      "name": "Peerless Duelist",
+      "type": "base",
+      "system": {
+        "rangeDependence": null,
+        "changes": [
+          {
+            "key": "system.advantageSources",
+            "value": "no other creatures within Melee range",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "54vm3Oi585UF9vhM",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "createdTime": 1792929732532,
+        "modifiedTime": 1792929732532
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!eXvYeEcpu31nj0LZ.54vm3Oi585UF9vhM"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Sword Saint",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "8748f20ef09095ee50d9b5b07dd0b06d71822544"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732532,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "eXvYeEcpu31nj0LZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!eXvYeEcpu31nj0LZ"
+}

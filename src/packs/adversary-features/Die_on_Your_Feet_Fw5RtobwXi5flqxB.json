@@ -1,0 +1,86 @@
+{
+  "name": "Die on Your Feet",
+  "type": "feature",
+  "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When an ally marks their last HP within Close range, spend a Fear to have them make a standard attack before being defeated.</p>",
+    "actions": {
+      "qClnqyZyXC8AyzuY": {
+        "type": "effect",
+        "_id": "qClnqyZyXC8AyzuY",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Demon Warlord",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "b92d000d98990c907aea52d89a1c002a187ca7f0"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732851,
+    "modifiedTime": 1792929732862,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "Fw5RtobwXi5flqxB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Fw5RtobwXi5flqxB"
+}

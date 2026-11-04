@@ -1,0 +1,84 @@
+{
+  "name": "Hive Avengers",
+  "type": "feature",
+  "img": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
+  "system": {
+    "description": "<p>When the Zombie is defeated, <strong>spend a Fear</strong> to summon @UUID[Compendium.daggerheart.adversaries.Actor.IIWV4ysJPFPnTP7W]{Giant Mosquitoes} from their corpse and immediately spotlight them.</p>",
+    "actions": {
+      "PhEDemqE6aivTi0R": {
+        "type": "summon",
+        "_id": "PhEDemqE6aivTi0R",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart.adversaries.Actor.IIWV4ysJPFPnTP7W",
+            "count": "1"
+          }
+        ],
+        "name": "",
+        "range": "",
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Hive Zombie",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "9e0f233156ecb907b0df34643cae11accb668478"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732643,
+    "modifiedTime": 1792929732651,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "oEQ4T8L18gpUjZvQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!oEQ4T8L18gpUjZvQ"
+}

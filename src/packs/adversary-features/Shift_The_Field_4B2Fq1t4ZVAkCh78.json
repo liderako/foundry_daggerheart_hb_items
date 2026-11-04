@@ -1,0 +1,45 @@
+{
+  "name": "Shift The Field",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>When a target marks HP from an attack by the @Lookup[@name], they can knock the target a Very Close distance in any direction.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/skills/melee/sword-twirl-orange.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Warrior-Monk",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "7ea169e1046d3f128a6a52c6e5cf97ae874f18ec"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732536,
+    "modifiedTime": 1792929732550,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "4B2Fq1t4ZVAkCh78",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!4B2Fq1t4ZVAkCh78"
+}

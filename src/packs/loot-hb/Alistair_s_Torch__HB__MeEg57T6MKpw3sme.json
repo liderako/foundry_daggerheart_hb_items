@@ -1,0 +1,36 @@
+{
+  "name": "Alistair's Torch (HB)",
+  "type": "loot",
+  "_id": "MeEg57T6MKpw3sme",
+  "img": "icons/sundries/lights/torch-brown-lit.webp",
+  "system": {
+    "description": "<p>You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792764556016,
+    "modifiedTime": 1792764556016,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!MeEg57T6MKpw3sme"
+}

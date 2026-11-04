@@ -1,0 +1,116 @@
+{
+  "name": "Undying Armies",
+  "type": "feature",
+  "img": "icons/environment/people/infantry-army.webp",
+  "system": {
+    "description": "<p><strong>Spend a Fear</strong> to summon a @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.DIVyGYX7S27molSz]{Sleepless Host}, which appears at Far range.</p>",
+    "actions": {
+      "J7KPczMwg6R9zPnR": {
+        "_id": "J7KPczMwg6R9zPnR",
+        "type": "ability",
+        "name": "Undying Armies",
+        "actionType": "action",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "cost": [
+          {
+            "consumeOnSuccess": false,
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null
+          }
+        ],
+        "damage": {
+          "parts": [],
+          "includeBase": false,
+          "direct": false
+        },
+        "range": "far",
+        "roll": {
+          "type": "ability",
+          "diceRolling": {
+            "multiplier": "flat",
+            "dice": "d6"
+          }
+        }
+      },
+      "OZw1h4PrJrVvuc0p": {
+        "type": "summon",
+        "_id": "OZw1h4PrJrVvuc0p",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.DIVyGYX7S27molSz",
+            "count": "1"
+          }
+        ],
+        "name": "",
+        "range": "far",
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Mummy Pharaoh",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "54f255a622832562bc3bd09170df8207e59e25f9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732750,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "bjxaAfD2Ged0OUE9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bjxaAfD2Ged0OUE9"
+}

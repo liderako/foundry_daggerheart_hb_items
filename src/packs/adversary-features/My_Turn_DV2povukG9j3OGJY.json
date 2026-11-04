@@ -1,0 +1,45 @@
+{
+  "name": "My Turn",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] marks HP from an attack, <strong>spend a number of Fear equal to the HP marked by the @Lookup[@name]</strong> to cause the attacker to mark the same number of HP.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Demon of Jealousy",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5d7e927e4f0e640a8426eaa7f8865f99ddfc9b74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732098,
+    "modifiedTime": 1792929732113,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "DV2povukG9j3OGJY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!DV2povukG9j3OGJY"
+}

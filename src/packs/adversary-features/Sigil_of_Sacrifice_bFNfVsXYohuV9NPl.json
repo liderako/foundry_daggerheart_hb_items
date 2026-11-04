@@ -1,0 +1,48 @@
+{
+  "name": "Sigil of Sacrifice",
+  "type": "feature",
+  "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Mark an ally within Very Close range. Whenever a PC damages the marked ally, give them a sigil token.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "flags": {
+    "dhImporter": {
+      "isCompendium": false
+    },
+    "mist-age-organization": {
+      "adversary": "Illrigger",
+      "source": "demonic",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "6fb4df6033da145a983d75cb2f10fd75320f905c"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732913,
+    "modifiedTime": 1792929732919,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "RjQlZq8QE6mT10ot",
+  "_id": "bFNfVsXYohuV9NPl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!bFNfVsXYohuV9NPl"
+}

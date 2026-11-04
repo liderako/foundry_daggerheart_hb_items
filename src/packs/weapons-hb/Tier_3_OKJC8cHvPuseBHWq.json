@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "w1HdMrtozpCGF8UB",
+  "name": "Tier 3",
+  "color": null,
+  "sorting": "a",
+  "_id": "OKJC8cHvPuseBHWq",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5"
+  },
+  "_key": "!folders!OKJC8cHvPuseBHWq"
+}

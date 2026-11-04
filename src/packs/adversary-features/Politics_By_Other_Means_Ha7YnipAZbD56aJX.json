@@ -1,0 +1,45 @@
+{
+  "name": "Politics By Other Means",
+  "type": "feature",
+  "system": {
+    "attribution": {},
+    "description": "<p>Social actions made against the @Lookup[@name] have disadvantage if they run contrary to the @Lookup[@name]’s orders or their lord’s interests.</p>",
+    "resource": null,
+    "actions": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "img": "icons/environment/people/infantry-army.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "General",
+      "source": "martial",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "3db700d7d939a590c026f901fca0bf93a1e65d27"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732533,
+    "modifiedTime": 1792929732549,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "bBeK3rnsUbI4IUsx",
+  "_id": "Ha7YnipAZbD56aJX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!Ha7YnipAZbD56aJX"
+}

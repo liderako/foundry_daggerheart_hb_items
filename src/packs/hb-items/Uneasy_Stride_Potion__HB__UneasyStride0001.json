@@ -1,0 +1,148 @@
+{
+  "name": "Uneasy Stride Potion (HB)",
+  "type": "consumable",
+  "_id": "UneasyStride0001",
+  "img": "icons/consumables/potions/potion-flask-corked-cyan.webp",
+  "system": {
+    "description": "<p>You gain a +1 bonus to your next Agility Roll. When you drink it, the GM gains a Fear.</p>",
+    "quantity": 1,
+    "actions": {
+      "sUkBw1BgKdDS3MWQ": {
+        "type": "effect",
+        "_id": "sUkBw1BgKdDS3MWQ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "UneasyStride0001",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "2Ow9PpTuQluQa91B",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Drink",
+        "img": "icons/consumables/potions/potion-flask-corked-cyan.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [
+    {
+      "name": "Stride Potion",
+      "img": "icons/consumables/potions/potion-flask-corked-cyan.webp",
+      "transfer": false,
+      "_id": "2Ow9PpTuQluQa91B",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1793799408079,
+        "modifiedTime": 1793799408079,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!UneasyStride0001.2Ow9PpTuQluQa91B"
+    }
+  ],
+  "folder": "xYUPyV2NyWvA96IQ",
+  "sort": 2300000,
+  "flags": {
+    "mist-age-prices": {
+      "price": 2.5
+    },
+    "mist-age-alchemy": {
+      "onUse": {
+        "fear": 1
+      }
+    },
+    "scene-packer": {
+      "hash": "e21de28586923b8d0e9c26b91eb1b5186d5e0f85"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1793799408079,
+    "modifiedTime": 1793799584294,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UneasyStride0001"
+}

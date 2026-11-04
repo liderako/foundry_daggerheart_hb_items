@@ -1,0 +1,145 @@
+{
+  "name": "Darkfang Envenomation",
+  "type": "feature",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the Queen succeeds on a standard attack, you can <strong>spend a Fear</strong> to make the target <em>Vulnerable</em> and <em>Restrained</em> until they succeed on a Strength Roll (12) or take a rest.</p>",
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "actions": {
+      "TaPyMVENOhVwlndu": {
+        "type": "effect",
+        "_id": "TaPyMVENOhVwlndu",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "itemId": null,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [
+          {
+            "_id": "uNQLy5UzVzu2CdBS",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend Fear",
+        "range": ""
+      }
+    },
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
+  "effects": [
+    {
+      "name": "Poisoned",
+      "disabled": false,
+      "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
+      "description": "<p>You are <em>Vulnerable</em> and <em>Restrained</em> until you succeed on a Strength Roll (12) or take a rest.</p>",
+      "transfer": false,
+      "statuses": [
+        "vulnerable",
+        "restrained"
+      ],
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": "",
+          "type": "shortRest"
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "_id": "uNQLy5UzVzu2CdBS",
+      "type": "base",
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1792929731721,
+        "modifiedTime": 1792929731721,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "origin": null,
+      "_key": "!items.effects!TtnnJqNz3sluOWKP.uNQLy5UzVzu2CdBS"
+    }
+  ],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Darkweave Queen",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "01ae3d21b3c3e61ed703ae458489ec9d87992d33"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731721,
+    "modifiedTime": 1792929731734,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "TtnnJqNz3sluOWKP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!TtnnJqNz3sluOWKP"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Undying Spirit (Phase Change)",
+  "type": "feature",
+  "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+  "system": {
+    "description": "<p>When the Skeletal Ruiner marks their last HP, replace them with the @UUID[Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.3W2ckaZ9ZVqmLXpQ]{Dragon Lich: Spectral Terror} and immediately spotlight them.</p>",
+    "actions": {
+      "am4jys8GVCTTyC4x": {
+        "type": "summon",
+        "_id": "am4jys8GVCTTyC4x",
+        "systemPath": "actions",
+        "baseAction": false,
+        "description": "",
+        "chatDisplay": true,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "summon": [
+          {
+            "actorUUID": "Compendium.undead-adversaries-for-daggerheart.undead-adversaries.Actor.3W2ckaZ9ZVqmLXpQ",
+            "count": "1"
+          }
+        ],
+        "areas": []
+      }
+    },
+    "featureForm": "reaction",
+    "attribution": {},
+    "resource": null,
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Dragon Lich: Skeletal Ruiner",
+      "source": "undead",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "f713c45bd24580404ddde4aef31b12796aa92983"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732750,
+    "modifiedTime": 1792929732758,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "NV033ce1VxzTbk3F",
+  "_id": "cgUK5xrdELEccYoX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!cgUK5xrdELEccYoX"
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Petrifying Gaze",
+  "type": "feature",
+  "system": {
+    "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, you can <strong>spend a Fear</strong> to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the @Lookup[@name] is attacked. When it triggers, the target must make a death move. If the @Lookup[@name] is defeated, all petrification countdowns end.</p>",
+    "resource": null,
+    "actions": {
+      "ySkX0wOpEFqtgeD9": {
+        "type": "attack",
+        "_id": "ySkX0wOpEFqtgeD9",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "fear",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Spend Fear",
+        "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      },
+      "ywZTs3D8ClT7tAsa": {
+        "type": "countdown",
+        "_id": "ywZTs3D8ClT7tAsa",
+        "systemPath": "actions",
+        "description": "<p>On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the @Lookup[@name] is attacked. When it triggers, the target must make a death move. If the @Lookup[@name] is defeated, all petrification countdowns end.</p>",
+        "chatDisplay": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "countdown": [
+          {
+            "name": "Petrifying Gaze",
+            "type": "encounter",
+            "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+            "progress": {
+              "looping": "noLooping",
+              "type": "custom",
+              "start": 1,
+              "startFormula": "4",
+              "current": 1
+            },
+            "ownership": {},
+            "hidden": null
+          }
+        ],
+        "name": "Start Countdown",
+        "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+        "range": "",
+        "baseAction": false,
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "featureForm": "action",
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Gorgon",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "fa5d084ae76d06ef84baa277435df22b0d4c3231"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929732106,
+    "modifiedTime": 1792929732115,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "qYvn6cgQ8assuQt3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!qYvn6cgQ8assuQt3"
+}

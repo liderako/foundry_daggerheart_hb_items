@@ -1,0 +1,45 @@
+{
+  "name": "Creeping Fire",
+  "type": "feature",
+  "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
+  "system": {
+    "description": "<p>The @Lookup[@name] can only move within Very Close range as their normal movement. They light any flammable object they touch on fi re.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-organization": {
+      "adversary": "Red Ooze",
+      "source": "official",
+      "aliases": []
+    },
+    "scene-packer": {
+      "hash": "5d6a5500ccd0854929535cde6ffe6ee404b792a6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1792929731719,
+    "modifiedTime": 1792929731733,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "exportSource": null
+  },
+  "folder": "UTWmtqgkiEoB1cbn",
+  "_id": "CTO0Ywvf8UCAwWvx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_key": "!items!CTO0Ywvf8UCAwWvx"
+}
