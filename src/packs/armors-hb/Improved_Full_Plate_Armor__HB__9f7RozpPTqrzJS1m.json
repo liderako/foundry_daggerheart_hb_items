@@ -98,7 +98,7 @@
   "sort": 0,
   "flags": {
     "mist-age-prices": {
-      "price": 80
+      "price": 300
     },
     "mist-age-equipment": {
       "durability": {
