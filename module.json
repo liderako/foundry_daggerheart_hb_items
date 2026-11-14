@@ -94,18 +94,6 @@
 			"flags": {}
 		},
 		{
-			"name": "adversaries-features",
-			"label": "Adversaries features",
-			"path": "packs/adversaries-features",
-			"type": "Item",
-			"system": "daggerheart",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			},
-			"flags": {}
-		},
-		{
 			"name": "rolltables-hb",
 			"label": "Rolltables (HB)",
 			"path": "packs/rolltables-hb",
@@ -130,7 +118,6 @@
 				"consumables-hb",
 				"loot-hb",
 				"adversary-features",
-				"adversaries-features",
 				"rolltables-hb"
 			]
 		}
