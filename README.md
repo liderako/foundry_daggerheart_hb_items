@@ -10,7 +10,6 @@ A Foundry VTT module for Daggerheart with the homebrew compendiums of The Mist A
 | Consumables (HB) | Consumables |
 | Loot (HB) | Loot |
 | Adversary Features (HB) | Adversary features |
-| Adversaries features | Adversary features |
 | Rolltables (HB) | Roll tables |
 
 They show up in the Compendiums tab in the *The Mist Age HB* folder.
