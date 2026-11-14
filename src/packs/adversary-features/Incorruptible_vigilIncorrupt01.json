@@ -1,0 +1,40 @@
+{
+  "_id": "vigilIncorrupt01",
+  "name": "Incorruptible",
+  "type": "feature",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Incorruptible</strong> (Passive). Хабарі, лестощі й тиск статусом на @Lookup[@name] не діють. Спроба її підкупити автоматично провалюється, а ГМ отримує Fear.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6c59ea1b45f3278711783b3f44d87801bf0ed51c"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654848047,
+    "modifiedTime": 1794654848047,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vigilIncorrupt01"
+}

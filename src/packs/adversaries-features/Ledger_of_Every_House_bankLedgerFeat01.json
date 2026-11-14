@@ -1,0 +1,40 @@
+{
+  "_id": "bankLedgerFeat01",
+  "name": "Ledger of Every House",
+  "type": "feature",
+  "img": "icons/sundries/books/book-worn-brown-grey.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Ledger of Every House</strong> (Passive). @Lookup[@name] знає борги та фінансові таємниці кожного дому Солмари і їхніх людей. Кидки PC, щоб приховати від нього джерело грошей, борг чи покровителя, йдуть з перешкодою.</p><section class=\"secret\" id=\"secret-bankLedger0001\"><p><em>Яку таємницю цієї групи @Lookup[@name] уже записав у свою книгу?</em></p></section>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b048f50e125681b773c556708491504449b0146b"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794590377803,
+    "modifiedTime": 1794590377807,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bankLedgerFeat01"
+}

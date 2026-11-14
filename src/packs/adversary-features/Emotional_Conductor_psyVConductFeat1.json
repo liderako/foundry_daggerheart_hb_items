@@ -1,0 +1,182 @@
+{
+  "_id": "psyVConductFeat1",
+  "name": "Emotional Conductor",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Емоційний Диригент: навіювання через мову, вплив на волю інших, відчуває та коригує емоційний стан людей навколо.</em></p><p><strong>Read the Room</strong> (Passive). @Lookup[@name] відчуває поверхневі емоції всіх у межах Close (не думки й не таємниці). Кидки PC, щоб збрехати йому чи приховати почуття, йдуть з перешкодою.</p><p><strong>Stoke the Feeling</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] підсилює або гасить емоцію, яку група в межах Close <strong>вже</strong> відчуває; нову створити не може. Кожен PC у групі робить <strong>Presence Reaction Roll</strong>. Провал: позначає Stress, і ця емоція керує його наступною дією (ГМ каже, як саме). На NPC і натовп діє без кидка.</p><p><strong>Rally the Ranks</strong> (Action, <strong>Spend a Fear</strong>, раз за сцену). Кожен союзник @Lookup[@name] у межах Far очищає <strong>1d4</strong> Stress.</p><p><strong>Break Their Nerve</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC у межах Close кидає з Fear, він втрачає Hope.</p><section class=\"secret\" id=\"secret-psyConduct0001\"><p><em>Яку емоцію @Lookup[@name] відчуває в групі PC найсильніше?</em></p></section>",
+    "actions": {
+      "psyCondStoke0001": {
+        "_id": "psyCondStoke0001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Stoke the Feeling",
+        "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyCondRally0001": {
+        "_id": "psyCondRally0001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Rally the Ranks",
+        "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyCondNerve0001": {
+        "_id": "psyCondNerve0001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Break Their Nerve",
+        "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "76dd8ecdd154e6b96fde5d2b0546e5b20fbd1d4f"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654849488,
+    "modifiedTime": 1794654935774,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVConductFeat1"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "bankNeutralGrnd1",
+  "name": "Neutral Ground",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-peace-alliance.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Neutral Ground</strong> (Passive). В офісі Банку той, хто першим вдасться до насильства чи відкритої погрози, втрачає підтримку всіх домів до кінця сцени, а ГМ отримує Fear.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c0a9bfee78e4e336b8427e3919763d63c9ed69f2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794590377804,
+    "modifiedTime": 1794590377808,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bankNeutralGrnd1"
+}

@@ -1,0 +1,166 @@
+{
+  "_id": "psyVFlightFeat01",
+  "name": "Psychokinetic Flight",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Рідкісна форма психокінезу: лише дуже сильний псайхік здатен підняти силою волі себе самого.</em></p><p><strong>Levitation</strong> (Passive). @Lookup[@name] літає. Ті, хто не може до нього дістатися, не можуть атакувати його в ближньому бою, а перешкоди на землі його не зупиняють. Коли він отримує Severe шкоду, падає на землю й не літає, доки знову не діятиме.</p><p><strong>Dive Strike</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] пікірує з висоти на ціль у межах Far: атака, фізична шкода <strong>(@tier)d8 + 2×@tier</strong>. Успіх: ціль збито з ніг, вона Vulnerable до свого наступного кидка.</p><p><strong>Out of Reach</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC підходить до @Lookup[@name] на Melee, він злітає вгору, і PC опиняється від нього на Close.</p><section class=\"secret\" id=\"secret-psyFlight00001\"><p><em>Хто ще знає, що @Lookup[@name] вміє літати?</em></p></section>",
+    "actions": {
+      "psyFlightDive001": {
+        "_id": "psyFlightDive001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Dive Strike",
+        "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "far",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d8 + 2*@tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyFlightReach01": {
+        "_id": "psyFlightReach01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Out of Reach",
+        "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d802473f1f2085a835af0417ae23856cb9caed88"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654849488,
+    "modifiedTime": 1794654935775,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVFlightFeat01"
+}

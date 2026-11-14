@@ -132,6 +132,9 @@
     },
     "scene-packer": {
       "hash": "4ef1e05b2b57c36f8687171d686340602e8206c6"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "social"
     }
   },
   "effects": [],
@@ -142,11 +145,11 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1792929732915,
-    "modifiedTime": 1792929732919,
+    "modifiedTime": 1794655456928,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
     "exportSource": null
   },
-  "folder": "RjQlZq8QE6mT10ot",
+  "folder": "DXSl0xPQ6CFB4UPt",
   "_id": "nhlCRfzFXwY3IIVg",
   "sort": 0,
   "ownership": {

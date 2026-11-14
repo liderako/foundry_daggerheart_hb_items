@@ -1,5 +1,5 @@
 {
-  "folder": "El6wQ0W4eqhZBZmj",
+  "folder": "QdkMpaCXneMUVxb5",
   "name": "Емоційний Диригент",
   "type": "feature",
   "_id": "MRyuvz1W3LEQ1bqP",
@@ -14,7 +14,7 @@
     "featureForm": "passive"
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "N4rqmaHEpJnGV7Qg": 3
@@ -32,7 +32,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.9.4",
     "createdTime": 1772194858497,
-    "modifiedTime": 1789982381118,
+    "modifiedTime": 1794238803185,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_key": "!items!MRyuvz1W3LEQ1bqP"

@@ -20,7 +20,11 @@
     "default": 0,
     "N4rqmaHEpJnGV7Qg": 3
   },
-  "flags": {},
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -29,7 +33,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1793528998970,
-    "modifiedTime": 1793528998970,
+    "modifiedTime": 1794605587383,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_key": "!items!1kruAsOYeRmVstgO"

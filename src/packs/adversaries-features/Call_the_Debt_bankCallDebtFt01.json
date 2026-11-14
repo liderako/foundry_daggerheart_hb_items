@@ -1,0 +1,103 @@
+{
+  "_id": "bankCallDebtFt01",
+  "name": "Call the Debt",
+  "type": "feature",
+  "img": "icons/commodities/currency/coins-plain-stack-gold-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Call the Debt</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] спокійно натякає, що може оголосити борг або заморозити рахунок. NPC, що залежить від Банку, поступається в одному питанні. PC робить <strong>Presence Reaction Roll</strong>; провал: позначає 2 Stress або поступається.</p>",
+    "actions": {
+      "bankCallDebtAct1": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "bankCallDebtAct1",
+        "type": "attack",
+        "name": "Call the Debt",
+        "img": "icons/commodities/currency/coins-plain-stack-gold-yellow.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d2038abc8f8e19238872b76e8bf4034b04e4fbb4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794590377804,
+    "modifiedTime": 1794590377807,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bankCallDebtFt01"
+}

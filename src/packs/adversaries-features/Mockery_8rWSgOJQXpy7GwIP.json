@@ -151,6 +151,9 @@
     "scene-packer": {
       "sourceId": "Actor.CBBuEXAlLKFMJdjg.Item.LYNaKEYcYMgvF4Rf",
       "hash": "ffffd083780b9bf2efa1976be4220aa38562f3c7"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "social"
     }
   },
   "_stats": {
@@ -161,7 +164,7 @@
     "systemId": "daggerheart",
     "systemVersion": "1.1.2",
     "createdTime": 1758352469444,
-    "modifiedTime": 1758352509081,
+    "modifiedTime": 1794605553305,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_id": "8rWSgOJQXpy7GwIP",

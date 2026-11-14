@@ -1,0 +1,387 @@
+{
+  "_id": "psyVKinesisFeat1",
+  "name": "Psychokinesis",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Психокінез: рух предметів силою волі, контроль над матерією.</em></p><p><strong>Power Push</strong> (Action). Атака проти цілі в межах Close. Успіх: ціль відкидає за межі Close <strong>або</strong> вона отримує фізичну шкоду <strong>(@tier)d8 + 2×@tier</strong>. <strong>Spend a Fear</strong>: і те, й інше.</p><p><strong>Hurl Debris</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] жбурляє бочку, камінь чи уламок у ціль у межах Far: атака, фізична шкода <strong>(@tier)d6 + @tier</strong>.</p><p><strong>Telekinetic Grip</strong> (Action, <strong>Spend a Fear</strong>). Ціль у межах Close робить <strong>Strength Reaction Roll</strong>. Провал: ціль Restrained, доки не витратить Hope, щоб вирватися.</p><p><strong>Deflect</strong> (Reaction, <strong>Mark a Stress</strong>). Коли в @Lookup[@name] влучає дальня фізична атака (стріла, болт, кинута зброя), вона проходить повз.</p><section class=\"secret\" id=\"secret-psyKinesis0001\"><p><em>Що в цьому місці достатньо важке, щоб стати зброєю в руках @Lookup[@name]?</em></p></section>",
+    "actions": {
+      "psyKinPush000001": {
+        "_id": "psyKinPush000001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Power Push",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d8 + 2*@tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyKinPushFear01": {
+        "_id": "psyKinPushFear01",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Power Push + Fear",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d8 + 2*@tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyKinDebris0001": {
+        "_id": "psyKinDebris0001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Hurl Debris",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "far",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d6 + @tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyKinGrip000001": {
+        "_id": "psyKinGrip000001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Telekinetic Grip",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "strength",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyKinDeflect001": {
+        "_id": "psyKinDeflect001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Deflect",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d9500615427e32229b4b5ac8b486439cff2b49d9"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794238635501,
+    "modifiedTime": 1794605412641,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVKinesisFeat1"
+}

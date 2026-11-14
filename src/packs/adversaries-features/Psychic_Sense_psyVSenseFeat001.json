@@ -1,0 +1,82 @@
+{
+  "_id": "psyVSenseFeat001",
+  "name": "Psychic Sense",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Психочуття: загострює зір, слух, нюх, смак, дотик та всі інші відчуття.</em></p><p><strong>Heightened Senses</strong> (Passive). @Lookup[@name] неможливо застати зненацька. Кидки PC, щоб сховатися чи підкрастися в межах Close від нього, йдуть з перешкодою.</p><p><strong>Feel the Weave</strong> (Passive). Коли хтось у межах Far створює закляття, @Lookup[@name] знає, хто це і звідки. Наступна атака @Lookup[@name] проти цієї істоти йде з перевагою.</p><p><strong>Sixth Sense</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC атакує @Lookup[@name], атака йде з перешкодою.</p><section class=\"secret\" id=\"secret-psySense000001\"><p><em>Що @Lookup[@name] відчув про PC ще до того, як вони заговорили?</em></p></section>",
+    "actions": {
+      "psySenseSixth001": {
+        "_id": "psySenseSixth001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Sixth Sense",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7bca203675d39e7d3008d938afe2573264c234aa"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794238635499,
+    "modifiedTime": 1794605407587,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVSenseFeat001"
+}

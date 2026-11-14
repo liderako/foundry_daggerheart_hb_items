@@ -1,0 +1,79 @@
+{
+  "_id": "vigilPaperTrail1",
+  "name": "Paper Trail",
+  "type": "feature",
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Paper Trail</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] піднімає міські реєстри. ГМ розповідає одну офіційну річ про PC або NPC у Солмарі: каста, дозвіл на зброю, скарга, арешт, на кого він працює. Того, чого немає в паперах, вона не дізнається.</p><section class=\"secret\" id=\"secret-vigilPaper00001\"><p><em>Який запис про PC уже лежить у реєстрах @Lookup[@name]?</em></p></section>",
+    "actions": {
+      "vigilPaperAct001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "vigilPaperAct001",
+        "type": "effect",
+        "name": "Paper Trail",
+        "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0fbd1776171632b33b9e7d14e9fd4da5e95efb22"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794590377807,
+    "modifiedTime": 1794590377809,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vigilPaperTrail1"
+}

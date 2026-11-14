@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Valaria",
+  "color": null,
+  "sorting": "a",
+  "_id": "El6wQ0W4eqhZBZmj",
+  "description": "",
+  "sort": 800000,
+  "flags": {
+    "scene-packer": {
+      "hash": "98bee84a8c31476c86f3ba291284c937f3aab579"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654849429,
+    "modifiedTime": 1794654849504,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
+  },
+  "_key": "!folders!El6wQ0W4eqhZBZmj"
+}

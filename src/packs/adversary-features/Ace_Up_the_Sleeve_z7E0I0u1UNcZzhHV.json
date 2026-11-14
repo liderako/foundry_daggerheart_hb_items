@@ -6,7 +6,11 @@
   "effects": [],
   "folder": "DXSl0xPQ6CFB4UPt",
   "sort": 0,
-  "flags": {},
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    }
+  },
   "ownership": {
     "default": 0,
     "N4rqmaHEpJnGV7Qg": 3
@@ -19,7 +23,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1793528998970,
-    "modifiedTime": 1793528998970,
+    "modifiedTime": 1794605587383,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "system": {

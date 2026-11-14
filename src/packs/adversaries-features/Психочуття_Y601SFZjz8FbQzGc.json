@@ -1,5 +1,5 @@
 {
-  "folder": "El6wQ0W4eqhZBZmj",
+  "folder": "QdkMpaCXneMUVxb5",
   "name": "Психочуття",
   "type": "feature",
   "_id": "Y601SFZjz8FbQzGc",
@@ -14,7 +14,7 @@
     "featureForm": "passive"
   },
   "effects": [],
-  "sort": 400000,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "N4rqmaHEpJnGV7Qg": 3
@@ -32,7 +32,7 @@
     "systemId": "daggerheart",
     "systemVersion": "1.7.1",
     "createdTime": 1772194796563,
-    "modifiedTime": 1789724763164,
+    "modifiedTime": 1794238804985,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_key": "!items!Y601SFZjz8FbQzGc"

@@ -1,0 +1,451 @@
+{
+  "_id": "psyVTelepathFeat",
+  "name": "Telepathy",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Телепатія: передача думок, образів і емоцій між свідомостями без слів; потужний ментальний імпульс здатен паралізувати або сильно нашкодити.</em></p><p><strong>Mind Link</strong> (Passive). @Lookup[@name] мовчки спілкується думками й образами з істотами в межах Very Far.</p><p><strong>Borrowed Eyes</strong> (Action, <strong>Mark a Stress</strong>). До кінця сцени @Lookup[@name] бачить і чує все, що бачить і чує обрана істота в межах Very Far. Якщо це PC, він робить <strong>Instinct Reaction Roll</strong>; успіх: відчуває чужу присутність і рве зв'язок.</p><p><strong>Mind Spike</strong> (Action). Атака проти цілі в межах Close, яку @Lookup[@name] бачить: магічна шкода <strong>(@tier)d8 + 2×@tier</strong>. <strong>Spend a Fear</strong>: ціль також Vulnerable, доки @Lookup[@name] знову не діятиме.</p><p><strong>Paralyzing Pulse</strong> (Action, <strong>Spend 2 Fear</strong>). Кожен PC у межах Close робить <strong>Instinct Reaction Roll</strong>. Провал: Restrained, доки не витратить Hope. Успіх: позначає Stress.</p><p><strong>Surface Thoughts</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] читає те, про що ціль у межах Close думає просто зараз: намір, страх, брехню, яку вона збирається сказати. PC робить <strong>Instinct Reaction Roll</strong>; провал: ГМ питає, що персонаж зараз думає чи збирається зробити, і гравець відповідає чесно. Ціль не помічає читання.</p><p><strong>Deep Thoughts</strong> (Action, <strong>Spend a Fear</strong>). Лише ціль у межах Melee. @Lookup[@name] пірнає глибоко в її спогади й таємниці. PC робить <strong>Instinct Reaction Roll</strong> з перешкодою; провал: ГМ ставить одне питання про спогади, таємниці чи зв'язки персонажа, і гравець відповідає чесно. Незалежно від результату ціль позначає Stress і знає, що в її голові хтось був.</p><section class=\"secret\" id=\"secret-psyTelepath001\"><p><em>Чиї думки @Lookup[@name] чує постійно, навіть коли не хоче?</em></p></section>",
+    "actions": {
+      "psyTeleEyes00001": {
+        "_id": "psyTeleEyes00001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Borrowed Eyes",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "veryFar",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyTeleSpike0001": {
+        "_id": "psyTeleSpike0001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Mind Spike",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d8 + 2*@tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyTeleSpikeF001": {
+        "_id": "psyTeleSpikeF001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Mind Spike + Fear",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": {
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "resultBased": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "valueAlt": null,
+            "itemId": null,
+            "value": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": true,
+                "formula": "(@tier)d8 + 2*@tier"
+              }
+            }
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyTelePulse0001": {
+        "_id": "psyTelePulse0001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Paralyzing Pulse",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 2,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyTeleSurface01": {
+        "_id": "psyTeleSurface01",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Surface Thoughts",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyTeleDeep00001": {
+        "_id": "psyTeleDeep00001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Deep Thoughts",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "melee",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c2e4c511f80444b8af35d2560fdd9603e0cbe0a0"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654849491,
+    "modifiedTime": 1794654935775,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVTelepathFeat"
+}

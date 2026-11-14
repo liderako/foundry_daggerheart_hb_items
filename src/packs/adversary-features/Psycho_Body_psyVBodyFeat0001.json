@@ -1,0 +1,234 @@
+{
+  "_id": "psyVBodyFeat0001",
+  "name": "Psycho-Body",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Психо-тіло: підсилює м'язи й рефлекси, зменшує відчуття болю.</em></p><p><strong>Dulled Pain</strong> (Reaction, <strong>Spend a Fear</strong>). Коли @Lookup[@name] отримує шкоду, зменшіть її на один поріг.</p><p><strong>Honed Reflexes</strong> (Reaction, <strong>Spend a Fear</strong>). Коли @Lookup[@name] атакує, атака йде з перевагою.</p><p><strong>Surge of Strength</strong> (Reaction, <strong>Mark a Stress</strong>). Коли атака @Lookup[@name] влучає, киньте на один кубик шкоди більше.</p><p><strong>Forced Recovery</strong> (Action, <strong>Mark 2 Stress</strong>). @Lookup[@name] очищає <strong>1d4+1</strong> HP.</p><section class=\"secret\" id=\"secret-psyBody0000001\"><p><em>Яку ціну тіло @Lookup[@name] платить за те, що не відчуває болю?</em></p></section>",
+    "actions": {
+      "psyBodyDulled001": {
+        "_id": "psyBodyDulled001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Dulled Pain",
+        "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyBodyReflex001": {
+        "_id": "psyBodyReflex001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Honed Reflexes",
+        "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyBodySurge0001": {
+        "_id": "psyBodySurge0001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Surge of Strength",
+        "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyBodyRecover01": {
+        "_id": "psyBodyRecover01",
+        "type": "healing",
+        "systemPath": "actions",
+        "name": "Forced Recovery",
+        "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 2,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": [],
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e1f6b3191fe527357a00a3f0d5f194194454ed7"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794654849487,
+    "modifiedTime": 1794654935774,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVBodyFeat0001"
+}

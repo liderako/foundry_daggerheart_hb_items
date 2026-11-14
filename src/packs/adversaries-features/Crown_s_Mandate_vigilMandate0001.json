@@ -1,0 +1,103 @@
+{
+  "_id": "vigilMandate0001",
+  "name": "Crown's Mandate",
+  "type": "feature",
+  "img": "icons/sundries/documents/document-official-capital.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Crown's Mandate</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] віддає наказ іменем Корони: варта, сірі й посадовці в межах Far виконують його (обшук, арешт, закрити доки чи ворота). PC, що відкрито опирається наказу, робить <strong>Presence Reaction Roll</strong>; провал: він Restrained, доки не витратить Hope.</p>",
+    "actions": {
+      "vigilMandateAct1": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "vigilMandateAct1",
+        "type": "attack",
+        "name": "Crown's Mandate",
+        "img": "icons/sundries/documents/document-official-capital.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "far",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "MxwCUenErU6W9yEJ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1f5f32087d7f4f10a8e5f61d4636ec00b3b57f58"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794590377806,
+    "modifiedTime": 1794590377808,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vigilMandate0001"
+}

@@ -1,5 +1,5 @@
 {
-  "folder": "El6wQ0W4eqhZBZmj",
+  "folder": "QdkMpaCXneMUVxb5",
   "name": "Telekinesis",
   "type": "feature",
   "_id": "RD8d1hJWhUtdNj94",
@@ -12,7 +12,7 @@
     "multiclassOrigin": false
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "N4rqmaHEpJnGV7Qg": 3
@@ -30,7 +30,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.9.4",
     "createdTime": 1759571114513,
-    "modifiedTime": 1789804311568,
+    "modifiedTime": 1794238825920,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_key": "!items!RD8d1hJWhUtdNj94"

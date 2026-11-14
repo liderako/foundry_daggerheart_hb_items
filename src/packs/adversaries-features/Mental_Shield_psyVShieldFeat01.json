@@ -1,0 +1,158 @@
+{
+  "_id": "psyVShieldFeat01",
+  "name": "Mental Shield",
+  "type": "feature",
+  "folder": "El6wQ0W4eqhZBZmj",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><em>Ментальний щит: захист розуму від зовнішніх впливів, блокування телепатії.</em></p><p><strong>Closed Mind</strong> (Passive). @Lookup[@name] має імунітет до псайхік-здібностей і ефектів, що читають його думки або змінюють його емоції.</p><p><strong>Iron Will</strong> (Reaction, <strong>Mark a Stress</strong> або <strong>Spend a Fear</strong>). Коли @Lookup[@name] мав би піддатися ефекту на страх, навіювання чи контроль розуму, ефект на нього не діє.</p><p><strong>Trace the Intruder</strong> (Reaction, <strong>Mark a Stress</strong>). Коли хтось намагається прочитати чи змінити думки @Lookup[@name], той відчуває, хто це і звідки. Наступна атака @Lookup[@name] проти цієї істоти йде з перевагою.</p><section class=\"secret\" id=\"secret-psyShield00001\"><p><em>Яку думку @Lookup[@name] ховає за щитом найглибше?</em></p></section>",
+    "actions": {
+      "psyShieldWillS01": {
+        "_id": "psyShieldWillS01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Iron Will (Stress)",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyShieldWillF01": {
+        "_id": "psyShieldWillF01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Iron Will (Fear)",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "psyShieldTrace01": {
+        "_id": "psyShieldTrace01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Trace the Intruder",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ace3cfe5da0ff23f159da227013a953718c824c5"
+    },
+    "mist-age-adversaries-advanced": {
+      "category": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794238635501,
+    "modifiedTime": 1794605395698,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!psyVShieldFeat01"
+}
