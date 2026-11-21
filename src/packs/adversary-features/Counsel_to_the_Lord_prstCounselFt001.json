@@ -1,0 +1,79 @@
+{
+  "_id": "prstCounselFt001",
+  "folder": "oxV6Qg91IRYoBVTz",
+  "name": "Counsel to the Lord",
+  "type": "feature",
+  "img": "icons/sundries/documents/document-official-capital.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Counsel to the Lord</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] радить правителю міста чи главі дому. Слово @Lookup[@name] відчиняє або зачиняє перед PC двері влади: аудієнцію, дозвіл, допомогу варти. До кінця сесії PC отримують це, або ж їм у цьому відмовлено, як вирішить @Lookup[@name].</p>",
+    "actions": {
+      "prstCounselAct01": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "prstCounselAct01",
+        "type": "effect",
+        "name": "Spend Fear",
+        "img": "icons/sundries/documents/document-official-capital.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "de447161f8db2b18e665798a1669398ed1af5c96"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795187503377,
+    "modifiedTime": 1795187503378,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!prstCounselFt001"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Священники",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "_id": "oxV6Qg91IRYoBVTz",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "fe969af97553edb56209bb7abd3c90276283065e"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795187503361,
+    "modifiedTime": 1795187503361,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!oxV6Qg91IRYoBVTz"
+}

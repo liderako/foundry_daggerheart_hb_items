@@ -1,0 +1,79 @@
+{
+  "_id": "prstCircleFt0001",
+  "folder": "oxV6Qg91IRYoBVTz",
+  "name": "Circle of the Faithful",
+  "type": "feature",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Circle of the Faithful</strong> (Action, <strong>Spend a Fear</strong>). На молитву, яку веде @Lookup[@name], приходять найвпливовіші віряни міста. ГМ виводить у сцену одного з них, і він стає на бік @Lookup[@name] в одному питанні.</p><section class=\"secret\" id=\"secret-prstCircle00001\"><p><em>Хто з вірних @Lookup[@name] вже чув про PC і що саме?</em></p></section>",
+    "actions": {
+      "prstCircleAct001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "prstCircleAct001",
+        "type": "effect",
+        "name": "Spend Fear",
+        "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c3050f5d2a8fb8a1df9be3c4341089da04de8e5b"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795187503377,
+    "modifiedTime": 1795187503378,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!prstCircleFt0001"
+}

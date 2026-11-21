@@ -1,0 +1,43 @@
+{
+  "name": "Unseen Servant",
+  "type": "feature",
+  "img": "icons/tools/hand/broom-straw-brown.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>No one in the noble district notices a maid. The @Lookup[@name] moves through the houses where she works and overhears what their masters say. Once per scene, she can share one thing she overheard while cleaning.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "0c269721750336c6f9731c1caeba972dc0942840"
+    }
+  },
+  "_id": "iOuVBE9UnYx90dqn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121981,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iOuVBE9UnYx90dqn"
+}

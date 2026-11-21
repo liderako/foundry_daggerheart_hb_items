@@ -1,0 +1,130 @@
+{
+  "name": "Advanced Full Plate Armor (HB)",
+  "type": "armor",
+  "folder": "rkSdPu86ybLz6aKF",
+  "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 7
+    },
+    "description": "",
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "veryheavy",
+        "effectIds": [
+          "fpVeryHeavyT3001"
+        ],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 15,
+      "severe": 35
+    },
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [
+    {
+      "name": "Very Heavy",
+      "description": "-2 to Evasion; -1 to Agility",
+      "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+      "_id": "fpVeryHeavyT3001",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": -2,
+            "phase": "initial"
+          },
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": -1,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "origin": null,
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1794689050633,
+        "modifiedTime": 1794689050633,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!kecNDfrjeDiMLjF2.fpVeryHeavyT3001"
+    }
+  ],
+  "flags": {
+    "mist-age-prices": {
+      "price": 600
+    },
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 7,
+        "value": 7
+      }
+    },
+    "scene-packer": {
+      "hash": "19d1676fcc6b0c9c7a591f6aaae7c9c1593060f5"
+    }
+  },
+  "_id": "kecNDfrjeDiMLjF2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794689050633,
+    "modifiedTime": 1794689050633,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kecNDfrjeDiMLjF2"
+}

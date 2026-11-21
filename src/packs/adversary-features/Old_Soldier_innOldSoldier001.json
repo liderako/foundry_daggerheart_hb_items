@@ -1,0 +1,40 @@
+{
+  "_id": "innOldSoldier001",
+  "folder": "yXq4nJcd1r55X1i7",
+  "name": "Old Soldier",
+  "type": "feature",
+  "img": "icons/environment/people/infantry-army.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Old Soldier</strong> (Passive). Колишнього солдата не злякати погрозами, тож кидки PC, щоб залякати @Lookup[@name], йдуть з перешкодою. Легіонери й варта ставляться до нього з повагою.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "10058642c76a0ec7b2391b806d4a56b81eca60f6"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720909,
+    "modifiedTime": 1795271720911,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!innOldSoldier001"
+}

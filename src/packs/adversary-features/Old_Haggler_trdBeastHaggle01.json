@@ -1,0 +1,79 @@
+{
+  "_id": "trdBeastHaggle01",
+  "name": "Old Haggler",
+  "type": "feature",
+  "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Old Haggler</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC успішно торгується з @Lookup[@name] чи тисне на ціну, той виторговує щось натомість: PC обирає, заплатити повну ціну чи дати @Lookup[@name] послугу або відомість.</p>",
+    "actions": {
+      "trdBeastHaggAct1": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "trdBeastHaggAct1",
+        "type": "effect",
+        "name": "Old Haggler",
+        "img": "icons/skills/social/trading-justice-scale-yellow.webp",
+        "actionType": "reaction",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "DADquPLPlcI67nAA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d30e3d9c43e768863c64123d9ed992b4e19ca373"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620484,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!trdBeastHaggle01"
+}

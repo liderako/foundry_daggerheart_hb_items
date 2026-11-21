@@ -1,0 +1,103 @@
+{
+  "_id": "innLooseTongue01",
+  "folder": "yXq4nJcd1r55X1i7",
+  "name": "Loosened Tongues",
+  "type": "feature",
+  "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Loosened Tongues</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] підливає гостю міцнішого. NPC за стійкою бовкає більше, ніж хотів. Якщо @Lookup[@name] робить це з PC, той робить <strong>Instinct Reaction Roll</strong>; провал: ГМ ставить одне питання, і гравець чесно розповідає, що персонаж бовкнув.</p>",
+    "actions": {
+      "innTongueAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "innTongueAct0001",
+        "type": "attack",
+        "name": "Loosened Tongues",
+        "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "melee",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d3160c0706c7457fb7c2c0c2ab02b91111775904"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720909,
+    "modifiedTime": 1795271720911,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!innLooseTongue01"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Two Faces",
+  "type": "feature",
+  "img": "icons/equipment/head/hood-cloth-mask-red.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>To everyone in the slums, the @Lookup[@name] is the voice of Вільний Ланцюг. Seeing that she serves the Inquisition takes a roll against <strong>Difficulty 25</strong>.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "0u2CtxvoTVcZqSLj",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "ac55bc9bf3d18d7516f71a9990d1dd5b484202c1"
+    }
+  },
+  "_id": "DFU9y1es0w4G76sR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121979,
+    "modifiedTime": 1794684248170,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DFU9y1es0w4G76sR"
+}

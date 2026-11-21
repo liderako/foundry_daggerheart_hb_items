@@ -1,0 +1,43 @@
+{
+  "name": "Losing my patience",
+  "type": "feature",
+  "img": "assets/hb-icons/ProfessionIcons/skills/Warriorskill_09_nobg.png",
+  "system": {
+    "attribution": {},
+    "description": "<p>Whenever a tavern brawl begins, start a \"Losing my patience\" countdown at 0, max 6. Whenever something gets destroyed or dirtied, or whenever the Tavern Keeper marks HP, add 1 to the countdown and note down who is responsible. At max, anyone responsible is picked up and thrown out, banned from the establishment.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "05xagpeAvWEIP6Fq",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "59acc3c84fd52a1462699b78db2abd24d0af7bc2"
+    }
+  },
+  "_id": "Qs4kmIyID9gcMoc0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248117,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Qs4kmIyID9gcMoc0"
+}

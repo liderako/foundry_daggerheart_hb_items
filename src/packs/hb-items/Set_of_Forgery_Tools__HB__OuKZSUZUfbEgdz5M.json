@@ -19,6 +19,9 @@
     "mist-age-weight": {
       "slots": 0.1,
       "worn": false
+    },
+    "mist-age-tools": {
+      "bonus": 1
     }
   },
   "_stats": {

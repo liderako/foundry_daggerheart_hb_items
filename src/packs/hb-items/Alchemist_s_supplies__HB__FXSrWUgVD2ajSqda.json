@@ -67,6 +67,28 @@
     },
     "mist-age-prices": {
       "price": 25
+    },
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 3,
+        "value": 3
+      },
+      "wearable": false,
+      "container": false,
+      "mystery": {
+        "unidentified": false,
+        "usable": false,
+        "name": "",
+        "img": ""
+      }
+    },
+    "mist-age-tools": {
+      "bonus": null
+    },
+    "mist-age-weight": {
+      "slots": null,
+      "worn": false
     }
   },
   "_stats": {
@@ -77,7 +99,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1772831278854,
-    "modifiedTime": 1792863188237,
+    "modifiedTime": 1794662437230,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg"
   },
   "_key": "!items!FXSrWUgVD2ajSqda"

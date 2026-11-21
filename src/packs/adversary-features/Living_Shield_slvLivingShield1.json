@@ -1,0 +1,79 @@
+{
+  "_id": "slvLivingShield1",
+  "name": "Living Shield",
+  "type": "feature",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Living Shield</strong> (Reaction, <strong>Mark a Stress</strong>). Коли атака влучає в @Lookup[@name], він смикає раба в межах Melee, і шкоду отримує той замість нього.</p>",
+    "actions": {
+      "slvShieldAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "slvShieldAct0001",
+        "type": "effect",
+        "name": "Living Shield",
+        "img": "icons/environment/people/group.webp",
+        "actionType": "reaction",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f62a8941e9ec855f2907626604ef88e0e087b302"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620484,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvLivingShield1"
+}

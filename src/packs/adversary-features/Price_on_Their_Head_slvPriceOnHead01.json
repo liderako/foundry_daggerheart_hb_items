@@ -1,0 +1,79 @@
+{
+  "_id": "slvPriceOnHead01",
+  "name": "Price on Their Head",
+  "type": "feature",
+  "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Price on Their Head</strong> (Action, <strong>Spend a Fear</strong>, раз за сесію). @Lookup[@name] оголошує нагороду за втікача чи PC. До кінця сесії ГМ може один раз вивести мисливців за головами в будь-якій сцені в місті без витрати Fear.</p><section class=\"secret\" id=\"secret-slvPriceHead01\"><p><em>Скільки @Lookup[@name] пообіцяв за цю голову і хто вже зголосився?</em></p></section>",
+    "actions": {
+      "slvPriceAct00001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "slvPriceAct00001",
+        "type": "effect",
+        "name": "Price on Their Head",
+        "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03a98d59692551fb61a83235bdc7fbe6ada8b004"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620485,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvPriceOnHead01"
+}

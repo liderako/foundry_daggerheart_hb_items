@@ -1,0 +1,123 @@
+{
+  "folder": "IKwwuasyn83UEJrm",
+  "name": "Fine Clothing (HB)",
+  "type": "loot",
+  "_id": "yR0QQe0I4tut4H9h",
+  "img": "icons/equipment/chest/coat-leather-blue.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Spent a hope to gain +2 to persuade a noble or guard.</p>",
+    "gmNotes": "",
+    "quantity": 1,
+    "actions": {}
+  },
+  "effects": [
+    {
+      "_id": "EG09GEKZVCZr2GwN",
+      "name": "Clothing",
+      "img": "icons/equipment/chest/shirt-collared-brown.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.mist-age-weight.bonusSlots",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": "",
+          "type": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "disabled": false,
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1 slots of carrying capacity.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "mist-age-transformations": {
+          "transform": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.367",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "createdTime": 1794693825586,
+        "modifiedTime": 1794693836874,
+        "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!yR0QQe0I4tut4H9h.EG09GEKZVCZr2GwN"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ad5ffb7344181f30d1719583247969d8e88f2b32"
+    },
+    "mist-age-tools": {
+      "bonus": 2
+    },
+    "mist-age-equipment": {
+      "wearable": true,
+      "container": false,
+      "mystery": {
+        "unidentified": false,
+        "usable": false,
+        "name": "",
+        "img": ""
+      }
+    },
+    "mist-age-prices": {
+      "price": 25
+    },
+    "mist-age-weight": {
+      "slots": 1,
+      "worn": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794693659122,
+    "modifiedTime": 1794693944113,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yR0QQe0I4tut4H9h"
+}

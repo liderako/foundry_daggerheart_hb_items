@@ -1,0 +1,40 @@
+{
+  "_id": "rcpStrictBiz0001",
+  "folder": "wKED0NywJviTQxeq",
+  "name": "Strictly Business",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Strictly Business</strong> (Passive). Флірт і чари на @Lookup[@name] не діють: тут бачили все. Кидки PC, щоб звабити чи зачарувати @Lookup[@name], йдуть з перешкодою.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a41524737c619422b1989d9e965c7602b687195a"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271730173,
+    "modifiedTime": 1795271730174,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rcpStrictBiz0001"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cult",
+  "type": "Item",
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sorting": "a",
+  "_id": "eI6nPPEckjcW1yoa",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "6d03efd790ee83277d3f18e9a6c0a49e6b7e67e3"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794683070940,
+    "modifiedTime": 1794683070940,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!eI6nPPEckjcW1yoa"
+}

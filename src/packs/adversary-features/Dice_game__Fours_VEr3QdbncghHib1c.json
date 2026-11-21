@@ -1,0 +1,43 @@
+{
+  "name": "Dice game, Fours",
+  "type": "feature",
+  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Have a target PC roll 1 of each dice. (d4, d6, d8, d10, d12, d20) Then roll the same dice. The winner is the one with most 4's.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "Tr10cav7LnmljRVr",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "bc10d243a5c2c27ba4b5757c50bb69cf3d460e2b"
+    }
+  },
+  "_id": "VEr3QdbncghHib1c",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248119,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VEr3QdbncghHib1c"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "A Room of Her Own",
+  "type": "feature",
+  "img": "icons/environment/settlement/house-manor.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>A PC who offers the @Lookup[@name] fair paid work, better wages, or help toward a place of her own wins her loyalty. From then on, she helps them without being asked, and she no longer gives up their secrets when someone threatens her.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "8fb27f6654730e74e5ea1a81e9c83423f495dd93"
+    }
+  },
+  "_id": "0fJ8F34O5stAlNv6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121982,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0fJ8F34O5stAlNv6"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "trdBeastEye00001",
+  "name": "Eye for Livestock",
+  "type": "feature",
+  "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Eye for Livestock</strong> (Passive). @Lookup[@name] з першого погляду знає породу, вік, здоров'я, ціну тварини і з яких вона країв. Кидки PC, щоб продати йому хвору, крадену чи підроблену тварину (або «рідкісну» шкуру, роги, яйце), йдуть з перешкодою.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "DADquPLPlcI67nAA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c10f758c80debaeaebe6164d6fef10c02ab4aef5"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620483,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!trdBeastEye00001"
+}

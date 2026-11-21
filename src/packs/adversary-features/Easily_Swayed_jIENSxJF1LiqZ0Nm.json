@@ -1,0 +1,43 @@
+{
+  "name": "Easily Swayed",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] is young, shy, and can't stand up for herself. <strong>Presence</strong> Rolls to persuade or pressure her are made with <strong>advantage</strong>. If someone threatens her, she gives in and tells what she knows, whether to the PCs or to anyone else.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "b5b8307a55face05fe01643c92f974980ee3b04b"
+    }
+  },
+  "_id": "jIENSxJF1LiqZ0Nm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121982,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jIENSxJF1LiqZ0Nm"
+}

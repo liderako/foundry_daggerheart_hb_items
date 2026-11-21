@@ -1,0 +1,43 @@
+{
+  "name": "Caricature for a Coin",
+  "type": "feature",
+  "img": "icons/tools/hand/brush-paint-brown-tan.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>For a few coins, the @Lookup[@name] draws a caricature of a PC, chattering and studying them as he works. He learns one detail they would rather hide: a scar, a nervous habit, something in their pocket. The drawing later ends up in the Inquisition's files.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "0u2CtxvoTVcZqSLj",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "0ea42792b5dd2deb8b10f2c14ff86ee6d01be0f8"
+    }
+  },
+  "_id": "IwadmIiGNwN1cIAd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248120,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IwadmIiGNwN1cIAd"
+}

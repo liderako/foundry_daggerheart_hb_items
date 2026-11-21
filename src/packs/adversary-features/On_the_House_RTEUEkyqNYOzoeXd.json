@@ -1,0 +1,106 @@
+{
+  "name": "On the House",
+  "type": "feature",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Mark a Stress</strong> to keep a target's cup full. The target must succeed on an <strong>Instinct Reaction Roll (13)</strong> or let something slip they meant to keep quiet. Either way, the next PC to make a Presence Roll against that target this scene does so with <strong>advantage</strong>.</p>",
+    "actions": {
+      "vaddHouseSave001": {
+        "_id": "vaddHouseSave001",
+        "type": "attack",
+        "systemPath": "actions",
+        "name": "Roll Save",
+        "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "range": "close",
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "useDefault": false,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          }
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": 13,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "05xagpeAvWEIP6Fq",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "988e1e5a60e2d8f5844896e951240f1e1cc83a1e"
+    }
+  },
+  "_id": "RTEUEkyqNYOzoeXd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121981,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RTEUEkyqNYOzoeXd"
+}

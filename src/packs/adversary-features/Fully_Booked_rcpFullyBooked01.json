@@ -1,0 +1,103 @@
+{
+  "_id": "rcpFullyBooked01",
+  "folder": "wKED0NywJviTQxeq",
+  "name": "Fully Booked",
+  "type": "feature",
+  "img": "icons/sundries/misc/key-ornate-iron-black.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Fully Booked</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] ввічливо, з усмішкою, відмовляє PC: усе зайнято. PC робить <strong>Presence Reaction Roll</strong>; провал: далі вітальні його не пускають, доки він не принесе запрошення чи не заплатить удвічі.</p>",
+    "actions": {
+      "rcpBookedAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "rcpBookedAct0001",
+        "type": "attack",
+        "name": "Fully Booked",
+        "img": "icons/sundries/misc/key-ornate-iron-black.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f09142f1ee5c9f4565e0d546d9b3f1a8dfa46470"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720910,
+    "modifiedTime": 1795271720912,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rcpFullyBooked01"
+}

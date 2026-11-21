@@ -1,0 +1,103 @@
+{
+  "_id": "slvBiddingWar001",
+  "name": "Bidding War",
+  "type": "feature",
+  "img": "icons/commodities/currency/coins-plain-stack-gold-yellow.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Bidding War</strong> (Action, <strong>Spend a Fear</strong>). Коли PC хоче щось купити в @Lookup[@name] (раба, товар, борг), той голосно кличе інших покупців. PC робить <strong>Presence Reaction Roll</strong>; провал: ціна зростає вдвічі, або лот одразу йде іншому покупцю.</p>",
+    "actions": {
+      "slvBiddingAct001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "slvBiddingAct001",
+        "type": "attack",
+        "name": "Bidding War",
+        "img": "icons/commodities/currency/coins-plain-stack-gold-yellow.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "603d7d0ee828d5da07724ab6b27ff4695ea88b9b"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620485,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvBiddingWar001"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Cobbler's Eye",
+  "type": "feature",
+  "img": "icons/equipment/feet/boots-armored-leather-brown.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>One look at someone's boots tells the @Lookup[@name] where they have been: dock mud, noble-quarter dust, sewer filth. Once per scene, he can reveal one true fact about where a creature has recently been or what station they hold.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "86ef9149d393c7e81b00faf4899268dd695f044b"
+    }
+  },
+  "_id": "7PcyjFwbwIAxeK17",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121982,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7PcyjFwbwIAxeK17"
+}

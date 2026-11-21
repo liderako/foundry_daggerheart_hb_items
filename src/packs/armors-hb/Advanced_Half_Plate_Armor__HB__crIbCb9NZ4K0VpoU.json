@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Full Plate Armor (HB)",
+  "name": "Advanced Half Plate Armor (HB)",
   "type": "armor",
   "_id": "crIbCb9NZ4K0VpoU",
   "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
@@ -98,7 +98,7 @@
   "sort": 0,
   "flags": {
     "mist-age-prices": {
-      "price": 600
+      "price": 460
     },
     "mist-age-equipment": {
       "durability": {
@@ -113,7 +113,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1792763302982,
-    "modifiedTime": 1793115586300,
+    "modifiedTime": 1794689032115,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
     "compendiumSource": null,
     "duplicateSource": null,

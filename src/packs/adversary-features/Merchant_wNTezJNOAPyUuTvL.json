@@ -1,0 +1,27 @@
+{
+  "name": "Merchant",
+  "type": "Item",
+  "folder": "DXSl0xPQ6CFB4UPt",
+  "sorting": "a",
+  "_id": "wNTezJNOAPyUuTvL",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "7e1a53c40d24472e9b883f8f42329017f14950a4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794683070619,
+    "modifiedTime": 1794683070619,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!wNTezJNOAPyUuTvL"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Workers' Rights",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>PCs who argue for fair treatment of workers make <strong>Presence</strong> Rolls against the @Lookup[@name] with <strong>advantage</strong>. Those who defend the employers or Торгівельна Компанія Білого Лева make them with <strong>disadvantage</strong>.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "ebb2ff2fe1810c176e2199210b79b82829cba8d7"
+    }
+  },
+  "_id": "4kdw1pAhZ19KBz7d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121981,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4kdw1pAhZ19KBz7d"
+}

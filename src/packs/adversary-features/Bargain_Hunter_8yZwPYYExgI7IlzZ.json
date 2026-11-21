@@ -1,0 +1,43 @@
+{
+  "name": "Bargain Hunter",
+  "type": "feature",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Spend a Fear to outbid a PC attempting to purchase something at a discount.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "reaction",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "wNTezJNOAPyUuTvL",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "c37f41ece572c6e5326391e89664c2fff2ec5f41"
+    }
+  },
+  "_id": "8yZwPYYExgI7IlzZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248118,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8yZwPYYExgI7IlzZ"
+}

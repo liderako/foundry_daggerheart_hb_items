@@ -1,0 +1,103 @@
+{
+  "_id": "slvChainsReady01",
+  "name": "Chains Ready",
+  "type": "feature",
+  "img": "icons/tools/fasteners/chain-steel-grey.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Chains Ready</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] накидає ланцюг чи нашийник на ціль у межах Melee. Ціль робить <strong>Agility Reaction Roll</strong>; провал: вона Restrained, доки не витратить Hope, щоб вирватися.</p>",
+    "actions": {
+      "slvChainsAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "slvChainsAct0001",
+        "type": "attack",
+        "name": "Chains Ready",
+        "img": "icons/tools/fasteners/chain-steel-grey.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "melee",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "agility",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "37623fe721c40312f93d4caa4355d35e1f500047"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620484,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvChainsReady01"
+}

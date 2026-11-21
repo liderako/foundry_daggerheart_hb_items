@@ -1,0 +1,43 @@
+{
+  "name": "Madman's Mask",
+  "type": "feature",
+  "img": "icons/equipment/head/hood-cloth-mask-red.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>While the @Lookup[@name] plays the harmless madman, seeing through the act takes a roll against <strong>Difficulty 25</strong>, and rolls to read his true intentions are made with <strong>disadvantage</strong>.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "0u2CtxvoTVcZqSLj",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "390613d75dd1f23d2a4dbbe92892ae1fc8561f9c"
+    }
+  },
+  "_id": "LMIrjlx5mgNzpByi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248119,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LMIrjlx5mgNzpByi"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Лідер культу!",
+  "type": "feature",
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "system": {
+    "featureForm": "passive",
+    "attribution": {},
+    "description": "<p>Тіреаліс має перевагу на action roll on Pressense коли намагається переконати людей в тому щоб вони приєдналися до його культу тіней якщо він показує здібність тіней.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "eI6nPPEckjcW1yoa",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "ee81176c662b27149502dd70d7c39374362919f7"
+    }
+  },
+  "_id": "1LIyIgSCKe6nnHQu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248117,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1LIyIgSCKe6nnHQu"
+}

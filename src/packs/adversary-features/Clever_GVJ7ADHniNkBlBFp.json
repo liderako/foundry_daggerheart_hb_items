@@ -1,0 +1,43 @@
+{
+  "name": "Clever",
+  "type": "feature",
+  "img": "icons/sundries/books/book-open-turquoise.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>All social rolls against the Social in their turf have disadvantage.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "fOa5XvXyMqYnIpnm",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "69aab0b6d829faca6f76e02afa9710ca4abc0021"
+    }
+  },
+  "_id": "GVJ7ADHniNkBlBFp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248117,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GVJ7ADHniNkBlBFp"
+}

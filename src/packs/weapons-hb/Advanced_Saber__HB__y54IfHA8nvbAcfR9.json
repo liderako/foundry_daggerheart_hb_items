@@ -1,0 +1,148 @@
+{
+  "name": "Advanced Saber (HB)",
+  "type": "weapon",
+  "img": "icons/weapons/swords/scimitar-bone.webp",
+  "folder": "OKJC8cHvPuseBHWq",
+  "system": {
+    "attribution": {
+      "source": "The Mist Age",
+      "page": null,
+      "artist": ""
+    },
+    "description": "",
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "saberAttackT3000",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "agility",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "type": [
+            "physical"
+          ],
+          "value": {
+            "multiplier": "prof",
+            "dice": "d8",
+            "flatMultiplier": 1,
+            "bonus": 7,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "fullRestore": false,
+          "valueAlt": {
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "includeBase": false,
+          "direct": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "areas": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "mist-age-equipment": {
+      "durability": {
+        "enabled": true,
+        "max": 10,
+        "value": 10
+      }
+    },
+    "mist-age-prices": {
+      "price": 24
+    },
+    "scene-packer": {
+      "hash": "dd2317143a73fdfa258055b20cec9612ed8bf48e"
+    }
+  },
+  "_id": "y54IfHA8nvbAcfR9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794686341609,
+    "modifiedTime": 1794686341609,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!y54IfHA8nvbAcfR9"
+}

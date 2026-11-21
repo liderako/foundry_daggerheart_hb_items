@@ -1,0 +1,81 @@
+{
+  "name": "Rally the Dockhands",
+  "type": "feature",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Spend a Fear</strong>: the @Lookup[@name] starts talking about workers' rights, and <strong>1d4+1</strong> out-of-work dockhands gather around him. They help him or the PCs (carrying, blocking, making a crowd), or turn into an angry mob against whoever wronged him.</p>",
+    "actions": {
+      "byonRallyFear001": {
+        "_id": "byonRallyFear001",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Spend Fear",
+        "img": "icons/environment/people/group.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "d77ec56ed12ef3d860bb32f5fbda18114b61bc06"
+    }
+  },
+  "_id": "dnYP1L7x2KxEa9JW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121980,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dnYP1L7x2KxEa9JW"
+}

@@ -1,0 +1,103 @@
+{
+  "_id": "rcpDiscreetSig01",
+  "folder": "wKED0NywJviTQxeq",
+  "name": "Discreet Signal",
+  "type": "feature",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Discreet Signal</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC погрожує чи поводиться підозріло, @Lookup[@name] непомітно подає знак, і в межах Close з'являються <strong>1d4</strong> охоронців.</p>",
+    "actions": {
+      "rcpSignalAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "rcpSignalAct0001",
+        "type": "attack",
+        "name": "Summon Guards",
+        "img": "icons/environment/people/infantry-armored.webp",
+        "actionType": "reaction",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "roll": {
+          "type": "diceSet",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d4",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d9376ce966ac6ef66fca8668e71fe6ac079f3aa6"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720911,
+    "modifiedTime": 1795271720912,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rcpDiscreetSig01"
+}

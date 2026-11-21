@@ -1,30 +1,30 @@
 {
-  "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Legendary Full Plate Armor (HB)",
+  "folder": "hLn0v6ov6KuFgptu",
+  "name": "Improved Half Plate Armor (HB)",
   "type": "armor",
-  "_id": "SXWjUR2aUR6bYvdl",
-  "img": "icons/equipment/chest/breastplate-layered-steel-blue-gold.webp",
+  "_id": "9f7RozpPTqrzJS1m",
+  "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
   "system": {
     "armor": {
       "current": 0,
-      "max": 7
+      "max": 5
     },
     "description": "",
     "actions": {},
-    "tier": 4,
+    "tier": 2,
     "equipped": false,
     "armorFeatures": [
       {
         "value": "veryheavy",
         "effectIds": [
-          "zvzkRX2Uevemmbz4"
+          "wstJ1aKKtmXgCwxB"
         ],
         "actionIds": []
       }
     ],
     "baseThresholds": {
-      "major": 17,
-      "severe": 44
+      "major": 13,
+      "severe": 28
     },
     "attribution": {
       "source": "Daggerheart SRD",
@@ -40,7 +40,7 @@
       "name": "Very Heavy",
       "description": "-2 to Evasion; -1 to Agility",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
-      "_id": "zvzkRX2Uevemmbz4",
+      "_id": "wstJ1aKKtmXgCwxB",
       "type": "base",
       "system": {
         "changes": [
@@ -92,19 +92,19 @@
       "showIcon": 1,
       "folder": null,
       "origin": null,
-      "_key": "!items.effects!SXWjUR2aUR6bYvdl.zvzkRX2Uevemmbz4"
+      "_key": "!items.effects!9f7RozpPTqrzJS1m.wstJ1aKKtmXgCwxB"
     }
   ],
   "sort": 0,
   "flags": {
     "mist-age-prices": {
-      "price": 1800
+      "price": 230
     },
     "mist-age-equipment": {
       "durability": {
         "enabled": true,
-        "max": 7,
-        "value": 7
+        "max": 5,
+        "value": 5
       }
     }
   },
@@ -112,8 +112,8 @@
     "coreVersion": "14.367",
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
-    "createdTime": 1792764555655,
-    "modifiedTime": 1793115586299,
+    "createdTime": 1792763302982,
+    "modifiedTime": 1794689032115,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
     "compendiumSource": null,
     "duplicateSource": null,
@@ -122,5 +122,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!SXWjUR2aUR6bYvdl"
+  "_key": "!items!9f7RozpPTqrzJS1m"
 }

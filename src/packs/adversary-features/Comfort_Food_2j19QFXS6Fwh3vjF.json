@@ -1,0 +1,43 @@
+{
+  "name": "Comfort Food",
+  "type": "feature",
+  "img": "assets/hb-icons/ProfessionIcons/ProfessionAndCraftIcons/Cooking_fishing/Cooking_40_soup.png",
+  "system": {
+    "attribution": {},
+    "description": "<p>A PC clears 1d4 Stress. <em>Eat, you’ll feel better.</em></p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "05xagpeAvWEIP6Fq",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "745d18a48e9e672f5a1952e8e83aea0a6299a7c7"
+    }
+  },
+  "_id": "2j19QFXS6Fwh3vjF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248119,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2j19QFXS6Fwh3vjF"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Haggler of the Square",
+  "type": "feature",
+  "img": "icons/environment/settlement/market-stall.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>At the market, <strong>mark a Stress</strong> to have the @Lookup[@name] haggle on the PCs' behalf. Choose one: one purchase costs noticeably less, or she finds out which trader sells what the PCs need off the books.</p>",
+    "actions": {
+      "gizelHaggleStr01": {
+        "_id": "gizelHaggleStr01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Mark Stress",
+        "img": "icons/environment/settlement/market-stall.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "wNTezJNOAPyUuTvL",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "1ea67bb6f5196c2cf62de9860c96512be90d7c3c"
+    }
+  },
+  "_id": "4bxBKziP2ClfTFpI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121980,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4bxBKziP2ClfTFpI"
+}

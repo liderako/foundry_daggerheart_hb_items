@@ -1,0 +1,79 @@
+{
+  "_id": "trdBeastRoad0001",
+  "name": "Word from the Road",
+  "type": "feature",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Word from the Road</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] роками скуповує звірів у мандрівників і караванників. ГМ дає одну відомість про когось, хто нещодавно прийшов у місто з диких країв: звідки, що розповідав, кому продав, куди пішов.</p><section class=\"secret\" id=\"secret-trdBeastRoad01\"><p><em>Хто з мандрівників останнім продав @Lookup[@name] щось дивне?</em></p></section>",
+    "actions": {
+      "trdBeastRoadAct1": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "trdBeastRoadAct1",
+        "type": "effect",
+        "name": "Word from the Road",
+        "img": "icons/environment/people/commoner.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "DADquPLPlcI67nAA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ee07f7e29f46e7d9a6bff262c544074d3f3e54ca"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620484,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!trdBeastRoad0001"
+}

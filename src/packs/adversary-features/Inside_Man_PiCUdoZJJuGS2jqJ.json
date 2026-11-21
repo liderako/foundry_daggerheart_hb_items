@@ -1,0 +1,43 @@
+{
+  "name": "Inside Man",
+  "type": "feature",
+  "img": "icons/skills/social/symbol-pyramid-eye.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] still works the bars of Дім Де Маррензо, so what he knows is current. Once per scene, a PC can ask him one question about the house's taverns and gambling halls (who is in tonight, who runs the tables, where the coin goes) and he answers truthfully. Asking him where the house's people can hear puts his job at risk.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "05xagpeAvWEIP6Fq",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "34d2151d9f6500d0c2fd4a69ac7092d8936fb73e"
+    }
+  },
+  "_id": "PiCUdoZJJuGS2jqJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121979,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PiCUdoZJJuGS2jqJ"
+}

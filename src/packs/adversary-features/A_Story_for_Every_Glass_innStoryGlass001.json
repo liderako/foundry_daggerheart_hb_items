@@ -1,0 +1,117 @@
+{
+  "_id": "innStoryGlass001",
+  "folder": "yXq4nJcd1r55X1i7",
+  "name": "A Story for Every Glass",
+  "type": "feature",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>A Story for Every Glass</strong> (Action, <strong>Mark a Stress</strong>). @Lookup[@name] розповідає PC одну з історій, які назбирав за роки біля стійки. PC, що дослухав, очищає <strong>1 Stress</strong>. Крім того, в байці захована одна відомість про людину, місце чи подію, з якою PC має справу. Правда це чи прикраса, PC напевно не знає.</p>",
+    "actions": {
+      "innStoryAct00001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "innStoryAct00001",
+        "type": "healing",
+        "name": "A Story for Every Glass",
+        "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "12ce3be75104337bf39377970cd66035269cc57b"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720908,
+    "modifiedTime": 1795271720911,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!innStoryGlass001"
+}

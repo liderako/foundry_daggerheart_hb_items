@@ -1,0 +1,43 @@
+{
+  "name": "Spare a Coin?",
+  "type": "feature",
+  "img": "icons/commodities/currency/coin-engraved-slot-one-copper.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>When no one is buying drawings, the @Lookup[@name] begs on street corners, and nobody looks twice at a beggar. While begging in a crowd, he can follow or eavesdrop on a target within Close range, who notices only with a successful <strong>Instinct Roll (15)</strong>. A PC who gives him a coin hears a bit of street gossip.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "0u2CtxvoTVcZqSLj",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "5f6ab74255d28bea1736b3b13c70a43c3f3513a0"
+    }
+  },
+  "_id": "lTAaX6v76QAAKQ8e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248119,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lTAaX6v76QAAKQ8e"
+}

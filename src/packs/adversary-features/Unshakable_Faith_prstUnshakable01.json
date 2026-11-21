@@ -1,0 +1,79 @@
+{
+  "_id": "prstUnshakable01",
+  "folder": "oxV6Qg91IRYoBVTz",
+  "name": "Unshakable Faith",
+  "type": "feature",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Unshakable Faith</strong> (Reaction, <strong>Mark a Stress</strong>). Віра для @Lookup[@name] не обов'язок, а сама суть. Коли PC намагається залякати, спокусити чи переконати @Lookup[@name] діяти всупереч вірі, спроба провалюється, а PC позначає Stress.</p>",
+    "actions": {
+      "prstFaithAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "prstFaithAct0001",
+        "type": "effect",
+        "name": "Unshakable Faith",
+        "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+        "actionType": "reaction",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "764d72a583f3953e6ac7ff1e79e21ca3810934d5"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795187503376,
+    "modifiedTime": 1795187503377,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!prstUnshakable01"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "slvHardBargain01",
+  "name": "Hard Bargain",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Hard Bargain</strong> (Reaction, <strong>Mark a Stress</strong>). Коли PC досягає успіху в торгах з @Lookup[@name] (збити ціну, виторгувати знижку чи кращі умови), той не поступається: PC перекидає кидок, і новий результат остаточний.</p>",
+    "actions": {
+      "slvBargainAct001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "slvBargainAct001",
+        "type": "effect",
+        "name": "Hard Bargain",
+        "img": "icons/skills/social/diplomacy-handshake.webp",
+        "actionType": "reaction",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "range": ""
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1b60196ac27b75416df4dc07bc99b3715ff0e5c9"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620485,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvHardBargain01"
+}

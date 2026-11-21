@@ -1,0 +1,43 @@
+{
+  "name": "I KNOW THE LAW!",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-writing-letter.webp",
+  "system": {
+    "description": "<p>Всі соціальні дії націленні на обхід законів з адміністратиумом робляться з помехой.</p><p>DC 16</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "PDcIJgqGjElIDWFu",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "8b2da7b6885ea2c25da8615a696ef598cb8ed4dd"
+    }
+  },
+  "_id": "SvIfJbgkdepHh7xl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248119,
+    "modifiedTime": 1794684248120,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SvIfJbgkdepHh7xl"
+}

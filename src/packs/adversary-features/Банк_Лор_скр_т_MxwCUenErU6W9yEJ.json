@@ -5,7 +5,7 @@
   "sorting": "a",
   "_id": "MxwCUenErU6W9yEJ",
   "description": "",
-  "sort": 700000,
+  "sort": 450000,
   "color": null,
   "flags": {
     "scene-packer": {
@@ -17,7 +17,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1794654848005,
-    "modifiedTime": 1794654848056,
+    "modifiedTime": 1794683868210,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
     "compendiumSource": null,
     "duplicateSource": null,

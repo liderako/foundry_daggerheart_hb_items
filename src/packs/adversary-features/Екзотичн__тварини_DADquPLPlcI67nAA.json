@@ -1,0 +1,27 @@
+{
+  "name": "Екзотичні тварини",
+  "type": "Item",
+  "folder": "ThSivxOCbI5x0uTR",
+  "sorting": "a",
+  "_id": "DADquPLPlcI67nAA",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "99e077bfc596b53fbf05f7a2404be6caba0fb527"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620456,
+    "modifiedTime": 1794690620456,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!DADquPLPlcI67nAA"
+}

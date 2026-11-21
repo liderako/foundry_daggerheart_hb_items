@@ -1,0 +1,43 @@
+{
+  "name": "Bad Blood",
+  "type": "feature",
+  "img": "icons/skills/social/thumbs-down.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p>The @Lookup[@name] hates Дім Де Кастано. PCs who act against the house get his information for free, and their <strong>Presence</strong> Rolls against him are made with <strong>advantage</strong>. PCs who work for the house make them with <strong>disadvantage</strong>, and he won't sell to them at all.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "fOa5XvXyMqYnIpnm",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "8f6ccf5255a12f2ce18b860f081925e23a8c82a0"
+    }
+  },
+  "_id": "MNT2RhZOQIe13l4u",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121979,
+    "modifiedTime": 1794684121982,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MNT2RhZOQIe13l4u"
+}

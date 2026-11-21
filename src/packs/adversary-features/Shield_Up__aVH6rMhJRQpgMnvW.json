@@ -1,0 +1,79 @@
+{
+  "name": "Shield Up!",
+  "type": "feature",
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "folder": "KqTWLXcN8gY0gUuN",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When the @Lookup[@name] takes damage, <strong>mark a Stress</strong> to raise the shield and reduce the damage by one threshold.</p>",
+    "actions": {
+      "shieldBraceStr01": {
+        "_id": "shieldBraceStr01",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Mark Stress",
+        "img": "icons/equipment/shield/heater-steel-worn.webp",
+        "actionType": "reaction",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "effects": [],
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "_id": "aVH6rMhJRQpgMnvW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03619f56668828de193307952be5496c859d744a"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794685604875,
+    "modifiedTime": 1794685604876,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aVH6rMhJRQpgMnvW"
+}

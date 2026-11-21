@@ -1,0 +1,103 @@
+{
+  "_id": "prstCondemnFt001",
+  "folder": "oxV6Qg91IRYoBVTz",
+  "name": "Righteous Condemnation",
+  "type": "feature",
+  "img": "icons/skills/social/thumbs-down.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Righteous Condemnation</strong> (Action, <strong>Spend a Fear</strong>). @Lookup[@name] при вірянах публічно називає PC розпусником чи безбожником. PC робить <strong>Presence Reaction Roll</strong>; провал: до кінця сесії соціальні кидки цього PC з вірянами цієї церкви в місті йдуть з перешкодою.</p>",
+    "actions": {
+      "prstCondemnAct01": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "prstCondemnAct01",
+        "type": "attack",
+        "name": "Righteous Condemnation",
+        "img": "icons/skills/social/thumbs-down.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "far",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "presence",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3fdb8a43ceb915e13469a0703ccd2385137838f3"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795187503377,
+    "modifiedTime": 1795187503378,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!prstCondemnFt001"
+}

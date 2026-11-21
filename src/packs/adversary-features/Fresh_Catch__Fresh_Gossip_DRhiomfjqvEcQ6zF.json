@@ -1,0 +1,43 @@
+{
+  "name": "Fresh Catch, Fresh Gossip",
+  "type": "feature",
+  "img": "icons/consumables/food/fish-fillet-steak-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p>Every boat that docks passes the @Lookup[@name]'s stall. A PC who buys some fish from him (a few coins) can ask one question about ships, cargo, crews, or who came ashore, and he answers truthfully.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "wNTezJNOAPyUuTvL",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "35ff074580d478e5592ba924465ae6ef2a185ba4"
+    }
+  },
+  "_id": "DRhiomfjqvEcQ6zF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121980,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DRhiomfjqvEcQ6zF"
+}

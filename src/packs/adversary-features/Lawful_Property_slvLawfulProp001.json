@@ -1,0 +1,40 @@
+{
+  "_id": "slvLawfulProp001",
+  "name": "Lawful Property",
+  "type": "feature",
+  "img": "icons/sundries/documents/document-official-capital.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>Lawful Property</strong> (Passive). У Солмарі раби — законна власність. Якщо PC при свідках нападає на @Lookup[@name] чи звільняє його «товар», варта стає на бік @Lookup[@name], а ГМ отримує Fear.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "UyDBK4UT6UJu5eQg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e57409b270613d89ebc55d18faa029e3e63e381e"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620484,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!slvLawfulProp001"
+}

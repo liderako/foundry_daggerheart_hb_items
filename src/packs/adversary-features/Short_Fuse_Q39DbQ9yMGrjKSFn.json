@@ -1,0 +1,81 @@
+{
+  "name": "Short Fuse",
+  "type": "feature",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "featureForm": "reaction",
+    "description": "<p>When anyone mocks the @Lookup[@name]'s height, <strong>mark a Stress</strong>: he explodes into a stream of curses. That creature has <strong>disadvantage</strong> on Presence Rolls against him for the rest of the scene, and everyone nearby turns to look, which makes a fine distraction for anyone who wants one.</p>",
+    "actions": {
+      "fedorFuseStress1": {
+        "_id": "fedorFuseStress1",
+        "type": "effect",
+        "systemPath": "actions",
+        "name": "Mark Stress",
+        "img": "icons/skills/social/intimidation-impressing.webp",
+        "actionType": "action",
+        "chatDisplay": true,
+        "description": "",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": []
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "tsmUjASesyqYtlNc",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "c01b69f577eb0dfbe361af0bd1e333bb41d94cc7"
+    }
+  },
+  "_id": "Q39DbQ9yMGrjKSFn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684121982,
+    "modifiedTime": 1794684121983,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Q39DbQ9yMGrjKSFn"
+}

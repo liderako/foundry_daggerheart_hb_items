@@ -121,6 +121,9 @@
         "max": 12,
         "value": 12
       }
+    },
+    "mist-age-prices": {
+      "price": 72
     }
   },
   "_stats": {
@@ -128,7 +131,7 @@
     "systemId": "daggerheart",
     "systemVersion": "2.10.5",
     "createdTime": 1792764555384,
-    "modifiedTime": 1793015728801,
+    "modifiedTime": 1794686067133,
     "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
     "compendiumSource": null,
     "duplicateSource": null,

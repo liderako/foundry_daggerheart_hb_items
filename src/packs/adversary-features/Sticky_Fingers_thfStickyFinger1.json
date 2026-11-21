@@ -1,0 +1,103 @@
+{
+  "_id": "thfStickyFinger1",
+  "name": "Sticky Fingers",
+  "type": "feature",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "featureForm": "action",
+    "description": "<p><strong>Sticky Fingers</strong> (Action, <strong>Spend a Fear</strong>). Ручна тварина чи спритні пальці @Lookup[@name] крадуть дрібний предмет у PC у межах Close (гаманець, ключ, лист). PC робить <strong>Instinct Reaction Roll</strong>; успіх: помічає крадіжку й може схопити злодія.</p>",
+    "actions": {
+      "thfStickyAct0001": {
+        "systemPath": "actions",
+        "chatDisplay": true,
+        "description": "",
+        "effects": [],
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "_id": "thfStickyAct0001",
+        "type": "attack",
+        "name": "Sticky Fingers",
+        "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+        "actionType": "action",
+        "cost": [
+          {
+            "key": "fear",
+            "value": 1,
+            "scalable": false,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "range": "close",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": "instinct",
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "damage": {
+          "main": null,
+          "resources": {}
+        }
+      }
+    },
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "folder": "cVapMB4o3XNQDSY4",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6fe191ed01bd17bf97663d9115e6d5c3fad048eb"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794690620486,
+    "modifiedTime": 1794690620486,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!thfStickyFinger1"
+}

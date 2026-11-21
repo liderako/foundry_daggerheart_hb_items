@@ -1,0 +1,40 @@
+{
+  "_id": "rcpGuestBook0001",
+  "folder": "wKED0NywJviTQxeq",
+  "name": "The Guest Book",
+  "type": "feature",
+  "img": "icons/sundries/books/book-worn-brown-grey.webp",
+  "system": {
+    "featureForm": "passive",
+    "description": "<p><strong>The Guest Book</strong> (Passive). @Lookup[@name] знає, хто, коли й до кого приходив у заклад. Кидки PC, щоб дізнатися про гостей, без грошей чи послуги йдуть з перешкодою. За справжню ціну @Lookup[@name] може назвати один запис.</p>",
+    "actions": {},
+    "attribution": {},
+    "gmNotes": "",
+    "resource": null,
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cb4f831d7761e72337bbcb7daa5f27675f400f06"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1795271720910,
+    "modifiedTime": 1795271720912,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rcpGuestBook0001"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Rumor with Your Meal",
+  "type": "feature",
+  "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>PCs always learn one rumor (true or false) when present.</p>",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "gmNotes": "",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "folder": "05xagpeAvWEIP6Fq",
+  "flags": {
+    "mist-age-adversaries-advanced": {
+      "category": "social"
+    },
+    "scene-packer": {
+      "hash": "dc05903813ad33a2cb79a5c3e719bd35a570b22e"
+    }
+  },
+  "_id": "2xggyLrUmdl6YAtN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "N4rqmaHEpJnGV7Qg": 3
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5",
+    "createdTime": 1794684248120,
+    "modifiedTime": 1794684248121,
+    "lastModifiedBy": "N4rqmaHEpJnGV7Qg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2xggyLrUmdl6YAtN"
+}
